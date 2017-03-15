@@ -1,0 +1,188 @@
+{
+"skeleton": { "hash": "h6Lf8JhgUtaypvDMgdIay9DzIcE", "spine": "2.1.27", "width": 110.24, "height": 98.91 },
+"bones": [
+	{ "name": "root", "x": -1.56 },
+	{ "name": "xgz_yz_0_", "parent": "root", "x": -54.53, "y": 64.65 },
+	{ "name": "xgz_yz_0_2", "parent": "root", "x": -64.24, "y": 84.61 },
+	{ "name": "xgz_yz_0_3", "parent": "root", "x": -93.87, "y": 69.61 },
+	{ "name": "xgz_yz_0_4", "parent": "root", "x": -22.72, "y": 68.93 },
+	{ "name": "xgz_yz_0_5", "parent": "root", "x": -38.99, "y": 98.05 },
+	{ "name": "xiaogongzhu_zhucheng_daiji yinying_0_", "parent": "root", "x": -10.65, "y": 31.91 },
+	{ "name": "xiaogongzhu_zhucheng_daiji_0_", "parent": "root", "x": -11.71, "y": 27.01 },
+	{ "name": "xiaogongzhu_zhuchengsb_daiji_0_", "parent": "root", "x": -53.89, "y": 54 },
+	{ "name": "xiaogongzhu_zhuchengsb_daiji_0_2", "parent": "root", "x": -23.12, "y": 68.98 },
+	{ "name": "xiaogongzhu_zhuchengsb_daiji_0_3", "parent": "root", "x": -94.27, "y": 69.66 },
+	{ "name": "xiaogongzhu_zhuchengsb_daiji_0_4", "parent": "root", "x": -64.64, "y": 84.66 },
+	{ "name": "xiaogongzhu_zhuchengsb_daiji_0_5", "parent": "root", "x": -39.08, "y": 98.1 }
+],
+"slots": [
+	{ "name": "xgz_yz_0_", "bone": "xgz_yz_0_", "attachment": "xgz_yz_0_" },
+	{ "name": "xgz_yz_0_2", "bone": "xgz_yz_0_2", "attachment": "xgz_yz_0_" },
+	{ "name": "xgz_yz_0_3", "bone": "xgz_yz_0_3", "attachment": "xgz_yz_0_" },
+	{ "name": "xgz_yz_0_4", "bone": "xgz_yz_0_4", "attachment": "xgz_yz_0_" },
+	{ "name": "xgz_yz_0_5", "bone": "xgz_yz_0_5", "attachment": "xgz_yz_0_" },
+	{
+		"name": "xiaogongzhu_zhucheng_daiji yinying_0_",
+		"bone": "xiaogongzhu_zhucheng_daiji yinying_0_",
+		"attachment": "xiaogongzhu_zhucheng_daiji yinying_0_"
+	},
+	{
+		"name": "xiaogongzhu_zhuchengsb_daiji_0_",
+		"bone": "xiaogongzhu_zhuchengsb_daiji_0_",
+		"attachment": "xiaogongzhu_zhuchengsb_daiji_0_"
+	},
+	{
+		"name": "xiaogongzhu_zhuchengsb_daiji_0_2",
+		"bone": "xiaogongzhu_zhuchengsb_daiji_0_2",
+		"attachment": "xiaogongzhu_zhuchengsb_daiji_0_"
+	},
+	{
+		"name": "xiaogongzhu_zhuchengsb_daiji_0_3",
+		"bone": "xiaogongzhu_zhuchengsb_daiji_0_3",
+		"attachment": "xiaogongzhu_zhuchengsb_daiji_0_"
+	},
+	{
+		"name": "xiaogongzhu_zhuchengsb_daiji_0_4",
+		"bone": "xiaogongzhu_zhuchengsb_daiji_0_4",
+		"attachment": "xiaogongzhu_zhuchengsb_daiji_0_"
+	},
+	{
+		"name": "xiaogongzhu_zhuchengsb_daiji_0_5",
+		"bone": "xiaogongzhu_zhuchengsb_daiji_0_5",
+		"attachment": "xiaogongzhu_zhuchengsb_daiji_0_"
+	},
+	{ "name": "xiaogongzhu_zhucheng_daiji_0_", "bone": "xiaogongzhu_zhucheng_daiji_0_", "attachment": "xiaogongzhu_zhucheng_daiji_6_" }
+],
+"skins": {
+	"default": {
+		"xgz_yz_0_": {
+			"xgz_yz_0_": { "x": 8.95, "y": -17.27, "width": 30, "height": 22 }
+		},
+		"xgz_yz_0_2": {
+			"xgz_yz_0_": { "x": 8.95, "y": -6.58, "width": 30, "height": 22 }
+		},
+		"xgz_yz_0_3": {
+			"xgz_yz_0_": { "x": 8.95, "y": -6.58, "width": 30, "height": 22 }
+		},
+		"xgz_yz_0_4": {
+			"xgz_yz_0_": { "x": 8.95, "y": -6.58, "width": 30, "height": 22 }
+		},
+		"xgz_yz_0_5": {
+			"xgz_yz_0_": { "x": 8.95, "y": -6.58, "width": 30, "height": 22 }
+		},
+		"xiaogongzhu_zhucheng_daiji yinying_0_": {
+			"xiaogongzhu_zhucheng_daiji yinying_0_": { "x": 0.97, "y": 2.84, "width": 40, "height": 25 }
+		},
+		"xiaogongzhu_zhucheng_daiji_0_": {
+			"xiaogongzhu_zhucheng_daiji_0_": { "x": 1.53, "y": 20.74, "width": 39, "height": 53 },
+			"xiaogongzhu_zhucheng_daiji_1_": { "x": 1.53, "y": 20.74, "width": 39, "height": 53 },
+			"xiaogongzhu_zhucheng_daiji_2_": { "x": 1.53, "y": 20.24, "width": 39, "height": 52 },
+			"xiaogongzhu_zhucheng_daiji_3_": { "x": 1.53, "y": 20.24, "width": 39, "height": 52 },
+			"xiaogongzhu_zhucheng_daiji_4_": { "x": 2.03, "y": 20.24, "width": 38, "height": 52 },
+			"xiaogongzhu_zhucheng_daiji_5_": { "x": 2.03, "y": 20.24, "width": 38, "height": 52 },
+			"xiaogongzhu_zhucheng_daiji_6_": { "x": 1.53, "y": 20.74, "width": 39, "height": 53 }
+		},
+		"xiaogongzhu_zhuchengsb_daiji_0_": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": { "x": 8.31, "y": 4.56, "width": 14, "height": 35 }
+		},
+		"xiaogongzhu_zhuchengsb_daiji_0_2": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": { "x": 8.31, "y": 4.56, "width": 14, "height": 35 }
+		},
+		"xiaogongzhu_zhuchengsb_daiji_0_3": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": { "x": 8.31, "y": 4.56, "width": 14, "height": 35 }
+		},
+		"xiaogongzhu_zhuchengsb_daiji_0_4": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": { "x": 8.31, "y": 4.56, "width": 14, "height": 35 }
+		},
+		"xiaogongzhu_zhuchengsb_daiji_0_5": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": { "x": 8.31, "y": 4.56, "width": 14, "height": 35 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"xiaogongzhu_zhucheng_daiji_0_": {
+				"attachment": [
+					{ "time": 0, "name": "xiaogongzhu_zhucheng_daiji_0_" },
+					{ "time": 0.1, "name": "xiaogongzhu_zhucheng_daiji_1_" },
+					{ "time": 0.2666, "name": "xiaogongzhu_zhucheng_daiji_2_" },
+					{ "time": 0.4, "name": "xiaogongzhu_zhucheng_daiji_3_" },
+					{ "time": 0.5666, "name": "xiaogongzhu_zhucheng_daiji_4_" },
+					{ "time": 0.7333, "name": "xiaogongzhu_zhucheng_daiji_5_" },
+					{ "time": 0.9, "name": "xiaogongzhu_zhucheng_daiji_6_" },
+					{ "time": 1.0333, "name": "xiaogongzhu_zhucheng_daiji_1_" },
+					{ "time": 1.2, "name": "xiaogongzhu_zhucheng_daiji_2_" },
+					{ "time": 1.3666, "name": "xiaogongzhu_zhucheng_daiji_3_" },
+					{ "time": 1.5, "name": "xiaogongzhu_zhucheng_daiji_4_" },
+					{ "time": 1.6666, "name": "xiaogongzhu_zhucheng_daiji_5_" },
+					{ "time": 1.8333, "name": "xiaogongzhu_zhucheng_daiji_6_" },
+					{ "time": 2.8333, "name": "xiaogongzhu_zhucheng_daiji_6_" }
+				]
+			}
+		},
+		"bones": {
+			"xiaogongzhu_zhuchengsb_daiji_0_": {
+				"translate": [
+					{ "time": 0, "x": -7.87, "y": -2.61 }
+				]
+			},
+			"xgz_yz_0_": {
+				"translate": [
+					{ "time": 0, "x": -6.82, "y": -4.05 }
+				]
+			},
+			"xgz_yz_0_2": {
+				"translate": [
+					{ "time": 0, "x": -0.93, "y": -1.33 }
+				]
+			},
+			"xiaogongzhu_zhuchengsb_daiji_0_2": {
+				"translate": [
+					{ "time": 0, "x": 13.98, "y": 10.2 }
+				]
+			},
+			"xgz_yz_0_4": {
+				"translate": [
+					{ "time": 0, "x": 13.79, "y": 9.8 }
+				]
+			},
+			"xiaogongzhu_zhucheng_daiji_0_": {
+				"translate": [
+					{ "time": 0, "x": -2.28, "y": 8 }
+				]
+			},
+			"xgz_yz_0_3": {
+				"translate": [
+					{ "time": 0, "x": 0.3, "y": 0.14 }
+				]
+			},
+			"xiaogongzhu_zhuchengsb_daiji_0_3": {
+				"translate": [
+					{ "time": 0, "x": 0.3, "y": 0.14 }
+				]
+			},
+			"xgz_yz_0_5": {
+				"translate": [
+					{ "time": 0, "x": -1.42, "y": -0.29 }
+				]
+			},
+			"xiaogongzhu_zhuchengsb_daiji_0_4": {
+				"translate": [
+					{ "time": 0, "x": -1.42, "y": -0.29 }
+				]
+			},
+			"xiaogongzhu_zhuchengsb_daiji_0_5": {
+				"translate": [
+					{ "time": 0, "x": -1.42, "y": -0.29 }
+				]
+			},
+			"xiaogongzhu_zhucheng_daiji yinying_0_": {
+				"translate": [
+					{ "time": 0, "x": -2.28, "y": 8 }
+				]
+			}
+		}
+	}
+}
+}

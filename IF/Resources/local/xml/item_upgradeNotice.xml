@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="upgradeNotice">
+        <ItemSpec id="9809" content="105268" title_lv="3"/>
+        <ItemSpec id="9808" content="105267" title_lv="2"/>
+        <ItemSpec id="9807" content="105266" title_lv="3"/>
+        <ItemSpec id="9806" content="105265" title_lv="3"/>
+        <ItemSpec id="9805" content="105264" title_lv="2"/>
+        <ItemSpec id="9804" content="105263" title_lv="3"/>
+        <ItemSpec id="9803" content="105262" title_lv="3"/>
+        <ItemSpec id="9802" content="105261" title_lv="3"/>
+        <ItemSpec id="9801" content="105260" title_lv="2"/>
+        <ItemSpec id="9800" content="105259" title_lv="1"/>
+    </Group>
+</tns:database>

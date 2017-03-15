@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="office">
+        <ItemSpec id="216007" para2="10" para1="69" name="110044" tips="110061" param="10" icon="icon_216007"/>
+        <ItemSpec id="216006" para2="5;5" para1="1010;1030" name="110043" tips="110054;110055" param="5; 5" icon="icon_216006"/>
+        <ItemSpec id="216005" para2="5;10" para1="1010;60" name="110042" tips="110054;110057" param="5; 10" icon="icon_216005"/>
+        <ItemSpec id="216004" para2="5;5;5;5;10" para1="50;51;52;53;64" name="110129" tips="110058;110062" param="5;-10" icon="icon_216004"/>
+        <ItemSpec id="216003" para2="10;10;10;10;5" para1="50;51;52;53;66" name="110040" tips="110058;110060" param="10; 5" icon="icon_216003"/>
+        <ItemSpec id="216002" para2="5;5;5" para1="68;66;69" name="110039" tips="110059;110060;110061" param="5; 5; 5" icon="icon_216002"/>
+        <ItemSpec id="216001" para2="15;15;15;15;20" para1="50;51;52;53;38" name="110038" tips="110058;110063" param="15; 20" icon="icon_216001"/>
+        <ItemSpec id="216000" para2="15;15;10" para1="1010;1030;8" name="110037" tips="110054;110055;110056" param="15; 15; 10" icon="icon_216000"/>
+        <ItemSpec id="216009" para2="-10;-5;-5;-5;-5" para1="1010;50;51;52;53" name="110046" tips="110054;110058" param="-10;-5" icon="icon_216009"/>
+        <ItemSpec id="216008" para2="10" para1="68" name="110045" tips="110059" param="10" icon="icon_216008"/>
+        <ItemSpec id="216010" para2="-5;-5;-5;-5;-10" para1="50;51;52;53;64" name="110047" tips="110058;110062" param="-5; 10" icon="icon_216010"/>
+        <ItemSpec id="216011" para2="-5;-10" para1="60;66" name="110048" tips="110057;110060" param="-5;-10" icon="icon_216011"/>
+        <ItemSpec id="216012" para2="-5;-10;-10;-10;-10" para1="1030;50;51;52;53" name="110049" tips="110055;110058" param="-5;-10" icon="icon_216012"/>
+        <ItemSpec id="216013" para2="-8;-8" para1="1010;1030" name="110050" tips="110054;110055" param="-8;-8" icon="icon_216013"/>
+        <ItemSpec id="216014" para2="-20" para1="38" name="110051" tips="110063" param="-20" icon="icon_216014"/>
+        <ItemSpec id="216015" para2="-15" para1="60" name="110052" tips="110057" param="-15" icon="icon_216015"/>
+        <ItemSpec id="216016" para2="-15" para1="69" name="110053" tips="110061" param="-15" icon="icon_216016"/>
+    </Group>
+</tns:database>

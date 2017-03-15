@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>pic400000_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{785,461}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{785,461}}</string>
+                <key>sourceSize</key>
+                <string>{785,461}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Imperial_10.pvr.ccz</string>
+            <key>size</key>
+            <string>{512,1024}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:9eef9bbd03a809382dc8d6338ef21823:1/1$</string>
+            <key>textureFileName</key>
+            <string>Imperial_10.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

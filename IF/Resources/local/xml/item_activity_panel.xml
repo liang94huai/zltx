@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="activity_panel">
+        <ItemSpec id="57000" story="137519" Advertise_pic="57000_ad1" name="105842" desc_info="105846" type="1" desc="105809"/>
+    </Group>
+</tns:database>

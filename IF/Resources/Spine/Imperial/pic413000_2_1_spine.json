@@ -1,0 +1,543 @@
+{
+"skeleton": { "hash": "WCJqJ/wU8nFR1Pu67+RtsIbNjWo", "spine": "2.1.27", "width": 242, "height": 135, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "famuchang_npc_0", "parent": "root", "x": 19.58, "y": 40.62 },
+	{ "name": "famuchang_npc_1", "parent": "root", "x": -35.25, "y": 14.83, "flipX": true },
+	{ "name": "npc_csj_yz_0", "parent": "root", "x": -37.58, "y": 18.77 }
+],
+"slots": [
+	{ "name": "famuchang_ditu", "bone": "root", "attachment": "famuchang_ditu" },
+	{ "name": "famuchang_muzhuang", "bone": "root", "attachment": "famuchang_muzhuang" },
+	{ "name": "famuchang_muzhuang1", "bone": "root", "attachment": "famuchang_muzhuang1_" },
+	{ "name": "famuchang_caopeng", "bone": "root", "attachment": "famuchang_caopeng" },
+	{ "name": "famuchang_laju", "bone": "root", "attachment": "famuchang_laju" },
+	{ "name": "famuchang_shucong", "bone": "root", "attachment": "famuchang_shucong" },
+	{ "name": "npc_csj_yz_0_", "bone": "npc_csj_yz_0", "attachment": "npc_csj_yz_0_" },
+	{ "name": "npc_csj_yz_1", "bone": "root", "attachment": "npc_csj_yz_0_" },
+	{ "name": "famuchang_npc_0_", "bone": "famuchang_npc_0", "attachment": "famuchang_npc_22_" },
+	{ "name": "famuchang_npc_1", "bone": "famuchang_npc_1", "attachment": "famuchang_npc_12_" },
+	{ "name": "famuchang_gunmu", "bone": "root", "attachment": "famuchang_gunmu" }
+],
+"skins": {
+	"default": {
+		"famuchang_caopeng": {
+			"famuchang_caopeng": { "x": -10.13, "y": 94.05, "width": 93, "height": 76 }
+		},
+		"famuchang_ditu": {
+			"famuchang_ditu": { "x": -13.63, "y": 67.55, "width": 242, "height": 135 }
+		},
+		"famuchang_gunmu": {
+			"famuchang_gunmu": { "x": 26.36, "y": 31.05, "width": 54, "height": 38 }
+		},
+		"famuchang_laju": {
+			"famuchang_laju": { "x": -26.13, "y": 29.55, "width": 53, "height": 35 }
+		},
+		"famuchang_muzhuang": {
+			"famuchang_muzhuang": { "x": -5.63, "y": 63.55, "width": 52, "height": 53 }
+		},
+		"famuchang_muzhuang1": {
+			"famuchang_muzhuang1_": { "x": -7.13, "y": 49.55, "width": 21, "height": 23 }
+		},
+		"famuchang_npc_0_": {
+			"famuchang_npc_0_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 },
+			"famuchang_npc_10_": { "x": 0.28, "y": 10.93, "width": 15, "height": 25 },
+			"famuchang_npc_12_": { "x": -4.71, "y": 9.43, "width": 25, "height": 22 },
+			"famuchang_npc_14_": { "x": -5.21, "y": 8.93, "width": 26, "height": 21 },
+			"famuchang_npc_16_": { "x": -4.21, "y": 9.43, "width": 24, "height": 22 },
+			"famuchang_npc_18_": { "x": -1.71, "y": 9.93, "width": 19, "height": 23 },
+			"famuchang_npc_20_": { "x": 0.28, "y": 10.43, "width": 15, "height": 24 },
+			"famuchang_npc_22_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 },
+			"famuchang_npc_2_": { "x": 1.28, "y": 9.93, "width": 15, "height": 23 },
+			"famuchang_npc_4_": { "x": 3.78, "y": 8.93, "width": 20, "height": 21 },
+			"famuchang_npc_6_": { "x": 2.78, "y": 10.93, "width": 18, "height": 25 },
+			"famuchang_npc_8_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 }
+		},
+		"famuchang_npc_1": {
+			"famuchang_npc_0_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 },
+			"famuchang_npc_10_": { "x": 0.28, "y": 10.93, "width": 15, "height": 25 },
+			"famuchang_npc_12_": { "x": -4.71, "y": 9.43, "width": 25, "height": 22 },
+			"famuchang_npc_14_": { "x": -5.21, "y": 8.93, "width": 26, "height": 21 },
+			"famuchang_npc_16_": { "x": -4.21, "y": 9.43, "width": 24, "height": 22 },
+			"famuchang_npc_18_": { "x": -1.71, "y": 9.93, "width": 19, "height": 23 },
+			"famuchang_npc_20_": { "x": 0.28, "y": 10.43, "width": 15, "height": 24 },
+			"famuchang_npc_22_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 },
+			"famuchang_npc_2_": { "x": 1.28, "y": 9.93, "width": 15, "height": 23 },
+			"famuchang_npc_4_": { "x": 3.78, "y": 8.93, "width": 20, "height": 21 },
+			"famuchang_npc_6_": { "x": 2.78, "y": 10.93, "width": 18, "height": 25 },
+			"famuchang_npc_8_": { "x": 0.78, "y": 10.43, "width": 14, "height": 24 }
+		},
+		"famuchang_shucong": {
+			"famuchang_shucong": { "x": -62.13, "y": 73.05, "width": 129, "height": 90 }
+		},
+		"npc_csj_yz_0_": {
+			"npc_csj_yz_0_": { "x": 1.57, "y": -1.96, "width": 36, "height": 32 }
+		},
+		"npc_csj_yz_1": {
+			"npc_csj_yz_0_": { "x": 19.97, "y": 40.05, "width": 36, "height": 32 }
+		}
+	}
+},
+"animations": {
+	"Full": {
+		"slots": {
+			"famuchang_caopeng": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_caopeng" },
+					{ "time": 1.3333, "name": "famuchang_caopeng" }
+				]
+			},
+			"famuchang_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_ditu" },
+					{ "time": 1.3333, "name": "famuchang_ditu" }
+				]
+			},
+			"famuchang_gunmu": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_gunmu" },
+					{ "time": 1.3333, "name": "famuchang_gunmu" }
+				]
+			},
+			"famuchang_laju": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_laju" },
+					{ "time": 1.3333, "name": "famuchang_laju" }
+				]
+			},
+			"famuchang_muzhuang": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_muzhuang" },
+					{ "time": 1.3333, "name": "famuchang_muzhuang" }
+				]
+			},
+			"famuchang_muzhuang1": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_muzhuang1_" },
+					{ "time": 1.3333, "name": "famuchang_muzhuang1_" }
+				]
+			},
+			"famuchang_npc_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"famuchang_npc_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"famuchang_shucong": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_shucong" },
+					{ "time": 1.3333, "name": "famuchang_shucong" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		}
+	},
+	"GrowthProcess": {
+		"slots": {
+			"famuchang_gunmu": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_gunmu" },
+					{ "time": 0.7, "name": "famuchang_gunmu" },
+					{ "time": 1.1666, "name": "famuchang_gunmu" },
+					{ "time": 2.2333, "name": "famuchang_gunmu" },
+					{ "time": 2.3666, "name": "famuchang_gunmu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 2.3666, "color": "ffffffff" }
+				]
+			},
+			"famuchang_laju": {
+				"attachment": [
+					{ "time": 0.7, "name": "famuchang_laju" },
+					{ "time": 1.1666, "name": "famuchang_laju" }
+				]
+			},
+			"famuchang_muzhuang": {
+				"attachment": [
+					{ "time": 0.7, "name": "famuchang_muzhuang" },
+					{ "time": 1.1666, "name": "famuchang_muzhuang" }
+				]
+			},
+			"famuchang_muzhuang1": {
+				"attachment": [
+					{ "time": 0.7, "name": "famuchang_muzhuang1_" },
+					{ "time": 1.1666, "name": "famuchang_muzhuang1_" }
+				]
+			},
+			"famuchang_npc_1": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 0.5, "name": "famuchang_npc_2_" },
+					{ "time": 0.6333, "name": "famuchang_npc_4_" },
+					{ "time": 0.7666, "name": "famuchang_npc_6_" },
+					{ "time": 0.9, "name": "famuchang_npc_8_" },
+					{ "time": 1.0333, "name": "famuchang_npc_10_" },
+					{ "time": 1.1666, "name": "famuchang_npc_12_" },
+					{ "time": 2, "name": "famuchang_npc_12_" },
+					{ "time": 2.1333, "name": "famuchang_npc_18_" },
+					{ "time": 2.2333, "name": "famuchang_npc_20_" },
+					{ "time": 2.3666, "name": "famuchang_npc_22_" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.9666, "color": "ffffff00" }
+				]
+			},
+			"famuchang_npc_0_": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 0.1, "name": "famuchang_npc_2_" },
+					{ "time": 0.2333, "name": "famuchang_npc_4_" },
+					{ "time": 0.3333, "name": "famuchang_npc_6_" },
+					{ "time": 0.4666, "name": "famuchang_npc_8_" },
+					{ "time": 0.5666, "name": "famuchang_npc_10_" },
+					{ "time": 0.7, "name": "famuchang_npc_12_" },
+					{ "time": 1.1666, "name": "famuchang_npc_12_" },
+					{ "time": 1.2666, "name": "famuchang_npc_18_" },
+					{ "time": 1.4, "name": "famuchang_npc_20_" },
+					{ "time": 1.5, "name": "famuchang_npc_22_" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.9666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.9666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 2.9666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"famuchang_npc_0": {
+				"rotate": [
+					{ "time": 0, "angle": -0.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"famuchang_npc_1": {
+				"translate": [
+					{ "time": 0, "x": 5.59, "y": 7.51 }
+				]
+			},
+			"npc_csj_yz_0": {
+				"translate": [
+					{ "time": 0, "x": 8.01, "y": 3.64 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "famuchang_muzhuang1", "offset": 8 }
+				]
+			}
+		]
+	},
+	"Havest": {
+		"slots": {
+			"famuchang_gunmu": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_gunmu" },
+					{ "time": 1.3333, "name": "famuchang_gunmu" },
+					{ "time": 2.0333, "name": "famuchang_gunmu" },
+					{ "time": 2.5, "name": "famuchang_gunmu" },
+					{ "time": 3.5666, "name": "famuchang_gunmu" },
+					{ "time": 3.7, "name": "famuchang_gunmu" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"famuchang_laju": {
+				"attachment": [
+					{ "time": 2.0333, "name": "famuchang_laju" },
+					{ "time": 2.5, "name": "famuchang_laju" }
+				]
+			},
+			"famuchang_muzhuang": {
+				"attachment": [
+					{ "time": 2.0333, "name": "famuchang_muzhuang" },
+					{ "time": 2.5, "name": "famuchang_muzhuang" }
+				]
+			},
+			"famuchang_muzhuang1": {
+				"attachment": [
+					{ "time": 2.0333, "name": "famuchang_muzhuang1_" },
+					{ "time": 2.5, "name": "famuchang_muzhuang1_" }
+				]
+			},
+			"famuchang_npc_1": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 1.3333, "name": "famuchang_npc_0_" },
+					{ "time": 1.8333, "name": "famuchang_npc_2_" },
+					{ "time": 1.9666, "name": "famuchang_npc_4_" },
+					{ "time": 2.1, "name": "famuchang_npc_6_" },
+					{ "time": 2.2333, "name": "famuchang_npc_8_" },
+					{ "time": 2.3666, "name": "famuchang_npc_10_" },
+					{ "time": 2.5, "name": "famuchang_npc_12_" },
+					{ "time": 3.3333, "name": "famuchang_npc_12_" },
+					{ "time": 3.4666, "name": "famuchang_npc_18_" },
+					{ "time": 3.5666, "name": "famuchang_npc_20_" },
+					{ "time": 3.7, "name": "famuchang_npc_22_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffba" },
+					{ "time": 1.3333, "color": "fffffff8" },
+					{ "time": 1.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.4666, "color": "ffffffff" }
+				]
+			},
+			"famuchang_npc_0_": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 1.3333, "name": "famuchang_npc_0_" },
+					{ "time": 1.4333, "name": "famuchang_npc_2_" },
+					{ "time": 1.5666, "name": "famuchang_npc_4_" },
+					{ "time": 1.6666, "name": "famuchang_npc_6_" },
+					{ "time": 1.8, "name": "famuchang_npc_8_" },
+					{ "time": 1.9, "name": "famuchang_npc_10_" },
+					{ "time": 2.0333, "name": "famuchang_npc_12_" },
+					{ "time": 2.5, "name": "famuchang_npc_12_" },
+					{ "time": 2.6, "name": "famuchang_npc_18_" },
+					{ "time": 2.7333, "name": "famuchang_npc_20_" },
+					{ "time": 2.8333, "name": "famuchang_npc_22_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffba" },
+					{ "time": 1.3333, "color": "fffffff8" },
+					{ "time": 1.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.4666, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.4666, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.4666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"famuchang_npc_0": {
+				"rotate": [
+					{ "time": 0, "angle": -0.47, "curve": "stepped" },
+					{ "time": 1.3333, "angle": -0.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"famuchang_npc_1": {
+				"translate": [
+					{ "time": 0, "x": 5.59, "y": 7.51, "curve": "stepped" },
+					{ "time": 1.3333, "x": 5.59, "y": 7.51 }
+				]
+			},
+			"npc_csj_yz_0": {
+				"translate": [
+					{ "time": 0, "x": 8.01, "y": 3.64, "curve": "stepped" },
+					{ "time": 1.3333, "x": 8.01, "y": 3.64 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "famuchang_muzhuang1", "offset": 8 }
+				]
+			},
+			{
+				"time": 1.3333,
+				"offsets": [
+					{ "slot": "famuchang_muzhuang1", "offset": 8 }
+				]
+			}
+		]
+	},
+	"Working": {
+		"slots": {
+			"famuchang_caopeng": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_caopeng" },
+					{ "time": 2.3666, "name": "famuchang_caopeng" }
+				]
+			},
+			"famuchang_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_ditu" },
+					{ "time": 2.3666, "name": "famuchang_ditu" }
+				]
+			},
+			"famuchang_gunmu": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 2.3666, "name": null }
+				]
+			},
+			"famuchang_laju": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_laju" },
+					{ "time": 0.7, "name": "famuchang_laju" },
+					{ "time": 1.1666, "name": "famuchang_laju" },
+					{ "time": 2.3666, "name": "famuchang_laju" }
+				]
+			},
+			"famuchang_muzhuang": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_muzhuang" },
+					{ "time": 0.7, "name": "famuchang_muzhuang" },
+					{ "time": 1.1666, "name": "famuchang_muzhuang" },
+					{ "time": 2.3666, "name": "famuchang_muzhuang" }
+				]
+			},
+			"famuchang_muzhuang1": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_muzhuang1_" },
+					{ "time": 0.7, "name": "famuchang_muzhuang1_" },
+					{ "time": 1.1666, "name": "famuchang_muzhuang1_" },
+					{ "time": 2.3666, "name": "famuchang_muzhuang1_" }
+				]
+			},
+			"famuchang_npc_1": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 0.5, "name": "famuchang_npc_2_" },
+					{ "time": 0.6333, "name": "famuchang_npc_4_" },
+					{ "time": 0.7666, "name": "famuchang_npc_6_" },
+					{ "time": 0.9, "name": "famuchang_npc_8_" },
+					{ "time": 1.0333, "name": "famuchang_npc_10_" },
+					{ "time": 1.1666, "name": "famuchang_npc_12_" },
+					{ "time": 2, "name": "famuchang_npc_12_" },
+					{ "time": 2.1333, "name": "famuchang_npc_18_" },
+					{ "time": 2.2333, "name": "famuchang_npc_20_" },
+					{ "time": 2.3666, "name": null }
+				]
+			},
+			"famuchang_npc_0_": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_npc_0_" },
+					{ "time": 0.1, "name": "famuchang_npc_2_" },
+					{ "time": 0.2333, "name": "famuchang_npc_4_" },
+					{ "time": 0.3333, "name": "famuchang_npc_6_" },
+					{ "time": 0.4666, "name": "famuchang_npc_8_" },
+					{ "time": 0.5666, "name": "famuchang_npc_10_" },
+					{ "time": 0.7, "name": "famuchang_npc_12_" },
+					{ "time": 1.1666, "name": "famuchang_npc_12_" },
+					{ "time": 1.2666, "name": "famuchang_npc_18_" },
+					{ "time": 1.4, "name": "famuchang_npc_20_" },
+					{ "time": 1.5, "name": "famuchang_npc_22_" },
+					{ "time": 2.3666, "name": null }
+				]
+			},
+			"famuchang_shucong": {
+				"attachment": [
+					{ "time": 0, "name": "famuchang_shucong" },
+					{ "time": 2.3666, "name": "famuchang_shucong" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 2.3666, "name": "npc_csj_yz_0_" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 2.3666, "name": "npc_csj_yz_0_" }
+				]
+			}
+		},
+		"bones": {
+			"famuchang_npc_0": {
+				"rotate": [
+					{ "time": 0, "angle": -0.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"famuchang_npc_1": {
+				"translate": [
+					{ "time": 0, "x": 5.59, "y": 7.51 }
+				]
+			},
+			"npc_csj_yz_0": {
+				"translate": [
+					{ "time": 0, "x": 8.01, "y": 3.64 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "famuchang_muzhuang1", "offset": 8 }
+				]
+			}
+		]
+	}
+}
+}

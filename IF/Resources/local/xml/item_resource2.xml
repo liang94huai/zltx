@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="resource2">
+        <ItemSpec id="105002" lv="2" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105003" lv="3" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105109" lv="9" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105001" lv="1" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105006" lv="6" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105007" lv="7" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105004" lv="4" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105005" lv="5" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105103" lv="3" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105102" lv="2" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105008" lv="8" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105009" lv="9" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105107" lv="7" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105106" lv="6" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105105" lv="5" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105104" lv="4" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105210" lv="10" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105108" lv="8" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105010" lv="10" model="0042" resouce_speed="1.666666" resouce_weight="20"/>
+        <ItemSpec id="105110" lv="10" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+        <ItemSpec id="105201" lv="1" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105202" lv="2" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105203" lv="3" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105204" lv="4" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105205" lv="5" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105206" lv="6" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105207" lv="7" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105208" lv="8" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105209" lv="9" model="0042" resouce_speed=".277777" resouce_weight="100"/>
+        <ItemSpec id="105101" lv="1" model="0042" resouce_speed=".001388" resouce_weight="10000"/>
+    </Group>
+</tns:database>

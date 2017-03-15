@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="svip">
+        <ItemSpec id="7010" spoint="0" point="300000"/>
+        <ItemSpec id="7011" spoint="2000"/>
+        <ItemSpec id="7012" spoint="5000"/>
+        <ItemSpec id="7013" spoint="8000"/>
+        <ItemSpec id="7014" spoint="12000"/>
+        <ItemSpec id="7015" spoint="20000"/>
+        <ItemSpec id="7016" spoint="30000"/>
+        <ItemSpec id="7017" spoint="50000"/>
+        <ItemSpec id="7018" spoint="75000"/>
+        <ItemSpec id="7019" spoint="100000"/>
+        <ItemSpec id="7099"/>
+        <ItemSpec id="7100"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,28 @@
+{
+    "accessOpenApiUrl":"http://access.hoolai.com/access_open_api",
+    "buildPackageId":1,
+    "channelInfo":{
+        "channel":"hoolai",
+        "channelName":"hoolai",
+        "description":"胡莱完整版",
+        "extendInfo":"{\"ali_Channel\":\"alipay\",\"autoShowBindPhone\":\"true\",\"bbs\":false,\"bd_Channel\":\"baidupay\",\"cft_Channel\":\"tenpay\",\"forum\":\"true\",\"loginSelect\":{\"gamecenterlogin\":\"gamecenterlogin\",\"qqlogin\":\"qqlogin\",\"wblogin\":\"wblogin\",\"wxlogin\":\"wxlogin\"},\"mm_AppId\":\"\",\"mm_AppKey\":\"\",\"mm_Channel\":\"mmarket\",\"mm_PayCodes\":\"\",\"paySelect\":{\"alipay\":\"ali\",\"bdpay\":\"bd\",\"cftpay\":\"cft\",\"wxpay\":\"wx\",\"yeepay\":\"yee\",\"yjpay\":\"yj\"},\"payorder\":\"214537\",\"qq_AppId\":\"222222\",\"qq_Channel\":\"qq\",\"service\":false,\"wb_AppKey\":\"2045436852\",\"wb_Channel\":\"weibo\",\"wx_Channel\":\"weixin\",\"wx_appId\":\"wxf34a0c4e0324f829\",\"yeepay_Channel\":\"yeepay\",\"yeepay_p1_MerId\":\"10012418490\",\"yj_Channel\":\"yeeyj\"}",
+        "icon":"/2015/04/15/3aeccdd8-b465-48e7-9980-b3489c30ebab.png",
+        "id":114,
+        "nodeId":1,
+        "packageName":"com.hoolai.divinecomedy.gw",
+        "productId":1,
+        "signId":8
+    },
+    "chargeOpenApiUrl":"http://charge.hoolai.com/charge_open_api",
+    "community_back":"http://community.hoolai.com/community_open_api",
+    "community_front":"http://community.hoolai.com/community_frontend",
+    "developerUid":22633,
+    "forumOpenApiUrl":"http://access.hoolai.com/community_web",
+    "iconPosition":0,
+    "notifyUrl":"http://charge.hoolai.com/charge_open_api/validate_hoolai.hl",
+    "productId":7,
+    "statisticParas":"",
+    "statisticType":0,
+    "usePush":true,
+    "version":"1"
+}

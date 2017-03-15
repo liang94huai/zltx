@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="language">
+        <ItemSpec id="9533" lang_id="115600" mark="1"/>
+        <ItemSpec id="9532" lang_id="103055" mark="1" lang_ma="fa"/>
+        <ItemSpec id="9531" lang_id="115631" mark="1" lang_ma="ar"/>
+        <ItemSpec id="9530" lang_id="115630" mark="1" lang_ma="vi"/>
+        <ItemSpec id="9521" lang_id="115612" mark="1" lang_ma="el"/>
+        <ItemSpec id="9506" lang_id="115617" mark="1" lang_ma="nl"/>
+        <ItemSpec id="9524" lang_id="115620" mark="1" lang_ma="sk"/>
+        <ItemSpec id="9525" lang_id="115629" mark="1" lang_ma="th"/>
+        <ItemSpec id="9526" lang_id="115625" mark="1" lang_ma="id"/>
+        <ItemSpec id="9508" lang_id="115602" mark="1" lang_ma="es"/>
+        <ItemSpec id="9509" lang_id="115607" mark="1" lang_ma="ko"/>
+        <ItemSpec id="9528" lang_id="115623" mark="1" lang_ma="ca"/>
+        <ItemSpec id="9529" lang_id="115614" mark="1" lang_ma="hu"/>
+        <ItemSpec id="9502" lang_id="115605" mark="1" lang_ma="de"/>
+        <ItemSpec id="9503" lang_id="115602" lang_ma="ar"/>
+        <ItemSpec id="9500" lang_id="115608" mark="1" lang_ma="zh"/>
+        <ItemSpec id="9501" lang_id="115601" mark="1" lang_ma="en"/>
+        <ItemSpec id="9520" lang_id="115610" mark="1" lang_ma="cs"/>
+        <ItemSpec id="9507" lang_id="115609" mark="1" lang_ma="it"/>
+        <ItemSpec id="9504" lang_id="115603" mark="1" lang_ma="fr"/>
+        <ItemSpec id="9505" lang_id="115615" mark="1" lang_ma="ja"/>
+        <ItemSpec id="9522" lang_id="115624" mark="1" lang_ma="he"/>
+        <ItemSpec id="9527" lang_id="115626" mark="1" lang_ma="ms"/>
+        <ItemSpec id="9523" lang_id="115619" mark="1" lang_ma="ro"/>
+        <ItemSpec id="9515" lang_id="115606" mark="1" lang_ma="ru"/>
+        <ItemSpec id="9514" lang_id="115621" mark="1" lang_ma="sv"/>
+        <ItemSpec id="9517" lang_id="115622" mark="1" lang_ma="tr"/>
+        <ItemSpec id="9516" lang_id="115618" mark="1" lang_ma="pl"/>
+        <ItemSpec id="9511" lang_id="115611" mark="1" lang_ma="da"/>
+        <ItemSpec id="9510" lang_id="115604" mark="1" lang_ma="pt"/>
+        <ItemSpec id="9513" lang_id="115616" mark="1" lang_ma="nb"/>
+        <ItemSpec id="9512" lang_id="115613" mark="1" lang_ma="fi"/>
+        <ItemSpec id="9519" lang_id="115628" mark="1" lang_ma="hr"/>
+        <ItemSpec id="9518" lang_id="115627" mark="1" lang_ma="uk"/>
+    </Group>
+</tns:database>

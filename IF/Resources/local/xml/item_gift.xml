@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="gift">
+        <ItemSpec id="30400" description="115088" name="115082" icon="gift005"/>
+        <ItemSpec id="30000" description="115084" name="115078" icon="gift001"/>
+        <ItemSpec id="30300" description="115087" name="115081" icon="gift004"/>
+        <ItemSpec id="30200" description="115086" name="115080" icon="gift003"/>
+        <ItemSpec id="30500" description="115089" name="115083" icon="gift006"/>
+        <ItemSpec id="30100" description="115085" name="115079" icon="gift002"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,380 @@
+
+（注：本文档由大家公共维护，工作中有什么心得及需要大家注意的地方，扔进来即可。）
+
+安全原则：清楚对象在项目中的生命周期即创建位置，保存位置，作用位置和删除位置
+
+注意事项如下：
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+1，确保访问内存有效
+
+      a, 指针一定要判空，
+
+      b, 迭代器指针一定要判是否有效(iter!= a.end() )
+
+      c, 取数组元素一定要判数组大小，
+
+            std::vector<string> item;
+            CCCommonUtils::splitString(curTool, ";", item);
+            int id = atoi(item[0].c_str());
+            int num = atoi(item[1].c_str());
+           
+            bool ChatFunView::init(int idx, int type) {
+            info = ChatController::getInstance()->m_chatAlliancePool[m_idx];
+                ...////m_idx 为int,可以是负数，也可以超过sisze,m_chatAlliancePool为vector
+            }
+
+
+      d,  代码不要信赖策划填表，不要假设
+
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+2,  除法一定判除数非零
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+3, 避免死循环    这个只要细心就行
+
+        const pair<ObserversMap::const_iterator,ObserversMap::const_iterator> &range=m_observers.equal_range(name);
+        for (ObserversMap::const_iterator it2=range.first; it2!=range.second;) {
+            if (it2->second == NULL) {
+                continue;
+            }
+            CCNotificationObserver* observer =it2->second;
+            ++it2;
+
+        ｝
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+4，理解对象的生命周期
+
+      closeself()      PopupViewController::getInstance()->removePopupView(this)
+      类似这种删除自己的调用，后面千万不要加语句调用了，确保它是最后执行的
+      如果由于逻辑原因，后面必须要执行其他操作，可以先retain()一下，参考如下代码
+        fun()
+        {
+        this->retain();
+        closeself()
+        a(); //
+        this->release();
+        }
+
+        YesNoDialog::keypressedBtnOk目前就是这么执行的
+
+        可以用AutoSafeRef temp(this);
+        代替 this->retain(); this->release();
+        fun()
+        {
+            AutoSafeRef temp(this);
+            closeself()
+            a();
+        }
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+5， 线程安全
+
+            a，android自带界面逻辑确保在ui主线程运行，如果在异步线程调用的android控件刷新要做以下处理
+                        curActivity.runOnUiThread(new Runnable() {
+                                    public void run() {
+                                    Toast.makeText(curActivity, textRes,	Toast.LENGTH_SHORT).show();
+                                    }
+                        });
+
+                        IF.getInstance().runOnUiThread(new Runnable() {
+                                public void run() { 							  IF.getInstance().clipboard.setText(text);
+
+                                }
+                        });
+
+             b.    java调用c++封装的native函数要确保在gl线程运行
+                        IF.getInstance().runOnGLThread(new Runnable() {
+
+                            public void run() {
+                                nativeOnResponse(responseForC);
+                            }
+                        });
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+6,    cocos引擎封装的CCObject派生类都不是线程安全，邮件和聊天都存在异步调用（如callXCApiForGoogleTranslate）
+
+     目前这种正在对多线程调用这一块做整理,暂关闭
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+7， 异步线程创建autorelease的对象A时，ref值是1，这时正好主线程在调用AutoreleasePool::clear(), 对象会被删掉，成为野指针，
+        此后再调用此指针会出现异常或崩溃。但是如果对象A被放到别的管理器后ref值变为了2，就会安全了。
+       总结一句是， 在异步线程里操作的ref值是1的对象，都是可能会被随时删掉。
+
+       对此做了如下修改
+        PoolManager 添加线程锁和两个AutoreleasePool， 一个添加，一个删除，
+        _addPool =  new AutoreleasePool("cocos2d autorelease pool1");
+        _releasePool = new AutoreleasePool("cocos2d autorelease pool2");
+        每隔600毫米删除一次，也就是只要异步线程的一个函数不会高于600毫米，它里面的内存就是安全的
+
+            // 只清除_releasePool,然后与_addPool交换位置
+            void PoolManager::autoReleasePool()
+            {
+                pthread_mutex_lock(&_poolMutex);
+                _releasePool->clear();
+                    // 交换位置
+                AutoreleasePool* pool  = _addPool;
+                _addPool = _releasePool;
+                _releasePool = pool;
+                pthread_mutex_unlock(&_poolMutex);
+            }
+
+        void PoolManager::addObject(Ref* obj)
+        {
+            pthread_mutex_lock(&_poolMutex);
+            _addPool->addObject(obj);
+            pthread_mutex_unlock(&_poolMutex);
+        }
+
+
+        // release the objects 600毫米删除一次垃圾内存
+        if( abs((_lastUpdate->tv_sec - m_lastAutoReleaseTime.tv_sec)*1000000 +  (_lastUpdate->tv_usec - m_lastAutoReleaseTime.tv_usec) ) >600000 )
+        {
+            PoolManager::getInstance()->autoReleasePool();
+            m_lastAutoReleaseTime = *_lastUpdate;
+        }
+
+8,      CCSafeObject  的安全用法
+        CCSafeObject<A>  _a;
+        CCSafeObject类型的变量只能存储直接new的指针A*  p;(_a=new A)，不能存储一个数据结构中的非指针变量(  _a= &B)，
+        class C
+        {
+            A  b;
+        };
+        C*  _c = new C;
+        m = &(_m->b);     ----这是严重错误的
+        因为b的删除不受自己控制，完全由C对象控制；  delete _c时b变量也会被删除，这时 _a里的保存的b的地址会成为野地址.
+
+        游戏中的大数据结构GlobalData 里面的变量尤其注意。
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+9   C++ 11 中的lambda函数 [&]与[=] 区别一定清楚
+    [&]函数体内用的外部变量，是以引用的方式捕获的，即函数体内操作的是变量的指针
+    [=]是完全拷贝了一份外部的变量,函数体内是另外又定义了一个同样类型的变量，把值拷过来了
+
+    以下两个函数，AddM会改变外面的c, AddN不会改变c
+    int a,b,c＝1;
+    auto AddM =  [&]()
+    {
+        c  = a+b;
+    }
+
+    auto AddN =  [=]()
+    {
+        c  = a+b;
+    }
+    因此回到项目里， [&]就不适合用于回调函数，因为回调函数需要事件触发，等到触发这个函数时，它里面用到的变量如果失效或被删除了就会出现崩溃异常
+    但是他用到函数体内直接调用还是比较方便的如（void WorldMapView::createCity(WorldCityInfo &info) ）
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+10，  android 5 带来的新问题 可以参考代码 https://searchcode.com/codesearch/view/12834226/
+     art系统的jni的接口里添加许多检查， 可以参考下android代码里的checkjni.c，目前影响到我们项目的有 NewStringUTF和native函数，
+
+      A: 其中NewStringUTF对传入的字符串参数进行了严格utf8的字符格式检查，如果不是utf8格式的字符格式就会直接崩溃，目前已知的阿拉伯语言比较多
+        现在只是通过correctUtfBytes(char*)检查一下，
+
+      B: C++里封装的native函数有返回值的(如jobjectArray)，在java代码里必须用相对应的类型赋值（Object[] a = native() )，不能直接用自定义的类型
+            直接赋值(Item[] a = native() )， 因为android 5对 jni调用的类型转换做了严格的检查，不能对函数返回值直接做强制类型转换，需要先用对应的
+         系统类型赋值后再对这个变量进行强制转换，举个例子：
+             jobjectArray JNICALL Java_com_elex_chatservice_host_GameHost_getChatInfoArray()
+        如果对应java里定义为
+            native MsgItem[]  getChatInfoArray()就会出问题
+        正确的做法是声明为
+            native Object[] getChatInfoArray( );
+        然后
+        Object[] chatInfoArr = ChatServiceController.getInstance().host.getChatInfoArray(chatInfoIndex, channelId);
+
+
+        MsgItem[] _itemArray = new MsgItem[chatInfoArr.length];
+        for (int i = 0; i < chatInfoArr.length; i++)
+        {
+            Object obj = chatInfoArr[i];
+            if (obj != null)
+            {
+                _itemArray[i] = (MsgItem) obj;
+            }
+        }
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+11.   数据和界面没有分开的问题
+
+      许多Popupview界面以引用的方式用到了这个变量WorldCityInfo& m_cityInfo，它的数据源是WorldController::getInstance()->m_cityInfo。
+    切换世界时，调到changeServer()会把WorldController::getInstance()->m_cityInfo.clear()的数据清空，这样界面里的m_cityInfo就无效了。
+    如果这时调用到了 CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(WORLD_MAP_REFRESH)之类的函数，
+    触发的对引用变量的访问就会发生崩溃，这是典型数据界面没有分开的问题。切服时， 加了个 PopupViewController::getInstance()->forceClearAll(true);
+    替换PopupViewController::getInstance()->removeAllPopupView(),这样可以立刻把界面删掉，不会走动画过程。
+    避免了此类崩溃
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+12， 不要在析构函数添加创建对象操作
+
+    举个例子
+    RechargeACTVCell::~RechargeACTVCell(){
+        if(m_openType==14 ){
+            ActivityController::getInstance()->enterGameOpenView(1);
+        ｝
+    ｝
+    这样在正常退出游戏时，会引起崩溃，尤其是涉及到autorelease的操作，PoolManager已经在析构了，析构里又出现autorelease()这时AutoreleasePool已经删除了。
+    就会崩溃，以下是一个堆栈
+    cocos2d::deleteNodeByKey(char const*)
+    cocos2d::UserDefault::setDoubleForKey(char const*, double)
+
+    VipUtil::showVIPActiveView()  VipUtil.cpp line 75
+    RechargeACTVCell::~RechargeACTVCell()  RechargeACTVCell.cpp line 34
+     RechargeACTVCell::~RechargeACTVCell()  RechargeACTVCell.cpp line 32
+    cocos2d::AutoreleasePool::clear() 
+    cocos2d::PoolManager::clearAll()
+    cocos2d::PoolManager::~PoolManager()
+     cocos2d::PoolManager::destroyInstance()
+    cocos2d::ApplicationProtocol::~ApplicationProtocol()
+    cocos2d::Application::~Application()
+
+    加了个是否退出游戏的接口IsQuitGame() ，如果一定要删除里添加创建操作就加个判断
+
+    RechargeACTVCell::~RechargeACTVCell(){
+
+        if(m_openType==14&&IsQuitGame()==false){
+            ActivityController::getInstance()->enterGameOpenView(1);
+
+        ｝
+
+    ｝
+
+－－－－－－－－－－－－－－－2015.12.24－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+13, 客户端重新加载进入游戏时，会调用LogoutCommand::doReload()，删除管理器
+
+    如下：
+    FunBuildController::purgeData();
+    DragonBuildingController::purgeData();
+    ToolController::purgeData();
+    ChatController::purgeData();
+    ChristmasActController::purgeData();
+    ScienceController::purgeData();
+    QueueController::purgeData();
+    QuestController::purgeData();
+    TimerController::purgeData();
+    ActivityController::purgeData();
+
+    但是这些都是直接delete _instance
+
+    void PortActController::purgeData() {
+        delete _portinstance;
+        _portinstance = NULL;
+    }
+
+    这样会有一个问题，如果有正在执行的回调里用到了这些管理的函数，如下：
+
+
+        mainNode->runAction(CCSequence::create(spawn1,delayT,spawn2,CCCallFuncO::create(this, callfuncO_selector(PortActController::aniComplete),mainNode),CCCallFuncO::create(this, callfuncO_selector(PortActController::particleComplete),pNode),CCCallFuncO::create(this, callfuncO_selector(PortActController::removeLayerColor),modelLayer), NULL));
+        }
+    等运行到回调时注册的this指针已经成为野指针，后面会发生崩溃
+
+    所以不能直接delete, 要改成 release().
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－2016.1.8－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+14, 使用C++STL::sort()时谓词函数的问题
+例子：
+bool comp(int d1, int d2){ return d1>=d2;}
+int  main() {
+    int a[50];
+    for (int i = 0; i < 50; ++i) {
+        a[i]= 1;
+    }
+    sort(a,a+50,comp);
+    return 0;
+}
+这段看似没有问题的程序运行起来就会造成崩溃。原因是sort函数中的第三个参数comp函数的要求为“严格的弱化序列”具体来说要求为三个特性：
+(a)  反自反性：也即comp(x, x)必须是false
+(b)  非对称性：也即如果comp(x, y)和comp(y, x)的结果必然相反
+(c)   可传递性：也即如果comp(x, y)为true，comp(y, z)为true，那么comp(x, z)必然为true
+不然会造成深度递归内存越界，显然comp函数违反了上述条件，只要把等号去掉就可以了
+参考资料：
+http://www.sgi.com/tech/stl/StrictWeakOrdering.html
+http://www.cplusplus.com/reference/algorithm/sort/
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－2017.2.4－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+资源注解
+Common_ 相关
+1-3 公共资源
+4   科技界面
+5   科技图标
+6   好友邮件
+7   联盟相关
+8   活动相关
+9   更换形象
+10  服务器列表
+11  签到奖励
+100 装备创建
+101 任务图标
+102 特效按钮
+104 玩家升级(引导用)
+105 技能图标
+200 步兵形象(引导图)
+201 骑兵形象
+202 弓兵形象
+203 车兵形象
+204 兵种形象小图
+205 联盟旗帜
+206 世界怪物
+207 装备制造完成宝箱
+208 国旗
+209 救援和盟友行军技能原画
+305 玩家信息
+306 装备合成
+307 人物头像
+308 装备图标
+310 王座
+500 活动中心
+501 引导战斗
+502 日常奖励和限时活动的完成界面
+503 成就图标
+505 玩家升级
+506 限时活动(原画)
+507 联盟横幅
+508 藏宝图
+509 试炼场
+510 士兵详情
+511 建造指引特效
+512 巨龙战役
+513 充值界面
+514 超级VIP
+
+Imperial_ 相关
+0   动画特效
+1   废墟特效
+2   场景人物 特殊建筑
+3-4 场景背景
+10  主城相关
+11  4兵营相关
+12  城门,城墙相关
+13  场景装饰物
+14  资源建筑
+15  建筑物通用资源
+16  其他序列建筑物
+30  建筑动画
+31  场景动画
+
+World_ 相关
+1   地图地表
+2   世界动画
+3   黑骑士
+4   地图地貌
+5   建筑特效
+6   小地图相关
+7   世界建筑
+8   世界区域
+9-12   小地图相关

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="resource_generation">
+        <ItemSpec id="10057" resourceGeneration="10189;37;1|10574;37;1|10575;37;1|10576;37;1" playerGenerationOrder="19"/>
+        <ItemSpec id="10058" resourceGeneration="10189;31;1|10574;31;1|10575;31;1|10576;31;1" playerGenerationOrder="20"/>
+        <ItemSpec id="10059" resourceGeneration="10577;40;1|10578;40;1|10579;40;1|10580;40;1" playerGenerationOrder="38"/>
+        <ItemSpec id="10096" resourceGeneration="10185;130;1|10186;52;1|10187;39;1|10188;39;1" playerGenerationOrder="1"/>
+        <ItemSpec id="10097" resourceGeneration="10189;62;1|10574;62;1|10575;62;1|10576;62;1" playerGenerationOrder="21"/>
+        <ItemSpec id="10098" resourceGeneration="10577;31;1|10578;31;1|10579;31;1|10580;31;1" playerGenerationOrder="39"/>
+        <ItemSpec id="10099" resourceGeneration="10189;66;1|10574;66;1|10575;66;1|10576;66;1" playerGenerationOrder="22"/>
+        <ItemSpec id="10130" resourceGeneration="10185;240;1|10186;96;1|10187;72;1|10188;72;1" playerGenerationOrder="2"/>
+        <ItemSpec id="10131" resourceGeneration="10185;108;1|10186;44;1|10187;33;1|10188;33;1" playerGenerationOrder="3"/>
+        <ItemSpec id="10132" resourceGeneration="10189;25;1|10574;25;1|10575;25;1|10576;25;1" playerGenerationOrder="23"/>
+        <ItemSpec id="10133" resourceGeneration="10189;44;1|10574;44;1|10575;44;1|10576;44;1" playerGenerationOrder="24"/>
+        <ItemSpec id="10134" resourceGeneration="10185;68;1|10186;28;1|10187;21;1|10188;21;1" playerGenerationOrder="4"/>
+        <ItemSpec id="10135" resourceGeneration="10185;30;1|10186;12;1|10187;9;1|10188;9;1" playerGenerationOrder="5"/>
+        <ItemSpec id="10136" resourceGeneration="10185;48;1|10186;20;1|10187;15;1|10188;15;1" playerGenerationOrder="6"/>
+        <ItemSpec id="10137" resourceGeneration="10189;32;1|10574;32;1|10575;32;1|10576;32;1" playerGenerationOrder="25"/>
+        <ItemSpec id="10138" resourceGeneration="10577;22;1|10578;22;1|10579;22;1|10580;22;1" playerGenerationOrder="40"/>
+        <ItemSpec id="10139" resourceGeneration="10577;35;1|10578;35;1|10579;35;1|10580;35;1" playerGenerationOrder="41"/>
+        <ItemSpec id="10140" resourceGeneration="10581;28;1|10582;28;1|10583;28;1|10584;28;1" playerGenerationOrder="51"/>
+        <ItemSpec id="10141" resourceGeneration="10189;57;1|10574;57;1|10575;57;1|10576;57;1" playerGenerationOrder="26"/>
+        <ItemSpec id="10142" resourceGeneration="10189;26;1|10574;26;1|10575;26;1|10576;26;1" playerGenerationOrder="27"/>
+        <ItemSpec id="10143" resourceGeneration="10185;90;1|10186;36;1|10187;27;1|10188;27;1" playerGenerationOrder="7"/>
+        <ItemSpec id="10144" resourceGeneration="10185;86;1|10186;35;1|10187;26;1|10188;26;1" playerGenerationOrder="8"/>
+        <ItemSpec id="10145" resourceGeneration="10189;41;1|10574;41;1|10575;41;1|10576;41;1" playerGenerationOrder="28"/>
+        <ItemSpec id="10146" resourceGeneration="10185;194;1|10186;78;1|10187;59;1|10188;59;1" playerGenerationOrder="9"/>
+        <ItemSpec id="10147" resourceGeneration="10577;48;1|10578;48;1|10579;48;1|10580;48;1" playerGenerationOrder="42"/>
+        <ItemSpec id="10148" resourceGeneration="10577;57;1|10578;57;1|10579;57;1|10580;57;1" playerGenerationOrder="43"/>
+        <ItemSpec id="10149" resourceGeneration="10189;37;1|10574;37;1|10575;37;1|10576;37;1" playerGenerationOrder="29"/>
+        <ItemSpec id="10150" resourceGeneration="10581;50;1|10582;50;1|10583;50;1|10584;50;1" playerGenerationOrder="52"/>
+        <ItemSpec id="10151" resourceGeneration="10581;47;1|10582;47;1|10583;47;1|10584;47;1" playerGenerationOrder="53"/>
+        <ItemSpec id="10152" resourceGeneration="10577;37;1|10578;37;1|10579;37;1|10580;37;1" playerGenerationOrder="44"/>
+        <ItemSpec id="10153" resourceGeneration="10581;26;1|10582;26;1|10583;26;1|10584;26;1" playerGenerationOrder="54"/>
+        <ItemSpec id="10154" resourceGeneration="10577;15;1|10578;15;1|10579;15;1|10580;15;1" playerGenerationOrder="45"/>
+        <ItemSpec id="10155" resourceGeneration="10581;61;1|10582;61;1|10583;61;1|10584;61;1" playerGenerationOrder="55"/>
+        <ItemSpec id="10156" resourceGeneration="10585;30;1|10586;30;1|10587;30;1|10588;30;1" playerGenerationOrder="61"/>
+        <ItemSpec id="10157" resourceGeneration="10585;41;1|10586;41;1|10587;41;1|10588;41;1" playerGenerationOrder="62"/>
+        <ItemSpec id="10158" resourceGeneration="10581;65;1|10582;65;1|10583;65;1|10584;65;1" playerGenerationOrder="56"/>
+        <ItemSpec id="10159" resourceGeneration="10577;53;1|10578;53;1|10579;53;1|10580;53;1" playerGenerationOrder="46"/>
+        <ItemSpec id="10160" resourceGeneration="10581;50;1|10582;50;1|10583;50;1|10584;50;1" playerGenerationOrder="57"/>
+        <ItemSpec id="10161" resourceGeneration="10581;44;1|10582;44;1|10583;44;1|10584;44;1" playerGenerationOrder="58"/>
+        <ItemSpec id="10162" resourceGeneration="10581;20;1|10582;20;1|10583;20;1|10584;20;1" playerGenerationOrder="59"/>
+        <ItemSpec id="10163" resourceGeneration="10581;38;1|10582;38;1|10583;38;1|10584;38;1" playerGenerationOrder="60"/>
+        <ItemSpec id="10164" resourceGeneration="10577;42;1|10578;42;1|10579;42;1|10580;42;1" playerGenerationOrder="47"/>
+        <ItemSpec id="10165" resourceGeneration="10577;61;1|10578;61;1|10579;61;1|10580;61;1" playerGenerationOrder="48"/>
+        <ItemSpec id="10166" resourceGeneration="10577;42;1|10578;42;1|10579;42;1|10580;42;1" playerGenerationOrder="49"/>
+        <ItemSpec id="10167" resourceGeneration="10577;51;1|10578;51;1|10579;51;1|10580;51;1" playerGenerationOrder="50"/>
+        <ItemSpec id="10168" resourceGeneration="10189;76;1|10574;76;1|10575;76;1|10576;76;1" playerGenerationOrder="30"/>
+        <ItemSpec id="10169" resourceGeneration="10189;93;1|10574;93;1|10575;93;1|10576;93;1" playerGenerationOrder="31"/>
+        <ItemSpec id="10170" resourceGeneration="10185;132;1|10186;53;1|10187;40;1|10188;40;1" playerGenerationOrder="10"/>
+        <ItemSpec id="10171" resourceGeneration="10185;112;1|10186;45;1|10187;34;1|10188;34;1" playerGenerationOrder="11"/>
+        <ItemSpec id="10172" resourceGeneration="10189;116;1|10574;116;1|10575;116;1|10576;116;1" playerGenerationOrder="32"/>
+        <ItemSpec id="10173" resourceGeneration="10189;81;1|10574;81;1|10575;81;1|10576;81;1" playerGenerationOrder="33"/>
+        <ItemSpec id="10174" resourceGeneration="10185;110;1|10186;44;1|10187;33;1|10188;33;1" playerGenerationOrder="12"/>
+        <ItemSpec id="10175" resourceGeneration="10189;39;1|10574;39;1|10575;39;1|10576;39;1" playerGenerationOrder="34"/>
+        <ItemSpec id="10176" resourceGeneration="10185;214;1|10186;86;1|10187;65;1|10188;65;1" playerGenerationOrder="13"/>
+        <ItemSpec id="10177" resourceGeneration="10185;108;1|10186;44;1|10187;33;1|10188;33;1" playerGenerationOrder="14"/>
+        <ItemSpec id="10178" resourceGeneration="10189;55;1|10574;55;1|10575;55;1|10576;55;1" playerGenerationOrder="35"/>
+        <ItemSpec id="10179" resourceGeneration="10185;156;1|10186;63;1|10187;47;1|10188;47;1" playerGenerationOrder="15"/>
+        <ItemSpec id="10180" resourceGeneration="10189;77;1|10574;77;1|10575;77;1|10576;77;1" playerGenerationOrder="36"/>
+        <ItemSpec id="10181" resourceGeneration="10189;71;1|10574;71;1|10575;71;1|10576;71;1" playerGenerationOrder="37"/>
+        <ItemSpec id="10182" resourceGeneration="10185;70;1|10186;28;1|10187;21;1|10188;21;1" playerGenerationOrder="16"/>
+        <ItemSpec id="10183" resourceGeneration="10185;314;1|10186;126;1|10187;95;1|10188;95;1" playerGenerationOrder="17"/>
+        <ItemSpec id="10184" resourceGeneration="10185;118;1|10186;48;1|10187;36;1|10188;36;1" playerGenerationOrder="18"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,185 @@
+{
+"skeleton": { "hash": "jbDWZV60+5NIvoYgPxJuGN+FL/E", "spine": "2.1.27", "width": 217, "height": 61.6 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 0.21, "y": 43.96, "scaleY": 1.1 },
+	{ "name": "ruqinkuafuzhan_ditu_", "parent": "root", "x": 0.66, "y": 22.68 }
+],
+"slots": [
+	{ "name": "ruqinkuafuzhan_ditu_", "bone": "ruqinkuafuzhan_ditu_", "attachment": "ruqinkuafuzhan_ditu_" },
+	{ "name": "crossserver_label_1_", "bone": "bone", "attachment": "crossserver_label_1_", "blend": "additive" },
+	{ "name": "crossserver_label_2_", "bone": "bone", "attachment": "crossserver_label_2_", "blend": "additive" },
+	{ "name": "crossserver_label_3_", "bone": "bone", "attachment": "crossserver_label_3_", "blend": "additive" },
+	{ "name": "crossserver_label_4_", "bone": "bone", "attachment": "crossserver_label_4_", "blend": "additive" },
+	{ "name": "crossserver_label_5_", "bone": "bone", "attachment": "crossserver_label_5_", "blend": "additive" },
+	{ "name": "crossserver_label_6_", "bone": "bone", "attachment": "crossserver_label_6_", "blend": "additive" },
+	{ "name": "crossserver_label_7_", "bone": "bone", "attachment": "crossserver_label_7_", "blend": "additive" },
+	{ "name": "crossserver_label_8_", "bone": "bone", "attachment": "crossserver_label_8_", "blend": "additive" },
+	{ "name": "crossserver_label_9_", "bone": "bone", "attachment": "crossserver_label_9_", "blend": "additive" },
+	{ "name": "crossserver_label_10_", "bone": "bone", "attachment": "crossserver_label_10_", "blend": "additive" },
+	{ "name": "crossserver_label_11_", "bone": "bone", "attachment": "crossserver_label_11_", "blend": "additive" },
+	{ "name": "crossserver_label_12_", "bone": "bone", "attachment": "crossserver_label_12_", "blend": "additive" },
+	{ "name": "crossserver_label_13_", "bone": "bone", "attachment": "crossserver_label_13_", "blend": "additive" },
+	{ "name": "crossserver_label_14_", "bone": "bone", "attachment": "crossserver_label_14_", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"crossserver_label_10_": {
+			"crossserver_label_10_": { "x": -0.52, "y": 1.03, "width": 27, "height": 30 }
+		},
+		"crossserver_label_11_": {
+			"crossserver_label_11_": { "x": -0.02, "y": 1.03, "width": 24, "height": 26 }
+		},
+		"crossserver_label_12_": {
+			"crossserver_label_12_": { "x": -0.52, "y": 1.53, "width": 25, "height": 29 }
+		},
+		"crossserver_label_13_": {
+			"crossserver_label_13_": { "x": -0.52, "y": 1.53, "width": 27, "height": 29 }
+		},
+		"crossserver_label_14_": {
+			"crossserver_label_14_": { "x": -0.52, "y": 1.03, "width": 27, "height": 30 }
+		},
+		"crossserver_label_1_": {
+			"crossserver_label_1_": { "x": 2.47, "y": -18.46, "width": 145, "height": 39 }
+		},
+		"crossserver_label_2_": {
+			"crossserver_label_2_": { "x": -0.02, "y": -12.46, "width": 114, "height": 51 }
+		},
+		"crossserver_label_3_": {
+			"crossserver_label_3_": { "x": 2.47, "y": -12.46, "width": 93, "height": 51 }
+		},
+		"crossserver_label_4_": {
+			"crossserver_label_4_": { "x": 11.97, "y": -15.46, "width": 98, "height": 45 }
+		},
+		"crossserver_label_5_": {
+			"crossserver_label_5_": { "x": 8.97, "y": -18.46, "width": 130, "height": 39 }
+		},
+		"crossserver_label_6_": {
+			"crossserver_label_6_": { "x": -26.52, "y": -0.96, "width": 93, "height": 4 }
+		},
+		"crossserver_label_7_": {
+			"crossserver_label_7_": { "x": -39.52, "y": -0.96, "width": 81, "height": 4 }
+		},
+		"crossserver_label_8_": {
+			"crossserver_label_8_": { "x": -0.52, "y": 1.53, "width": 25, "height": 29 }
+		},
+		"crossserver_label_9_": {
+			"crossserver_label_9_": { "x": -0.02, "y": 1.53, "width": 26, "height": 29 }
+		},
+		"ruqinkuafuzhan_ditu_": {
+			"ruqinkuafuzhan_ditu_": { "x": 1.02, "y": 7.81, "width": 217, "height": 61 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"crossserver_label_10_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.5666, "name": "crossserver_label_10_" },
+					{ "time": 2.8333, "name": null }
+				]
+			},
+			"crossserver_label_11_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.8333, "name": "crossserver_label_11_" },
+					{ "time": 3.1333, "name": null }
+				]
+			},
+			"crossserver_label_12_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.1333, "name": "crossserver_label_12_" },
+					{ "time": 3.4, "name": null }
+				]
+			},
+			"crossserver_label_13_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.4, "name": "crossserver_label_13_" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 8.3333, "name": null }
+				]
+			},
+			"crossserver_label_14_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.6666, "name": "crossserver_label_14_" },
+					{ "time": 8.3333, "name": "crossserver_label_14_" }
+				]
+			},
+			"crossserver_label_1_": {
+				"attachment": [
+					{ "time": 0, "name": "crossserver_label_1_" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"crossserver_label_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "crossserver_label_2_" },
+					{ "time": 0.5666, "name": null }
+				]
+			},
+			"crossserver_label_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "crossserver_label_3_" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"crossserver_label_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "crossserver_label_4_" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"crossserver_label_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1, "name": "crossserver_label_5_" },
+					{ "time": 1.3666, "name": null }
+				]
+			},
+			"crossserver_label_6_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3666, "name": "crossserver_label_6_" },
+					{ "time": 1.6666, "name": null }
+				]
+			},
+			"crossserver_label_7_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6666, "name": "crossserver_label_7_" },
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"crossserver_label_8_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.9333, "name": "crossserver_label_8_" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"crossserver_label_9_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.3, "name": "crossserver_label_9_" },
+					{ "time": 2.5666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -0.35, "y": 1.4 }
+				]
+			}
+		}
+	}
+}
+}

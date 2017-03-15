@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="trial">
+        <ItemSpec id="999003" monster="rock" name="103733"/>
+        <ItemSpec id="999002" monster="Yeren" name="103770"/>
+        <ItemSpec id="999001" monster="rm" name="103734"/>
+        <ItemSpec id="999000" monster="Kulou" name="103768"/>
+        <ItemSpec id="999007" monster="xueguai" name="150409"/>
+        <ItemSpec id="999006" monster="scws" name="103788"/>
+        <ItemSpec id="999005" monster="Shixianggui" name="103780"/>
+        <ItemSpec id="999004" monster="Griffin" name="103732"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="general">
+        <ItemSpec id="240004" defense="6.111" ability="50521" color="0" name="112037" attack="5.667" cost="5;50" icon="g038" open="10" description="113037"/>
+        <ItemSpec id="240005" defense="5.222" ability="50522" color="0" name="112040" attack="7" cost="5;100" icon="g041" open="12" description="113040"/>
+        <ItemSpec id="240006" defense="6.333" ability="50523" color="0" name="112032" attack="6.333" cost="5;150" icon="g032" open="14" description="113032"/>
+        <ItemSpec id="240007" defense="7.444" ability="50503" color="0" name="112044" attack="5.667" cost="5;200" icon="g045" open="16" description="113044"/>
+        <ItemSpec id="240000" defense="4.778" ability="50505" color="0" name="112024" attack="5.222" cost="3;5000" icon="g025" open="1" description="113024"/>
+        <ItemSpec id="240001" defense="5" ability="50504" color="0" name="112045" attack="5.444" cost="3;15000" icon="g046" open="4" description="113045"/>
+        <ItemSpec id="240002" defense="6.556" ability="50501" color="0" name="112035" attack="4.333" cost="3;30000" icon="g036" open="6" description="113035"/>
+        <ItemSpec id="240003" defense="6.778" ability="50520" color="0" name="112009" attack="4.556" cost="3;50000" icon="g010" open="8" description="113009"/>
+        <ItemSpec id="240011" defense="8.111" ability="50560" color="0" name="112048" attack="6.778" cost="5;600" icon="g049" open="24" description="113048"/>
+        <ItemSpec id="240014" defense="7" ability="50500" color="1" name="112038" attack="9.222" cost="5;1000" icon="g039" open="30" description="113038"/>
+        <ItemSpec id="240008" defense="6.111" ability="50540" color="0" name="112007" attack="7.444" cost="5;250" icon="g008" open="18" description="113007"/>
+        <ItemSpec id="240009" defense="5.778" ability="50507" color="0" name="112041" attack="8.222" cost="5;400" icon="g042" open="20" description="113041"/>
+        <ItemSpec id="240013" defense="8.778" ability="50502" color="1" name="112036" attack="7" cost="5;800" icon="g037" open="28" description="113036"/>
+        <ItemSpec id="240012" defense="9.222" ability="50541" color="1" name="112043" attack="6.111" cost="5;700" icon="g044" open="26" description="113043"/>
+        <ItemSpec id="240010" defense="8.333" ability="50500" color="0" name="112016" attack="6.111" cost="5;500" icon="g017" open="22" description="113016"/>
+        <ItemSpec id="241000" color="0" icon="g200"/>
+    </Group>
+</tns:database>

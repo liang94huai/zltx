@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="status">
+        <ItemSpec id="500021" group="300" overlap="0" type2="3"/>
+        <ItemSpec id="500020" group="300" overlap="0" type2="3"/>
+        <ItemSpec id="500050" group="600" overlap="0" type2="6"/>
+        <ItemSpec id="502520"/>
+        <ItemSpec id="502521"/>
+        <ItemSpec id="502030"/>
+        <ItemSpec id="500051" group="600" overlap="0" type2="6"/>
+        <ItemSpec id="502524"/>
+        <ItemSpec id="502525"/>
+        <ItemSpec id="502526"/>
+        <ItemSpec id="500100" group="1100" overlap="1" type2="11"/>
+        <ItemSpec id="501044" group="5209" overlap="1"/>
+        <ItemSpec id="502201"/>
+        <ItemSpec id="502200"/>
+        <ItemSpec id="502203"/>
+        <ItemSpec id="502202"/>
+        <ItemSpec id="502205"/>
+        <ItemSpec id="502204"/>
+        <ItemSpec id="502206"/>
+        <ItemSpec id="500508" group="500520" overlap="2" type2="100" androidmd5="5d1de09b3b067de1dac450bac1f13d60" effectart="CN_face" md5="a4930c08de5ce09ef16e36801afc9f2c" subgroup="3"/>
+        <ItemSpec id="500509" group="500521" overlap="2" type2="100" androidmd5="5d1de09b3b067de1dac450bac1f13d60" effectart="CN_face" md5="a4930c08de5ce09ef16e36801afc9f2c" subgroup="3"/>
+        <ItemSpec id="500110" group="1200" overlap="1" type2="12"/>
+        <ItemSpec id="502522"/>
+        <ItemSpec id="502515"/>
+        <ItemSpec id="502523"/>
+        <ItemSpec id="502020"/>
+        <ItemSpec id="500504" group="500510" overlap="2" type2="100" androidmd5="926ecf069dfa3cf8a0494e7be98fb699" effectart="DE_face" md5="ef99b63c4fb30671d9cde788356b4f0c" subgroup="2"/>
+        <ItemSpec id="500505" group="500511" overlap="2" type2="100" androidmd5="926ecf069dfa3cf8a0494e7be98fb699" effectart="DE_face" md5="ef99b63c4fb30671d9cde788356b4f0c" subgroup="2"/>
+        <ItemSpec id="500506" group="500512" overlap="2" type2="100" androidmd5="926ecf069dfa3cf8a0494e7be98fb699" effectart="DE_face" md5="ef99b63c4fb30671d9cde788356b4f0c" subgroup="2"/>
+        <ItemSpec id="500507" group="500513" overlap="2" type2="100" androidmd5="926ecf069dfa3cf8a0494e7be98fb699" effectart="DE_face" md5="ef99b63c4fb30671d9cde788356b4f0c" subgroup="2"/>
+        <ItemSpec id="500500" group="500500" overlap="2" type2="100" androidmd5="55b44defe8bad654ce522c7b76d834eb" effectart="JP_face" md5="c723ba9ee52768c702fe28cfa6c14ae4" subgroup="1"/>
+        <ItemSpec id="500501" group="500501" overlap="2" type2="100" androidmd5="55b44defe8bad654ce522c7b76d834eb" effectart="JP_face" md5="c723ba9ee52768c702fe28cfa6c14ae4" subgroup="1"/>
+        <ItemSpec id="500502" group="500502" overlap="2" type2="100" androidmd5="55b44defe8bad654ce522c7b76d834eb" effectart="JP_face" md5="c723ba9ee52768c702fe28cfa6c14ae4" subgroup="1"/>
+        <ItemSpec id="500503" group="500503" overlap="2" type2="100" androidmd5="55b44defe8bad654ce522c7b76d834eb" effectart="JP_face" md5="c723ba9ee52768c702fe28cfa6c14ae4" subgroup="1"/>
+        <ItemSpec id="501054" group="5500" overlap="0" type2="19"/>
+        <ItemSpec id="503211"/>
+        <ItemSpec id="502512"/>
+        <ItemSpec id="501051" group="5211" overlap="0" type2="16"/>
+        <ItemSpec id="501050" group="5210" overlap="0" type2="15"/>
+        <ItemSpec id="501053" group="5400" overlap="0" type2="18"/>
+        <ItemSpec id="501052" group="5300" overlap="0" type2="17"/>
+        <ItemSpec id="502234"/>
+        <ItemSpec id="502235"/>
+        <ItemSpec id="502230"/>
+        <ItemSpec id="502231"/>
+        <ItemSpec id="502232"/>
+        <ItemSpec id="502233"/>
+        <ItemSpec id="502421"/>
+        <ItemSpec id="502420"/>
+        <ItemSpec id="502423"/>
+        <ItemSpec id="502422"/>
+        <ItemSpec id="500513" group="500531" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;731efad29561cbaf0a706d2a0e64e16d" effectart="castle_1_face;HW_face" md5="3516b2a64a88ef241f03aa65f1c714c7;7f7329b1025b8aa15ca74ccd5ee01874" subgroup="4" isNewStyle="1" addPic="3|1|10000:-215,-109|10001:-38,-16;6|1|10000:-215,-109|10001:-35,31;10|1|10000:-215,-109|10001:-36,41;14|1|10000:-215,-109|10001:-45,50;20|1|10000:-215,-109|10001:-39,50;24|1|10000:-215,-109|10001:-41,59;29|1|10000:-215,-109|10001:-40,61;30|1|10000:-230,-123|10001:-88,100" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500512" group="500530" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;731efad29561cbaf0a706d2a0e64e16d" effectart="castle_1_face;HW_face" md5="3516b2a64a88ef241f03aa65f1c714c7;7f7329b1025b8aa15ca74ccd5ee01874" subgroup="4" isNewStyle="1" addPic="3|1|10000:-215,-109|10001:-38,-16;6|1|10000:-215,-109|10001:-35,31;10|1|10000:-215,-109|10001:-36,41;14|1|10000:-215,-109|10001:-45,50;20|1|10000:-215,-109|10001:-39,50;24|1|10000:-215,-109|10001:-41,59;29|1|10000:-215,-109|10001:-40,61;30|1|10000:-230,-123|10001:-88,100" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500511" group="500523" overlap="2" type2="100" androidmd5="5d1de09b3b067de1dac450bac1f13d60" effectart="CN_face" md5="a4930c08de5ce09ef16e36801afc9f2c" subgroup="3"/>
+        <ItemSpec id="500510" group="500522" overlap="2" type2="100" androidmd5="5d1de09b3b067de1dac450bac1f13d60" effectart="CN_face" md5="a4930c08de5ce09ef16e36801afc9f2c" subgroup="3"/>
+        <ItemSpec id="500041" group="501" overlap="1" type2="5"/>
+        <ItemSpec id="500516" group="500540" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;c069e41e3c4f1fa76801d054ece47363" effectart="castle_1_face;Christmas_face" md5="3516b2a64a88ef241f03aa65f1c714c7;745a646c56ac273dadf5291b6af25210" subgroup="5" isNewStyle="1" addPic="30|2|10002:-258,-128" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500515" group="500533" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;731efad29561cbaf0a706d2a0e64e16d" effectart="castle_1_face;HW_face" md5="3516b2a64a88ef241f03aa65f1c714c7;7f7329b1025b8aa15ca74ccd5ee01874" subgroup="4" isNewStyle="1" addPic="3|1|10000:-215,-109|10001:-38,-16;6|1|10000:-215,-109|10001:-35,31;10|1|10000:-215,-109|10001:-36,41;14|1|10000:-215,-109|10001:-45,50;20|1|10000:-215,-109|10001:-39,50;24|1|10000:-215,-109|10001:-41,59;29|1|10000:-215,-109|10001:-40,61;30|1|10000:-230,-123|10001:-88,100" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500514" group="500532" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;731efad29561cbaf0a706d2a0e64e16d" effectart="castle_1_face;HW_face" md5="3516b2a64a88ef241f03aa65f1c714c7;7f7329b1025b8aa15ca74ccd5ee01874" subgroup="4" isNewStyle="1" addPic="3|1|10000:-215,-109|10001:-38,-16;6|1|10000:-215,-109|10001:-35,31;10|1|10000:-215,-109|10001:-36,41;14|1|10000:-215,-109|10001:-45,50;20|1|10000:-215,-109|10001:-39,50;24|1|10000:-215,-109|10001:-41,59;29|1|10000:-215,-109|10001:-40,61;30|1|10000:-230,-123|10001:-88,100" isOverlying="1" Basics="0"/>
+        <ItemSpec id="502601" icon="ico502600"/>
+        <ItemSpec id="500519" group="500543" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;c069e41e3c4f1fa76801d054ece47363" effectart="castle_1_face;Christmas_face" md5="3516b2a64a88ef241f03aa65f1c714c7;745a646c56ac273dadf5291b6af25210" subgroup="5" isNewStyle="1" addPic="30|2|10002:-258,-128" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500518" group="500542" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;c069e41e3c4f1fa76801d054ece47363" effectart="castle_1_face;Christmas_face" md5="3516b2a64a88ef241f03aa65f1c714c7;745a646c56ac273dadf5291b6af25210" subgroup="5" isNewStyle="1" addPic="30|2|10002:-258,-128" isOverlying="1" Basics="0"/>
+        <ItemSpec id="502600" icon="ico502600"/>
+        <ItemSpec id="502603"/>
+        <ItemSpec id="502223"/>
+        <ItemSpec id="502222"/>
+        <ItemSpec id="502221"/>
+        <ItemSpec id="502220"/>
+        <ItemSpec id="502225"/>
+        <ItemSpec id="502224"/>
+        <ItemSpec id="502281"/>
+        <ItemSpec id="502280"/>
+        <ItemSpec id="502300"/>
+        <ItemSpec id="502301"/>
+        <ItemSpec id="502302"/>
+        <ItemSpec id="502303"/>
+        <ItemSpec id="502304"/>
+        <ItemSpec id="502283"/>
+        <ItemSpec id="502282"/>
+        <ItemSpec id="502410"/>
+        <ItemSpec id="502411"/>
+        <ItemSpec id="502412"/>
+        <ItemSpec id="502413"/>
+        <ItemSpec id="502414"/>
+        <ItemSpec id="502284"/>
+        <ItemSpec id="500070" group="800" overlap="0" type2="8"/>
+        <ItemSpec id="500071" group="800" overlap="0" type2="8"/>
+        <ItemSpec id="502513"/>
+        <ItemSpec id="502271"/>
+        <ItemSpec id="502040"/>
+        <ItemSpec id="502314"/>
+        <ItemSpec id="502313"/>
+        <ItemSpec id="502312"/>
+        <ItemSpec id="502311"/>
+        <ItemSpec id="502310"/>
+        <ItemSpec id="502090"/>
+        <ItemSpec id="502010"/>
+        <ItemSpec id="502011"/>
+        <ItemSpec id="502012"/>
+        <ItemSpec id="502013"/>
+        <ItemSpec id="502254"/>
+        <ItemSpec id="502252"/>
+        <ItemSpec id="502253"/>
+        <ItemSpec id="502250"/>
+        <ItemSpec id="502251"/>
+        <ItemSpec id="501000" group="5000" overlap="1"/>
+        <ItemSpec id="500140" group="1500" overlap="0" type2="14"/>
+        <ItemSpec id="500141" group="1500" overlap="0" type2="14"/>
+        <ItemSpec id="502070"/>
+        <ItemSpec id="500060" group="700" overlap="0" type2="7"/>
+        <ItemSpec id="502514"/>
+        <ItemSpec id="502080"/>
+        <ItemSpec id="502510"/>
+        <ItemSpec id="502506"/>
+        <ItemSpec id="502000"/>
+        <ItemSpec id="502244"/>
+        <ItemSpec id="502241"/>
+        <ItemSpec id="502240"/>
+        <ItemSpec id="502243"/>
+        <ItemSpec id="502242"/>
+        <ItemSpec id="501010" group="5100" overlap="1"/>
+        <ItemSpec id="502505"/>
+        <ItemSpec id="502060"/>
+        <ItemSpec id="502502"/>
+        <ItemSpec id="502503"/>
+        <ItemSpec id="502500"/>
+        <ItemSpec id="502602" icon="ico502600"/>
+        <ItemSpec id="500010" group="200" overlap="0" type2="2"/>
+        <ItemSpec id="500011" group="200" overlap="0" type2="2"/>
+        <ItemSpec id="502516"/>
+        <ItemSpec id="502404"/>
+        <ItemSpec id="502403"/>
+        <ItemSpec id="502402"/>
+        <ItemSpec id="502401"/>
+        <ItemSpec id="502400"/>
+        <ItemSpec id="502270"/>
+        <ItemSpec id="500517" group="500541" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;c069e41e3c4f1fa76801d054ece47363" effectart="castle_1_face;Christmas_face" md5="3516b2a64a88ef241f03aa65f1c714c7;745a646c56ac273dadf5291b6af25210" subgroup="5" isNewStyle="1" addPic="30|2|10002:-258,-128" isOverlying="1" Basics="0"/>
+        <ItemSpec id="502272"/>
+        <ItemSpec id="502273"/>
+        <ItemSpec id="502274"/>
+        <ItemSpec id="500040" group="500" overlap="1" type2="5"/>
+        <ItemSpec id="502050"/>
+        <ItemSpec id="502292"/>
+        <ItemSpec id="502293"/>
+        <ItemSpec id="502290"/>
+        <ItemSpec id="502291"/>
+        <ItemSpec id="501020" group="5200" overlap="1"/>
+        <ItemSpec id="501021" group="5201" overlap="1"/>
+        <ItemSpec id="502294"/>
+        <ItemSpec id="502501"/>
+        <ItemSpec id="500009" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500008" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500120" group="1300" overlap="1" type2="13"/>
+        <ItemSpec id="500001" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500000" group="100" overlap="0" type2="1" effectart="1200" icon="ico500000" interrupt="1"/>
+        <ItemSpec id="500003" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500002" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500005" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="500004" group="100" overlap="0" type2="1"/>
+        <ItemSpec id="502264"/>
+        <ItemSpec id="502263"/>
+        <ItemSpec id="502262"/>
+        <ItemSpec id="502261"/>
+        <ItemSpec id="502260"/>
+        <ItemSpec id="502504"/>
+        <ItemSpec id="500090" group="1000" overlap="1" type2="10"/>
+        <ItemSpec id="500030" group="400" overlap="0" type2="4"/>
+        <ItemSpec id="500031" group="400" overlap="0" type2="4"/>
+        <ItemSpec id="500032" group="400" overlap="0" type2="4"/>
+        <ItemSpec id="500033" group="400" overlap="0" type2="4"/>
+        <ItemSpec id="501033" group="5205" overlap="1"/>
+        <ItemSpec id="501032" group="5204" overlap="1"/>
+        <ItemSpec id="501031" group="5203" overlap="1"/>
+        <ItemSpec id="501030" group="5202" overlap="1"/>
+        <ItemSpec id="502511"/>
+        <ItemSpec id="501036" group="5208" overlap="1"/>
+        <ItemSpec id="501035" group="5207" overlap="1"/>
+        <ItemSpec id="501034" group="5206" overlap="1"/>
+        <ItemSpec id="500134" group="1404" overlap="1"/>
+        <ItemSpec id="500131" group="1401" overlap="1"/>
+        <ItemSpec id="500130" group="1400" overlap="1"/>
+        <ItemSpec id="500133" group="1403" overlap="1"/>
+        <ItemSpec id="500132" group="1402" overlap="1"/>
+        <ItemSpec id="503201"/>
+        <ItemSpec id="502212"/>
+        <ItemSpec id="502213"/>
+        <ItemSpec id="502210"/>
+        <ItemSpec id="502211"/>
+        <ItemSpec id="502216"/>
+        <ItemSpec id="502214"/>
+        <ItemSpec id="502215"/>
+        <ItemSpec id="500522" group="500551" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;27d7bcc7f32eef5782680989045a6fdf" effectart="castle_1_face;ChunJie_face" md5="3516b2a64a88ef241f03aa65f1c714c7;48f34b1164eb695cd1690d0ad32bd61f" subgroup="6" isNewStyle="1" addPic="30|3|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500523" group="500552" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;27d7bcc7f32eef5782680989045a6fdf" effectart="castle_1_face;ChunJie_face" md5="3516b2a64a88ef241f03aa65f1c714c7;48f34b1164eb695cd1690d0ad32bd61f" subgroup="6" isNewStyle="1" addPic="30|3|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500520" group="500544" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;c069e41e3c4f1fa76801d054ece47363" effectart="castle_1_face;Christmas_face" md5="3516b2a64a88ef241f03aa65f1c714c7;745a646c56ac273dadf5291b6af25210" subgroup="5" isNewStyle="1" addPic="30|2|10002:-258,-128" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500521" group="500550" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;27d7bcc7f32eef5782680989045a6fdf" effectart="castle_1_face;ChunJie_face" md5="3516b2a64a88ef241f03aa65f1c714c7;48f34b1164eb695cd1690d0ad32bd61f" subgroup="6" isNewStyle="1" addPic="30|3|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500526" group="500555" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;923c9bc4ace804565c3eb85a54f1cfa3" effectart="castle_1_face;XiangLong_face" md5="3516b2a64a88ef241f03aa65f1c714c7;d619a16c343c41f329b0fdf138854c4f" subgroup="6" isNewStyle="1" addPic="30|4|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500524" group="500553" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;27d7bcc7f32eef5782680989045a6fdf" effectart="castle_1_face;ChunJie_face" md5="3516b2a64a88ef241f03aa65f1c714c7;48f34b1164eb695cd1690d0ad32bd61f" subgroup="6" isNewStyle="1" addPic="30|3|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500525" group="500554" overlap="2" type2="100" androidmd5="9c64fe1698412c286cbd0082263f1a53;27d7bcc7f32eef5782680989045a6fdf" effectart="castle_1_face;ChunJie_face" md5="3516b2a64a88ef241f03aa65f1c714c7;48f34b1164eb695cd1690d0ad32bd61f" subgroup="6" isNewStyle="1" addPic="30|3|10003:-100,500" isOverlying="1" Basics="0"/>
+        <ItemSpec id="500080" group="900" overlap="1" type2="9"/>
+    </Group>
+</tns:database>

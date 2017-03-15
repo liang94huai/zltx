@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="position_unlock">
+        <ItemSpec id="9990" lv="1" unlock="1" position="17;18;19;20;21" wood="100" food="100" pos="6"/>
+        <ItemSpec id="9991" lv="1" unlock="1" position="22;23;24;25;26" wood="100" food="100" pos="7"/>
+        <ItemSpec id="9992" lv="10" position="27;28;29;30;31;32" wood="5000" food="5000" pos="1"/>
+        <ItemSpec id="9993" lv="99" position="33;34;35;36" wood="1" pos="2"/>
+        <ItemSpec id="9994" lv="99" position="37;38;39;40;41" wood="1" pos="3"/>
+        <ItemSpec id="9995" lv="99" position="42;43;44;45;46" wood="1" pos="4"/>
+        <ItemSpec id="9996" lv="99" position="47;48;49;50;51" wood="1" pos="5"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="world_map">
+        <ItemSpec id="10491" name="10504" areaType="1" city="10057;10058;10059;10096;10097;10184"/>
+        <ItemSpec id="10492" name="10505" areaType="2" city="10178;10179;10180;10181;10182;10183"/>
+        <ItemSpec id="10493" name="10506" areaType="3" city="10098;10099;10130;10131"/>
+        <ItemSpec id="10494" name="10507" areaType="4" city="10167;10168;10169;10170;10171;10172"/>
+        <ItemSpec id="10495" name="10508" areaType="5" city="10160;10161;10162;10163;10164;10165;10166"/>
+        <ItemSpec id="10496" name="10509" areaType="6" city="10173;10174;10175;10176;10177"/>
+        <ItemSpec id="10497" name="10510" areaType="7" city="10145;10146;10147;10148;10149;10150"/>
+        <ItemSpec id="10498" name="10511" areaType="8" city="10141;10142;10143;10144"/>
+        <ItemSpec id="10499" name="10512" areaType="9" city="10135;10136;10137;10138;10139;10140"/>
+        <ItemSpec id="10500" name="10513" areaType="10" city="10157;10158;10159"/>
+        <ItemSpec id="10501" name="10514" areaType="11" city="10151;10152"/>
+        <ItemSpec id="10502" name="10515" areaType="12" city="10132;10133;10134"/>
+        <ItemSpec id="10503" name="10516" areaType="13" city="10153;10154;10155;10156"/>
+    </Group>
+</tns:database>

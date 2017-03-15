@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="daily_quest">
+        <ItemSpec id="5000000" name="133110" desc="133113" target="133112" icon="quest_Farm_icon1" pic="01_17" accept1="1" desc2="1" point="3" gotype="3" go="2" show="0" range="3;5"/>
+        <ItemSpec id="5000001" name="133115" desc="133117" target="133116" icon="quest_Sawmill_icon1" pic="01_17" accept1="1" desc2="1" point="3" gotype="3" go="2" show="0" range="3;5"/>
+        <ItemSpec id="5000002" name="133118" desc="133120" target="133119" icon="quest_Barrack_icon1" pic="01_17" accept1="1" desc2="1" point="5" gotype="1" go="423000" show="1" range="3;5"/>
+        <ItemSpec id="5000003" name="133121" desc="133123" target="133122" icon="quest_Stable_icon1" pic="01_17" accept1="1" desc2="1" point="5" gotype="1" go="424000" show="1" range="3;5"/>
+        <ItemSpec id="5000004" name="133124" desc="133126" target="133125" icon="quest_BigCastle_icon1" pic="01_17" accept1="1" desc2="0" point="30" show="1" range="1"/>
+        <ItemSpec id="5000005" name="133127" desc="133129" target="133128" icon="quest_Hospital_icon1" pic="01_17" accept1="4" desc2="2" point="10" gotype="1" go="411000" show="1" range="1"/>
+        <ItemSpec id="5000006" name="133130" desc="133132" target="133131" icon="quest_Embassy_icon1" pic="01_17" accept1="6" desc2="0" point="1" gotype="2" go="0" show="1" range="5;10;15;20"/>
+        <ItemSpec id="5000007" name="115077" desc="133135" target="133134" icon="quest_Embassy_icon1" pic="01_17" accept1="6" desc2="0" point="1" gotype="2" go="0" show="1" range="5;10;15;20;25"/>
+        <ItemSpec id="5000008" name="133136" desc="133138" target="133137" icon="quest_cargo" pic="01_17" accept1="1" desc2="0" point="2" gotype="4" go="9990011" show="1" range="3;5"/>
+        <ItemSpec id="5000009" name="105851" desc="133141" target="133140" icon="quest_club" pic="01_17" accept1="99" desc2="0" point="6" gotype="4" go="9990005" show="0" range="3;5"/>
+        <ItemSpec id="5000010" name="133142" desc="133144" target="133143" icon="quest_College_icon1" pic="01_17" accept1="4" desc2="0" point="20" gotype="1" go="403000" show="1" range="1"/>
+        <ItemSpec id="5000011" name="105812" desc="133147" target="133146" icon="quest_Monster0_icon1" pic="01_17" accept1="1" desc2="0" point="2" gotype="3" go="2" show="1" range="3;5"/>
+        <ItemSpec id="5000012" name="133148" desc="133150" target="133149" icon="quest_Range_icon1" pic="01_17" accept1="3" desc2="1" point="5" gotype="1" go="425000" show="1" range="3;5"/>
+        <ItemSpec id="5000013" name="133151" desc="133153" target="133152" icon="quest_Blacksmith_icon1" pic="01_17" accept1="99" desc2="0" point="20" gotype="1" go="429000" show="0" range="1"/>
+        <ItemSpec id="5000014" name="133154" desc="133156" target="133155" icon="quest_Blacksmith_icon1" pic="01_17" accept1="99" desc2="0" point="30" gotype="1" go="429000" show="0" range="1"/>
+        <ItemSpec id="5000015" name="133157" desc="133159" target="133158" icon="quest_Fortress_icon1" pic="01_17" accept1="99" desc2="1" point="4" gotype="1" go="416000" show="0" range="3;5"/>
+        <ItemSpec id="5000016" name="133160" desc="133162" target="133161" icon="quest_Chariot Plant_icon1" pic="01_17" accept1="5" desc2="1" point="5" gotype="1" go="426000" show="1" range="3;5"/>
+        <ItemSpec id="5000017" name="102328" desc="133165" target="133164" icon="quest_Wishing well_icon1" pic="01_17" accept1="99" desc2="0" point="1" gotype="1" go="428000" show="0" range="5;10;15;20"/>
+        <ItemSpec id="5000018" name="133166" desc="133168" target="133167" icon="quest_Embassy_icon1" pic="01_17" accept1="9" desc2="2" point="10" gotype="2" go="0" show="1" range="1"/>
+        <ItemSpec id="5000019" name="102306" desc="133171" target="133170" icon="quest_Embassy_icon1" pic="01_17" accept1="9" desc2="2" point="10" gotype="2" go="0" show="1" range="1"/>
+        <ItemSpec id="5000020" name="133172" desc="133174" target="133173" icon="quest_Iron Mine_icon1" pic="01_17" accept1="10" desc2="1" point="3" gotype="3" go="414000" show="0" range="3;5"/>
+        <ItemSpec id="5000021" name="133175" desc="133177" target="133176" icon="quest_Mithril Mine_icon1" pic="01_17" accept1="15" desc2="1" point="3" gotype="3" go="412000" show="0" range="3;5"/>
+        <ItemSpec id="5000022" name="104930" desc="133180" target="133179" icon="quest_Merchante" pic="01_17" accept1="99" desc2="0" point="2" gotype="4" go="9990008" show="0" range="5;10"/>
+        <ItemSpec id="5000023" name="133181" desc="133183" target="133182" icon="item603" pic="01_17" accept1="1" desc2="0" point="2" gotype="2" go="1" show="1" range="3;5"/>
+        <ItemSpec id="5000025" name="133187" desc="133189" target="133188" icon="pichuochuan_01" pic="01_17" accept1="1" desc2="0" point="5" gotype="4" go="9990009" show="1" range="1"/>
+        <ItemSpec id="5000026" name="133193" desc="133195" target="133194" icon="item511" pic="01_17" accept1="1" desc2="0" point="5" gotype="2" go="1" show="1" range="1;2"/>
+        <ItemSpec id="5000027" name="133184" desc="133186" target="133185" icon="item508" pic="01_17" accept1="1" desc2="0" point="5" gotype="2" go="1" show="1" range="1;2"/>
+        <ItemSpec id="5000028" name="133196" desc="133198" target="133197" icon="item510" pic="01_17" accept1="10" desc2="0" point="5" gotype="2" go="1" show="1" range="1;2"/>
+        <ItemSpec id="5000029" name="133199" desc="133217" target="133216" icon="item509" pic="01_17" accept1="15" desc2="0" point="5" gotype="2" go="1" show="1" range="1;2"/>
+    </Group>
+</tns:database>

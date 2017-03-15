@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  accesssdk
+
+  Created by zhao shuan on 11/18/14.
+  Copyright (c) 2014 zs_hoolai. All rights reserved.
+*/
+"account" = "Guest";
+"guesttip" = "";
+"loginbtn" = "Log in";
+"hoolaititle" = "Hoolai Games";
+"otherloginbtn" = "Log in with other account";
+"regbtn" = "Sign up";
+"regbtn1" = "Sign up";
+"regbtn2" = "with phone";
+"hlaccount" = "Hoolai Passport";
+"forgotpwd" = "Forgot password?";
+"findpwd" = "Find Password";
+"resetpwd" = "Reset Password";
+"recoverycodefind" = "Find Guest Account";
+"recoveryid" = "Recovery ID";
+"recoverycode" = "Recovery Code";
+"recoverydesc" = "recoverydesc1";
+"recoveryguesttip" = "recoveryguesttip1";
+"passportfield" = "Username/Phone";
+"username" = "Username";
+"phone" = "Phone number";
+"password" = "Password";
+"newpassword" = "New Password";
+"enterusername" = "Please enter your username";
+"enterpwd" = "Please enter your password";
+"enterphone" = "Please enter your phone number";
+"reghoolai" = "Sign up for Hoolai";
+"show" = "Show";
+"hide" = "Hide";
+"privacydesc" = "By clicking Sign up, you agree to our <a href='http://shenqu.hoolai.com/privace.html'>User Privacy Policy</a>";
+"networkerror" = "Network trouble";
+"loginwelcome" = "Welcome, %@";
+"curracount" = "Current account";
+"quitacount" = "Log out";
+"quickgame" = "Quick sign in";
+"logingame" = "Log in with Hoolai Passport";
+"ok" = "OK";
+"authorizefailed" = "Authorize Failed";
+"getverycode" = "Get verification code";
+"verycode" = "Verification code";
+"verycodealert" = "Verification code is sent, please check your SMS.";
+"entercode" = "Please enter the verification code";
+"pwdalert" = "The password is sent to you phone, please check your SMS.";
+"guestnickname" = "Guest";
+"changepassword" = "Change Password";
+"surechangepwd" = "Modify";
+"inputcurrentpwd" = "The Original Password";
+"inputnewpwd" = "New Password";
+"repeatnewpwd" = "Repeat New Password";
+"currentpwdnull" = "Original Password Empty";
+"newpwdnull" = "New Password Empty";
+"repeatpwdnull" = "Repeat Password Empty";
+"pwdnotequal" = "Password Not Equal";
+"modifypwdsuccess" = "Modify Password Success";
+"bind" = "Bind";
+"bindphone" = "Bind Phone";
+"phonenull" = "Phone Empty";
+"codenull" = "Code Empty";
+"bindphonesuccess" = "Bind Phone Success";
+"bindemail" = "Bind Email";
+"bindaccount" = "Bind Account";
+"bindemailandaccount" = "Bind Email/Account";
+"emailillegal" = "Email Illegal";
+"accountillegal" = "Account Illegal";
+"emailoraccountillegal" = "Account Or Email Illegal";
+"inputbindpwd" = "Bind Password";
+"pwdillegal" = "Password Illegal";
+"bindaccountsuccess" = "Bind Account Success";
+"bindemailsuccess" = "Bind Email Success";
+"am" = "AM";
+"pm" = "PM";
+"lastrefresh" = "Last Updated";
+"releaserefresh" = "Release to refresh";
+"pulldownrefresh" = "Pull down to refresh";
+"loading" = "Loading";

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="science">
+        <ItemSpec id="700100" tab="229990" name="120001" description="121001" icon="science_res_a_2" position="1;2" relation="2;4" show="1"/>
+        <ItemSpec id="700200" tab="229990" name="120002" description="121002" icon="science_res_a_3" position="1;6" relation="2;4" show="1"/>
+        <ItemSpec id="700300" tab="229990" name="120003" description="121003" icon="science_res_a_4" position="2;4" relation="3;4" show="2"/>
+        <ItemSpec id="700600" tab="229990" name="120006" description="121006" icon="science_res_a_7" position="3;4" relation="4;4" show="1"/>
+        <ItemSpec id="700800" tab="229990" name="120008" description="121008" icon="science_res_a_9" position="4;4" relation="5;2|5;6" show="1"/>
+        <ItemSpec id="701200" tab="229990" name="120012" description="121001" icon="science_res_a_2" position="5;2" relation="6;4" show="1"/>
+        <ItemSpec id="701300" tab="229990" name="120013" description="121002" icon="science_res_a_3" position="5;6" relation="6;4" show="1"/>
+        <ItemSpec id="701400" tab="229990" name="120014" description="121003" icon="science_res_a_4" position="6;4" relation="7;4" show="2"/>
+        <ItemSpec id="701700" tab="229990" name="120017" description="121006" icon="science_res_a_7" position="7;4" relation="8;4" show="1"/>
+        <ItemSpec id="701900" tab="229990" name="120019" description="121008" icon="science_res_a_9" position="8;4" show="1"/>
+        <ItemSpec id="710000" tab="229991" name="120026" description="113953" icon="science_dev_a_1" position="1;4" relation="3;4|2;2|2;6" show="1"/>
+        <ItemSpec id="710300" tab="229991" name="120029" description="121029" icon="science_dev_a_2" position="3;4" relation="4;2|4;6" show="1"/>
+        <ItemSpec id="710400" tab="229991" name="120030" description="121030" icon="science_dev_a_3" position="5;4" relation="7;4|6;2|6;6" show="1"/>
+        <ItemSpec id="710500" tab="229991" name="120031" description="121031" icon="science_dev_a_4" position="4;2" relation="5;4" show="2"/>
+        <ItemSpec id="710600" tab="229991" name="120032" description="121032" icon="science_dev_a_5" position="4;6" relation="5;4" show="1"/>
+        <ItemSpec id="710700" tab="229991" name="120033" description="113953" icon="science_dev_a_1" position="7;4" relation="8;4" show="1"/>
+        <ItemSpec id="711000" tab="229991" name="120036" description="121029" icon="science_dev_a_2" position="8;4" relation="9;2|9;6" show="1"/>
+        <ItemSpec id="711100" tab="229991" name="120037" description="121030" icon="science_dev_a_3" position="10;4" show="1"/>
+        <ItemSpec id="711200" tab="229991" name="120038" description="121031" icon="science_dev_a_4" position="9;2" relation="10;4" show="2"/>
+        <ItemSpec id="711300" tab="229991" name="120039" description="121032" icon="science_dev_a_5" position="9;6" relation="10;4" show="1"/>
+        <ItemSpec id="711400" tab="229991" name="120149" description="121149" icon="science_dev_a_6" position="2;2" show="1"/>
+        <ItemSpec id="711500" tab="229991" name="120150" description="121150" icon="science_dev_a_7" position="2;6" show="1"/>
+        <ItemSpec id="711600" tab="229991" name="120151" description="121149" icon="science_dev_a_6" position="6;2" show="1"/>
+        <ItemSpec id="711700" tab="229991" name="120152" description="121150" icon="science_dev_a_7" position="6;6" show="1"/>
+        <ItemSpec id="730000" tab="229993" name="120060" description="121060" icon="science_mil_a_1" position="1;4" relation="2;1|3;2|2;7" show="1"/>
+        <ItemSpec id="730100" tab="229993" name="120061" description="121061" icon="science_mil_a_2" position="2;1" relation="5;1" show="1"/>
+        <ItemSpec id="730200" tab="229993" name="120062" description="121062" icon="science_mil_a_3" position="3;2" relation="6;2" show="1"/>
+        <ItemSpec id="730300" tab="229993" name="120063" description="121063" icon="science_mil_a_4" position="2;7" relation="5;7" show="1"/>
+        <ItemSpec id="730400" tab="229993" name="120064" description="121064" icon="science_mil_a_5" position="3;6" relation="6;6" show="1"/>
+        <ItemSpec id="730500" tab="229993" name="120065" description="121065" icon="science_mil_a_6" position="4;4" relation="7;4" show="1"/>
+        <ItemSpec id="730600" tab="229993" name="120066" description="121066" icon="science_mil_a_7" position="5;1" relation="8;1" show="1"/>
+        <ItemSpec id="730700" tab="229993" name="120067" description="121067" icon="science_mil_a_8" position="6;2" relation="9;2" show="1"/>
+        <ItemSpec id="730800" tab="229993" name="120068" description="121068" icon="science_mil_a_9" position="5;7" relation="8;7" show="1"/>
+        <ItemSpec id="730900" tab="229993" name="120069" description="121069" icon="science_mil_a_10" position="6;6" relation="9;6" show="1"/>
+        <ItemSpec id="731000" tab="229993" name="120070" description="121108" icon="science_mil_a_11" position="7;4" relation="10;4" show="2"/>
+        <ItemSpec id="731100" tab="229993" name="120071" description="121071" icon="science_mil_a_12" position="8;1" show="1"/>
+        <ItemSpec id="731200" tab="229993" name="120072" description="121072" icon="science_mil_a_13" position="9;2" show="1"/>
+        <ItemSpec id="731300" tab="229993" name="120073" description="121073" icon="science_mil_a_14" position="8;7" show="1"/>
+        <ItemSpec id="731400" tab="229993" name="120074" description="121074" icon="science_mil_a_15" position="9;6" show="1"/>
+        <ItemSpec id="731500" tab="229993" name="120075" description="113923" icon="science_mil_a_16" position="10;4" relation="11;4" show="2"/>
+        <ItemSpec id="731600" tab="229993" name="120076" description="121108" icon="science_mil_a_11" position="11;4" relation="12;1|13;2|12;7" show="2"/>
+        <ItemSpec id="731700" tab="229993" name="120077" description="121061" icon="science_mil_a_2" position="12;1" relation="15;1" show="1"/>
+        <ItemSpec id="731800" tab="229993" name="120078" description="121062" icon="science_mil_a_3" position="13;2" relation="16;2" show="1"/>
+        <ItemSpec id="731900" tab="229993" name="120079" description="121063" icon="science_mil_a_4" position="12;7" relation="15;7" show="1"/>
+        <ItemSpec id="732000" tab="229993" name="120080" description="121064" icon="science_mil_a_5" position="13;6" relation="16;6" show="1"/>
+        <ItemSpec id="732100" tab="229993" name="120081" description="121060" icon="science_mil_a_1" position="14;4" relation="17;4" show="1"/>
+        <ItemSpec id="732200" tab="229993" name="120082" description="121066" icon="science_mil_a_7" position="15;1" relation="18;1" show="1"/>
+        <ItemSpec id="732300" tab="229993" name="120083" description="121067" icon="science_mil_a_8" position="16;2" relation="19;2" show="1"/>
+        <ItemSpec id="732400" tab="229993" name="120084" description="121068" icon="science_mil_a_9" position="15;7" relation="18;7" show="1"/>
+        <ItemSpec id="732500" tab="229993" name="120085" description="121069" icon="science_mil_a_10" position="16;6" relation="19;6" show="1"/>
+        <ItemSpec id="732600" tab="229993" name="120086" description="121065" icon="science_mil_a_6" position="17;4" relation="20;4" show="1"/>
+        <ItemSpec id="732700" tab="229993" name="120087" description="121071" icon="science_mil_a_12" position="18;1" show="1"/>
+        <ItemSpec id="732800" tab="229993" name="120088" description="121072" icon="science_mil_a_13" position="19;2" show="1"/>
+        <ItemSpec id="732900" tab="229993" name="120089" description="121073" icon="science_mil_a_14" position="18;7" show="1"/>
+        <ItemSpec id="733000" tab="229993" name="120090" description="121074" icon="science_mil_a_15" position="19;6" show="1"/>
+        <ItemSpec id="733100" tab="229993" name="120091" description="113923" icon="science_mil_a_16" position="20;4" relation="21;4" show="2"/>
+        <ItemSpec id="733200" tab="229993" name="120092" description="121108" icon="science_mil_a_11" position="21;4" relation="22;1|23;2|22;7" show="2"/>
+        <ItemSpec id="733300" tab="229993" name="120093" description="121061" icon="science_mil_a_2" position="22;1" relation="25;1" show="1"/>
+        <ItemSpec id="733400" tab="229993" name="120094" description="121062" icon="science_mil_a_3" position="23;2" relation="26;2" show="1"/>
+        <ItemSpec id="733500" tab="229993" name="120095" description="121063" icon="science_mil_a_4" position="22;7" relation="25;7" show="1"/>
+        <ItemSpec id="733600" tab="229993" name="120096" description="121064" icon="science_mil_a_5" position="23;6" relation="26;6" show="1"/>
+        <ItemSpec id="733700" tab="229993" name="120097" description="121060" icon="science_mil_a_1" position="24;4" relation="27;4" show="1"/>
+        <ItemSpec id="733800" tab="229993" name="120098" description="121066" icon="science_mil_a_7" position="25;1" relation="28;1" show="1"/>
+        <ItemSpec id="733900" tab="229993" name="120099" description="121067" icon="science_mil_a_8" position="26;2" relation="29;2" show="1"/>
+        <ItemSpec id="734000" tab="229993" name="120100" description="121068" icon="science_mil_a_9" position="25;7" relation="28;7" show="1"/>
+        <ItemSpec id="734100" tab="229993" name="120101" description="121069" icon="science_mil_a_10" position="26;6" relation="29;6" show="1"/>
+        <ItemSpec id="734200" tab="229993" name="120102" description="121065" icon="science_mil_a_6" position="27;4" relation="30;4" show="1"/>
+        <ItemSpec id="734300" tab="229993" name="120103" description="121071" icon="science_mil_a_12" position="28;1" show="1"/>
+        <ItemSpec id="734400" tab="229993" name="120104" description="121072" icon="science_mil_a_13" position="29;2" show="1"/>
+        <ItemSpec id="734500" tab="229993" name="120105" description="121073" icon="science_mil_a_14" position="28;7" show="1"/>
+        <ItemSpec id="734600" tab="229993" name="120106" description="121074" icon="science_mil_a_15" position="29;6" show="1"/>
+        <ItemSpec id="734700" tab="229993" name="120107" description="113923" icon="science_mil_a_16" position="30;4" show="2"/>
+    </Group>
+</tns:database>

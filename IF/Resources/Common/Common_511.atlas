@@ -1,0 +1,25 @@
+Common_511.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz6_shouzhi_
+  rotate: false
+  xy: 430, 4
+  size: 39, 26
+  orig: 39, 26
+  offset: 0, 0
+  index: -1
+lz6_toushi_
+  rotate: false
+  xy: 475, 4
+  size: 16, 151
+  orig: 16, 151
+  offset: 0, 0
+  index: -1
+lz6_
+  rotate: false
+  xy: 4, 4
+  size: 420, 500
+  orig: 420, 500
+  offset: 0, 0
+  index: -1

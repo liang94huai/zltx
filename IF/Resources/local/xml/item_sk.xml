@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="sk">
+        <ItemSpec id="620600" type_value="0" description="130055" cd_time="0" condition_skill="620400;5|620500;5" max_lv="5" para1="66" base="50" add="50" icon="skill2_620600" type="0" name="129055"/>
+        <ItemSpec id="610400" type_value="0" description="130032" cd_time="0" condition_skill="610200;5" max_lv="5" para1="154" base="200" add="200" icon="skill2_610400" type="0" name="129032"/>
+        <ItemSpec id="621100" type_value="0" description="130060" cd_time="0" condition_skill="621900;1" max_lv="20" para1="67" base="200" add="200" icon="skill2_621100" type="0" name="129060"/>
+        <ItemSpec id="620900" type_value="0" description="130058" cd_time="0" condition_skill="620800;20" max_lv="20" para1="60" base="100" add="100" icon="skill2_620900" type="0" name="129058"/>
+        <ItemSpec id="601500" type_value="0" description="130015" cd_time="0" condition_skill="622000;1" max_lv="20" para1="1015|1016" base="100|100" add="100|100" icon="skill2_601500" type="0" name="129015"/>
+        <ItemSpec id="620700" type_value="2" description="130056" cd_time="240" max_lv="1" base="50%|60" icon="skill2_620700" type="1" name="129056"/>
+        <ItemSpec id="622300" description="130070" cd_time="720" condition_skill="620100;5" max_lv="1" para1="107;30" icon="item407" type="20" name="130069"/>
+        <ItemSpec id="610900" type_value="0" description="130037" cd_time="0" condition_skill="610600;5" max_lv="20" para1="53" base="400" add="400" icon="skill2_610900" type="0" name="129037"/>
+        <ItemSpec id="621000" type_value="1" description="130059" cd_time="0" condition_skill="621900;1" max_lv="20" para1="131" base="25" add="25" icon="skill2_621000" type="0" name="129059"/>
+        <ItemSpec id="611400" type_value="0" description="130042" cd_time="0" condition_skill="622100;1" max_lv="20" para1="68" base="50" add="50" icon="skill2_611400" type="0" name="129042"/>
+        <ItemSpec id="601400" type_value="0" description="130014" cd_time="0" condition_skill="622000;1" max_lv="20" para1="1013|1014" base="100|100" add="100|100" icon="skill2_601400" type="0" name="129014"/>
+        <ItemSpec id="602300" type_value="0" description="130023" cd_time="0" condition_skill="602000;20" max_lv="20" para1="1047|1048" base="100|100" add="100|100" icon="skill2_602300" type="0" name="129023"/>
+        <ItemSpec id="610600" type_value="1" description="130034" cd_time="0" condition_skill="610300;5|610400;5" max_lv="5" para1="72" base="10000" add="10000" icon="skill2_610600" type="0" name="129034"/>
+        <ItemSpec id="621300" type_value="0" description="130062" cd_time="0" condition_skill="621100;20" max_lv="20" para1="1154" base="400" add="400" icon="skill2_621300" type="0" name="129062"/>
+        <ItemSpec id="611100" type_value="0" description="130039" cd_time="0" condition_skill="610800;20" max_lv="20" para1="153" base="200" add="200" icon="skill2_611100" type="0" name="129039"/>
+        <ItemSpec id="610500" type_value="0" description="130033" cd_time="0" condition_skill="610000;5" max_lv="5" para1="69" base="50" add="50" icon="skill2_610500" type="0" name="129033"/>
+        <ItemSpec id="611200" type_value="0" description="130040" cd_time="0" condition_skill="610900;20" max_lv="20" para1="154" base="200" add="200" icon="skill2_611200" type="0" name="129040"/>
+        <ItemSpec id="621200" type_value="1" description="130061" cd_time="0" condition_skill="621000;20" max_lv="20" para1="73" base="1000" add="1000" icon="skill2_621200" type="0" name="129061"/>
+        <ItemSpec id="600600" type_value="0" description="130006" cd_time="0" condition_skill="600300;5" max_lv="5" para1="1017|1018" base="100|100" add="100|100" icon="skill2_600600" type="0" name="129006"/>
+        <ItemSpec id="602100" type_value="0" description="130021" cd_time="0" condition_skill="602000;20" max_lv="20" para1="1043|1044" base="100|100" add="100|100" icon="skill2_602100" type="0" name="129021"/>
+        <ItemSpec id="600900" type_value="0" description="130009" cd_time="0" condition_skill="600600;5" max_lv="5" para1="1037|1038" base="100|100" add="100|100" icon="skill2_600900" type="0" name="129009"/>
+        <ItemSpec id="602200" type_value="0" description="130022" cd_time="0" condition_skill="602000;20" max_lv="20" para1="1045|1046" base="100|100" add="100|100" icon="skill2_602200" type="0" name="129022"/>
+        <ItemSpec id="610100" type_value="0" description="130029" cd_time="0" condition_skill="610700;1" max_lv="5" para1="50" base="400" add="400" icon="skill2_610100" type="0" name="129029"/>
+        <ItemSpec id="610700" type_value="2" description="130035" cd_time="720" condition_skill="610500;5" max_lv="1" para1="5" base="5" icon="skill2_610700" type="12" name="129035"/>
+        <ItemSpec id="600700" type_value="0" description="130007" cd_time="0" condition_skill="600400;5" max_lv="5" para1="1033|1034" base="100|100" add="100|100" icon="skill2_600700" type="0" name="129007"/>
+        <ItemSpec id="621900" type_value="2" description="130068" cd_time="240" condition_skill="620900;20" max_lv="1" para1="500" base="500" icon="skill2_621900" type="15" name="129068"/>
+        <ItemSpec id="621700" type_value="0" description="130066" cd_time="0" condition_skill="621500;20" max_lv="20" para1="1153" base="300" add="300" icon="skill2_621700" type="0" name="129066"/>
+        <ItemSpec id="611000" type_value="0" description="130038" cd_time="0" condition_skill="610600;5" max_lv="20" para1="52" base="500" add="500" icon="skill2_611000" type="0" name="129038"/>
+        <ItemSpec id="622200" description="130076" cd_time="1080" condition_skill="621800;20" max_lv="1" para1="501052" icon="skill2_622200" type="17" name="130075"/>
+        <ItemSpec id="601300" type_value="0" description="130013" cd_time="0" condition_skill="600700;5|600800;5|600900;5" max_lv="20" para1="1011|1012" base="100|100" add="100|100" icon="skill2_601300" type="0" name="129013"/>
+        <ItemSpec id="620400" type_value="1" description="130053" cd_time="0" condition_skill="620200;5" max_lv="5" para1="73" base="1000" add="1000" icon="skill2_620400" type="0" name="129053"/>
+        <ItemSpec id="600000" type_value="0" description="130000" cd_time="0" max_lv="5" para1="78" base="200" add="200" icon="skill2_600000" type="0" name="129000"/>
+        <ItemSpec id="602700" description="130027" cd_time="480" condition_skill="602400;20|602500;20|602600;20" max_lv="1" para1="0" icon="skill2_602700" type="11" name="129027"/>
+        <ItemSpec id="621800" type_value="0" description="130067" cd_time="0" condition_skill="621600;20|621700;20" max_lv="20" para1="66" base="50" add="50" icon="skill2_621800" type="0" name="129067"/>
+        <ItemSpec id="601200" type_value="0" description="130012" cd_time="0" condition_skill="601300;20" max_lv="20" para1="1041|1042" base="100|100" add="100|100" icon="skill2_601200" type="0" name="129012"/>
+        <ItemSpec id="602000" type_value="0" description="130020" cd_time="0" condition_skill="601700;20|601800;20|601900;20" max_lv="20" para1="1071|1072" base="100|100" add="100|100" icon="skill2_602000" type="0" name="129020"/>
+        <ItemSpec id="620100" type_value="0" description="130050" cd_time="0" condition_skill="620000;5" max_lv="5" para1="106" base="1000" add="1000" icon="skill2_620100" type="0" name="129050"/>
+        <ItemSpec id="600100" type_value="0" description="130001" cd_time="0" condition_skill="600000;5" max_lv="5" para1="1031|1032" base="100|100" add="100|100" icon="skill2_600100" type="0" name="129001"/>
+        <ItemSpec id="612000" type_value="2" description="130048" cd_time="1440" condition_skill="611900;20" max_lv="1" para1="501051" base="2" icon="skill2_612000" type="13" name="129048"/>
+        <ItemSpec id="621500" type_value="0" description="130064" cd_time="0" condition_skill="621300;20" max_lv="20" para1="1152" base="200" add="200" icon="skill2_621500" type="0" name="129064"/>
+        <ItemSpec id="611700" type_value="0" description="130045" cd_time="0" condition_skill="611600;20" max_lv="20" para1="51" base="500" add="500" icon="skill2_611700" type="0" name="129045"/>
+        <ItemSpec id="620200" type_value="1" description="130051" cd_time="0" condition_skill="622300;1" max_lv="5" para1="131" base="25" add="25" icon="skill2_620200" type="0" name="129051"/>
+        <ItemSpec id="600200" type_value="0" description="130002" cd_time="0" condition_skill="600000;5" max_lv="5" para1="1041|1042" base="100|100" add="100|100" icon="skill2_600200" type="0" name="129002"/>
+        <ItemSpec id="621400" type_value="0" description="130063" cd_time="0" condition_skill="621200;20" max_lv="20" para1="121" base="200" add="200" icon="skill2_621400" type="0" name="129063"/>
+        <ItemSpec id="620300" type_value="0" description="130052" cd_time="0" condition_skill="622300;1" max_lv="5" para1="67" base="200" add="200" icon="skill2_620300" type="0" name="129052"/>
+        <ItemSpec id="600300" type_value="0" description="130003" cd_time="0" condition_skill="601000;1" max_lv="5" para1="1011|1012" base="100|100" add="100|100" icon="skill2_600300" type="0" name="129003"/>
+        <ItemSpec id="622000" description="130072" cd_time="1440" condition_skill="601100;20|601200;20" max_lv="1" para1="501053" icon="skill2_622000" type="18" name="130071"/>
+        <ItemSpec id="601800" type_value="0" description="130018" cd_time="0" condition_skill="601500;20" max_lv="20" para1="1035|1036" base="100|100" add="100|100" icon="skill2_601800" type="0" name="129018"/>
+        <ItemSpec id="620000" type_value="0" description="130049" cd_time="0" max_lv="5" para1="59" base="1000" add="1000" icon="skill2_620000" type="0" name="129049"/>
+        <ItemSpec id="610200" type_value="0" description="130030" cd_time="0" condition_skill="610700;1" max_lv="5" para1="53" base="400" add="400" icon="skill2_610200" type="0" name="129030"/>
+        <ItemSpec id="611600" type_value="1" description="130044" cd_time="0" condition_skill="611500;20" max_lv="20" para1="72" base="10000" add="10000" icon="skill2_611600" type="0" name="129044"/>
+        <ItemSpec id="622100" description="130074" cd_time="1080" condition_skill="611100;20|611200;20|611300;20" max_lv="1" para1="501054" icon="skill2_622100" type="19" name="130073"/>
+        <ItemSpec id="611900" type_value="0" description="130047" cd_time="0" condition_skill="611700;20|611800;20" max_lv="20" para1="79" base="200" add="200" icon="skill2_611900" type="0" name="129047"/>
+        <ItemSpec id="600800" type_value="0" description="130008" cd_time="0" condition_skill="600500;5" max_lv="5" para1="1035|1036" base="100|100" add="100|100" icon="skill2_600800" type="0" name="129008"/>
+        <ItemSpec id="610000" type_value="0" description="130028" cd_time="0" max_lv="5" para1="68" base="50" add="50" icon="skill2_610000" type="0" name="129028"/>
+        <ItemSpec id="601100" type_value="0" description="130011" cd_time="0" condition_skill="601300;20" max_lv="20" para1="1031|1032" base="100|100" add="100|100" icon="skill2_601100" type="0" name="129011"/>
+        <ItemSpec id="620500" type_value="0" description="130054" cd_time="0" condition_skill="620300;5" max_lv="5" para1="1154" base="400" add="400" icon="skill2_620500" type="0" name="129054"/>
+        <ItemSpec id="611300" type_value="0" description="130041" cd_time="0" condition_skill="611000;20" max_lv="20" para1="155" base="200" add="200" icon="skill2_611300" type="0" name="129041"/>
+        <ItemSpec id="602500" type_value="0" description="130025" cd_time="0" condition_skill="602200;20" max_lv="20" para1="1065|1066" base="80|80" add="80|80" icon="skill2_602500" type="0" name="129025"/>
+        <ItemSpec id="601900" type_value="0" description="130019" cd_time="0" condition_skill="601600;20" max_lv="20" para1="1037|1038" base="100|100" add="100|100" icon="skill2_601900" type="0" name="129019"/>
+        <ItemSpec id="601000" description="130010" cd_time="480" condition_skill="600100;5|600200;5" max_lv="1" para1="0" icon="skill2_601000" type="10" name="129010"/>
+        <ItemSpec id="602600" type_value="0" description="130026" cd_time="0" condition_skill="602300;20" max_lv="20" para1="1207|1208" base="100|100" add="100|100" icon="skill2_602600" type="0" name="129026"/>
+        <ItemSpec id="610300" type_value="0" description="130031" cd_time="0" condition_skill="610100;5" max_lv="5" para1="153" base="200" add="200" icon="skill2_610300" type="0" name="129031"/>
+        <ItemSpec id="610800" type_value="0" description="130036" cd_time="0" condition_skill="610600;5" max_lv="20" para1="50" base="400" add="400" icon="skill2_610800" type="0" name="129036"/>
+        <ItemSpec id="600400" type_value="0" description="130004" cd_time="0" condition_skill="600300;5" max_lv="5" para1="1013|1014" base="100|100" add="100|100" icon="skill2_600400" type="0" name="129004"/>
+        <ItemSpec id="611800" type_value="0" description="130046" cd_time="0" condition_skill="611600;20" max_lv="20" para1="156" base="200" add="200" icon="skill2_611800" type="0" name="129046"/>
+        <ItemSpec id="611500" type_value="0" description="130043" cd_time="0" condition_skill="611400;20" max_lv="20" para1="69" base="50" add="50" icon="skill2_611500" type="0" name="129043"/>
+        <ItemSpec id="601700" type_value="0" description="130017" cd_time="0" condition_skill="601400;20" max_lv="20" para1="1033|1034" base="100|100" add="100|100" icon="skill2_601700" type="0" name="129017"/>
+        <ItemSpec id="620800" type_value="0" description="130057" cd_time="0" condition_skill="620600;5" max_lv="20" para1="59" base="1000" add="1000" icon="skill2_620800" type="0" name="129057"/>
+        <ItemSpec id="600500" type_value="0" description="130005" cd_time="0" condition_skill="600300;5" max_lv="5" para1="1015|1016" base="100|100" add="100|100" icon="skill2_600500" type="0" name="129005"/>
+        <ItemSpec id="621600" type_value="0" description="130065" cd_time="0" condition_skill="621400;20" max_lv="20" para1="108" base="200" add="200" icon="skill2_621600" type="0" name="129065"/>
+        <ItemSpec id="601600" type_value="0" description="130016" cd_time="0" condition_skill="622000;1" max_lv="20" para1="1017|1018" base="100|100" add="100|100" icon="skill2_601600" type="0" name="129016"/>
+        <ItemSpec id="602400" type_value="0" description="130024" cd_time="0" condition_skill="602100;20" max_lv="20" para1="101010|101011" base="200|200" add="200|200" icon="skill2_602400" type="2" name="129024"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,86 @@
+/*
+ Localizable.strings
+ accesssdk
+ 
+ Created by zhao shuan on 11/18/14.
+ Copyright (c) 2014 zs_hoolai. All rights reserved.
+ */
+"account" = "游客";
+"guesttip" = "为了确保您的账号安全，请尽快绑定为正式账号。游客账号将生成恢复ID及恢复码，以图片形式存入设备相册中，便于您找回账号及更换设备时使用，请妥善保存恢复ID及恢复码图片";
+"loginbtn" = "登录";
+"hoolaititle" = "互乐游戏";
+"otherloginbtn" = "使用其它账号登录";
+"regbtn" = "注册账号";
+"regbtn1" = "普通注册";
+"regbtn2" = "手机注册";
+"hlaccount" = "互乐通行证";
+"forgotpwd" = "忘记密码?";
+"findpwd" = "重置密码";
+"resetpwd" = "重置密码";
+"recoverycodefind" = "游客账号找回";
+"recoveryid" = "恢复ID";
+"recoverydesc" = "请在您首次使用游客账号登录的设备相册中，找到恢复ID及恢复码，填写以下内容";
+"recoveryguesttip" = "为了确保您的账号安全，请尽快绑定为正式账号。使用手机号码绑定正式账号，可方便的进行账号管理及密码重置。";
+"recoveryphotodes" = "以上信息为您在互乐游戏中游客账号的恢复ID和恢复码\n用于恢复您在%@中的游客账号";
+"recoverycode" = "恢复码";
+"recoverysure" = "游客账号找回";
+"passportfield" = "用户名/手机号";
+"username" = "用户名";
+"phone" = "手机号";
+"password" = "密码";
+"passwordphotodes" = "以上信息为您在互乐游戏中的账号及密码，请妥善保存\n本信息存储时间:%@\n用于登录您在%@中的账号";
+"newpassword" = "新密码";
+"enterusername" = "请输入用户名";
+"enterpwd" = "请输入密码";
+"enterphone" = "请输入手机号";
+"reghoolai" = "注册互乐通行证";
+"show" = "显示";
+"hide" = "隐藏";
+"privacydesc" = "点击注册帐号表示您同意<a href='%@/privace.html'>[用户隐私协议]</a>";
+"networkerror" = "网络不给力啊";
+"loginwelcome" = "%@, 欢迎进入游戏";
+"curracount" = "当前账号";
+"quitacount" = "退出账号";
+"quickgame" = "快速游戏";
+"logingame" = "互乐通行证登录";
+"ok" = "确定";
+"authorizefailed" = "授权失败";
+"getverycode" = "获取验证码";
+"verycode" = "验证码";
+"verycodealert" = "验证码已发送，请注意查收短信。";
+"entercode" = "请输入验证码";
+"pwdalert" = "账号密码已发送到您的手机，请注意查收。";
+"guestnickname" = "游客";
+"changepassword" = "修改密码";
+"surechangepwd" = "确认修改密码";
+"inputcurrentpwd" = "请输入原密码";
+"inputnewpwd" = "请输入新密码";
+"repeatnewpwd" = "重新输入新密码";
+"currentpwdnull" = "原密码为空";
+"newpwdnull" = "新密码为空";
+"repeatpwdnull" = "重复新密码为空";
+"pwdnotequal" = "密码输入不一致";
+"modifypwdsuccess" = "修改密码成功";
+"bind" = "绑定";
+"bindphone" = "绑定手机";
+"phonenull" = "手机号码为空";
+"codenull" = "验证码为空";
+"bindphonesuccess" = "绑定手机成功";
+"bindemail" = "绑定邮箱";
+"bindaccount" = "绑定账户";
+"bindemailandaccount" = "绑定邮箱/账户";
+"inputaccountemail" = "请输入用户名或邮箱";
+"phoneillegal" = "手机号码格式错误";
+"emailillegal" = "帐户必须只有字母、数字和下划线且以字母开头，不能以下划线结尾的4-20位";
+"accountillegal" = "帐户必须只有字母、数字和下划线且以字母开头，不能以下划线结尾的4-20位";
+"emailoraccountillegal" = "帐户必须只有字母、数字和下划线且以字母开头，不能以下划线结尾的4-20位";
+"inputbindpwd" = "请输入绑定密码";
+"pwdillegal" = "密码必须是数字或者字母或者半角符号的组合,不能有空格,长度6-20位";
+"bindaccountsuccess" = "绑定账户成功";
+"bindemailsuccess" = "绑定邮箱成功";
+"am" = "上午";
+"pm" = "下午";
+"lastrefresh" = "上次刷新";
+"releaserefresh" = "释放刷新";
+"pulldownrefresh" = "下拉刷新";
+"loading" = "加载";

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="worldcastle">
+        <ItemSpec id="44100" lv="1" Basics="0" isNewStyle="0"/>
+        <ItemSpec id="44101" lv="2" Basics="0" isNewStyle="0"/>
+        <ItemSpec id="44102" lv="3" Basics="0" isNewStyle="0"/>
+        <ItemSpec id="44103" lv="4" Basics="0" isNewStyle="0"/>
+        <ItemSpec id="44104" lv="5" Basics="1" isNewStyle="0"/>
+        <ItemSpec id="44105" lv="6" Basics="1" isNewStyle="0"/>
+        <ItemSpec id="44106" lv="7" Basics="1" isNewStyle="0"/>
+        <ItemSpec id="44107" lv="8" Basics="1" isNewStyle="0"/>
+        <ItemSpec id="44108" lv="9" Basics="2" isNewStyle="0"/>
+        <ItemSpec id="44109" lv="10" Basics="2" isNewStyle="0"/>
+        <ItemSpec id="44110" lv="11" Basics="2" isNewStyle="0"/>
+        <ItemSpec id="44111" lv="12" Basics="2" isNewStyle="0"/>
+        <ItemSpec id="44112" lv="13" Basics="3" isNewStyle="0"/>
+        <ItemSpec id="44113" lv="14" Basics="3" isNewStyle="0"/>
+        <ItemSpec id="44114" lv="15" Basics="3" isNewStyle="0"/>
+        <ItemSpec id="44115" lv="16" Basics="3" isNewStyle="0"/>
+        <ItemSpec id="44116" lv="17" Basics="4" isNewStyle="0"/>
+        <ItemSpec id="44117" lv="18" Basics="4" isNewStyle="0"/>
+        <ItemSpec id="44118" lv="19" Basics="4" isNewStyle="0"/>
+        <ItemSpec id="44119" lv="20" Basics="4" isNewStyle="0"/>
+        <ItemSpec id="44120" lv="21" Basics="5" isNewStyle="0"/>
+        <ItemSpec id="44121" lv="22" Basics="5" isNewStyle="0"/>
+        <ItemSpec id="44122" lv="23" Basics="5" isNewStyle="0"/>
+        <ItemSpec id="44123" lv="24" Basics="5" isNewStyle="0"/>
+        <ItemSpec id="44124" lv="25" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44125" lv="26" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44126" lv="27" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44127" lv="28" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44128" lv="29" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44129" lv="30" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44988" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44989" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44990" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44991" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44992" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44993" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44994" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44995" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44996" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44997" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44998" Basics="6" isNewStyle="0"/>
+        <ItemSpec id="44999" Basics="6" isNewStyle="0"/>
+    </Group>
+</tns:database>

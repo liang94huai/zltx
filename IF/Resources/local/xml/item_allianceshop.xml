@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="allianceshop">
+        <ItemSpec id="7221" item="200230" time="660" funds="23000" contribution="2300" type="3"/>
+        <ItemSpec id="7220" item="200221" time="630" funds="22000" contribution="2200" type="3"/>
+        <ItemSpec id="7223" item="200301" time="720" funds="25000" contribution="2500" type="4"/>
+        <ItemSpec id="7222" item="200300" time="690" funds="24000" contribution="2400" type="3"/>
+        <ItemSpec id="7225" item="200303" time="780" funds="27000" contribution="2700" type="4"/>
+        <ItemSpec id="7224" item="200302" time="750" funds="26000" contribution="2600" type="4"/>
+        <ItemSpec id="7227" item="200350" time="840" funds="29000" contribution="2900" type="4"/>
+        <ItemSpec id="7226" item="200304" time="810" funds="28000" contribution="2800" type="4"/>
+        <ItemSpec id="7229" item="200400" time="900" funds="31000" contribution="3100" type="4"/>
+        <ItemSpec id="7228" item="200400" time="870" funds="30000" contribution="3000" type="4"/>
+        <ItemSpec id="7209" item="200101" time="300" funds="11000" contribution="1100" type="1"/>
+        <ItemSpec id="7208" item="200100" time="270" funds="10000" contribution="1000" type="1"/>
+        <ItemSpec id="7203" item="200003" time="120" funds="5000" contribution="500" type="0"/>
+        <ItemSpec id="7202" item="200002" time="90" funds="4000" contribution="400" type="0"/>
+        <ItemSpec id="7201" item="200001" time="60" funds="3000" contribution="300" type="0"/>
+        <ItemSpec id="7200" item="200000" time="30" funds="2000" contribution="200" type="0"/>
+        <ItemSpec id="7207" item="200007" time="240" funds="9000" contribution="900" type="1"/>
+        <ItemSpec id="7206" item="200006" time="210" funds="8000" contribution="800" type="1"/>
+        <ItemSpec id="7205" item="200005" time="180" funds="7000" contribution="700" type="0"/>
+        <ItemSpec id="7204" item="200004" time="150" funds="6000" contribution="600" type="0"/>
+        <ItemSpec id="7230" item="200401" time="930" funds="32000" contribution="3200" type="5"/>
+        <ItemSpec id="7218" item="200207" time="570" funds="20000" contribution="2000" type="3"/>
+        <ItemSpec id="7219" item="200220" time="600" funds="21000" contribution="2100" type="3"/>
+        <ItemSpec id="7210" item="200102" time="330" funds="12000" contribution="1200" type="1"/>
+        <ItemSpec id="7211" item="200200" time="360" funds="13000" contribution="1300" type="1"/>
+        <ItemSpec id="7212" item="200201" time="390" funds="14000" contribution="1400" type="2"/>
+        <ItemSpec id="7213" item="200202" time="420" funds="15000" contribution="1500" type="2"/>
+        <ItemSpec id="7214" item="200203" time="450" funds="16000" contribution="1600" type="2"/>
+        <ItemSpec id="7215" item="200204" time="480" funds="17000" contribution="1700" type="2"/>
+        <ItemSpec id="7216" item="200205" time="510" funds="18000" contribution="1800" type="2"/>
+        <ItemSpec id="7217" item="200206" time="540" funds="19000" contribution="1900" type="3"/>
+    </Group>
+</tns:database>

@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "L3gYXfPBp1aB2cRCZsxr58AJrjA", "spine": "2.1.27", "width": 293, "height": 262.31, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "city_move_2_", "bone": "root", "attachment": "city_move_2_" },
+	{ "name": "city_move_1_", "bone": "root", "attachment": "city_move_1_", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"city_move_1_": {
+			"city_move_1_": { "x": -2.57, "y": 122.28, "scaleX": 1.552, "scaleY": 1.552, "width": 174, "height": 169 }
+		},
+		"city_move_2_": {
+			"city_move_2_": { "x": 0.07, "y": 85.87, "width": 293, "height": 169 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"city_move_1_": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"city_move_2_": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

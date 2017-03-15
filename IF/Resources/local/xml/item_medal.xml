@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="medal">
+        <ItemSpec id="9262" icon_sub="0" icon_base="medal_11" name="137318" icon_main="medal_11" achievement="260072"/>
+        <ItemSpec id="9261" icon_sub="0" icon_base="medal_10" name="137317" icon_main="medal_10" achievement="260062"/>
+        <ItemSpec id="9268" icon_sub="1" icon_base="medal_12" name="137323" icon_main="medal_12" achievement="260132"/>
+        <ItemSpec id="9272" icon_sub="0" icon_base="medal_14" name="137262" icon_main="medal_14" achievement="260138"/>
+        <ItemSpec id="9266" icon_sub="2" icon_base="medal_13" name="137306" icon_main="medal_13" achievement="260112"/>
+        <ItemSpec id="9258" icon_sub="0" icon_base="medal_9" name="137322" icon_main="medal_9" achievement="260032"/>
+        <ItemSpec id="9256" icon_sub="1" icon_base="medal_7" name="137302" icon_main="medal_7" achievement="260012"/>
+        <ItemSpec id="9257" icon_sub="1" icon_base="medal_8" name="137315" icon_main="medal_8" achievement="260022"/>
+        <ItemSpec id="9254" icon_sub="1" icon_base="medal_5" name="137303" icon_main="medal_5" achievement="9231"/>
+        <ItemSpec id="9255" icon_sub="0" icon_base="medal_6" name="137327" icon_main="medal_6" achievement="260002"/>
+        <ItemSpec id="9252" icon_sub="0" icon_base="medal_3" name="137314" icon_main="medal_3" achievement="9221"/>
+        <ItemSpec id="9253" icon_sub="2" icon_base="medal_4" name="137301" icon_main="medal_4" achievement="9226"/>
+        <ItemSpec id="9250" icon_sub="0" icon_base="medal_1" name="137310" icon_main="medal_1" achievement="9202"/>
+        <ItemSpec id="9251" icon_sub="0" icon_base="medal_2" name="137300" icon_main="medal_2" achievement="9215"/>
+    </Group>
+</tns:database>

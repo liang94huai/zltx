@@ -1,0 +1,116 @@
+Loading_1.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing
+  rotate: false
+  xy: 404, 4
+  size: 374, 568
+  orig: 374, 568
+  offset: 0, 0
+  index: -1
+chengbao
+  rotate: true
+  xy: 500, 675
+  size: 374, 334
+  orig: 374, 342
+  offset: 0, 3
+  index: -1
+fangzhenren1
+  rotate: false
+  xy: 802, 1315
+  size: 187, 322
+  orig: 187, 323
+  offset: 0, 0
+  index: -1
+fanzghen ren2
+  rotate: true
+  xy: 500, 1055
+  size: 254, 330
+  orig: 254, 333
+  offset: 0, 1
+  index: -1
+fanzghenren3
+  rotate: false
+  xy: 598, 1315
+  size: 198, 363
+  orig: 198, 364
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 699, 1684
+  size: 325, 193
+  orig: 326, 195
+  offset: 1, 0
+  index: -1
+jian5
+  rotate: false
+  xy: 4, 1326
+  size: 374, 546
+  orig: 374, 552
+  offset: 0, 0
+  index: -1
+ren 13
+  rotate: false
+  xy: 4, 2040
+  size: 1, 1
+  orig: 761, 1136
+  offset: 0, 1135
+  index: -1
+ren1
+  rotate: false
+  xy: 4, 2040
+  size: 1, 1
+  orig: 747, 1136
+  offset: 0, 1135
+  index: -1
+ren14
+  rotate: true
+  xy: 4, 1878
+  size: 156, 268
+  orig: 157, 270
+  offset: 0, 1
+  index: -1
+ren2
+  rotate: true
+  xy: 404, 578
+  size: 91, 220
+  orig: 91, 220
+  offset: 0, 0
+  index: -1
+ren3
+  rotate: false
+  xy: 836, 1055
+  size: 276, 221
+  orig: 277, 222
+  offset: 0, 0
+  index: -1
+ren6
+  rotate: false
+  xy: 384, 1810
+  size: 309, 232
+  orig: 309, 232
+  offset: 0, 0
+  index: -1
+ren7
+  rotate: false
+  xy: 384, 1326
+  size: 208, 478
+  orig: 208, 478
+  offset: 0, 0
+  index: -1
+ren8
+  rotate: true
+  xy: 4, 679
+  size: 641, 490
+  orig: 641, 490
+  offset: 0, 0
+  index: -1
+ren9
+  rotate: false
+  xy: 4, 4
+  size: 394, 669
+  orig: 394, 669
+  offset: 0, 0
+  index: -1

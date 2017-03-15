@@ -1,0 +1,218 @@
+{
+"skeleton": { "hash": "7zNzhGTwaE8P2kuYwaQ5rCK//JE", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "nongtian_tudi", "bone": "root" },
+	{ "name": "nongtian_shuiche_1", "bone": "root" },
+	{ "name": "nongtian_fangzi", "bone": "root" },
+	{ "name": "nongtian_maisui", "bone": "root" },
+	{ "name": "nongtian_maimiao", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"nongtian_fangzi": {
+			"nongtian_fangzi": { "x": 6.15, "y": 76.95, "width": 193, "height": 95 }
+		},
+		"nongtian_maimiao": {
+			"nongtian_maimiao": { "x": 24.15, "y": 41.45, "width": 137, "height": 76 }
+		},
+		"nongtian_maisui": {
+			"nongtian_maisui": { "x": 25.15, "y": 47.95, "width": 107, "height": 71 }
+		},
+		"nongtian_shuiche_1": {
+			"nongtian_shuiche_1_": { "x": 16.65, "y": 105.95, "width": 64, "height": 85 },
+			"nongtian_shuiche_2_": { "x": 16.65, "y": 105.95, "width": 64, "height": 85 },
+			"nongtian_shuiche_5_": { "x": 16.65, "y": 105.95, "width": 64, "height": 85 },
+			"nongtian_shuiche_6_": { "x": 16.65, "y": 105.95, "width": 64, "height": 85 },
+			"nongtian_shuiche_7_": { "x": 16.65, "y": 105.95, "width": 64, "height": 85 }
+		},
+		"nongtian_tudi": {
+			"nongtian_tudi": { "x": 7.15, "y": 71.95, "width": 195, "height": 153 }
+		}
+	}
+},
+"animations": {
+	"Full": {
+		"slots": {
+			"nongtian_fangzi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_fangzi" },
+					{ "time": 0.6666, "name": "nongtian_fangzi" }
+				]
+			},
+			"nongtian_maimiao": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"nongtian_maisui": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maisui" },
+					{ "time": 0.6666, "name": "nongtian_maisui" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"nongtian_shuiche_1": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_shuiche_1_" },
+					{ "time": 0.6666, "name": "nongtian_shuiche_1_" }
+				]
+			},
+			"nongtian_tudi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_tudi" },
+					{ "time": 0.6666, "name": "nongtian_tudi" }
+				]
+			}
+		}
+	},
+	"GrowthProcess": {
+		"slots": {
+			"nongtian_fangzi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_fangzi" },
+					{ "time": 0.6666, "name": "nongtian_fangzi" },
+					{ "time": 1.6666, "name": "nongtian_fangzi" }
+				]
+			},
+			"nongtian_maimiao": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maimiao" },
+					{ "time": 0.6666, "name": "nongtian_maimiao" },
+					{ "time": 1.6666, "name": "nongtian_maimiao" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"nongtian_maisui": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maisui" },
+					{ "time": 0.6666, "name": "nongtian_maisui" },
+					{ "time": 1, "name": "nongtian_maisui" },
+					{ "time": 1.6666, "name": "nongtian_maisui" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"nongtian_shuiche_1": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_shuiche_1_" },
+					{ "time": 0.1333, "name": "nongtian_shuiche_2_" },
+					{ "time": 0.2666, "name": "nongtian_shuiche_5_" },
+					{ "time": 0.4, "name": "nongtian_shuiche_6_" },
+					{ "time": 0.5333, "name": "nongtian_shuiche_7_" },
+					{ "time": 0.6666, "name": "nongtian_shuiche_1_" },
+					{ "time": 1.6666, "name": "nongtian_shuiche_1_" }
+				]
+			},
+			"nongtian_tudi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_tudi" },
+					{ "time": 0.6666, "name": "nongtian_tudi" },
+					{ "time": 1.6666, "name": "nongtian_tudi" }
+				]
+			}
+		}
+	},
+	"Havest": {
+		"slots": {
+			"nongtian_fangzi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_fangzi" },
+					{ "time": 0.8333, "name": "nongtian_fangzi" },
+					{ "time": 1.5, "name": "nongtian_fangzi" }
+				]
+			},
+			"nongtian_maimiao": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maimiao" },
+					{ "time": 0.8333, "name": "nongtian_maimiao" },
+					{ "time": 1.5, "name": "nongtian_maimiao" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"nongtian_maisui": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maisui" },
+					{ "time": 0.8333, "name": "nongtian_maisui" },
+					{ "time": 1.5, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"nongtian_shuiche_1": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_shuiche_1_" },
+					{ "time": 0.8333, "name": "nongtian_shuiche_1_" },
+					{ "time": 0.9666, "name": "nongtian_shuiche_2_" },
+					{ "time": 1.1, "name": "nongtian_shuiche_5_" },
+					{ "time": 1.2333, "name": "nongtian_shuiche_6_" },
+					{ "time": 1.3666, "name": "nongtian_shuiche_7_" },
+					{ "time": 1.5, "name": "nongtian_shuiche_1_" }
+				]
+			},
+			"nongtian_tudi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_tudi" },
+					{ "time": 0.8333, "name": "nongtian_tudi" },
+					{ "time": 1.5, "name": "nongtian_tudi" }
+				]
+			}
+		}
+	},
+	"Working": {
+		"slots": {
+			"nongtian_fangzi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_fangzi" },
+					{ "time": 0.6666, "name": "nongtian_fangzi" }
+				]
+			},
+			"nongtian_maimiao": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_maimiao" },
+					{ "time": 0.6666, "name": "nongtian_maimiao" }
+				]
+			},
+			"nongtian_maisui": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"nongtian_shuiche_1": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_shuiche_1_" },
+					{ "time": 0.1333, "name": "nongtian_shuiche_2_" },
+					{ "time": 0.2666, "name": "nongtian_shuiche_5_" },
+					{ "time": 0.4, "name": "nongtian_shuiche_6_" },
+					{ "time": 0.5333, "name": "nongtian_shuiche_7_" },
+					{ "time": 0.6666, "name": "nongtian_shuiche_1_" }
+				]
+			},
+			"nongtian_tudi": {
+				"attachment": [
+					{ "time": 0, "name": "nongtian_tudi" },
+					{ "time": 0.6666, "name": "nongtian_tudi" }
+				]
+			}
+		}
+	}
+}
+}

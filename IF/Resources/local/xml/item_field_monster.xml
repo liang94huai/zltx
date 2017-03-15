@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Group id="field_monster">
+        <ItemSpec id="9400" name="42" level="1" num="1" monster="Kulou"/>
+        <ItemSpec id="9401" name="42" level="2" num="1" monster="Kulou"/>
+        <ItemSpec id="9402" name="103734" level="3" num="1" monster="rm"/>
+        <ItemSpec id="9403" name="103734" level="4" num="1" monster="rm"/>
+        <ItemSpec id="9404" name="103734" level="5" num="1" monster="rm"/>
+        <ItemSpec id="9405" name="103770" level="6" num="1" monster="Yeren"/>
+        <ItemSpec id="9406" name="103770" level="7" num="1" monster="Yeren"/>
+        <ItemSpec id="9407" name="103770" level="8" num="1" monster="Yeren"/>
+        <ItemSpec id="9408" name="103770" level="9" num="1" monster="Yeren"/>
+        <ItemSpec id="9409" name="103770" level="10" num="1" monster="Yeren"/>
+        <ItemSpec id="9410" name="103770" level="11" num="1" monster="Yeren"/>
+        <ItemSpec id="9411" name="103733" level="12" num="1" monster="rock"/>
+        <ItemSpec id="9412" name="103733" level="13" num="1" monster="rock"/>
+        <ItemSpec id="9413" name="103733" level="14" num="1" monster="rock"/>
+        <ItemSpec id="9414" name="103733" level="15" num="1" monster="rock"/>
+        <ItemSpec id="9415" name="103733" level="16" num="1" monster="rock"/>
+        <ItemSpec id="9416" name="103733" level="17" num="1" monster="rock"/>
+        <ItemSpec id="9417" name="103732" level="18" num="1" monster="Griffin"/>
+        <ItemSpec id="9418" name="103732" level="19" num="1" monster="Griffin"/>
+        <ItemSpec id="9419" name="103732" level="20" num="1" monster="Griffin"/>
+        <ItemSpec id="9420" name="103732" level="4" num="1" monster="Griffin"/>
+        <ItemSpec id="9421" name="103732" level="8" num="1" monster="Griffin"/>
+        <ItemSpec id="9422" name="103732" level="12" num="1" monster="Griffin"/>
+        <ItemSpec id="9423" name="103769" level="16" num="1" monster="Shixianggui"/>
+        <ItemSpec id="9424" name="103769" level="20" num="1" monster="Shixianggui"/>
+        <ItemSpec id="2025" name="103768" level="1" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2026" name="103768" level="2" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2027" name="103768" level="3" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2028" name="103768" level="4" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2029" name="103768" level="5" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2030" name="103768" level="6" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2031" name="103768" level="7" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2032" name="103768" level="8" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2033" name="103768" level="9" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2034" name="103768" level="10" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2035" name="103768" level="11" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2036" name="103768" level="12" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2037" name="103768" level="13" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2038" name="103768" level="14" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2039" name="103768" level="15" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2040" name="103768" level="16" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2041" name="103768" level="17" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2042" name="103768" level="18" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2043" name="103768" level="19" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2044" name="103768" level="20" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2045" name="103768" level="21" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2046" name="103768" level="22" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2047" name="103768" level="23" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2048" name="103768" level="24" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2049" name="103768" level="25" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2050" name="103768" level="26" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2051" name="103768" level="27" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2052" name="103768" level="28" description="3130067,3130026,3130017,103726,3130002" num="1" monster="huangjinjun" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2053" name="103768" level="29" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_1" reward="200364,200374,200353" usePower="5"/>
+        <ItemSpec id="2054" name="103768" level="30" description="3130067,3130026,3130017,103726,3130002" num="1" monster="monster_mache_2" reward="200364,200374,200353" usePower="5"/>
+    </Group>
+</tns:database>

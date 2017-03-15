@@ -1,0 +1,13 @@
+{
+	"version":1,
+	"name":"乖胖是只猪",
+	"zoom_point":[60,58],
+	"lever":3,
+	"voice_animation":
+	{
+		"rect":[-32,6,42,46],
+		"dir":"voice",
+		"count": 20,
+		"time":50
+	}
+}

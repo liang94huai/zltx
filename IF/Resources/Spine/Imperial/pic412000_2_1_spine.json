@@ -1,0 +1,639 @@
+{
+"skeleton": { "hash": "ZenRO9tk52Jd6lCOgBKMZ0Cz/3o", "spine": "2.1.27", "width": 29.4, "height": 25.6, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "caishijiang", "parent": "root", "x": 15.73, "y": 73.31 },
+	{ "name": "caishijiang2", "parent": "root", "x": 15.73, "y": 73.31, "flipX": true },
+	{ "name": "caishijiang3", "parent": "root", "x": 15.73, "y": 73.31 }
+],
+"slots": [
+	{ "name": "csc_ditu", "bone": "root" },
+	{ "name": "csc_che_sk", "bone": "root" },
+	{ "name": "csc_sk", "bone": "root" },
+	{ "name": "csc_sk_1_", "bone": "root" },
+	{ "name": "npc_csj_yz_0_", "bone": "caishijiang" },
+	{ "name": "npc_csj_yz_1", "bone": "caishijiang2", "attachment": "npc_csj_yz_0_" },
+	{ "name": "npc_csj_yz_2", "bone": "caishijiang3", "attachment": "npc_csj_yz_0_" },
+	{ "name": "npc_csj_0", "bone": "caishijiang" },
+	{ "name": "npc_csj_1", "bone": "caishijiang2" },
+	{ "name": "npc_csj_2", "bone": "caishijiang3" }
+],
+"skins": {
+	"default": {
+		"csc_che_sk": {
+			"csc_che_sk": { "x": 33.5, "y": 61.49, "width": 25, "height": 19 }
+		},
+		"csc_ditu": {
+			"csc_ditu": { "x": 1.5, "y": 58.49, "width": 197, "height": 121 }
+		},
+		"csc_sk": {
+			"csc_sk": { "x": -29.99, "y": 55.99, "width": 10, "height": 6 }
+		},
+		"csc_sk_1_": {
+			"csc_sk_1_": { "x": -21.99, "y": 52.99, "width": 8, "height": 6 }
+		},
+		"npc_csj_0": {
+			"npc_csj_0_": { "x": 3.65, "y": 8.52, "width": 16, "height": 23 },
+			"npc_csj_1_": { "x": 3.65, "y": 9.02, "width": 16, "height": 24 },
+			"npc_csj_2_": { "x": 3.15, "y": 10.02, "width": 17, "height": 26 },
+			"npc_csj_3_": { "x": 1.15, "y": 10.52, "width": 19, "height": 27 },
+			"npc_csj_4_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 },
+			"npc_csj_5_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 }
+		},
+		"npc_csj_1": {
+			"npc_csj_0_": { "x": 3.65, "y": 8.52, "width": 16, "height": 23 },
+			"npc_csj_1_": { "x": 3.65, "y": 9.02, "width": 16, "height": 24 },
+			"npc_csj_2_": { "x": 3.15, "y": 10.02, "width": 17, "height": 26 },
+			"npc_csj_3_": { "x": 1.15, "y": 10.52, "width": 19, "height": 27 },
+			"npc_csj_4_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 },
+			"npc_csj_5_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 }
+		},
+		"npc_csj_2": {
+			"npc_csj_0_": { "x": 3.65, "y": 8.52, "width": 16, "height": 23 },
+			"npc_csj_1_": { "x": 3.65, "y": 9.02, "width": 16, "height": 24 },
+			"npc_csj_2_": { "x": 3.15, "y": 10.02, "width": 17, "height": 26 },
+			"npc_csj_3_": { "x": 1.15, "y": 10.52, "width": 19, "height": 27 },
+			"npc_csj_4_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 },
+			"npc_csj_5_": { "x": 2.65, "y": 8.02, "width": 14, "height": 22 }
+		},
+		"npc_csj_yz_0_": {
+			"npc_csj_yz_0_": { "x": -0.3, "y": -2.66, "width": 36, "height": 32 }
+		},
+		"npc_csj_yz_1": {
+			"npc_csj_yz_0_": { "x": -0.3, "y": -2.66, "scaleX": 0.8, "scaleY": 0.8, "width": 36, "height": 32 }
+		},
+		"npc_csj_yz_2": {
+			"npc_csj_yz_0_": { "x": -0.3, "y": -2.66, "scaleX": 0.8, "scaleY": 0.8, "width": 36, "height": 32 }
+		}
+	}
+},
+"animations": {
+	"Full": {
+		"slots": {
+			"csc_che_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_che_sk" },
+					{ "time": 0.6666, "name": "csc_che_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"csc_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "csc_ditu" },
+					{ "time": 0.6666, "name": "csc_ditu" }
+				]
+			},
+			"csc_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk" },
+					{ "time": 0.6666, "name": "csc_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"csc_sk_1_": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk_1_" },
+					{ "time": 0.6666, "name": "csc_sk_1_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_0": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.6666, "name": "npc_csj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.6666, "name": "npc_csj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_2": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.6666, "name": "npc_csj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"npc_csj_yz_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"caishijiang": {
+				"translate": [
+					{ "time": 0, "x": -5.12, "y": -4.3, "curve": "stepped" },
+					{ "time": 0.6666, "x": -5.12, "y": -4.3 }
+				]
+			},
+			"caishijiang2": {
+				"translate": [
+					{ "time": 0, "x": 64.74, "y": -27.23, "curve": "stepped" },
+					{ "time": 0.6666, "x": 64.74, "y": -27.23 }
+				]
+			},
+			"caishijiang3": {
+				"translate": [
+					{ "time": 0, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 0.6666, "x": -14.33, "y": -66.64 }
+				]
+			}
+		}
+	},
+	"GrowthProcess": {
+		"slots": {
+			"csc_che_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_che_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 1.9666, "color": "ffffffff" }
+				]
+			},
+			"csc_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "csc_ditu" }
+				]
+			},
+			"csc_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 1.9666, "color": "ffffffff" }
+				]
+			},
+			"csc_sk_1_": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk_1_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffff00" },
+					{ "time": 1.9666, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_0": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.1, "name": "npc_csj_1_" },
+					{ "time": 0.2, "name": "npc_csj_2_" },
+					{ "time": 0.3, "name": "npc_csj_3_" },
+					{ "time": 0.4333, "name": "npc_csj_4_" },
+					{ "time": 0.8333, "name": "npc_csj_4_" },
+					{ "time": 0.9666, "name": "npc_csj_5_" },
+					{ "time": 1.1, "name": "npc_csj_1_" },
+					{ "time": 1.2, "name": "npc_csj_2_" },
+					{ "time": 1.3, "name": "npc_csj_3_" },
+					{ "time": 1.4333, "name": "npc_csj_4_" },
+					{ "time": 1.8333, "name": "npc_csj_4_" },
+					{ "time": 1.9666, "name": "npc_csj_5_" }
+				],
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.1666, "name": "npc_csj_0_" },
+					{ "time": 0.3, "name": "npc_csj_1_" },
+					{ "time": 0.4333, "name": "npc_csj_2_" },
+					{ "time": 0.5666, "name": "npc_csj_3_" },
+					{ "time": 0.7, "name": "npc_csj_4_" },
+					{ "time": 0.8333, "name": "npc_csj_5_" },
+					{ "time": 1.1666, "name": "npc_csj_0_" },
+					{ "time": 1.3, "name": "npc_csj_1_" },
+					{ "time": 1.4333, "name": "npc_csj_2_" },
+					{ "time": 1.5666, "name": "npc_csj_3_" },
+					{ "time": 1.7333, "name": "npc_csj_4_" },
+					{ "time": 1.9, "name": "npc_csj_5_" }
+				],
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_2": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.6, "name": "npc_csj_0_" },
+					{ "time": 0.7333, "name": "npc_csj_1_" },
+					{ "time": 0.8666, "name": "npc_csj_2_" },
+					{ "time": 1, "name": "npc_csj_3_" },
+					{ "time": 1.1333, "name": "npc_csj_4_" },
+					{ "time": 1.2666, "name": "npc_csj_5_" },
+					{ "time": 1.9666, "name": "npc_csj_0_" }
+				],
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" }
+				],
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_2": {
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" }
+				],
+				"color": [
+					{ "time": 1.7333, "color": "ffffffff" },
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 2.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1666, "x": 1, "y": 1 }
+				]
+			},
+			"caishijiang": {
+				"rotate": [
+					{ "time": 2.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -5.12, "y": -4.3, "curve": "stepped" },
+					{ "time": 2.1666, "x": -5.12, "y": -4.3 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1666, "x": 1, "y": 1 }
+				]
+			},
+			"caishijiang2": {
+				"rotate": [
+					{ "time": 2.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 64.74, "y": -27.23, "curve": "stepped" },
+					{ "time": 2.1666, "x": 64.74, "y": -27.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1666, "x": 1, "y": 1 }
+				]
+			},
+			"caishijiang3": {
+				"rotate": [
+					{ "time": 2.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 0.6, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 1.9666, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 2.1666, "x": -14.33, "y": -66.64 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Havest": {
+		"slots": {
+			"csc_che_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_che_sk" },
+					{ "time": 0.8333, "name": "csc_che_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.7666, "color": "ffffff00" }
+				]
+			},
+			"csc_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "csc_ditu" },
+					{ "time": 0.8333, "name": "csc_ditu" }
+				]
+			},
+			"csc_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk" },
+					{ "time": 0.8333, "name": "csc_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.7666, "color": "ffffff00" }
+				]
+			},
+			"csc_sk_1_": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk_1_" },
+					{ "time": 0.8333, "name": "csc_sk_1_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.7666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_0": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.8333, "name": "npc_csj_0_" },
+					{ "time": 0.9, "name": "npc_csj_1_" },
+					{ "time": 1, "name": "npc_csj_2_" },
+					{ "time": 1.1, "name": "npc_csj_3_" },
+					{ "time": 1.2333, "name": "npc_csj_4_" },
+					{ "time": 1.6333, "name": "npc_csj_4_" },
+					{ "time": 1.7666, "name": "npc_csj_5_" },
+					{ "time": 1.9, "name": "npc_csj_1_" },
+					{ "time": 2, "name": "npc_csj_2_" },
+					{ "time": 2.1, "name": "npc_csj_3_" },
+					{ "time": 2.2333, "name": "npc_csj_4_" },
+					{ "time": 2.6333, "name": "npc_csj_4_" },
+					{ "time": 2.7666, "name": "npc_csj_5_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.8333, "name": "npc_csj_0_" },
+					{ "time": 0.9666, "name": "npc_csj_0_" },
+					{ "time": 1.1, "name": "npc_csj_1_" },
+					{ "time": 1.2333, "name": "npc_csj_2_" },
+					{ "time": 1.3666, "name": "npc_csj_3_" },
+					{ "time": 1.5, "name": "npc_csj_4_" },
+					{ "time": 1.6333, "name": "npc_csj_5_" },
+					{ "time": 1.9666, "name": "npc_csj_0_" },
+					{ "time": 2.1, "name": "npc_csj_1_" },
+					{ "time": 2.2333, "name": "npc_csj_2_" },
+					{ "time": 2.3666, "name": "npc_csj_3_" },
+					{ "time": 2.5333, "name": "npc_csj_4_" },
+					{ "time": 2.7, "name": "npc_csj_5_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_2": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.8333, "name": "npc_csj_0_" },
+					{ "time": 1.4, "name": "npc_csj_0_" },
+					{ "time": 1.5333, "name": "npc_csj_1_" },
+					{ "time": 1.6666, "name": "npc_csj_2_" },
+					{ "time": 1.8, "name": "npc_csj_3_" },
+					{ "time": 1.9333, "name": "npc_csj_4_" },
+					{ "time": 2.0666, "name": "npc_csj_5_" },
+					{ "time": 2.7666, "name": "npc_csj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 0.8333, "name": "npc_csj_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_yz_2": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 0.8333, "name": "npc_csj_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 0.8333, "name": "npc_csj_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"caishijiang": {
+				"translate": [
+					{ "time": 0, "x": -5.12, "y": -4.3, "curve": "stepped" },
+					{ "time": 0.8333, "x": -5.12, "y": -4.3 }
+				]
+			},
+			"caishijiang2": {
+				"translate": [
+					{ "time": 0, "x": 64.74, "y": -27.23, "curve": "stepped" },
+					{ "time": 0.8333, "x": 64.74, "y": -27.23 }
+				]
+			},
+			"caishijiang3": {
+				"translate": [
+					{ "time": 0, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 0.8333, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 1.4, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 2.7666, "x": -14.33, "y": -66.64 }
+				]
+			}
+		}
+	},
+	"Working": {
+		"slots": {
+			"csc_che_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_che_sk" },
+					{ "time": 1.9666, "name": "csc_che_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9666, "color": "ffffff00" }
+				]
+			},
+			"csc_ditu": {
+				"attachment": [
+					{ "time": 0, "name": "csc_ditu" },
+					{ "time": 1.9666, "name": "csc_ditu" }
+				]
+			},
+			"csc_sk": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk" },
+					{ "time": 1.9666, "name": "csc_sk" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9666, "color": "ffffff00" }
+				]
+			},
+			"csc_sk_1_": {
+				"attachment": [
+					{ "time": 0, "name": "csc_sk_1_" },
+					{ "time": 1.9666, "name": "csc_sk_1_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9666, "color": "ffffff00" }
+				]
+			},
+			"npc_csj_0": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.1, "name": "npc_csj_1_" },
+					{ "time": 0.2, "name": "npc_csj_2_" },
+					{ "time": 0.3, "name": "npc_csj_3_" },
+					{ "time": 0.4333, "name": "npc_csj_4_" },
+					{ "time": 0.8333, "name": "npc_csj_4_" },
+					{ "time": 0.9666, "name": "npc_csj_5_" },
+					{ "time": 1.1, "name": "npc_csj_1_" },
+					{ "time": 1.2, "name": "npc_csj_2_" },
+					{ "time": 1.3, "name": "npc_csj_3_" },
+					{ "time": 1.4333, "name": "npc_csj_4_" },
+					{ "time": 1.8333, "name": "npc_csj_4_" },
+					{ "time": 1.9666, "name": "npc_csj_0_" }
+				]
+			},
+			"npc_csj_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.1666, "name": "npc_csj_0_" },
+					{ "time": 0.3, "name": "npc_csj_1_" },
+					{ "time": 0.4333, "name": "npc_csj_2_" },
+					{ "time": 0.5666, "name": "npc_csj_3_" },
+					{ "time": 0.7, "name": "npc_csj_4_" },
+					{ "time": 0.8333, "name": "npc_csj_5_" },
+					{ "time": 1.1666, "name": "npc_csj_0_" },
+					{ "time": 1.3, "name": "npc_csj_1_" },
+					{ "time": 1.4333, "name": "npc_csj_2_" },
+					{ "time": 1.5666, "name": "npc_csj_3_" },
+					{ "time": 1.7333, "name": "npc_csj_4_" },
+					{ "time": 1.9, "name": "npc_csj_5_" },
+					{ "time": 1.9666, "name": "npc_csj_0_" }
+				]
+			},
+			"npc_csj_2": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_0_" },
+					{ "time": 0.6, "name": "npc_csj_0_" },
+					{ "time": 0.7333, "name": "npc_csj_1_" },
+					{ "time": 0.8666, "name": "npc_csj_2_" },
+					{ "time": 1, "name": "npc_csj_3_" },
+					{ "time": 1.1333, "name": "npc_csj_4_" },
+					{ "time": 1.2666, "name": "npc_csj_5_" },
+					{ "time": 1.9666, "name": "npc_csj_0_" }
+				]
+			},
+			"npc_csj_yz_1": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 1.9666, "name": "npc_csj_yz_0_" }
+				]
+			},
+			"npc_csj_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "npc_csj_yz_0_" },
+					{ "time": 1.9666, "name": "npc_csj_yz_0_" }
+				]
+			}
+		},
+		"bones": {
+			"caishijiang": {
+				"translate": [
+					{ "time": 0, "x": -5.12, "y": -4.3, "curve": "stepped" },
+					{ "time": 1.9666, "x": -5.12, "y": -4.3 }
+				]
+			},
+			"caishijiang2": {
+				"translate": [
+					{ "time": 0, "x": 64.74, "y": -27.23, "curve": "stepped" },
+					{ "time": 1.9666, "x": 64.74, "y": -27.23 }
+				]
+			},
+			"caishijiang3": {
+				"translate": [
+					{ "time": 0, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 0.6, "x": -14.33, "y": -66.64, "curve": "stepped" },
+					{ "time": 1.9666, "x": -14.33, "y": -66.64 }
+				]
+			}
+		}
+	}
+}
+}
