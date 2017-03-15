@@ -1,0 +1,188 @@
+{
+"skeleton": { "hash": "64cJkZzEOldh8gyzUwc4efxf7Vs", "spine": "2.1.27", "width": 168.38, "height": 144 },
+"bones": [
+	{ "name": "root", "y": -45.62 },
+	{ "name": "National Day_ditu_yanhua_0_", "parent": "root", "x": -0.22, "y": 76.01 },
+	{ "name": "National Day_ditu_yanhua_0_2", "parent": "root", "x": -0.22, "y": 76.01 },
+	{ "name": "National Day_ditu_yanhua_0_3", "parent": "root", "x": -0.22, "y": 76.01 }
+],
+"slots": [
+	{ "name": "National Day_ditu_", "bone": "root", "attachment": "National Day_ditu_" },
+	{
+		"name": "National Day_ditu_yanhua_0_",
+		"bone": "National Day_ditu_yanhua_0_",
+		"attachment": "National Day_ditu_yanhua_6_",
+		"blend": "additive"
+	},
+	{
+		"name": "National Day_ditu_yanhua_0_2",
+		"bone": "National Day_ditu_yanhua_0_2",
+		"attachment": "National Day_ditu_yanhua_6_",
+		"blend": "additive"
+	},
+	{
+		"name": "National Day_ditu_yanhua_0_3",
+		"bone": "National Day_ditu_yanhua_0_3",
+		"attachment": "National Day_ditu_yanhua_6_",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"National Day_ditu_": {
+			"National Day_ditu_": { "x": 6.85, "y": 82.73, "width": 166, "height": 94 }
+		},
+		"National Day_ditu_yanhua_0_": {
+			"National Day_ditu_yanhua_0_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_1_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_2_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_3_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_4_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_5_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_6_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 }
+		},
+		"National Day_ditu_yanhua_0_2": {
+			"National Day_ditu_yanhua_0_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_1_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_2_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_3_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_4_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_5_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_6_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 }
+		},
+		"National Day_ditu_yanhua_0_3": {
+			"National Day_ditu_yanhua_0_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_1_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_2_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_3_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_4_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_5_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 },
+			"National Day_ditu_yanhua_6_": { "x": -3.3, "y": -3.67, "width": 150, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"National Day_ditu_yanhua_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "National Day_ditu_yanhua_0_" },
+					{ "time": 0.4, "name": "National Day_ditu_yanhua_1_" },
+					{ "time": 0.4666, "name": "National Day_ditu_yanhua_2_" },
+					{ "time": 0.5333, "name": "National Day_ditu_yanhua_3_" },
+					{ "time": 0.6, "name": "National Day_ditu_yanhua_4_" },
+					{ "time": 0.6666, "name": "National Day_ditu_yanhua_5_" },
+					{ "time": 0.7333, "name": "National Day_ditu_yanhua_6_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"National Day_ditu_yanhua_0_2": {
+				"attachment": [
+					{ "time": 0.9333, "name": null },
+					{ "time": 1, "name": "National Day_ditu_yanhua_0_" },
+					{ "time": 1.0666, "name": "National Day_ditu_yanhua_1_" },
+					{ "time": 1.1333, "name": "National Day_ditu_yanhua_2_" },
+					{ "time": 1.2, "name": "National Day_ditu_yanhua_3_" },
+					{ "time": 1.2666, "name": "National Day_ditu_yanhua_4_" },
+					{ "time": 1.3333, "name": "National Day_ditu_yanhua_5_" },
+					{ "time": 1.4, "name": "National Day_ditu_yanhua_6_" }
+				],
+				"color": [
+					{ "time": 0, "color": "daff8900", "curve": "stepped" },
+					{ "time": 0.9333, "color": "daff8900" },
+					{ "time": 1, "color": "daff89ff" },
+					{ "time": 1.4, "color": "aeed0eff" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"National Day_ditu_yanhua_0_3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": null },
+					{ "time": 0.8333, "name": "National Day_ditu_yanhua_0_" },
+					{ "time": 0.9, "name": "National Day_ditu_yanhua_1_" },
+					{ "time": 0.9666, "name": "National Day_ditu_yanhua_2_" },
+					{ "time": 1.0333, "name": "National Day_ditu_yanhua_3_" },
+					{ "time": 1.1, "name": "National Day_ditu_yanhua_4_" },
+					{ "time": 1.1666, "name": "National Day_ditu_yanhua_5_" },
+					{ "time": 1.2333, "name": "National Day_ditu_yanhua_6_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0059ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "ff0059ff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ff0059ff" },
+					{ "time": 1.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"National Day_ditu_yanhua_0_": {
+				"rotate": [
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -31.73, "y": 69.7, "curve": "stepped" },
+					{ "time": 1.6666, "x": -31.73, "y": 69.7, "curve": "stepped" },
+					{ "time": 2.3333, "x": -31.73, "y": 69.7 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"National Day_ditu_yanhua_0_2": {
+				"rotate": [
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 31.73, "y": 59.47, "curve": "stepped" },
+					{ "time": 1.6666, "x": 31.73, "y": 59.47, "curve": "stepped" },
+					{ "time": 2.3333, "x": 31.73, "y": 59.47 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.35, "y": 0.35, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0.35, "y": 0.35, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0.35, "y": 0.35 }
+				]
+			},
+			"National Day_ditu_yanhua_0_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.59, "y": 51.93, "curve": "stepped" },
+					{ "time": 0.7666, "x": 1.59, "y": 51.93, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1.59, "y": 51.93, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.59, "y": 51.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.25, "y": 0.25, "curve": "stepped" },
+					{ "time": 0.7666, "x": 0.25, "y": 0.25, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0.25, "y": 0.25, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0.25, "y": 0.25 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "National Day_ditu_", "offset": 2 },
+					{ "slot": "National Day_ditu_yanhua_0_2", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

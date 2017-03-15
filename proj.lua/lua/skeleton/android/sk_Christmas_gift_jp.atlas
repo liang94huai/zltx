@@ -1,0 +1,39 @@
+_alpha_sk_Christmas_gift_jp.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qie_qie_
+  rotate: false
+  xy: 4, 4
+  size: 127, 101
+  orig: 127, 101
+  offset: 0, 0
+  index: -1
+qie_huangguan_
+  rotate: false
+  xy: 207, 4
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+qie_king_
+  rotate: true
+  xy: 207, 36
+  size: 58, 18
+  orig: 58, 18
+  offset: 0, 0
+  index: -1
+qie_texiao_
+  rotate: false
+  xy: 231, 36
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+qie_texiao_1_
+  rotate: true
+  xy: 137, 4
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1

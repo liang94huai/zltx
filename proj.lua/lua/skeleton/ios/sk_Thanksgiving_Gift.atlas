@@ -1,0 +1,25 @@
+_alpha_sk_Thanksgiving_Gift.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ganenjie_texiao_
+  rotate: false
+  xy: 185, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ganenjie_texiao_1_
+  rotate: false
+  xy: 115, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ganenjie_
+  rotate: false
+  xy: 4, 4
+  size: 105, 77
+  orig: 105, 77
+  offset: 0, 0
+  index: -1

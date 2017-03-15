@@ -1,0 +1,60 @@
+_alpha_sk_guoqing_gift.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+National Day_ditu_yanhua_2_
+  rotate: true
+  xy: 154, 254
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_0_
+  rotate: false
+  xy: 304, 304
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_1_
+  rotate: false
+  xy: 304, 154
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_
+  rotate: false
+  xy: 4, 4
+  size: 166, 94
+  orig: 166, 94
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_6_
+  rotate: false
+  xy: 176, 4
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_4_
+  rotate: false
+  xy: 332, 4
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_5_
+  rotate: false
+  xy: 4, 104
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+National Day_ditu_yanhua_3_
+  rotate: true
+  xy: 4, 254
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1

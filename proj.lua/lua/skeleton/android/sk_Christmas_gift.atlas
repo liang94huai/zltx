@@ -1,0 +1,32 @@
+_alpha_sk_Christmas_gift.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shengdanlibao_xueren_
+  rotate: true
+  xy: 110, 4
+  size: 66, 90
+  orig: 66, 90
+  offset: 0, 0
+  index: -1
+shengdanlibao_ditu_
+  rotate: false
+  xy: 4, 4
+  size: 100, 73
+  orig: 100, 73
+  offset: 0, 0
+  index: -1
+shengdanlibao_xuehua_
+  rotate: true
+  xy: 180, 76
+  size: 51, 57
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
+shengdanlibao_texiao_
+  rotate: true
+  xy: 110, 76
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1

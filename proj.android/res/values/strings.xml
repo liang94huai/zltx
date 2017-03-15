@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">逐鹿天下</string>
+    <string name="app_id">312229299745</string>
+    <string name="fb_app_id">1744111175850989</string>
+    <string name="plus_generic_error">Sign in with Google is not available.</string>
+</resources>

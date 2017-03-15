@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "SDgywE4iebncEtEm8CU93HyT9ew", "spine": "2.1.27", "width": 125, "height": 124.68 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 29.42, "y": -13.62 }
+],
+"slots": [
+	{ "name": "yuandanlibao_ditu_", "bone": "root", "attachment": "yuandanlibao_ditu_" },
+	{ "name": "yuandanlibao_texiao_", "bone": "bone", "color": "c0ecffff", "attachment": "yuandanlibao_texiao_", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"yuandanlibao_ditu_": {
+			"yuandanlibao_ditu_": { "x": 2.59, "y": 35.06, "width": 125, "height": 88 }
+		},
+		"yuandanlibao_texiao_": {
+			"yuandanlibao_texiao_": { "x": -6.42, "width": 53, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"yuandanlibao_texiao_": {
+				"color": [
+					{ "time": 0, "color": "c0ecff00" },
+					{ "time": 0.1666, "color": "c0ecffff" },
+					{ "time": 0.2666, "color": "c0ecff00" },
+					{ "time": 0.3, "color": "c0ecffff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "c0ecffff" },
+					{ "time": 0.6333, "color": "c0ecff00" },
+					{ "time": 0.6666, "color": "c0ecffff", "curve": "stepped" },
+					{ "time": 1, "color": "c0ecffff" },
+					{ "time": 1.0666, "color": "c0ecff00" },
+					{ "time": 1.1, "color": "c0ecffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "c0ecffff" },
+					{ "time": 1.3333, "color": "c0ecff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.305, "y": 1.305 },
+					{ "time": 0.5666, "x": 1.103, "y": 1.103 },
+					{ "time": 0.7, "x": 1.185, "y": 1.185 },
+					{ "time": 0.8333, "x": 1.123, "y": 1.123 },
+					{ "time": 1, "x": 1.169, "y": 1.169 },
+					{ "time": 1.1333, "x": 1.114, "y": 1.114 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -78.88, "y": 57.46 },
+					{ "time": 0.1666, "x": -57.82, "y": 57.46 },
+					{ "time": 0.4, "x": -38.41, "y": 52.81 },
+					{ "time": 0.5333, "x": -22.64, "y": 57.45 },
+					{ "time": 0.7, "x": -6.08, "y": 54.44 },
+					{ "time": 0.8666, "x": -0.74, "y": 61.99 },
+					{ "time": 1.0666, "x": 9.49, "y": 61.99 },
+					{ "time": 1.3333, "x": 22.34, "y": 63.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.512, "y": 0.512 }
+				]
+			}
+		}
+	}
+}
+}

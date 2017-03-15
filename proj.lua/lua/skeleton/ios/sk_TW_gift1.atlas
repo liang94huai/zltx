@@ -1,0 +1,60 @@
+_alpha_sk_TW_gift1.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuangshi_ditu_yanhua_6_
+  rotate: true
+  xy: 4, 187
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshilibao_
+  rotate: false
+  xy: 4, 4
+  size: 155, 177
+  orig: 155, 177
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_5_
+  rotate: true
+  xy: 4, 343
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_4_
+  rotate: true
+  xy: 154, 187
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_3_
+  rotate: true
+  xy: 154, 343
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_2_
+  rotate: true
+  xy: 165, 4
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_1_
+  rotate: false
+  xy: 315, 4
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+shuangshi_ditu_yanhua_0_
+  rotate: false
+  xy: 315, 154
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1

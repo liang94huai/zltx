@@ -1,0 +1,18 @@
+_alpha_sk_new_year.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuandanlibao_texiao_
+  rotate: true
+  xy: 135, 4
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+yuandanlibao_ditu_
+  rotate: false
+  xy: 4, 4
+  size: 125, 88
+  orig: 125, 88
+  offset: 0, 0
+  index: -1

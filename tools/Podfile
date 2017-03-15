@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+project '../zltx.xcodeproj'
+target 'zltx' do
+pod 'Fabric'
+pod 'Crashlytics'
+end

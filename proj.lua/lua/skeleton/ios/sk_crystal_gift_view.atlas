@@ -1,0 +1,11 @@
+_alpha_sk_crystal_gift_view.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+longjing_texiao1_
+  rotate: false
+  xy: 4, 4
+  size: 100, 102
+  orig: 128, 128
+  offset: 14, 7
+  index: -1

@@ -1,0 +1,246 @@
+{
+"skeleton": { "hash": "bZ+tgn3+LUURZ76Kj250lQ9Ne7w", "spine": "2.1.27", "width": 396, "height": 334 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Mid Autumn Festival_ditu_", "parent": "root", "x": 2.17, "y": 129.61 },
+	{ "name": "Mid Autumn Festival_ren_", "parent": "root", "x": -5.24, "y": 133.03 },
+	{ "name": "Mid Autumn Festival_yun_", "parent": "root", "x": 19.3, "y": 53.09 },
+	{ "name": "Mid Autumn Festival_yun_xia_", "parent": "root", "x": 25.5, "y": 195.11 },
+	{ "name": "Mid Autumn Festival_yun_xia_1_", "parent": "root", "x": -24.22, "y": 68.53 },
+	{ "name": "Mid Autumn Festival_lun_hou_", "parent": "Mid Autumn Festival_ren_", "x": -26.36, "y": -46.01 },
+	{ "name": "Mid Autumn Festival_lun_qian_", "parent": "Mid Autumn Festival_ren_", "x": -78.15, "y": -10.66 },
+	{ "name": "Mid Autumn Festival_ren_2", "parent": "Mid Autumn Festival_ren_", "x": 13.05, "y": 6.3 },
+	{
+		"name": "Mid Autumn Festival_ren_3",
+		"parent": "Mid Autumn Festival_ren_",
+		"length": 43.33,
+		"x": 13.05,
+		"y": -15.7,
+		"rotation": -1.8
+	},
+	{ "name": "bone", "parent": "Mid Autumn Festival_ren_2", "length": 31.43, "x": 1.41, "y": 0.35, "rotation": 18.29 },
+	{ "name": "bone3", "parent": "Mid Autumn Festival_ren_3", "length": 42.25, "x": 43.33, "y": -0.06, "rotation": 0.45 },
+	{ "name": "bone2", "parent": "bone", "length": 47.13, "x": 31.43, "y": 0.07, "rotation": -6.29 }
+],
+"slots": [
+	{ "name": "Mid Autumn Festival_ditu_", "bone": "Mid Autumn Festival_ditu_", "attachment": "Mid Autumn Festival_ditu_" },
+	{ "name": "Mid Autumn Festival_lun_hou_", "bone": "Mid Autumn Festival_lun_hou_", "attachment": "Mid Autumn Festival_lun_hou_" },
+	{ "name": "Mid Autumn Festival_lun_qian_", "bone": "Mid Autumn Festival_lun_qian_", "attachment": "Mid Autumn Festival_lun_qian_" },
+	{ "name": "Mid Autumn Festival_ren_", "bone": "Mid Autumn Festival_ren_3", "attachment": "Mid Autumn Festival_ren_" },
+	{
+		"name": "Mid Autumn Festival_yun_xia_1_",
+		"bone": "Mid Autumn Festival_yun_xia_1_",
+		"attachment": "Mid Autumn Festival_yun_xia_1_"
+	},
+	{ "name": "Mid Autumn Festival_yun_xia_", "bone": "Mid Autumn Festival_yun_xia_", "attachment": "Mid Autumn Festival_yun_xia_" },
+	{ "name": "Mid Autumn Festival_yun_", "bone": "Mid Autumn Festival_yun_", "attachment": "Mid Autumn Festival_yun_" }
+],
+"skins": {
+	"default": {
+		"Mid Autumn Festival_ditu_": {
+			"Mid Autumn Festival_ditu_": { "x": -0.67, "y": 2.88, "width": 315, "height": 315 }
+		},
+		"Mid Autumn Festival_lun_hou_": {
+			"Mid Autumn Festival_lun_hou_": { "x": -0.38, "y": -0.02, "rotation": -23.7, "width": 36, "height": 36 }
+		},
+		"Mid Autumn Festival_lun_qian_": {
+			"Mid Autumn Festival_lun_qian_": { "x": 0.9, "y": 0.12, "width": 35, "height": 35 }
+		},
+		"Mid Autumn Festival_ren_": {
+			"Mid Autumn Festival_ren_": {
+				"type": "skinnedmesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.28804, 0, 0.35904, 0, 1, 0, 0.14036, 0.23916, 0.18438, 0.11117, 0.23124, 0.0363, 0.34911, 0.18603, 0.31502, 0.28987, 0.34769, 0.25123, 0.4059, 0.15222, 0.50246, 0.19328, 0.49678, 0.25365, 0.45986, 0.29471, 0.52234, 0.2609, 0.5763, 0.2609, 0.5976, 0.30678, 0.6189, 0.33334, 0.66292, 0.30919, 0.72114, 0.28021, 0.79214, 0.23916, 0.83332, 0.23675, 0.84326, 0.31161, 0.80634, 0.343, 0.7467, 0.38164, 0.67428, 0.40821, 0.77368, 0.41545, 0.86456, 0.41787, 0.84894, 0.50722, 0.84894, 0.57243, 0.83048, 0.68351, 0.78362, 0.72215, 0.71262, 0.75596, 0.56494, 0.76321, 0.4769, 0.74872, 0.43856, 0.72457, 0.41016, 0.72698, 0.40874, 0.84532, 0.2852, 0.81875, 0.14462, 0.67627, 0.10202, 0.42753 ],
+				"triangles": [ 15, 37, 38, 39, 38, 36, 15, 14, 16, 14, 12, 13, 15, 12, 14, 11, 9, 12, 9, 4, 12, 13, 12, 4, 8, 3, 9, 8, 2, 3, 7, 2, 8, 6, 2, 7, 1, 42, 41, 42, 10, 38, 1, 41, 40, 39, 40, 38, 1, 40, 39, 40, 41, 38, 38, 41, 42, 42, 6, 10, 42, 2, 6, 6, 7, 9, 7, 8, 9, 9, 3, 4, 9, 10, 6, 11, 10, 9, 15, 11, 12, 10, 15, 38, 10, 11, 15, 15, 27, 37, 5, 0, 29, 0, 39, 35, 38, 37, 36, 39, 36, 35, 35, 34, 0, 34, 33, 0, 33, 32, 0, 32, 31, 0, 0, 31, 29, 31, 30, 29, 34, 35, 27, 33, 34, 27, 31, 33, 27, 35, 37, 27, 35, 36, 37, 32, 33, 31, 31, 28, 30, 30, 28, 29, 27, 15, 19, 27, 26, 28, 28, 25, 29, 25, 24, 29, 29, 24, 5, 28, 26, 25, 19, 20, 27, 27, 20, 26, 20, 21, 26, 26, 21, 25, 21, 22, 25, 24, 22, 23, 24, 25, 22, 19, 18, 20, 24, 23, 5, 21, 20, 17, 20, 18, 17, 21, 17, 22, 23, 22, 5, 5, 22, 13, 28, 31, 27, 5, 13, 4, 42, 1, 2, 19, 15, 18, 18, 16, 17, 18, 15, 16, 13, 17, 16, 0, 1, 39, 22, 17, 13, 16, 14, 13 ],
+				"vertices": [ 1, 11, 90.34, -61.83, 1, 2, 10, -140.72, -45.84, 1, 11, -159.59, -67.62999, 0, 2, 10, -94.59, 93.72, 0.99999, 11, -163, 79.32, 0, 1, 2, -32.73, 65.96, 1, 1, 2, -14.98, 65.96, 1, 1, 12, 109.01, 27.27, 1, 1, 2, -69.65, 30.8, 1, 1, 2, -58.65, 49.61, 1, 1, 2, -46.93, 60.62, 1, 1, 2, -17.46999, 38.61, 1, 1, 2, -25.99, 23.34, 1, 1, 2, -17.82, 29.03, 1, 1, 2, -3.27, 43.58, 1, 2, 10, 15.76, 27.31, 0.99998, 11, -36.75, 53.83, 1.0E-5, 1, 2, 19.44, 28.67, 1, 1, 2, 10.21, 22.63, 1, 3, 10, 17.35, 16.32, 0.77189, 12, -15.76, 14.6, 0.22809, 11, -31.55, 44.01, 1.0E-5, 2, 10, 30.16, 12.08, 0.71987, 12, -2.57, 11.79, 0.28011, 2, 10, 33.09999, 4.01, 0.5, 12, 1.23, 4.09, 0.5, 2, 10, 36.93, -1.36, 0.5, 12, 5.62, -0.83, 0.5, 1, 12, 17.12999, 0.34, 1, 1, 12, 32.25, 1.48, 1, 1, 12, 50.87, 3.69, 1, 2, 12, 61.01, 1.9, 0.97399, 11, 46.08, 49.36, 0.026, 2, 12, 61.15, -9.37, 0.6877, 11, 48.82, 38.41, 0.31229, 2, 12, 51.16, -11.97, 0.75062, 11, 39.7, 33.59, 0.24937, 2, 12, 35.4, -14.42, 0.84345, 11, 24.92, 27.56, 0.15654, 2, 12, 16.87999, -14.47, 0.80446, 11, 6.91, 23.24, 0.19553, 2, 12, 40.96, -20.69, 0.75062, 11, 31.78, 22.75, 0.24937, 2, 12, 63.11, -25.76, 0.36397, 11, 54.5, 22.92, 0.63602, 2, 12, 56.56, -37.8, 0.11383, 11, 50.9, 9.7, 0.88616, 1, 11, 51.13, 0.12, 1, 1, 11, 46.89, -16.31, 1, 1, 11, 35.31, -22.26, 1, 1, 11, 17.68, -27.64, 1, 1, 11, -19.19, -29.56, 1, 1, 11, -41.25, -27.94, 1, 2, 10, -23.91, -41.82, 0.43302, 11, -50.91, -24.61, 0.56697, 1, 2, -2.2, -40.9, 1, 1, 2, -2.56, -58.3, 1, 1, 2, -33.43999, -54.39, 1, 1, 2, -68.58999, -33.45, 1, 1, 2, -79.24, 3.11, 1 ],
+				"hull": 6
+			}
+		},
+		"Mid Autumn Festival_yun_": {
+			"Mid Autumn Festival_yun_": { "x": -7.3, "y": -17.09, "width": 396, "height": 160 }
+		},
+		"Mid Autumn Festival_yun_xia_": {
+			"Mid Autumn Festival_yun_xia_": { "x": -2.5, "y": -7.11, "width": 142, "height": 64 }
+		},
+		"Mid Autumn Festival_yun_xia_1_": {
+			"Mid Autumn Festival_yun_xia_1_": { "x": 12.72, "y": 10.96, "width": 303, "height": 93 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Mid Autumn Festival_lun_hou_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Mid Autumn Festival_lun_qian_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.6666, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Mid Autumn Festival_ren_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Mid Autumn Festival_ren_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 16.43, "y": -9.04, "curve": "stepped" },
+					{ "time": 0.5, "x": 16.43, "y": -9.04 },
+					{ "time": 3, "x": 4.76, "y": 3.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Mid Autumn Festival_lun_hou_": {
+				"rotate": [
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 3, "angle": 130.16 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.993, "y": 0.993 },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"Mid Autumn Festival_lun_qian_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 3, "angle": 121.96 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"Mid Autumn Festival_yun_xia_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.4333, "x": 0, "y": -6.34 },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.4333, "x": 1, "y": 0.841 },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"Mid Autumn Festival_yun_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.5333, "x": 0, "y": 4.75 },
+					{ "time": 3.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.5333, "x": 1, "y": 0.873 },
+					{ "time": 3.1666, "x": 1, "y": 1 }
+				]
+			},
+			"Mid Autumn Festival_ren_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.6666, "angle": -4.95 },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.4, "angle": -4.5 },
+					{ "time": 3.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.1666, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": 0.27 },
+					{ "time": 1.4, "angle": -4.5 },
+					{ "time": 2.3, "angle": -13.05 },
+					{ "time": 3.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.1666, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.8333, "angle": 14.34 },
+					{ "time": 1.6666, "angle": 2.97 },
+					{ "time": 2.4333, "angle": -5.21 },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

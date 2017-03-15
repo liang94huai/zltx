@@ -1,0 +1,18 @@
+_alpha_sk_last_sale.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nianzhongtehui_huangguan_
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+nianzhongtehui_texiao_1_
+  rotate: false
+  xy: 4, 110
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1

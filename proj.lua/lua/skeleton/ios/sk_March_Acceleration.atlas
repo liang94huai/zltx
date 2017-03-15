@@ -1,0 +1,53 @@
+_alpha_sk_March_Acceleration.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+didi_light_4_
+  rotate: true
+  xy: 241, 4
+  size: 6, 8
+  orig: 64, 32
+  offset: 47, 17
+  index: -1
+didi_light_1_
+  rotate: false
+  xy: 215, 4
+  size: 20, 14
+  orig: 64, 32
+  offset: 10, 9
+  index: -1
+didi_light_3_
+  rotate: false
+  xy: 189, 24
+  size: 16, 14
+  orig: 64, 32
+  offset: 36, 13
+  index: -1
+didi_texiao_
+  rotate: true
+  xy: 119, 4
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+didi_ditu_mache_
+  rotate: false
+  xy: 4, 4
+  size: 109, 75
+  orig: 109, 75
+  offset: 0, 0
+  index: -1
+didi_light_0_
+  rotate: false
+  xy: 241, 16
+  size: 6, 12
+  orig: 64, 32
+  offset: 10, 8
+  index: -1
+didi_light_2_
+  rotate: false
+  xy: 189, 4
+  size: 20, 14
+  orig: 64, 32
+  offset: 21, 10
+  index: -1

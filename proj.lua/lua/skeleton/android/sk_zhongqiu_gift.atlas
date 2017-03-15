@@ -1,0 +1,53 @@
+_alpha_sk_zhongqiu_gift.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mid Autumn Festival_lun_qian_
+  rotate: false
+  xy: 983, 46
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_lun_hou_
+  rotate: false
+  xy: 983, 4
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_yun_xia_
+  rotate: true
+  xy: 313, 170
+  size: 142, 64
+  orig: 142, 64
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_ren_
+  rotate: false
+  xy: 727, 4
+  size: 250, 147
+  orig: 250, 147
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_yun_xia_1_
+  rotate: false
+  xy: 4, 170
+  size: 303, 93
+  orig: 303, 93
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_yun_
+  rotate: false
+  xy: 4, 4
+  size: 396, 160
+  orig: 396, 160
+  offset: 0, 0
+  index: -1
+Mid Autumn Festival_ditu_
+  rotate: false
+  xy: 406, 4
+  size: 315, 315
+  orig: 315, 315
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:installLocation="preferExternal"
+	package="com.hoolai.ywj.zltx"
+	android:versionCode="999"
+	android:versionName="2.0.9" >
+
+	<supports-screens android:smallScreens="true"
+		android:normalScreens="true"
+		android:largeScreens="true"
+		android:xlargeScreens="true"/>
+
+	<uses-sdk android:minSdkVersion="10"
+		android:targetSdkVersion="22"/>
+	
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_DEVICE_STATS" />
+	<!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+	
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	
+	<!-- tx特殊权限 -->
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<!-- 登录上报时需要带设备名称, 通过蓝牙模块来获取设备名称 -->
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	
+	<!-- 可选的权限：异常上报系统log,XG也需要 -->
+	<uses-permission android:name="android.permission.READ_LOGS" />
+	<!-- tx特殊权限 -->
+		
+	<!-- shared sdk  -->
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  
+	<supports-screens
+		android:anyDensity="true"
+		android:largeScreens="true"
+		android:normalScreens="true" />
+	<!-- tx特殊权限 -->
+	
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<permission android:protectionLevel="signature"
+		android:name="com.tencent.tmgp.cokqq.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.tencent.tmgp.cokqq.permission.C2D_MESSAGE" />
+	
+	<!-- GCM需求 START -->
+		<!-- GCM requires a Google account. -->
+		<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+		<!-- Keeps the processor from sleeping when a message is received. -->
+		<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<!-- GCM需求 END -->
+	
+	<application
+		android:name="com.clash.of.kings.COKApplication"
+		android:icon="@drawable/cok_icon"
+		android:label="@string/app_name"
+		android:largeHeap="true">
+		<!-- GOOGLE GameServices -->
+		<meta-data android:name="com.google.android.gms.games.APP_ID"
+				   android:value="@string/app_id" />
+		<!-- GOOGLE PLUS -->
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+		<!-- hoolai -->
+		<activity
+            android:name="com.hoolai.sdk.activity.FastAccessLoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.hoolai.sdk.activity.FastAccessNotifyActivity"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.hoolai.open.fastaccess.channel.impl.fastaccess.FASTACCESSSplashActivity"
+            android:screenOrientation="sensor" />
+	 	<!-- hoolai -->
+		<activity
+			android:name="com.clash.of.kings.COK"
+			android:configChanges="orientation|screenSize|keyboardHidden"
+			android:label="@string/app_name"
+			android:theme="@style/MyTheme"
+			android:launchMode="standard"
+			android:screenOrientation="portrait" >
+			<meta-data android:name="XINGCLOUD_CHANNEL" android:value="market" />
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="org.hcg.stac.empire.intent.action.IF" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="cok" />
+			</intent-filter>
+
+            <!-- Add this intent filter below, and change yourapp to your app name -->
+            <intent-filter>
+                <data android:scheme="cokBranch" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+		</activity>
+		  
+		<!-- facebook 相关添加 -->
+		 <meta-data android:name="com.facebook.sdk.ApplicationName"
+			android:value="@string/app_name" />
+   		   <activity android:name="com.facebook.FacebookActivity"
+		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		  android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+		  android:label="@string/app_name" />
+   		 <meta-data
+			android:name="com.facebook.sdk.ApplicationId"
+			android:value="@string/fb_app_id" />
+   			 
+		<!-- Used for install referrer tracking -->
+		<service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
+		<receiver android:name="com.appsflyer.AppsFlyerLib" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.clash.of.kings.COKInstallReceiver" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<service android:name="org.hcg.notifies.LocalNotificationIntentService"/>
+		<receiver android:name="org.hcg.notifies.LocalBroadcastReceiver" />
+		
+		<receiver android:name="org.hcg.stac.empire.common.manager.NotificationReceiver" android:process=":remote" >
+			<intent-filter>
+				<action android:name="com.hcg.cokqq.intent.action.NOTIFICATION" />
+				<action android:name="com.hcg.cokqq.intent.action.FREE_LOTTERY"/>
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		
+		<receiver android:name="com.clash.of.notifies.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+		<!-- 行云心跳服务 -->
+		<!-- <service android:name="com.xingcloud.analytic.sender.HeartbeatService" /> -->
+		
+		
+		<!-- 设置AppKey -->
+		<!-- <meta-data android:name="TESTIN_APPKEY" android:value="3cc5495170b277f51b94408e44bc8e64"/> -->
+		<!-- 设置渠道信息 -->
+		<!-- <meta-data android:name="TESTIN_CHANNEL" android:value="android_tencent"/> -->
+
+        <!-- 服务器组 -->
+        <meta-data android:name="SERVER_GROUP" android:value="Hoolai_global"/>
+        <!-- bi报送需要 -->
+        <meta-data android:name="game_package_product_id" android:value="247"/>
+        <!-- fabric -->
+        <meta-data android:name="io.fabric.ApiKey"
+          android:value="158668f7a39d352482ecacf4e9d1badc388760a2"/>
+		<!-- GCM 需求 START -->
+		<meta-data
+			android:name="com.parse.push.gcm_sender_id"
+			android:value="id:312229299745" />
+		<receiver android:name="com.parse.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+			<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+			<category android:name="com.tencent.tmgp.cokqq" />
+		  </intent-filter>
+		</receiver>
+		<receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+		  <intent-filter>
+			<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+			<category android:name="com.tencent.tmgp.cokqq" />
+		  </intent-filter>
+		</receiver>
+		<service android:name="org.hcg.stac.empire.common.manager.GCMIntentService" />
+		<!-- GCM 需求 END -->
+		
+		
+		<!-- Tabjoy begin -->
+		 <activity android:name="com.tapjoy.TJCOffersWebView" android:configChanges="keyboardHidden|orientation"/> 
+		 <activity android:name="com.tapjoy.TapjoyFeaturedAppWebView" android:configChanges="keyboardHidden|orientation"/> 
+		 <activity android:name="com.tapjoy.TapjoyVideoView" android:configChanges="keyboardHidden|orientation"/>
+		
+		
+		 <!--  millennialmedia -->
+		 <!--  activity android:name="com.millennialmedia.android.MMAdvertiserOverlayActivity" 
+		 android:configChanges="keyboardHidden|orientation|keyboard"/-->
+		
+		<service android:name="com.parse.PushService" />
+		<receiver android:name="com.parse.ParseBroadcastReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.intent.action.USER_PRESENT" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.parse.ParsePushBroadcastReceiver"
+			android:exported="false">
+		  <intent-filter>
+			<action android:name="com.parse.push.intent.RECEIVE" />
+			<action android:name="com.parse.push.intent.DELETE" />
+			<action android:name="com.parse.push.intent.OPEN" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.clash.of.notifies.HFParseCustomReceiver" 
+			android:exported="false">
+		  <intent-filter>
+			<action android:name="com.ywj.zltx.gp.UPDATE_STATUS" />
+		  </intent-filter>
+		</receiver>
+		
+
+		<activity
+			android:name="com.elex.chatservice.view.ChatActivity"
+			android:configChanges="orientation|screenSize|locale"
+			android:screenOrientation="portrait"
+			android:theme="@style/Activity.Theme" />
+		<activity
+			android:name="com.elex.chatservice.view.ChannelListActivity"
+			android:configChanges="orientation|screenSize|locale"
+			android:screenOrientation="portrait"
+			android:theme="@style/Activity.Theme" />
+		<activity
+			android:name="com.elex.chatservice.view.ForumActivity"
+			android:configChanges="orientation|screenSize|locale"
+			android:screenOrientation="portrait"
+			android:theme="@style/Activity.Theme" />
+		<activity
+			android:name="com.elex.chatservice.view.MemberSelectorActivity"
+			android:configChanges="orientation|screenSize|locale"
+			android:screenOrientation="portrait"
+			android:theme="@style/Activity.Theme" />
+		<activity
+			android:name="com.elex.chatservice.view.WriteMailActivity"
+			android:configChanges="orientation|screenSize|locale"
+			android:screenOrientation="portrait"
+			android:theme="@style/Activity.Theme" />
+
+            <!-- shared sdk  -->
+            <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+           
+        </activity>
+        
+        <!-- QQ客户端回调 -->
+        <activity 
+          android:name="cn.sharesdk.tencent.qq.ResultReceiver"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <!--
+              如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
+              事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
+              则分享结束以后不能得到正确的回调
+            -->
+            <intent-filter android:priority="1000" >
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 微信分享回调 -->
+      <!--   <activity
+            android:name="com.clash.of.kings.wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" /> -->
+            
+
+        <!-- 调用新浪原生SDK，需要注册的activity -->
+        <activity
+      android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+      android:configChanges="keyboardHidden|orientation"
+      android:windowSoftInputMode="adjustResize"
+      android:exported="false" >
+    </activity>
+    
+        <!-- 调用新浪原生SDK，需要注册的回调activity -->
+        <activity
+            android:name="cn.sharesdk.sina.weibo.SinaActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+        <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+        </activity>
+	</application>
+</manifest>

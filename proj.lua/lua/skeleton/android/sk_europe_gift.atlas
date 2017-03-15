@@ -1,0 +1,67 @@
+_alpha_sk_europe_gift.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+google_GoldCoin_6_
+  rotate: false
+  xy: 198, 119
+  size: 31, 27
+  orig: 35, 35
+  offset: 1, 6
+  index: -1
+google_GoldCoin_5_
+  rotate: false
+  xy: 159, 86
+  size: 33, 33
+  orig: 35, 35
+  offset: 0, 2
+  index: -1
+google_GoldCoin_4_
+  rotate: false
+  xy: 188, 4
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+google_GoldCoin_3_
+  rotate: false
+  xy: 118, 98
+  size: 33, 27
+  orig: 35, 35
+  offset: 1, 3
+  index: -1
+google_texiao_
+  rotate: true
+  xy: 118, 4
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+rukou
+  rotate: false
+  xy: 4, 4
+  size: 108, 100
+  orig: 108, 100
+  offset: 0, 0
+  index: -1
+google_GoldCoin_2_
+  rotate: false
+  xy: 198, 86
+  size: 33, 27
+  orig: 35, 35
+  offset: 1, 3
+  index: -1
+google_GoldCoin_1_
+  rotate: false
+  xy: 188, 45
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+google_GoldCoin_7_
+  rotate: false
+  xy: 118, 63
+  size: 35, 29
+  orig: 35, 35
+  offset: 0, 4
+  index: -1

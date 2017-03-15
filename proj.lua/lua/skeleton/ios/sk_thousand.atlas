@@ -1,0 +1,67 @@
+_alpha_sk_thousand.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+One thousand_yanhua_2_
+  rotate: true
+  xy: 4, 367
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_1_
+  rotate: false
+  xy: 135, 135
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_4_
+  rotate: false
+  xy: 278, 4
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_3_
+  rotate: true
+  xy: 4, 230
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_6_
+  rotate: false
+  xy: 4, 4
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_huangguan_
+  rotate: true
+  xy: 415, 4
+  size: 97, 70
+  orig: 97, 70
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_5_
+  rotate: false
+  xy: 141, 4
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yanhua_0_
+  rotate: false
+  xy: 272, 135
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+One thousand_yiqian_
+  rotate: true
+  xy: 415, 107
+  size: 117, 44
+  orig: 117, 44
+  offset: 0, 0
+  index: -1

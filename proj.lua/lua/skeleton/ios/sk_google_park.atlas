@@ -1,0 +1,109 @@
+_alpha_sk_google_park.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+entrancePark_3_
+  rotate: true
+  xy: 154, 810
+  size: 93, 63
+  orig: 93, 63
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_1_
+  rotate: true
+  xy: 154, 215
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_6_
+  rotate: true
+  xy: 154, 371
+  size: 109, 75
+  orig: 109, 75
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_4_
+  rotate: true
+  xy: 4, 527
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_5_
+  rotate: true
+  xy: 154, 486
+  size: 109, 58
+  orig: 109, 58
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_3_
+  rotate: true
+  xy: 4, 683
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_6_
+  rotate: true
+  xy: 4, 215
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_5_
+  rotate: true
+  xy: 4, 371
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_2_
+  rotate: true
+  xy: 154, 711
+  size: 93, 65
+  orig: 93, 65
+  offset: 0, 0
+  index: -1
+entrancePark_ditu_
+  rotate: false
+  xy: 4, 4
+  size: 174, 205
+  orig: 174, 205
+  offset: 0, 0
+  index: -1
+entrancePark_1_
+  rotate: true
+  xy: 218, 486
+  size: 102, 55
+  orig: 102, 55
+  offset: 0, 0
+  index: -1
+entrancePark_7_
+  rotate: true
+  xy: 154, 601
+  size: 104, 83
+  orig: 104, 83
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_0_
+  rotate: true
+  xy: 184, 4
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+entrancePark_4_
+  rotate: true
+  xy: 235, 371
+  size: 99, 54
+  orig: 99, 54
+  offset: 0, 0
+  index: -1
+entrancePark_yanhua_2_
+  rotate: true
+  xy: 4, 839
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1

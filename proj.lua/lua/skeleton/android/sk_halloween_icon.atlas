@@ -1,0 +1,67 @@
+_alpha_sk_halloween_icon.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wanshengjie_Halloween_shenti_
+  rotate: false
+  xy: 39, 223
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+wanshengjie_yanjing_
+  rotate: true
+  xy: 82, 99
+  size: 83, 69
+  orig: 83, 69
+  offset: 0, 0
+  index: -1
+wanshengjie_nangua_
+  rotate: false
+  xy: 4, 4
+  size: 83, 89
+  orig: 83, 89
+  offset: 0, 0
+  index: -1
+wanshengjie_Halloween_zuo_chibang_1_
+  rotate: true
+  xy: 27, 188
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+wanshengjie_huomiao_
+  rotate: false
+  xy: 25, 226
+  size: 8, 21
+  orig: 8, 21
+  offset: 0, 0
+  index: -1
+wanshengjie_Halloween_zuo_chibang_
+  rotate: true
+  xy: 4, 226
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+wanshengjie_Halloween_you_chibang_
+  rotate: true
+  xy: 51, 188
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+wanshengjie_lian_
+  rotate: true
+  xy: 4, 99
+  size: 83, 72
+  orig: 83, 72
+  offset: 0, 0
+  index: -1
+wanshengjie_Halloween_you_chibang_1_
+  rotate: true
+  xy: 4, 188
+  size: 32, 17
+  orig: 32, 17
+  offset: 0, 0
+  index: -1

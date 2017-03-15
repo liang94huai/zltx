@@ -1,0 +1,32 @@
+_alpha_sk_Double_the_Joy.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Singapore_texiao_
+  rotate: false
+  xy: 198, 77
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+Singapore_beiying_
+  rotate: false
+  xy: 4, 4
+  size: 89, 216
+  orig: 89, 216
+  offset: 0, 0
+  index: -1
+Singapore_huoju_
+  rotate: true
+  xy: 99, 77
+  size: 51, 93
+  orig: 51, 93
+  offset: 0, 0
+  index: -1
+Singapore_qianjing_
+  rotate: false
+  xy: 99, 4
+  size: 115, 67
+  orig: 115, 67
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,88 @@
+_alpha_sk_de_fight.pvr.ccz
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Germany_qiqiu_9_
+  rotate: false
+  xy: 4, 173
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_8_
+  rotate: false
+  xy: 42, 114
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_7_
+  rotate: true
+  xy: 149, 4
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_2_
+  rotate: false
+  xy: 92, 210
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_10_
+  rotate: false
+  xy: 80, 162
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_1_
+  rotate: false
+  xy: 111, 4
+  size: 32, 41
+  orig: 32, 41
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_6_
+  rotate: false
+  xy: 42, 166
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+Germany_caidai_
+  rotate: false
+  xy: 4, 4
+  size: 101, 104
+  orig: 101, 104
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_5_
+  rotate: false
+  xy: 80, 114
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_11_
+  rotate: false
+  xy: 111, 51
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_4_
+  rotate: false
+  xy: 4, 114
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+Germany_qiqiu_3_
+  rotate: true
+  xy: 42, 217
+  size: 33, 44
+  orig: 33, 44
+  offset: 0, 0
+  index: -1

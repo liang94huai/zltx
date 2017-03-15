@@ -1,0 +1,197 @@
+{
+"skeleton": { "hash": "wTgNesgS+d09Y+CYhIsNxRW2uAk", "spine": "2.1.27", "width": 170.7, "height": 134.24 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "qie_huangguan_", "parent": "root", "x": 0.12, "y": 98.53 },
+	{ "name": "qie_king_", "parent": "root", "x": 46.69, "y": 71.73 },
+	{ "name": "qie_qie_", "parent": "root", "x": -0.83, "y": 8.93 },
+	{ "name": "qie_texiao_", "parent": "root", "x": -17.62, "y": 98.19 },
+	{ "name": "qie_texiao_liangguang", "parent": "root", "x": 97.18, "y": 11.75 },
+	{ "name": "qie_texiao_liangguang2", "parent": "root", "x": 97.18, "y": 11.75 }
+],
+"slots": [
+	{ "name": "qie_king_", "bone": "qie_king_", "attachment": "qie_king_" },
+	{ "name": "qie_qie_", "bone": "qie_qie_", "attachment": "qie_qie_" },
+	{ "name": "qie_huangguan_", "bone": "qie_huangguan_", "attachment": "qie_huangguan_" },
+	{ "name": "qie_texiao_", "bone": "qie_texiao_", "attachment": "qie_texiao_" },
+	{
+		"name": "qie_texiao_1_",
+		"bone": "qie_texiao_liangguang",
+		"color": "fff39cff",
+		"attachment": "qie_texiao_1_",
+		"blend": "additive"
+	},
+	{
+		"name": "qie_texiao_1_2",
+		"bone": "qie_texiao_liangguang2",
+		"color": "fff39cff",
+		"attachment": "qie_texiao_1_",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"qie_huangguan_": {
+			"qie_huangguan_": { "x": 1.7, "y": 2.46, "width": 27, "height": 26 }
+		},
+		"qie_king_": {
+			"qie_king_": { "x": 0.63, "y": 7.26, "width": 58, "height": 18 }
+		},
+		"qie_qie_": {
+			"qie_qie_": { "x": 10.66, "y": 41.56, "width": 127, "height": 101 }
+		},
+		"qie_texiao_": {
+			"qie_texiao_": { "x": -6.54, "y": 6.3, "width": 17, "height": 15 }
+		},
+		"qie_texiao_1_": {
+			"qie_texiao_1_": { "x": -6.65, "width": 53, "height": 64 }
+		},
+		"qie_texiao_1_2": {
+			"qie_texiao_1_": { "x": -6.65, "width": 53, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"qie_huangguan_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"qie_king_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"qie_texiao_": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"qie_texiao_1_": {
+				"color": [
+					{ "time": 0, "color": "fff39c00", "curve": "stepped" },
+					{ "time": 0.4666, "color": "fff39c00" },
+					{ "time": 0.5, "color": "fff39cff", "curve": "stepped" },
+					{ "time": 0.9, "color": "fff39cff" },
+					{ "time": 1.3333, "color": "fff39c00" }
+				]
+			},
+			"qie_texiao_1_2": {
+				"color": [
+					{ "time": 0, "color": "fff39c00", "curve": "stepped" },
+					{ "time": 1.3, "color": "fff39c00" },
+					{ "time": 1.3333, "color": "fff39cff" },
+					{ "time": 2.3333, "color": "fff39c00" }
+				]
+			}
+		},
+		"bones": {
+			"qie_huangguan_": {
+				"rotate": [
+					{ "time": 0, "angle": -25.93 },
+					{ "time": 0.1333, "angle": 0.1 },
+					{ "time": 0.2333, "angle": 6.97 },
+					{ "time": 0.5, "angle": 4.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 34.74, "y": 53.13 },
+					{ "time": 0.1333, "x": 1.03, "y": 5.14 },
+					{ "time": 0.2333, "x": -4.1, "y": -4.67 },
+					{ "time": 0.3333, "x": -2.5, "y": -2.44 },
+					{ "time": 0.5, "x": 0.65, "y": 2.35 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 1, "y": 0.99 }
+				]
+			},
+			"qie_qie_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.2333, "angle": 2.26 },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 0.933 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"qie_texiao_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1.338, "y": 1.536, "curve": "stepped" },
+					{ "time": 0.3, "x": 1.338, "y": 1.536 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"qie_texiao_liangguang": {
+				"rotate": [
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 1.3333, "angle": -94.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": -83.82, "y": 96.63, "curve": "stepped" },
+					{ "time": 0.5, "x": -83.82, "y": 96.63, "curve": "stepped" },
+					{ "time": 0.9, "x": -83.82, "y": 96.63 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.569, "y": 0.569, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.569, "y": 0.569, "curve": "stepped" },
+					{ "time": 0.9, "x": 0.569, "y": 0.569 }
+				]
+			},
+			"qie_texiao_liangguang2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.9333, "angle": -112.02, "curve": "stepped" },
+					{ "time": 2.3333, "angle": -112.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": -74.23, "y": 61.22 },
+					{ "time": 1.3333, "x": -76.39, "y": 61.22 },
+					{ "time": 1.6, "x": -54.18, "y": 61.22 },
+					{ "time": 1.9333, "x": -23.29, "y": 61.22, "curve": "stepped" },
+					{ "time": 2.3333, "x": -23.29, "y": 61.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 0.462, "y": 0.462, "curve": "stepped" },
+					{ "time": 1.9333, "x": 0.462, "y": 0.462, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0.462, "y": 0.462 }
+				]
+			}
+		}
+	}
+}
+}

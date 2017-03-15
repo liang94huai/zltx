@@ -1,0 +1,214 @@
+{
+"skeleton": { "hash": "Erc9b2BR1KL1VJAsw3qjObQZ50s", "spine": "2.1.27", "width": 336.34, "height": 357.08 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "longjing_texiao1_", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 },
+	{ "name": "longjing_texiao1_2", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 },
+	{ "name": "longjing_texiao1_3", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 },
+	{ "name": "longjing_texiao1_4", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 },
+	{ "name": "longjing_texiao1_5", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 },
+	{ "name": "longjing_texiao1_6", "parent": "root", "x": 338.82, "y": 767.48, "scaleY": 1.055 }
+],
+"slots": [
+	{
+		"name": "longjing_texiao1_",
+		"bone": "longjing_texiao1_",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	},
+	{
+		"name": "longjing_texiao1_4",
+		"bone": "longjing_texiao1_4",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	},
+	{
+		"name": "longjing_texiao1_2",
+		"bone": "longjing_texiao1_2",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	},
+	{
+		"name": "longjing_texiao1_5",
+		"bone": "longjing_texiao1_5",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	},
+	{
+		"name": "longjing_texiao1_3",
+		"bone": "longjing_texiao1_3",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	},
+	{
+		"name": "longjing_texiao1_6",
+		"bone": "longjing_texiao1_6",
+		"color": "90fcff27",
+		"attachment": "longjing_texiao1_",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"longjing_texiao1_": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		},
+		"longjing_texiao1_2": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		},
+		"longjing_texiao1_3": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		},
+		"longjing_texiao1_4": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		},
+		"longjing_texiao1_5": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		},
+		"longjing_texiao1_6": {
+			"longjing_texiao1_": { "x": -17.14, "y": 52.54, "scaleX": 1.927, "scaleY": 1.868, "rotation": 55.91, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"mianban": {
+		"slots": {
+			"longjing_texiao1_": {
+				"color": [
+					{ "time": 0, "color": "90fcff00" },
+					{ "time": 1.7, "color": "90fcff46" },
+					{ "time": 3.7, "color": "90fcff00" }
+				]
+			},
+			"longjing_texiao1_2": {
+				"color": [
+					{ "time": 0, "color": "6700ff4b" },
+					{ "time": 1.7, "color": "b600c200" },
+					{ "time": 3.7, "color": "6700ff4b" }
+				]
+			},
+			"longjing_texiao1_3": {
+				"color": [
+					{ "time": 0, "color": "6700ff00" },
+					{ "time": 1.7, "color": "6700ff4c" },
+					{ "time": 3.7, "color": "6700ff00" }
+				]
+			},
+			"longjing_texiao1_4": {
+				"color": [
+					{ "time": 0, "color": "6700ff4a", "curve": "stepped" },
+					{ "time": 1.7, "color": "6700ff4a" },
+					{ "time": 1.8666, "color": "90fcff3a" },
+					{ "time": 3.7, "color": "6700ff4a" }
+				]
+			},
+			"longjing_texiao1_5": {
+				"color": [
+					{ "time": 0, "color": "90fcff00" },
+					{ "time": 1.8666, "color": "90fcff3a" },
+					{ "time": 3.7, "color": "90fcff00" }
+				]
+			},
+			"longjing_texiao1_6": {
+				"color": [
+					{ "time": 0, "color": "90fcff00" },
+					{ "time": 1.8666, "color": "90fcff3a" },
+					{ "time": 3.7, "color": "90fcff00" }
+				]
+			}
+		},
+		"bones": {
+			"longjing_texiao1_": {
+				"rotate": [
+					{ "time": 0, "angle": 46.69, "curve": "stepped" },
+					{ "time": 3.7, "angle": 46.69 }
+				],
+				"translate": [
+					{ "time": 0, "x": 18.79, "y": 32.01 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.513, "y": 0.486 },
+					{ "time": 0.9333, "x": 0.6, "y": 0.568 },
+					{ "time": 3.7, "x": 0.743, "y": 0.704 }
+				]
+			},
+			"longjing_texiao1_2": {
+				"rotate": [
+					{ "time": 0, "angle": 59.63, "curve": "stepped" },
+					{ "time": 3.7, "angle": 59.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 19.33, "y": 31.26, "curve": "stepped" },
+					{ "time": 3.7, "x": 19.33, "y": 31.26 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.303, "y": 0.303, "curve": "stepped" },
+					{ "time": 3.7, "x": 0.303, "y": 0.303 }
+				],
+				"flipY": [
+					{ "time": 0 },
+					{ "time": 3.7 }
+				]
+			},
+			"longjing_texiao1_3": {
+				"rotate": [
+					{ "time": 0, "angle": 7.09 }
+				],
+				"translate": [
+					{ "time": 0, "x": 19.19, "y": 32.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.214, "y": 0.214 },
+					{ "time": 3.7, "x": 0.774, "y": 0.733 }
+				]
+			},
+			"longjing_texiao1_4": {
+				"rotate": [
+					{ "time": 0, "angle": -67.83, "curve": "stepped" },
+					{ "time": 3.7, "angle": -67.83 }
+				],
+				"translate": [
+					{ "time": 0, "x": 70.79, "y": 6.76, "curve": "stepped" },
+					{ "time": 3.7, "x": 70.79, "y": 6.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.221, "y": 0.221 },
+					{ "time": 1.7, "x": 0.343, "y": 0.343 },
+					{ "time": 3.7, "x": 0.221, "y": 0.221 }
+				]
+			},
+			"longjing_texiao1_5": {
+				"rotate": [
+					{ "time": 0, "angle": -97.67, "curve": "stepped" },
+					{ "time": 3.7, "angle": -97.67 }
+				],
+				"translate": [
+					{ "time": 0, "x": 70.79, "y": 6.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.396, "y": 0.396 },
+					{ "time": 3.7, "x": 0.608, "y": 0.608 }
+				]
+			},
+			"longjing_texiao1_6": {
+				"rotate": [
+					{ "time": 0, "angle": -95.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": 70.79, "y": 6.76, "curve": "stepped" },
+					{ "time": 3.7, "x": 70.79, "y": 6.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.225, "y": 0.225 },
+					{ "time": 3.7, "x": 0.63, "y": 0.63 }
+				]
+			}
+		}
+	}
+}
+}

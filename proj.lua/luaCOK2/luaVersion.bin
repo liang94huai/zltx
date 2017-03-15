@@ -1,0 +1,4 @@
+20151210
+files=main,GoldExchangeView,GoldExchangeIcon,GoldExchangeCell,GoldExchangeAdvCell,extern,common,CCBReaderLoad,ChatNoticeView,ActivityAdCell,ActivityListCellSprite,mainCOK2,GoldExchangeViewCOK2,GoldExchangeIconCOK2,GoldExchangeCellCOK2,GoldExchangeAdvCellCOK2,externCOK2,commonCOK2,CCBReaderLoadCOK2,ChatNoticeViewCOK2,ActivityAdCellCOK2,ActivityListCellSpriteCOK2,Cocos2dCOK2,NewGoldExchangeAdvCellCOK2
+efiles=actMain,worldMain
+noticeFiles=ChatNoticeView.lua,ChatNoticeViewCOK2.lua,ccbi/ChatNoticeLuaView.ccbi,ccbi/ChatNoticeSLuaView.ccbi,resources/chatNotice.plist,resources/chatNotice.pvr.ccz

@@ -1,0 +1,32 @@
+_alpha_sk_crystal_gift.pkm
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+longjing_texiao_
+  rotate: false
+  xy: 4, 4
+  size: 235, 234
+  orig: 235, 234
+  offset: 0, 0
+  index: -1
+longjing_texiao2_
+  rotate: true
+  xy: 390, 4
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+longjing_rukou_
+  rotate: false
+  xy: 245, 4
+  size: 139, 96
+  orig: 139, 96
+  offset: 0, 0
+  index: -1
+longjing_texiao1_
+  rotate: false
+  xy: 460, 4
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
