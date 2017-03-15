@@ -1,0 +1,3910 @@
+{
+"skeleton": { "hash": "Rp0BeKift5WvcynglzibJGQummg", "spine": "2.1.27", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 2.18, "y": 60.37 },
+	{ "name": "bone2", "parent": "root", "x": 0.7, "y": 20.88 },
+	{ "name": "bone3", "parent": "root", "x": 8.52, "y": -19.6 }
+],
+"slots": [
+	{ "name": "houwang_dj_1_0_", "bone": "root" },
+	{ "name": "houwang_dj_1_1_", "bone": "root" },
+	{ "name": "houwang_dj_1_2_", "bone": "root" },
+	{ "name": "houwang_dj_1_3_", "bone": "root" },
+	{ "name": "houwang_dj_1_4_", "bone": "root" },
+	{ "name": "houwang_dj_2_5_", "bone": "root" },
+	{ "name": "houwang_dj_2_4_", "bone": "root" },
+	{ "name": "houwang_dj_2_3_", "bone": "root" },
+	{ "name": "houwang_dj_2_2_", "bone": "root" },
+	{ "name": "houwang_dj_2_0_", "bone": "root" },
+	{ "name": "houwang_dj_3_4_", "bone": "root" },
+	{ "name": "houwang_dj_3_3_", "bone": "root" },
+	{ "name": "houwang_dj_3_2_", "bone": "root" },
+	{ "name": "houwang_dj_3_1_", "bone": "root" },
+	{ "name": "houwang_dj_3_0_", "bone": "root" },
+	{ "name": "houwang_dj_4_4_", "bone": "root" },
+	{ "name": "houwang_dj_4_3_", "bone": "root" },
+	{ "name": "houwang_dj_4_2_", "bone": "root" },
+	{ "name": "houwang_dj_4_1_", "bone": "root" },
+	{ "name": "houwang_dj_4_0_", "bone": "root" },
+	{ "name": "houwang_dj_5_3_", "bone": "root" },
+	{ "name": "houwang_dj_5_2_", "bone": "root" },
+	{ "name": "houwang_dj_5_1_", "bone": "root" },
+	{ "name": "houwang_dj_5_0_", "bone": "root" },
+	{ "name": "houwang_dj_6_3_", "bone": "root" },
+	{ "name": "houwang_dj_6_2_", "bone": "root" },
+	{ "name": "houwang_dj_6_1_", "bone": "root" },
+	{ "name": "houwang_dj_6_0_", "bone": "root" },
+	{ "name": "houwang_dj_7_3_", "bone": "root" },
+	{ "name": "houwang_dj_7_2_", "bone": "root" },
+	{ "name": "houwang_dj_7_1_", "bone": "root" },
+	{ "name": "houwang_dj_7_0_", "bone": "root" },
+	{ "name": "houwang_dj_8_4_", "bone": "root" },
+	{ "name": "houwang_dj_8_3_", "bone": "root" },
+	{ "name": "houwang_dj_8_2_", "bone": "root" },
+	{ "name": "houwang_dj_8_1_", "bone": "root" },
+	{ "name": "houwang_dj_8_0_", "bone": "root" },
+	{ "name": "houwang_dj_9_4_", "bone": "root" },
+	{ "name": "houwang_dj_9_3_", "bone": "root" },
+	{ "name": "houwang_dj_9_2_", "bone": "root" },
+	{ "name": "houwang_dj_9_1_", "bone": "root" },
+	{ "name": "houwang_dj_9_0_", "bone": "root" },
+	{ "name": "houwang_dj_10_4_", "bone": "root" },
+	{ "name": "houwang_dj_10_3_", "bone": "root" },
+	{ "name": "houwang_dj_10_2_", "bone": "root" },
+	{ "name": "houwang_dj_10_1_", "bone": "root" },
+	{ "name": "houwang_dj_10_0_", "bone": "root" },
+	{ "name": "houwang_dj_11_4_", "bone": "root" },
+	{ "name": "houwang_dj_11_3_", "bone": "root" },
+	{ "name": "houwang_dj_11_2_", "bone": "root" },
+	{ "name": "houwang_dj_11_1_", "bone": "root" },
+	{ "name": "houwang_dj_11_0_", "bone": "root" },
+	{ "name": "houwang_gj_0_3_", "bone": "root" },
+	{ "name": "houwang_gj_0_2_", "bone": "root" },
+	{ "name": "houwang_gj_0_1_", "bone": "root" },
+	{ "name": "houwang_gj_0_0_", "bone": "root" },
+	{ "name": "houwang_gj_1_5_", "bone": "root" },
+	{ "name": "houwang_gj_1_4_", "bone": "root" },
+	{ "name": "houwang_gj_1_3_", "bone": "root" },
+	{ "name": "houwang_gj_1_2_", "bone": "root" },
+	{ "name": "houwang_gj_1_1_", "bone": "root" },
+	{ "name": "houwang_gj_1_0_", "bone": "root" },
+	{ "name": "houwang_gj_2_5_", "bone": "root" },
+	{ "name": "houwang_gj_2_4_", "bone": "root" },
+	{ "name": "houwang_gj_2_3_", "bone": "root" },
+	{ "name": "houwang_gj_2_2_", "bone": "root" },
+	{ "name": "houwang_gj_2_1_", "bone": "root" },
+	{ "name": "houwang_gj_2_0_", "bone": "root" },
+	{ "name": "houwang_gj_3_5_", "bone": "root" },
+	{ "name": "houwang_gj_3_4_", "bone": "root" },
+	{ "name": "houwang_gj_3_3_", "bone": "root" },
+	{ "name": "houwang_gj_3_2_", "bone": "root" },
+	{ "name": "houwang_gj_3_1_", "bone": "root" },
+	{ "name": "houwang_gj_3_0_", "bone": "root" },
+	{ "name": "houwang_gj_4_5_", "bone": "root" },
+	{ "name": "houwang_gj_4_4_", "bone": "root" },
+	{ "name": "houwang_gj_4_3_", "bone": "root" },
+	{ "name": "houwang_gj_4_2_", "bone": "root" },
+	{ "name": "houwang_gj_4_1_", "bone": "root" },
+	{ "name": "houwang_gj_4_0_", "bone": "root" },
+	{ "name": "houwang_gj_5_4_", "bone": "root" },
+	{ "name": "houwang_gj_5_3_", "bone": "root" },
+	{ "name": "houwang_gj_5_2_", "bone": "root" },
+	{ "name": "houwang_gj_5_1_", "bone": "root" },
+	{ "name": "houwang_gj_5_0_", "bone": "root" },
+	{ "name": "houwang_gj_6_4_", "bone": "root" },
+	{ "name": "houwang_gj_6_3_", "bone": "root" },
+	{ "name": "houwang_gj_6_2_", "bone": "root" },
+	{ "name": "houwang_gj_6_1_", "bone": "root" },
+	{ "name": "houwang_gj_6_0_", "bone": "root" },
+	{ "name": "houwang_gj_7_5_", "bone": "root" },
+	{ "name": "houwang_gj_7_4_", "bone": "root" },
+	{ "name": "houwang_gj_7_3_", "bone": "root" },
+	{ "name": "houwang_gj_7_2_", "bone": "root" },
+	{ "name": "houwang_gj_7_1_", "bone": "root" },
+	{ "name": "houwang_gj_7_0_", "bone": "root" },
+	{ "name": "houwang_gj_8_7_", "bone": "root" },
+	{ "name": "houwang_gj_8_6_", "bone": "root" },
+	{ "name": "houwang_gj_8_5_", "bone": "root" },
+	{ "name": "houwang_gj_8_4_", "bone": "root" },
+	{ "name": "houwang_gj_8_3_", "bone": "root" },
+	{ "name": "houwang_gj_8_2_", "bone": "root" },
+	{ "name": "houwang_gj_8_1_", "bone": "root" },
+	{ "name": "houwang_gj_8_0_", "bone": "root" },
+	{ "name": "houwang_gj_9_5_", "bone": "root" },
+	{ "name": "houwang_gj_9_4_", "bone": "root" },
+	{ "name": "houwang_gj_9_3_", "bone": "root" },
+	{ "name": "houwang_gj_9_2_", "bone": "root" },
+	{ "name": "houwang_gj_9_1_", "bone": "root" },
+	{ "name": "houwang_gj_9_0_", "bone": "root" },
+	{ "name": "houwang_gj_10_4_", "bone": "root" },
+	{ "name": "houwang_gj_10_3_", "bone": "root" },
+	{ "name": "houwang_gj_10_2_", "bone": "root" },
+	{ "name": "houwang_gj_10_1_", "bone": "root" },
+	{ "name": "houwang_gj_10_0_", "bone": "root" },
+	{ "name": "houwang_gj_11_2_", "bone": "root" },
+	{ "name": "houwang_gj_11_1_", "bone": "root" },
+	{ "name": "houwang_gj_11_0_", "bone": "root" },
+	{ "name": "houwang_gj_12_5_", "bone": "root" },
+	{ "name": "houwang_gj_12_4_", "bone": "root" },
+	{ "name": "houwang_gj_12_3_", "bone": "root" },
+	{ "name": "houwang_gj_12_2_", "bone": "root" },
+	{ "name": "houwang_gj_12_1_", "bone": "root" },
+	{ "name": "houwang_gj_12_0_", "bone": "root" },
+	{ "name": "siwang_0_", "bone": "bone" },
+	{ "name": "houwang_yz_0_", "bone": "bone2" },
+	{ "name": "houwang_texiao_0_", "bone": "bone3" }
+],
+"skins": {
+	"default": {
+		"houwang_dj_10_0_": {
+			"houwang_dj_10_0_": { "x": 17.68, "y": 45.74, "width": 98, "height": 86 }
+		},
+		"houwang_dj_10_1_": {
+			"houwang_dj_10_1_": { "x": -59.81, "y": 99.74, "width": 57, "height": 54 }
+		},
+		"houwang_dj_10_2_": {
+			"houwang_dj_10_2_": { "x": -1.81, "y": 118.74, "width": 59, "height": 60 }
+		},
+		"houwang_dj_10_3_": {
+			"houwang_dj_10_3_": { "x": 47.18, "y": 128.24, "width": 39, "height": 79 }
+		},
+		"houwang_dj_10_4_": {
+			"houwang_dj_10_4_": { "x": 91.68, "y": 130.74, "width": 50, "height": 82 }
+		},
+		"houwang_dj_11_0_": {
+			"houwang_dj_11_0_": { "x": 90.68, "y": 129.24, "width": 50, "height": 85 }
+		},
+		"houwang_dj_11_1_": {
+			"houwang_dj_11_1_": { "x": 17.18, "y": 37.74, "width": 99, "height": 68 }
+		},
+		"houwang_dj_11_2_": {
+			"houwang_dj_11_2_": { "x": 16.68, "y": 106.24, "width": 98, "height": 69 }
+		},
+		"houwang_dj_11_3_": {
+			"houwang_dj_11_3_": { "x": 41.18, "y": 152.74, "width": 49, "height": 24 }
+		},
+		"houwang_dj_11_4_": {
+			"houwang_dj_11_4_": { "x": -59.31, "y": 100.24, "width": 54, "height": 55 }
+		},
+		"houwang_dj_1_0_": {
+			"houwang_dj_1_0_": { "x": -58.81, "y": 97.74, "width": 51, "height": 54 }
+		},
+		"houwang_dj_1_1_": {
+			"houwang_dj_1_1_": { "x": 51.68, "y": 147.74, "width": 32, "height": 40 }
+		},
+		"houwang_dj_1_2_": {
+			"houwang_dj_1_2_": { "x": 5.68, "y": 141.24, "width": 60, "height": 27 }
+		},
+		"houwang_dj_1_3_": {
+			"houwang_dj_1_3_": { "x": 17.18, "y": 65.74, "width": 101, "height": 124 }
+		},
+		"houwang_dj_1_4_": {
+			"houwang_dj_1_4_": { "x": 92.18, "y": 131.74, "width": 49, "height": 86 }
+		},
+		"houwang_dj_2_0_": {
+			"houwang_dj_2_0_": { "x": 91.68, "y": 129.24, "width": 48, "height": 91 }
+		},
+		"houwang_dj_2_2_": {
+			"houwang_dj_2_2_": { "x": 17.18, "y": 65.74, "width": 101, "height": 124 }
+		},
+		"houwang_dj_2_3_": {
+			"houwang_dj_2_3_": { "x": 48.18, "y": 148.24, "width": 39, "height": 41 }
+		},
+		"houwang_dj_2_4_": {
+			"houwang_dj_2_4_": { "x": 3.18, "y": 140.74, "width": 51, "height": 26 }
+		},
+		"houwang_dj_2_5_": {
+			"houwang_dj_2_5_": { "x": -59.31, "y": 95.74, "width": 52, "height": 56 }
+		},
+		"houwang_dj_3_0_": {
+			"houwang_dj_3_0_": { "x": 92.18, "y": 128.74, "width": 47, "height": 90 }
+		},
+		"houwang_dj_3_1_": {
+			"houwang_dj_3_1_": { "x": -59.81, "y": 94.24, "width": 53, "height": 55 }
+		},
+		"houwang_dj_3_2_": {
+			"houwang_dj_3_2_": { "x": 17.68, "y": 63.74, "width": 102, "height": 120 }
+		},
+		"houwang_dj_3_3_": {
+			"houwang_dj_3_3_": { "x": 47.68, "y": 147.24, "width": 42, "height": 47 }
+		},
+		"houwang_dj_3_4_": {
+			"houwang_dj_3_4_": { "x": -0.31, "y": 139.24, "width": 54, "height": 31 }
+		},
+		"houwang_dj_4_0_": {
+			"houwang_dj_4_0_": { "x": 18.18, "y": 61.24, "width": 103, "height": 117 }
+		},
+		"houwang_dj_4_1_": {
+			"houwang_dj_4_1_": { "x": -59.31, "y": 93.24, "width": 52, "height": 57 }
+		},
+		"houwang_dj_4_2_": {
+			"houwang_dj_4_2_": { "x": 49.18, "y": 145.74, "width": 41, "height": 52 }
+		},
+		"houwang_dj_4_3_": {
+			"houwang_dj_4_3_": { "x": -2.81, "y": 135.74, "width": 63, "height": 32 }
+		},
+		"houwang_dj_4_4_": {
+			"houwang_dj_4_4_": { "x": 93.18, "y": 128.24, "width": 47, "height": 91 }
+		},
+		"houwang_dj_5_0_": {
+			"houwang_dj_5_0_": { "x": 17.68, "y": 69.74, "width": 102, "height": 136 }
+		},
+		"houwang_dj_5_1_": {
+			"houwang_dj_5_1_": { "x": -59.31, "y": 90.74, "width": 52, "height": 54 }
+		},
+		"houwang_dj_5_2_": {
+			"houwang_dj_5_2_": { "x": 37.18, "y": 155.24, "width": 63, "height": 35 }
+		},
+		"houwang_dj_5_3_": {
+			"houwang_dj_5_3_": { "x": 92.18, "y": 129.74, "width": 47, "height": 90 }
+		},
+		"houwang_dj_6_0_": {
+			"houwang_dj_6_0_": { "x": -59.81, "y": 91.74, "width": 53, "height": 56 }
+		},
+		"houwang_dj_6_1_": {
+			"houwang_dj_6_1_": { "x": 17.68, "y": 69.74, "width": 102, "height": 136 }
+		},
+		"houwang_dj_6_2_": {
+			"houwang_dj_6_2_": { "x": 39.68, "y": 156.24, "width": 58, "height": 37 }
+		},
+		"houwang_dj_6_3_": {
+			"houwang_dj_6_3_": { "x": 92.18, "y": 132.24, "width": 47, "height": 87 }
+		},
+		"houwang_dj_7_0_": {
+			"houwang_dj_7_0_": { "x": 18.18, "y": 70.24, "width": 101, "height": 137 }
+		},
+		"houwang_dj_7_1_": {
+			"houwang_dj_7_1_": { "x": -59.81, "y": 94.24, "width": 55, "height": 57 }
+		},
+		"houwang_dj_7_2_": {
+			"houwang_dj_7_2_": { "x": 40.68, "y": 156.74, "width": 56, "height": 36 }
+		},
+		"houwang_dj_7_3_": {
+			"houwang_dj_7_3_": { "x": 92.18, "y": 133.74, "width": 47, "height": 84 }
+		},
+		"houwang_dj_8_0_": {
+			"houwang_dj_8_0_": { "x": 91.68, "y": 133.74, "width": 48, "height": 86 }
+		},
+		"houwang_dj_8_1_": {
+			"houwang_dj_8_1_": { "x": -60.81, "y": 95.74, "width": 57, "height": 54 }
+		},
+		"houwang_dj_8_2_": {
+			"houwang_dj_8_2_": { "x": 17.68, "y": 45.24, "width": 100, "height": 83 }
+		},
+		"houwang_dj_8_3_": {
+			"houwang_dj_8_3_": { "x": 17.68, "y": 118.24, "width": 100, "height": 63 }
+		},
+		"houwang_dj_8_4_": {
+			"houwang_dj_8_4_": { "x": 50.18, "y": 162.24, "width": 35, "height": 25 }
+		},
+		"houwang_dj_9_0_": {
+			"houwang_dj_9_0_": { "x": 17.68, "y": 37.74, "width": 100, "height": 68 }
+		},
+		"houwang_dj_9_1_": {
+			"houwang_dj_9_1_": { "x": -59.81, "y": 99.24, "width": 55, "height": 55 }
+		},
+		"houwang_dj_9_2_": {
+			"houwang_dj_9_2_": { "x": 17.68, "y": 109.74, "width": 100, "height": 76 }
+		},
+		"houwang_dj_9_3_": {
+			"houwang_dj_9_3_": { "x": 66.68, "y": 161.24, "width": 70, "height": 27 }
+		},
+		"houwang_dj_9_4_": {
+			"houwang_dj_9_4_": { "x": 91.68, "y": 118.24, "width": 48, "height": 59 }
+		},
+		"houwang_gj_0_0_": {
+			"houwang_gj_0_0_": { "x": 91.68, "y": 130.74, "width": 52, "height": 88 }
+		},
+		"houwang_gj_0_1_": {
+			"houwang_gj_0_1_": { "x": 17.18, "y": 45.24, "width": 97, "height": 85 }
+		},
+		"houwang_gj_0_2_": {
+			"houwang_gj_0_2_": { "x": 16.68, "y": 127.74, "width": 98, "height": 80 }
+		},
+		"houwang_gj_0_3_": {
+			"houwang_gj_0_3_": { "x": -57.81, "y": 100.24, "width": 51, "height": 55 }
+		},
+		"houwang_gj_10_0_": {
+			"houwang_gj_10_0_": { "x": -132.81, "y": 84.24, "width": 71, "height": 119 }
+		},
+		"houwang_gj_10_1_": {
+			"houwang_gj_10_1_": { "x": -73.81, "y": 88.74, "width": 47, "height": 82 }
+		},
+		"houwang_gj_10_2_": {
+			"houwang_gj_10_2_": { "x": -9.81, "y": 61.24, "width": 81, "height": 119 }
+		},
+		"houwang_gj_10_3_": {
+			"houwang_gj_10_3_": { "x": 61.18, "y": 64.24, "width": 61, "height": 27 }
+		},
+		"houwang_gj_10_4_": {
+			"houwang_gj_10_4_": { "x": 93.18, "y": 96.74, "width": 13, "height": 38 }
+		},
+		"houwang_gj_11_0_": {
+			"houwang_gj_11_0_": { "x": 32.68, "y": 99.74, "width": 134, "height": 102 }
+		},
+		"houwang_gj_11_1_": {
+			"houwang_gj_11_1_": { "x": -61.31, "y": 110.24, "width": 54, "height": 65 }
+		},
+		"houwang_gj_11_2_": {
+			"houwang_gj_11_2_": { "x": 1.18, "y": 25.74, "width": 71, "height": 46 }
+		},
+		"houwang_gj_12_0_": {
+			"houwang_gj_12_0_": { "x": 92.18, "y": 130.74, "width": 51, "height": 88 }
+		},
+		"houwang_gj_12_1_": {
+			"houwang_gj_12_1_": { "x": -15.31, "y": 44.74, "width": 32, "height": 56 }
+		},
+		"houwang_gj_12_2_": {
+			"houwang_gj_12_2_": { "x": 33.18, "y": 38.24, "width": 65, "height": 69 }
+		},
+		"houwang_gj_12_3_": {
+			"houwang_gj_12_3_": { "x": 44.68, "y": 120.74, "width": 44, "height": 96 }
+		},
+		"houwang_gj_12_4_": {
+			"houwang_gj_12_4_": { "x": -4.31, "y": 110.74, "width": 54, "height": 76 }
+		},
+		"houwang_gj_12_5_": {
+			"houwang_gj_12_5_": { "x": -57.81, "y": 100.24, "width": 53, "height": 55 }
+		},
+		"houwang_gj_1_0_": {
+			"houwang_gj_1_0_": { "x": 116.68, "y": 128.24, "width": 76, "height": 91 }
+		},
+		"houwang_gj_1_1_": {
+			"houwang_gj_1_1_": { "x": 4.18, "y": 122.74, "width": 107, "height": 80 }
+		},
+		"houwang_gj_1_2_": {
+			"houwang_gj_1_2_": { "x": 68.18, "y": 134.24, "width": 21, "height": 25 }
+		},
+		"houwang_gj_1_3_": {
+			"houwang_gj_1_3_": { "x": 8.68, "y": 66.24, "width": 82, "height": 33 }
+		},
+		"houwang_gj_1_4_": {
+			"houwang_gj_1_4_": { "x": 26.18, "y": 29.24, "width": 33, "height": 41 }
+		},
+		"houwang_gj_1_5_": {
+			"houwang_gj_1_5_": { "x": -3.31, "y": 40.74, "width": 20, "height": 18 }
+		},
+		"houwang_gj_2_0_": {
+			"houwang_gj_2_0_": { "x": 33.68, "y": 130.24, "width": 90, "height": 95 }
+		},
+		"houwang_gj_2_1_": {
+			"houwang_gj_2_1_": { "x": 34.18, "y": 60.24, "width": 75, "height": 45 }
+		},
+		"houwang_gj_2_2_": {
+			"houwang_gj_2_2_": { "x": 16.68, "y": 24.24, "width": 24, "height": 27 }
+		},
+		"houwang_gj_2_3_": {
+			"houwang_gj_2_3_": { "x": 102.18, "y": 122.74, "width": 47, "height": 30 }
+		},
+		"houwang_gj_2_4_": {
+			"houwang_gj_2_4_": { "x": 159.68, "y": 115.74, "width": 68, "height": 66 }
+		},
+		"houwang_gj_2_5_": {
+			"houwang_gj_2_5_": { "x": 175.18, "y": 70.24, "width": 13, "height": 25 }
+		},
+		"houwang_gj_3_0_": {
+			"houwang_gj_3_0_": { "x": 173.18, "y": 59.24, "width": 85, "height": 89 }
+		},
+		"houwang_gj_3_1_": {
+			"houwang_gj_3_1_": { "x": 114.18, "y": 104.74, "width": 33, "height": 40 }
+		},
+		"houwang_gj_3_2_": {
+			"houwang_gj_3_2_": { "x": 50.18, "y": 138.24, "width": 95, "height": 87 }
+		},
+		"houwang_gj_3_3_": {
+			"houwang_gj_3_3_": { "x": 73.68, "y": 61.24, "width": 50, "height": 67 }
+		},
+		"houwang_gj_3_4_": {
+			"houwang_gj_3_4_": { "x": 23.68, "y": 67.74, "width": 50, "height": 54 }
+		},
+		"houwang_gj_3_5_": {
+			"houwang_gj_3_5_": { "x": 9.18, "y": 24.74, "width": 29, "height": 32 }
+		},
+		"houwang_gj_4_0_": {
+			"houwang_gj_4_0_": { "x": 128.68, "y": 4.24, "width": 80, "height": 87 }
+		},
+		"houwang_gj_4_1_": {
+			"houwang_gj_4_1_": { "x": 107.18, "y": 81.74, "width": 37, "height": 68 }
+		},
+		"houwang_gj_4_2_": {
+			"houwang_gj_4_2_": { "x": 43.68, "y": 82.24, "width": 90, "height": 69 }
+		},
+		"houwang_gj_4_3_": {
+			"houwang_gj_4_3_": { "x": 16.68, "y": 28.24, "width": 42, "height": 39 }
+		},
+		"houwang_gj_4_4_": {
+			"houwang_gj_4_4_": { "x": 70.68, "y": 32.24, "width": 36, "height": 31 }
+		},
+		"houwang_gj_4_5_": {
+			"houwang_gj_4_5_": { "x": 46.18, "y": 148.24, "width": 83, "height": 63 }
+		},
+		"houwang_gj_5_0_": {
+			"houwang_gj_5_0_": { "x": 10.68, "y": 150.24, "width": 106, "height": 53 }
+		},
+		"houwang_gj_5_1_": {
+			"houwang_gj_5_1_": { "x": 98.68, "y": 111.24, "width": 70, "height": 123 }
+		},
+		"houwang_gj_5_2_": {
+			"houwang_gj_5_2_": { "x": 79.68, "y": 32.24, "width": 32, "height": 35 }
+		},
+		"houwang_gj_5_3_": {
+			"houwang_gj_5_3_": { "x": 107.68, "y": 27.74, "width": 24, "height": 26 }
+		},
+		"houwang_gj_5_4_": {
+			"houwang_gj_5_4_": { "x": 24.68, "y": 65.24, "width": 78, "height": 117 }
+		},
+		"houwang_gj_6_0_": {
+			"houwang_gj_6_0_": { "x": 79.68, "y": 52.24, "width": 58, "height": 13 }
+		},
+		"houwang_gj_6_1_": {
+			"houwang_gj_6_1_": { "x": 119.68, "y": 38.24, "width": 22, "height": 27 }
+		},
+		"houwang_gj_6_2_": {
+			"houwang_gj_6_2_": { "x": -21.81, "y": 37.24, "width": 103, "height": 103 }
+		},
+		"houwang_gj_6_3_": {
+			"houwang_gj_6_3_": { "x": 40.18, "y": 55.24, "width": 21, "height": 27 }
+		},
+		"houwang_gj_6_4_": {
+			"houwang_gj_6_4_": { "x": -116.31, "y": -9.75, "width": 86, "height": 99 }
+		},
+		"houwang_gj_7_0_": {
+			"houwang_gj_7_0_": { "x": -135.81, "y": -57.75, "width": 83, "height": 81 }
+		},
+		"houwang_gj_7_1_": {
+			"houwang_gj_7_1_": { "x": -117.81, "y": -2.25, "width": 61, "height": 30 }
+		},
+		"houwang_gj_7_2_": {
+			"houwang_gj_7_2_": { "x": -30.31, "y": 29.24, "width": 116, "height": 97 }
+		},
+		"houwang_gj_7_3_": {
+			"houwang_gj_7_3_": { "x": 49.68, "y": 58.74, "width": 44, "height": 24 }
+		},
+		"houwang_gj_7_4_": {
+			"houwang_gj_7_4_": { "x": 88.68, "y": 76.74, "width": 34, "height": 24 }
+		},
+		"houwang_gj_7_5_": {
+			"houwang_gj_7_5_": { "x": 118.68, "y": 81.74, "width": 26, "height": 14 }
+		},
+		"houwang_gj_8_0_": {
+			"houwang_gj_8_0_": { "x": -150.81, "y": -59.25, "width": 83, "height": 84 }
+		},
+		"houwang_gj_8_1_": {
+			"houwang_gj_8_1_": { "x": -124.81, "y": -2.25, "width": 75, "height": 30 }
+		},
+		"houwang_gj_8_2_": {
+			"houwang_gj_8_2_": { "x": -19.31, "y": 67.24, "width": 96, "height": 45 }
+		},
+		"houwang_gj_8_3_": {
+			"houwang_gj_8_3_": { "x": -29.81, "y": 14.24, "width": 115, "height": 61 }
+		},
+		"houwang_gj_8_4_": {
+			"houwang_gj_8_4_": { "x": 41.68, "y": 50.24, "width": 28, "height": 9 }
+		},
+		"houwang_gj_8_5_": {
+			"houwang_gj_8_5_": { "x": 72.18, "y": 68.74, "width": 33, "height": 40 }
+		},
+		"houwang_gj_8_6_": {
+			"houwang_gj_8_6_": { "x": 108.68, "y": 107.74, "width": 18, "height": 8 }
+		},
+		"houwang_gj_8_7_": {
+			"houwang_gj_8_7_": { "x": 91.18, "y": 98.74, "width": 17, "height": 20 }
+		},
+		"houwang_gj_9_0_": {
+			"houwang_gj_9_0_": { "x": -162.31, "y": -56.25, "width": 92, "height": 90 }
+		},
+		"houwang_gj_9_1_": {
+			"houwang_gj_9_1_": { "x": -127.81, "y": 4.74, "width": 67, "height": 32 }
+		},
+		"houwang_gj_9_2_": {
+			"houwang_gj_9_2_": { "x": -23.81, "y": 86.74, "width": 83, "height": 42 }
+		},
+		"houwang_gj_9_3_": {
+			"houwang_gj_9_3_": { "x": -32.81, "y": 27.24, "width": 123, "height": 77 }
+		},
+		"houwang_gj_9_4_": {
+			"houwang_gj_9_4_": { "x": 55.68, "y": 57.74, "width": 54, "height": 26 }
+		},
+		"houwang_gj_9_5_": {
+			"houwang_gj_9_5_": { "x": 87.68, "y": 97.74, "width": 22, "height": 54 }
+		},
+		"houwang_texiao_0_": {
+			"houwang_texiao_0_": { "width": 360, "height": 200 },
+			"houwang_texiao_1_": { "width": 360, "height": 200 },
+			"houwang_texiao_2_": { "width": 360, "height": 200 },
+			"houwang_texiao_3_": { "width": 360, "height": 200 },
+			"houwang_texiao_4_": { "width": 360, "height": 200 },
+			"houwang_texiao_5_": { "width": 360, "height": 200 },
+			"houwang_texiao_6_": { "width": 360, "height": 200 },
+			"houwang_texiao_7_": { "width": 360, "height": 200 },
+			"houwang_texiao_8_": { "width": 360, "height": 200 },
+			"houwang_texiao_9_": { "width": 360, "height": 200 }
+		},
+		"houwang_yz_0_": {
+			"houwang_yz_0_": { "width": 85, "height": 85 }
+		},
+		"siwang_0_": {
+			"siwang_0_": { "width": 165, "height": 156 },
+			"siwang_1_": { "width": 165, "height": 156 },
+			"siwang_2_": { "width": 165, "height": 156 },
+			"siwang_3_": { "width": 165, "height": 156 },
+			"siwang_4_": { "width": 165, "height": 156 },
+			"siwang_5_": { "width": 165, "height": 156 },
+			"siwang_6_": { "width": 165, "height": 156 }
+		}
+	}
+},
+"animations": {
+	"cc": {
+		"slots": {
+			"houwang_dj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_0_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_0_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_0_" }
+				]
+			},
+			"houwang_gj_0_1_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_1_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_1_" }
+				]
+			},
+			"houwang_gj_0_2_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_2_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_2_" }
+				]
+			},
+			"houwang_gj_0_3_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_3_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_3_" }
+				]
+			},
+			"houwang_gj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_0_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_1_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_2_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_3_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_4_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_0_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_1_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_2_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_0_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_1_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_2_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_3_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_4_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_5_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_0_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_1_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_2_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_3_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_4_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_5_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_0_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_1_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_2_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_3_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_4_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_5_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_0_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_1_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_2_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_3_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_4_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_5_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_0_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_1_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_2_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_3_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_4_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_0_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_1_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_2_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_3_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_4_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_0_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_1_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_2_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_3_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_4_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_5_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_0_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_1_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_2_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_3_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_4_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_5_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_6_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_6_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_7_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_7_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_0_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_1_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_2_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_3_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_4_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_5_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_texiao_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_texiao_0_" },
+					{ "time": 0.6, "name": "houwang_texiao_1_" },
+					{ "time": 0.6333, "name": "houwang_texiao_2_" },
+					{ "time": 0.6666, "name": "houwang_texiao_3_" },
+					{ "time": 0.7, "name": "houwang_texiao_4_" },
+					{ "time": 0.7333, "name": "houwang_texiao_5_" },
+					{ "time": 0.7666, "name": "houwang_texiao_6_" },
+					{ "time": 0.8, "name": "houwang_texiao_7_" },
+					{ "time": 0.8333, "name": "houwang_texiao_8_" },
+					{ "time": 0.8666, "name": "houwang_texiao_9_" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"houwang_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd0" }
+				]
+			},
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -150.91, "y": -13.39, "curve": "stepped" },
+					{ "time": 0.5666, "x": -150.91, "y": -13.39 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.5666,
+				"offsets": [
+					{ "slot": "houwang_texiao_0_", "offset": -126 }
+				]
+			}
+		]
+	},
+	"dj": {
+		"slots": {
+			"houwang_dj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_dj_10_0_" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_dj_10_1_" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_dj_10_2_" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_dj_10_3_" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_dj_10_4_" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7333, "name": "houwang_dj_11_0_" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7333, "name": "houwang_dj_11_1_" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7333, "name": "houwang_dj_11_2_" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_11_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7333, "name": "houwang_dj_11_3_" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_11_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7333, "name": "houwang_dj_11_4_" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "houwang_dj_1_0_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "houwang_dj_1_1_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "houwang_dj_1_2_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "houwang_dj_1_3_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "houwang_dj_1_4_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "houwang_dj_2_0_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "houwang_dj_2_2_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "houwang_dj_2_3_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "houwang_dj_2_4_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "houwang_dj_2_5_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_dj_3_0_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_dj_3_1_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_dj_3_2_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_dj_3_3_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_dj_3_4_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_dj_4_0_" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_dj_4_1_" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_dj_4_2_" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_dj_4_3_" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_dj_4_4_" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "houwang_dj_5_0_" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "houwang_dj_5_1_" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "houwang_dj_5_2_" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "houwang_dj_5_3_" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "houwang_dj_6_0_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "houwang_dj_6_1_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "houwang_dj_6_2_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "houwang_dj_6_3_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_dj_7_0_" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_dj_7_1_" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_dj_7_2_" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_dj_7_3_" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "houwang_dj_8_0_" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "houwang_dj_8_1_" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "houwang_dj_8_2_" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "houwang_dj_8_3_" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "houwang_dj_8_4_" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6, "name": "houwang_dj_9_0_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6, "name": "houwang_dj_9_1_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6, "name": "houwang_dj_9_2_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6, "name": "houwang_dj_9_3_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_dj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6, "name": "houwang_dj_9_4_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_0_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_0_" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.8, "name": "houwang_gj_0_0_" }
+				]
+			},
+			"houwang_gj_0_1_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_1_" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.8, "name": "houwang_gj_0_1_" }
+				]
+			},
+			"houwang_gj_0_2_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_2_" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.8, "name": "houwang_gj_0_2_" }
+				]
+			},
+			"houwang_gj_0_3_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_3_" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.8, "name": "houwang_gj_0_3_" }
+				]
+			},
+			"houwang_gj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_12_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_1_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_3_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_4_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_5_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_6_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_7_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_6_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_8_7_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_gj_9_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_texiao_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"houwang_yz_0_": {
+				"attachment": [
+					{ "time": 0.8, "name": "houwang_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffcd" }
+				]
+			},
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"gj": {
+		"slots": {
+			"houwang_dj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_11_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_dj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_0_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_0_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_0_" }
+				]
+			},
+			"houwang_gj_0_1_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_1_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_1_" }
+				]
+			},
+			"houwang_gj_0_2_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_2_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_2_" }
+				]
+			},
+			"houwang_gj_0_3_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_3_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 1.1333, "name": "houwang_gj_0_3_" }
+				]
+			},
+			"houwang_gj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_0_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_1_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_2_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_3_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "houwang_gj_10_4_" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_0_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_1_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.0333, "name": "houwang_gj_11_2_" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_12_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_0_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_1_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_2_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_3_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_4_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_1_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "houwang_gj_1_5_" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_0_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_1_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_2_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_3_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_4_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "houwang_gj_2_5_" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_0_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_1_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_2_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_3_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_4_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_3_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "houwang_gj_3_5_" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_0_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_1_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_2_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_3_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_4_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_4_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "houwang_gj_4_5_" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_0_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_1_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_2_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_3_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_5_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "houwang_gj_5_4_" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_0_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_1_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_2_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_3_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_6_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5666, "name": "houwang_gj_6_4_" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_0_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_1_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_2_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_3_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_4_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_7_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "houwang_gj_7_5_" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_0_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_1_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_2_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_3_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_4_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_5_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_6_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_6_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_8_7_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "houwang_gj_8_7_" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_0_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_1_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_2_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_3_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_4_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_gj_9_5_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": "houwang_gj_9_5_" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_texiao_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"houwang_yz_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_yz_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd0" }
+				]
+			},
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"sw": {
+		"slots": {
+			"houwang_dj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_11_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_11_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_dj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_0_0_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"houwang_gj_0_1_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_1_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"houwang_gj_0_2_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_2_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"houwang_gj_0_3_": {
+				"attachment": [
+					{ "time": 0, "name": "houwang_gj_0_3_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"houwang_gj_10_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_10_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_10_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_10_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_10_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_11_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_11_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_11_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_12_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_1_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_2_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_3_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_4_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_5_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_5_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_5_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_5_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_5_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_6_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_6_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_6_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_6_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_6_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_7_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_6_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_8_7_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_4_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_gj_9_5_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"houwang_texiao_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"houwang_yz_0_": {
+				"color": [
+					{ "time": 0, "color": "ffffffd0" },
+					{ "time": 0.0333, "color": "ffffff00" }
+				]
+			},
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "siwang_0_" },
+					{ "time": 0.1, "name": "siwang_1_" },
+					{ "time": 0.1666, "name": "siwang_2_" },
+					{ "time": 0.2333, "name": "siwang_3_" },
+					{ "time": 0.3, "name": "siwang_4_" },
+					{ "time": 0.3666, "name": "siwang_5_" },
+					{ "time": 0.4333, "name": "siwang_6_" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

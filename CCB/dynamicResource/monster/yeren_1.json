@@ -1,0 +1,435 @@
+{
+"skeleton": { "hash": "7nY7TZHq5JuHzZHt3wwnagOugR0", "spine": "2.1.27", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "siwangtexiao", "parent": "root", "x": 2.06, "y": 0.27 }
+],
+"slots": [
+	{ "name": "huangseshenti_dj_0_", "bone": "root", "attachment": "huangseshenti_dj_0_" },
+	{ "name": "huangseshenti_dj_1_", "bone": "root", "attachment": "huangseshenti_dj_1_" },
+	{ "name": "huangseshenti_dj_2_", "bone": "root", "attachment": "huangseshenti_dj_2_" },
+	{ "name": "huangseshenti_dj_3_", "bone": "root", "attachment": "huangseshenti_dj_3_" },
+	{ "name": "huangseshenti_gj_1_", "bone": "root", "attachment": "huangseshenti_gj_1_" },
+	{ "name": "huangseshenti_gj_2_", "bone": "root", "attachment": "huangseshenti_gj_2_" },
+	{ "name": "huangseshenti_gj_3_", "bone": "root", "attachment": "huangseshenti_gj_3_" },
+	{ "name": "mubang_dj_0_", "bone": "root", "attachment": "mubang_dj_0_" },
+	{ "name": "mubang_dj_1_", "bone": "root", "attachment": "mubang_dj_1_" },
+	{ "name": "mubang_dj_2_", "bone": "root", "attachment": "mubang_dj_2_" },
+	{ "name": "mubang_dj_3_", "bone": "root", "attachment": "mubang_dj_3_" },
+	{ "name": "mubang_gj_1_", "bone": "root", "attachment": "mubang_gj_1_" },
+	{ "name": "mubang_gj_2_", "bone": "root", "attachment": "mubang_gj_2_" },
+	{ "name": "mubang_gj_3_", "bone": "root", "attachment": "mubang_gj_3_" },
+	{ "name": "root", "bone": "siwangtexiao", "attachment": "siwang_6_" }
+],
+"skins": {
+	"default": {
+		"huangseshenti_dj_0_": {
+			"huangseshenti_dj_0_": { "x": -2.5, "y": 54.64, "width": 54, "height": 109 }
+		},
+		"huangseshenti_dj_1_": {
+			"huangseshenti_dj_1_": { "x": -4, "y": 54.14, "width": 55, "height": 108 }
+		},
+		"huangseshenti_dj_2_": {
+			"huangseshenti_dj_2_": { "x": -3, "y": 54.14, "width": 55, "height": 108 }
+		},
+		"huangseshenti_dj_3_": {
+			"huangseshenti_dj_3_": { "x": -2.5, "y": 54.64, "width": 54, "height": 109 }
+		},
+		"huangseshenti_gj_1_": {
+			"huangseshenti_gj_1_": { "x": 15.49, "y": 50.64, "width": 68, "height": 125 }
+		},
+		"huangseshenti_gj_2_": {
+			"huangseshenti_gj_2_": { "x": 8.99, "y": 28.64, "width": 79, "height": 85 }
+		},
+		"huangseshenti_gj_3_": {
+			"huangseshenti_gj_3_": { "x": 15.49, "y": 31.64, "width": 68, "height": 91 }
+		},
+		"mubang_dj_0_": {
+			"mubang_dj_0_": { "x": -1.5, "y": 114.64, "width": 66, "height": 35 }
+		},
+		"mubang_dj_1_": {
+			"mubang_dj_1_": { "x": -3, "y": 113.14, "width": 67, "height": 32 }
+		},
+		"mubang_dj_2_": {
+			"mubang_dj_2_": { "x": -2, "y": 114.14, "width": 67, "height": 34 }
+		},
+		"mubang_dj_3_": {
+			"mubang_dj_3_": { "x": -1.5, "y": 114.64, "width": 66, "height": 35 }
+		},
+		"mubang_gj_1_": {
+			"mubang_gj_1_": { "x": 66.99, "y": 89.14, "width": 71, "height": 24 }
+		},
+		"mubang_gj_2_": {
+			"mubang_gj_2_": { "x": -47.5, "y": 6.64, "width": 66, "height": 31 }
+		},
+		"mubang_gj_3_": {
+			"mubang_gj_3_": { "x": 30.99, "y": 14.14, "width": 59, "height": 40 }
+		},
+		"root": {
+			"siwang_0_": { "width": 165, "height": 156 },
+			"siwang_1_": { "width": 165, "height": 156 },
+			"siwang_2_": { "width": 165, "height": 156 },
+			"siwang_3_": { "width": 165, "height": 156 },
+			"siwang_4_": { "width": 165, "height": 156 },
+			"siwang_5_": { "width": 165, "height": 156 },
+			"siwang_6_": { "width": 165, "height": 156 }
+		}
+	}
+},
+"animations": {
+	"dj": {
+		"slots": {
+			"huangseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "huangseshenti_dj_0_" },
+					{ "time": 0.0666, "name": null }
+				]
+			},
+			"huangseshenti_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "huangseshenti_dj_1_" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"huangseshenti_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "huangseshenti_dj_2_" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "huangseshenti_dj_3_" }
+				]
+			},
+			"huangseshenti_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huangseshenti_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huangseshenti_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mubang_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "mubang_dj_0_" },
+					{ "time": 0.0666, "name": null }
+				]
+			},
+			"mubang_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "mubang_dj_1_" },
+					{ "time": 0.1333, "name": null }
+				]
+			},
+			"mubang_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "mubang_dj_2_" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "mubang_dj_3_" }
+				]
+			},
+			"mubang_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mubang_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mubang_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"root": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"gj": {
+		"slots": {
+			"huangseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "huangseshenti_dj_0_" },
+					{ "time": 0.0333, "name": null },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.2, "name": "huangseshenti_dj_0_" }
+				]
+			},
+			"huangseshenti_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "huangseshenti_gj_1_" },
+					{ "time": 0.0666, "name": "huangseshenti_gj_1_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "huangseshenti_gj_2_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"huangseshenti_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "huangseshenti_gj_3_" },
+					{ "time": 0.1666, "name": "huangseshenti_gj_3_" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "mubang_dj_0_" },
+					{ "time": 0.0333, "name": null },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.2, "name": "mubang_dj_0_" }
+				]
+			},
+			"mubang_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "mubang_gj_1_" },
+					{ "time": 0.0666, "name": "mubang_gj_1_" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "mubang_gj_2_" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"mubang_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "mubang_gj_3_" },
+					{ "time": 0.1666, "name": "mubang_gj_3_" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"root": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"sw": {
+		"slots": {
+			"huangseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "huangseshenti_dj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"huangseshenti_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "mubang_dj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_dj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_dj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_dj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_gj_1_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_gj_2_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"mubang_gj_3_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"root": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "siwang_0_" },
+					{ "time": 0.0666, "name": "siwang_1_" },
+					{ "time": 0.1, "name": "siwang_2_" },
+					{ "time": 0.1333, "name": "siwang_3_" },
+					{ "time": 0.1666, "name": "siwang_4_" },
+					{ "time": 0.2, "name": "siwang_5_" },
+					{ "time": 0.2333, "name": "siwang_6_" }
+				]
+			}
+		},
+		"bones": {
+			"siwangtexiao": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 47.1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 47.1 }
+				]
+			}
+		}
+	}
+}
+}

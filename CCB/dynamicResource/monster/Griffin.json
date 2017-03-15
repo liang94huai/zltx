@@ -1,0 +1,131 @@
+{
+"skeleton": { "hash": "C9pZYvpIQHPdPchCf9V59Q396Qo", "spine": "2.1.27", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root", "y": -20.67 }
+],
+"slots": [
+	{ "name": "siwang_0_", "bone": "root", "attachment": "siwang_6_" },
+	{ "name": "sj_s_qianseshenti_gj_0_", "bone": "root" },
+	{ "name": "sj_s_qianseshenti_dj_0_", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"siwang_0_": {
+			"siwang_0_": { "x": 27.99, "y": 78.53, "width": 101, "height": 124 },
+			"siwang_1_": { "x": 27.99, "y": 72.53, "width": 119, "height": 138 },
+			"siwang_2_": { "x": 28.99, "y": 68.53, "width": 129, "height": 140 },
+			"siwang_3_": { "x": 10.49, "y": 64.53, "width": 162, "height": 140 },
+			"siwang_4_": { "x": 10.49, "y": 65.53, "width": 164, "height": 142 },
+			"siwang_5_": { "x": 7.49, "y": 61.53, "width": 158, "height": 152 },
+			"siwang_6_": { "x": 18.99, "y": 24.53, "width": 97, "height": 60 }
+		},
+		"sj_s_qianseshenti_dj_0_": {
+			"sj_s_qianseshenti_dj_0_": { "x": 16.49, "y": 72.03, "width": 148, "height": 107 },
+			"sj_s_qianseshenti_dj_1_": { "x": 17.49, "y": 69.03, "width": 132, "height": 93 },
+			"sj_s_qianseshenti_dj_2_": { "x": 17.99, "y": 75.03, "width": 103, "height": 113 },
+			"sj_s_qianseshenti_dj_3_": { "x": 23.49, "y": 77.53, "width": 86, "height": 132 },
+			"sj_s_qianseshenti_dj_4_": { "x": 12.49, "y": 77.03, "width": 110, "height": 129 }
+		},
+		"sj_s_qianseshenti_gj_0_": {
+			"sj_s_qianseshenti_gj_1_": { "x": 15.49, "y": 76.53, "width": 136, "height": 114 },
+			"sj_s_qianseshenti_gj_2_": { "x": 14.49, "y": 71.53, "width": 126, "height": 112 },
+			"sj_s_qianseshenti_gj_3_": { "x": -13, "y": 59.53, "width": 119, "height": 92 },
+			"sj_s_qianseshenti_gj_4_": { "x": -0.5, "y": 60.53, "width": 118, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"dj": {
+		"slots": {
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sj_s_qianseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "sj_s_qianseshenti_dj_0_" },
+					{ "time": 0.0333, "name": "sj_s_qianseshenti_dj_1_" },
+					{ "time": 0.1, "name": "sj_s_qianseshenti_dj_2_" },
+					{ "time": 0.1666, "name": "sj_s_qianseshenti_dj_3_" },
+					{ "time": 0.2, "name": "sj_s_qianseshenti_dj_4_" },
+					{ "time": 0.2333, "name": "sj_s_qianseshenti_dj_0_" }
+				]
+			},
+			"sj_s_qianseshenti_gj_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"gj": {
+		"slots": {
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sj_s_qianseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "sj_s_qianseshenti_dj_0_" },
+					{ "time": 0.0333, "name": null },
+					{ "time": 0.2333, "name": "sj_s_qianseshenti_dj_0_" }
+				]
+			},
+			"sj_s_qianseshenti_gj_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "sj_s_qianseshenti_gj_1_" },
+					{ "time": 0.1, "name": "sj_s_qianseshenti_gj_2_" },
+					{ "time": 0.1333, "name": "sj_s_qianseshenti_gj_3_" },
+					{ "time": 0.2, "name": "sj_s_qianseshenti_gj_4_" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		}
+	},
+	"sw": {
+		"slots": {
+			"siwang_0_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "siwang_0_" },
+					{ "time": 0.0666, "name": "siwang_1_" },
+					{ "time": 0.1, "name": "siwang_2_" },
+					{ "time": 0.1333, "name": "siwang_3_" },
+					{ "time": 0.1666, "name": "siwang_4_" },
+					{ "time": 0.2, "name": "siwang_5_" },
+					{ "time": 0.2333, "name": "siwang_6_" }
+				]
+			},
+			"sj_s_qianseshenti_dj_0_": {
+				"attachment": [
+					{ "time": 0, "name": "sj_s_qianseshenti_dj_0_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"sj_s_qianseshenti_gj_0_": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "siwang_0_", "offset": 2 }
+				]
+			}
+		]
+	}
+}
+}
