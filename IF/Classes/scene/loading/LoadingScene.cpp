@@ -319,7 +319,7 @@ void LoadingScene::initLoginLabel()
 //    m_sdkLabel->setString("账号登录");
     
     m_sdkLabel->setString(_lang("new100042").c_str());
-    m_severLabel->setString(_lang("new100044").c_str());
+    m_severLabel->setString("请选择服务器");
     m_changeSeverLabel->setString(_lang("new100045").c_str());
     m_myServerName->setString(_lang("new100046").c_str());
     m_allServerName->setString(_lang("new100047").c_str());
@@ -513,6 +513,8 @@ void LoadingScene::_refreshSelectView()
     if (serverInfo != m_serverList.end())
     {
         m_severLabel->setString(serverInfo->second.name.c_str());
+    }else{
+        m_severLabel->setString("请选择服务器");
     }
     refreshScrolView();
 }
@@ -892,19 +894,24 @@ void LoadingScene::onGetServerList(CCHttpClient* client, CCHttpResponse* respons
     Json_dispose(c);
     
     // devil 通过json初始化登陆列表
-    //本地上次服务器ID 判断
+    //本地上次服务器ID 判断.
+    //1. 将本地上次登录的服务器ID 添加上
+    //2.与服务器列表查询有没有这个ID, 没有的话 变成服务器列表中的第一个
+    
     auto lastServerID = CCUserDefault::sharedUserDefault()->getStringForKey(SERVER_ID, "");
+    m_curServerId = "";
     if (lastServerID != "")
     {
         m_curServerId = lastServerID.c_str();
-    }else
-        m_curServerId = ""; // 暂时外网为1 小龙为2
+    }
     auto _serverInfo = m_serverList.find(m_curServerId);
-    if (_serverInfo == m_serverList.end() && !m_serverList.empty())
+    if (m_serverList.empty())
+    {
+        m_curServerId = "";
+    } else if (_serverInfo == m_serverList.end())
     {
         m_curServerId = m_serverList.begin()->first;
     }
-
     // devil 显示默认选择服务器
     _refreshSelectView();
     
