@@ -366,7 +366,12 @@ void LoadingScene::onEnterGame(CCObject *pSender, CCControlEvent event)
         m_isEnterGame = 1;
         onLoginClick(NULL,Control::EventType::TOUCH_DOWN);
     }else{
-        CCSafeNotificationCenter::getInstance()->postNotification(MSG_GameStart);
+        //判断一下getServerlist 是否成功
+        if (!m_serverList.empty())
+        {
+            CCSafeNotificationCenter::getInstance()->postNotification(MSG_GameStart);
+        }
+        
     }
 }
 
@@ -392,6 +397,8 @@ void LoadingScene::onEnter(){
     this->setTouchMode(Touch::DispatchMode::ONE_BY_ONE);
     this->setTouchEnabled(true);
     
+    //公告 请求
+    onNoticeCallback(nullptr, Control::EventType::TOUCH_DOWN);
     //延时 发送SDK请求
     //只有进入loadingscene 时才发送注销请求
     if (GameController::m_isLoginSDK) //登录状态 应该注销
@@ -785,11 +792,11 @@ void LoadingScene::sendCmdGetServerList(CCObject* p){
     if (_platformUID != "") {
         string _PublishRegion = cocos2d::extension::CCDevice::getPublishChannel();
         param = CCString::createWithFormat("deviceId=%s&channel=%s&channelUid=%s&accessToken=%s&productId=%s&server_group=%s",_platformUserUid.c_str(),_platformUID.c_str(),_channelUid.c_str(),_platformToken.c_str(),_platformProductId.c_str(),_server_group.c_str())->getCString();
-        // devil 临时用ip  192.168.20.55
-//                url = CCString::createWithFormat("http://192.168.20.55:9000/gameservice/getserverlist?%s", param.c_str());
+#if (COCOS2D_DEBUG == 0)
         url = CCString::createWithFormat("http://%s:9000/gameservice/getserverlist?%s", SERVERLIST_IP, param.c_str());
-        
-        //        url = CCString::createWithFormat("http://%s:9001/ZLTXProxy/serverlist",SERVERLIST_IP);
+#else
+        url = CCString::createWithFormat("http://%s:9000/gameservice/getserverlistdebug?%s", SERVERLIST_IP, param.c_str());
+#endif
     }
     CCLOG("COK server list URL: %s",url->getCString());
     request->setUrl(url->getCString());
@@ -891,7 +898,13 @@ void LoadingScene::onGetServerList(CCHttpClient* client, CCHttpResponse* respons
     {
         m_curServerId = lastServerID.c_str();
     }else
-        m_curServerId = "1"; // 暂时外网为1 小龙为2
+        m_curServerId = ""; // 暂时外网为1 小龙为2
+    auto _serverInfo = m_serverList.find(m_curServerId);
+    if (_serverInfo == m_serverList.end() && !m_serverList.empty())
+    {
+        m_curServerId = m_serverList.begin()->first;
+    }
+
     // devil 显示默认选择服务器
     _refreshSelectView();
     

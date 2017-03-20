@@ -29,7 +29,7 @@ do
                 TexturePacker --texture-format png --format cocos2d --png-opt-level 0 --opt RGBA8888 --premultiply-alpha --reduce-border-artifacts --size-constraints NPOT --scale 1 --scale-mode Smooth --algorithm MaxRects --maxrects-heuristics LongSideFit --pack-mode Best --disable-rotation --trim-mode None --shape-padding 0 --border-padding 0 --sheet "$fullFileName.png" "$fileName"/*.png --data "$fileName.plist"
             elif [[ "$fullFileName" == "_alpha_Common_3" ]]; then
                 TexturePacker --texture-format png --format cocos2d --png-opt-level 0 --opt RGBA8888 --premultiply-alpha --reduce-border-artifacts --size-constraints AnySize --scale 1 --scale-mode Smooth --algorithm MaxRects --maxrects-heuristics Best --pack-mode Best --enable-rotation --trim-mode Trim --sheet "$fullFileName.png" "$fileName"/*.png --data "$fileName.plist"
-            elif [[ "$fullFileName" == "_alpha_World_6" ]] || [[ "$fullFileName" == "_alpha_Common_8" || "$fullFileName" == "_alpha_Common_11" ]]; then
+            elif [[ "$fullFileName" == "_alpha_World_6" ]] || [[ "$fullFileName" == "_alpha_Common_8" || "$fullFileName" == "_alpha_Common_11" || "$fullFileName" == "_alpha_Common_7" ]]; then
                 TexturePacker --texture-format png --format cocos2d --png-opt-level 0 --opt RGBA8888 --premultiply-alpha --reduce-border-artifacts --size-constraints NPOT --scale 1 --scale-mode Smooth --algorithm MaxRects --maxrects-heuristics LongSideFit --pack-mode Best --disable-rotation --trim-mode None --shape-padding 0 --border-padding 0 --sheet "$fullFileName.png" "$fileName"/*.png --data "$fileName.plist"
            else
                 # others

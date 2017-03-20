@@ -7,7 +7,7 @@
             <key>g007_bust.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{510,4},{500,500}}</string>
+                <string>{{510,510},{500,500}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +20,7 @@
             <key>g012_bust.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{4,510},{500,500}}</string>
+                <string>{{510,4},{500,500}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +33,7 @@
             <key>g045_bust.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{4,4},{500,500}}</string>
+                <string>{{4,510},{500,500}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>g046_bust.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{510,4},{500,500}}</string>
+                <string>{{4,4},{500,500}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -66,7 +66,7 @@
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:54d853c91edb92c12760c17c83e0ea33:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:9167ee2ff9a9b06b7663481264ab25d7:1/1$</string>
             <key>textureFileName</key>
             <string>General_3.pvr.ccz</string>
         </dict>

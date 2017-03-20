@@ -112,9 +112,9 @@ public:
             putParam("extendMarchUuid", CCStringMake(WorldController::getInstance()->openMarchId));
         }
         int sid = GlobalData::shared()->playerInfo.currentServerId;
-        if(forceServerId != -1){
-            sid = forceServerId;
-        }
+//        if(forceServerId != -1){
+//            sid = forceServerId;
+//        }
         m_serverId = sid;
         CCLOG("server=%d x=%f y=%f",sid,m_point.x,m_point.y);
         putParam("serverId", CCInteger::create(sid));

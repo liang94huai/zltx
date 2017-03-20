@@ -20,7 +20,7 @@
             <key>Loading_bar_glow.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{204,45},{97,42}}</string>
+                <string>{{250,45},{97,42}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>Notice_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{4,122},{585,83}}</string>
+                <string>{{241,122},{585,83}}</string>
                 <key>offset</key>
                 <string>{-4,0}</string>
                 <key>rotated</key>
@@ -98,7 +98,7 @@
             <key>Notice_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{307,45},{40,42}}</string>
+                <string>{{204,45},{40,42}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -150,7 +150,7 @@
             <key>loading_bar.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{14,4},{419,26}}</string>
+                <string>{{439,4},{419,26}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
@@ -173,10 +173,23 @@
                 <key>sourceSize</key>
                 <string>{567,47}</string>
             </dict>
+            <key>loading_notice_btn.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{4,122},{231,78}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{231,78}}</string>
+                <key>sourceSize</key>
+                <string>{231,78}</string>
+            </dict>
             <key>loading_progress.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{439,4},{419,26}}</string>
+                <string>{{14,4},{419,26}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,7 +202,7 @@
             <key>loading_tips_bg.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{595,122},{617,85}}</string>
+                <string>{{832,122},{617,85}}</string>
                 <key>offset</key>
                 <string>{-5,1}</string>
                 <key>rotated</key>
@@ -352,7 +365,7 @@
             <key>size</key>
             <string>{1567,1760}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:6086ee6644270d22f222f485d187be18:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:2e659e31af8d879a002312a9e7a02d1d:1/1$</string>
             <key>textureFileName</key>
             <string>Loading_2.pvr.ccz</string>
         </dict>

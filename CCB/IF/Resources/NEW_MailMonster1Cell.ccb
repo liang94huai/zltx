@@ -162,8 +162,6 @@
 								<real>10</real>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -324,7 +322,7 @@
 								<key>value</key>
 								<array>
 									<real>-2</real>
-									<real>68</real>
+									<real>69</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -346,7 +344,7 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.99400001764297485</real>
+									<real>1.0349999666213989</real>
 									<real>1</real>
 									<false/>
 									<integer>0</integer>

@@ -254,7 +254,8 @@ bool RoleInfoView::init()
         if (GlobalData::shared()->serverType==SERVER_BATTLE_FIELD) {
             m_serverTxt->setString(_lang("108755") + CC_ITOA(GlobalData::shared()->playerInfo.crossFightSrcServerId));
         }else{
-            m_serverTxt->setString(_lang("108755") + CC_ITOA(GlobalData::shared()->playerInfo.selfServerId));
+//            m_serverTxt->setString(_lang("108755") + CC_ITOA(GlobalData::shared()->playerInfo.selfServerId));
+            m_serverTxt->setString(_lang("108755") + CCUserDefault::sharedUserDefault()->getStringForKey("server_name"));
         }
         string str = leagueShort;
         str.append(GlobalData::shared()->playerInfo.name);

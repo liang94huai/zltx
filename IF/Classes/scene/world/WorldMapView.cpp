@@ -9555,73 +9555,73 @@ void WorldMapView::addBatchItem(BatchTagType type, unsigned int index,CCObject* 
             break;
         case EdgyTag1:
         case EdgyTag:{
-            CCPoint pt = WorldController::getInstance()->getPointByIndex(index);
-            item = CCLoadSprite::createSprite("edge_light_0.png");
-            int dy = 0;
-            int dx = 0;
-            float s = 1.0f;
-            item->setScale(s);
-            if((pt.x == 0 || pt.x == WorldController::getInstance()->_current_tile_count_x - 1) && type != EdgyTag1){
-                item->setSkewY(26.5);
-                item->setAnchorPoint(CCPoint(0, 0));
-                if(pt.x == 0){
-                    dx = -_tile_width / 2;
-                }else if(pt.x == WorldController::getInstance()->_current_tile_count_x - 1){
-                    dy = -_tile_height / 2;
-                }
-            }else{
-                item->setSkewY(-26.5);
-                item->setAnchorPoint(CCPoint(1, 0));
-                if(pt.y == 0){
-                    dx = _tile_width / 2;
-                }else if(pt.y == WorldController::getInstance()->_current_tile_count_y - 1){
-                    dy = -_tile_height / 2;
-                }
-            }
-            item->setPosition(pos + ccp(dx, dy));
-            auto ani = createMarchAni(AniEdgy, 0, 1);
-            if (ani) {
-                item->runAction(ani);
-            }
+//            CCPoint pt = WorldController::getInstance()->getPointByIndex(index);
+//            item = CCLoadSprite::createSprite("edge_light_0.png");
+//            int dy = 0;
+//            int dx = 0;
+//            float s = 1.0f;
+//            item->setScale(s);
+//            if((pt.x == 0 || pt.x == WorldController::getInstance()->_current_tile_count_x - 1) && type != EdgyTag1){
+//                item->setSkewY(26.5);
+//                item->setAnchorPoint(CCPoint(0, 0));
+//                if(pt.x == 0){
+//                    dx = -_tile_width / 2;
+//                }else if(pt.x == WorldController::getInstance()->_current_tile_count_x - 1){
+//                    dy = -_tile_height / 2;
+//                }
+//            }else{
+//                item->setSkewY(-26.5);
+//                item->setAnchorPoint(CCPoint(1, 0));
+//                if(pt.y == 0){
+//                    dx = _tile_width / 2;
+//                }else if(pt.y == WorldController::getInstance()->_current_tile_count_y - 1){
+//                    dy = -_tile_height / 2;
+//                }
+//            }
+//            item->setPosition(pos + ccp(dx, dy));
+//            auto ani = createMarchAni(AniEdgy, 0, 1);
+//            if (ani) {
+//                item->runAction(ani);
+//            }
         }
             break;
         case WorldBorder:
         case WorldBorder1:{
-            CCPoint pt = WorldController::getInstance()->getPointByIndex(index);
-            CCPoint tempPoint = pt;
-            item = CCLoadSprite::createSprite("edge_light_0.png");
-            int dy = 0;
-            int dx = 0;
-            float s = 1.0f;
-            item->setScale(s);
-            if((pt.x == 0 || pt.x == WorldController::getInstance()->_current_tile_count_x - 1) && type != WorldBorder1){
-                item->setSkewY(26.5);
-                item->setAnchorPoint(CCPoint(0, 0));
-                if(pt.x == 0){
-                    dx = -_tile_width / 2;
-                    tempPoint.x = -3;
-                }else if(pt.x == WorldController::getInstance()->_current_tile_count_x - 1){
-                    dy = -_tile_height / 2;
-                    tempPoint.x = WorldController::getInstance()->_current_tile_count_x - 1 + 3;
-                }
-            }else{
-                item->setSkewY(-26.5);
-                item->setAnchorPoint(CCPoint(1, 0));
-                if(pt.y == 0){
-                    dx = _tile_width / 2;
-                    tempPoint.y = -3;
-                }else if(pt.y == WorldController::getInstance()->_current_tile_count_y - 1){
-                    dy = -_tile_height / 2;
-                    tempPoint.y = WorldController::getInstance()->_current_tile_count_x - 1 + 3;
-                }
-            }
-            
-            pos = m_map->getViewPointByTilePoint(tempPoint,info.tileServerId);
-            item->setPosition(pos + ccp(dx, dy));
-            auto ani = createMarchAni(AniEdgy, 0, 1);
-            if (ani) {
-                item->runAction(ani);
-            }
+//            CCPoint pt = WorldController::getInstance()->getPointByIndex(index);
+//            CCPoint tempPoint = pt;
+//            item = CCLoadSprite::createSprite("edge_light_0.png");
+//            int dy = 0;
+//            int dx = 0;
+//            float s = 1.0f;
+//            item->setScale(s);
+//            if((pt.x == 0 || pt.x == WorldController::getInstance()->_current_tile_count_x - 1) && type != WorldBorder1){
+//                item->setSkewY(26.5);
+//                item->setAnchorPoint(CCPoint(0, 0));
+//                if(pt.x == 0){
+//                    dx = -_tile_width / 2;
+//                    tempPoint.x = -3;
+//                }else if(pt.x == WorldController::getInstance()->_current_tile_count_x - 1){
+//                    dy = -_tile_height / 2;
+//                    tempPoint.x = WorldController::getInstance()->_current_tile_count_x - 1 + 3;
+//                }
+//            }else{
+//                item->setSkewY(-26.5);
+//                item->setAnchorPoint(CCPoint(1, 0));
+//                if(pt.y == 0){
+//                    dx = _tile_width / 2;
+//                    tempPoint.y = -3;
+//                }else if(pt.y == WorldController::getInstance()->_current_tile_count_y - 1){
+//                    dy = -_tile_height / 2;
+//                    tempPoint.y = WorldController::getInstance()->_current_tile_count_x - 1 + 3;
+//                }
+//            }
+//            
+//            pos = m_map->getViewPointByTilePoint(tempPoint,info.tileServerId);
+//            item->setPosition(pos + ccp(dx, dy));
+//            auto ani = createMarchAni(AniEdgy, 0, 1);
+//            if (ani) {
+//                item->runAction(ani);
+//            }
         }
             break;
         case MonsterDead:

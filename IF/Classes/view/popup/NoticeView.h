@@ -35,6 +35,8 @@ private:
     
     CCSafeObject<CCNode> m_mainNode;
     CCSafeObject<CCLabelIF> m_label;
+    CCSafeObject<CCLabelIF> m_label_2;
+    
     CCSafeObject<CCNode> m_infoList;
     
     CCSafeObject<cocos2d::experimental::ui::WebView> m_webView;

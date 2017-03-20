@@ -1444,8 +1444,6 @@
 								<string>游戏公告</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -1470,7 +1468,7 @@
 								<key>value</key>
 								<array>
 									<real>0.0</real>
-									<real>-40</real>
+									<real>45.017612457275391</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1482,7 +1480,7 @@
 								<key>value</key>
 								<array>
 									<real>535</real>
-									<real>750</real>
+									<real>600</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1519,6 +1517,8 @@
 								<false/>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -1542,8 +1542,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>-257.58084106445312</real>
-									<real>-457.49929809570312</real>
+									<real>12.419158935546875</real>
+									<real>358.50070190429688</real>
 									<integer>2</integer>
 								</array>
 							</dict>
@@ -1605,7 +1605,7 @@
 								<key>type</key>
 								<string>String</string>
 								<key>value</key>
-								<string></string>
+								<string>知道了</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -1622,7 +1622,7 @@
 								<string>FloatScale</string>
 								<key>value</key>
 								<array>
-									<real>12</real>
+									<real>33</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1644,8 +1644,8 @@
 								<string>Size</string>
 								<key>value</key>
 								<array>
-									<real>40</real>
-									<real>42</real>
+									<real>231</real>
+									<real>78</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1665,7 +1665,7 @@
 								<key>value</key>
 								<array>
 									<string>Loading/Loading_2.plist</string>
-									<string>Notice_6.png</string>
+									<string>loading_notice_btn.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1676,8 +1676,8 @@
 								<key>value</key>
 								<array>
 									<integer>255</integer>
-									<integer>255</integer>
-									<integer>255</integer>
+									<integer>228</integer>
+									<integer>0</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1688,7 +1688,7 @@
 								<key>value</key>
 								<array>
 									<string>Loading/Loading_2.plist</string>
-									<string>Notice_6.png</string>
+									<string>loading_notice_btn.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1699,8 +1699,8 @@
 								<key>value</key>
 								<array>
 									<integer>255</integer>
-									<integer>255</integer>
-									<integer>255</integer>
+									<integer>228</integer>
+									<integer>0</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1711,7 +1711,7 @@
 								<key>value</key>
 								<array>
 									<string>Loading/Loading_2.plist</string>
-									<string>Notice_6.png</string>
+									<string>loading_notice_btn.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1721,10 +1721,138 @@
 								<string>Color3</string>
 								<key>value</key>
 								<array>
-									<integer>255</integer>
-									<integer>255</integer>
-									<integer>255</integer>
+									<integer>169</integer>
+									<integer>169</integer>
+									<integer>169</integer>
 								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>baseClass</key>
+						<string>CCLabelTTF</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string>CCLabelIF</string>
+						<key>displayName</key>
+						<string>CCLabelTTF</string>
+						<key>memberVarAssignmentName</key>
+						<string>m_label_2</string>
+						<key>memberVarAssignmentType</key>
+						<integer>2</integer>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>-7</real>
+									<real>-353</real>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.5</real>
+									<real>0.5</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>ignoreAnchorPointForPosition</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>fontName</string>
+								<key>type</key>
+								<string>FontTTF</string>
+								<key>value</key>
+								<string>Helvetica</string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>fontSize</string>
+								<key>type</key>
+								<string>FloatScale</string>
+								<key>value</key>
+								<array>
+									<real>30</real>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>color</string>
+								<key>type</key>
+								<string>Color3</string>
+								<key>value</key>
+								<array>
+									<integer>230</integer>
+									<integer>223</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>dimensions</string>
+								<key>type</key>
+								<string>Size</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>horizontalAlignment</string>
+								<key>type</key>
+								<string>IntegerLabeled</string>
+								<key>value</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>verticalAlignment</string>
+								<key>type</key>
+								<string>IntegerLabeled</string>
+								<key>value</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>string</string>
+								<key>type</key>
+								<string>Text</string>
+								<key>value</key>
+								<string>游戏公告</string>
 							</dict>
 						</array>
 					</dict>

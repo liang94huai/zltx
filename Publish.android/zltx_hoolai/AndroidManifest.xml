@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	android:installLocation="preferExternal"
 	package="com.hoolai.ywj.zltx"
-	android:versionCode="999"
+	android:versionCode="1"
 	android:versionName="2.0.9" >
 
 	<supports-screens android:smallScreens="true"

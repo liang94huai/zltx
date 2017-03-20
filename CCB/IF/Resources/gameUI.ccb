@@ -11239,7 +11239,7 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>CCSprite</string>
+								<string>m_coordBG</string>
 								<key>memberVarAssignmentName</key>
 								<string>m_coordBG</string>
 								<key>memberVarAssignmentType</key>
@@ -11253,7 +11253,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>26.600004196166992</real>
+											<real>30.600006103515625</real>
 											<real>-100.1199951171875</real>
 											<integer>0</integer>
 										</array>
@@ -11276,7 +11276,7 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
+											<real>0.8399999737739563</real>
 											<real>1</real>
 											<false/>
 											<integer>0</integer>
@@ -11316,97 +11316,6 @@
 							</dict>
 							<dict>
 								<key>baseClass</key>
-								<string>CCSprite</string>
-								<key>children</key>
-								<array/>
-								<key>customClass</key>
-								<string></string>
-								<key>displayName</key>
-								<string>CCSprite</string>
-								<key>memberVarAssignmentName</key>
-								<string></string>
-								<key>memberVarAssignmentType</key>
-								<integer>0</integer>
-								<key>properties</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>visible</string>
-										<key>type</key>
-										<string>Check</string>
-										<key>value</key>
-										<false/>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>position</string>
-										<key>type</key>
-										<string>Position</string>
-										<key>value</key>
-										<array>
-											<real>22</real>
-											<real>-88</real>
-											<integer>0</integer>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>anchorPoint</string>
-										<key>type</key>
-										<string>Point</string>
-										<key>value</key>
-										<array>
-											<real>0.5</real>
-											<real>1</real>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>scale</string>
-										<key>type</key>
-										<string>ScaleLock</string>
-										<key>value</key>
-										<array>
-											<real>0.64999997615814209</real>
-											<real>1</real>
-											<false/>
-											<integer>0</integer>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>ignoreAnchorPointForPosition</string>
-										<key>type</key>
-										<string>Check</string>
-										<key>value</key>
-										<false/>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>displayFrame</string>
-										<key>type</key>
-										<string>SpriteFrame</string>
-										<key>value</key>
-										<array>
-											<string>Common/Common_1.plist</string>
-											<string>world_coordinate_bg.png</string>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>blendFunc</string>
-										<key>type</key>
-										<string>Blendmode</string>
-										<key>value</key>
-										<array>
-											<integer>770</integer>
-											<integer>771</integer>
-										</array>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>baseClass</key>
 								<string>CCControlButton</string>
 								<key>children</key>
 								<array/>
@@ -11427,7 +11336,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-150</real>
+											<real>-130</real>
 											<real>-93</real>
 											<integer>0</integer>
 										</array>
@@ -11908,7 +11817,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-22.639999389648438</real>
+											<real>-16.639999389648438</real>
 											<real>-104</real>
 											<integer>0</integer>
 										</array>
@@ -12036,7 +11945,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>14.360000610351562</real>
+											<real>20.360000610351562</real>
 											<real>-104</real>
 											<integer>0</integer>
 										</array>
@@ -12164,7 +12073,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>114.36000061035156</real>
+											<real>120.36000061035156</real>
 											<real>-104</real>
 											<integer>0</integer>
 										</array>
@@ -12292,7 +12201,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>76.360000610351562</real>
+											<real>82.360000610351562</real>
 											<real>-104</real>
 											<integer>0</integer>
 										</array>
@@ -12420,7 +12329,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-121</real>
+											<real>-115</real>
 											<real>104</real>
 											<integer>1</integer>
 										</array>
@@ -12548,7 +12457,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-81.400001525878906</real>
+											<real>-75.400001525878906</real>
 											<real>-104</real>
 											<integer>0</integer>
 										</array>
@@ -12658,7 +12567,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>m_tileCoordinateNode</string>
 						<key>memberVarAssignmentName</key>
 						<string>m_tileCoordinateNode</string>
 						<key>memberVarAssignmentType</key>
@@ -12672,7 +12581,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>-8.0400047302246094</real>
+									<real>9.9599952697753906</real>
 									<real>56.399997711181641</real>
 									<integer>0</integer>
 								</array>
@@ -13278,7 +13187,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCNode</string>
+				<string>m_worldUINode</string>
 				<key>memberVarAssignmentName</key>
 				<string>m_worldUINode</string>
 				<key>memberVarAssignmentType</key>
@@ -14830,7 +14739,7 @@
 								<key>value</key>
 								<array>
 									<real>-49.5</real>
-									<real>109</real>
+									<real>110</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -14889,18 +14798,9 @@
 									<integer>255</integer>
 								</array>
 							</dict>
-							<dict>
-								<key>name</key>
-								<string>blendFunc</string>
-								<key>type</key>
-								<string>Blendmode</string>
-								<key>value</key>
-								<array>
-									<integer>770</integer>
-									<integer>771</integer>
-								</array>
-							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -14924,8 +14824,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>-568</real>
-									<real>109</real>
+									<real>-616</real>
+									<real>111</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -15052,8 +14952,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>-567</real>
-									<real>109</real>
+									<real>-616</real>
+									<real>111</real>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -15127,7 +15027,7 @@
 								<string>Size</string>
 								<key>value</key>
 								<array>
-									<real>500</real>
+									<real>450</real>
 									<real>26</real>
 									<integer>0</integer>
 								</array>
@@ -16104,7 +16004,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>m_bagTipNode</string>
 						<key>memberVarAssignmentName</key>
 						<string>m_bagTipNode</string>
 						<key>memberVarAssignmentType</key>
@@ -17295,7 +17195,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>m_questTipNode</string>
 						<key>memberVarAssignmentName</key>
 						<string>m_questTipNode</string>
 						<key>memberVarAssignmentType</key>
@@ -17484,7 +17384,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>m_questBG2</string>
 						<key>memberVarAssignmentName</key>
 						<string>m_questBG2</string>
 						<key>memberVarAssignmentType</key>
@@ -18099,7 +17999,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>m_helpNumNode</string>
 						<key>memberVarAssignmentName</key>
 						<string>m_helpNumNode</string>
 						<key>memberVarAssignmentType</key>
@@ -20621,7 +20521,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCNode</string>
+				<string>m_UIQuestNode</string>
 				<key>memberVarAssignmentName</key>
 				<string>m_UIQuestNode</string>
 				<key>memberVarAssignmentType</key>
@@ -23020,8 +22920,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>51.439998626708984</real>
-							<real>204.24000549316406</real>
+							<real>55.439998626708984</real>
+							<real>205.24000549316406</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -23043,9 +22943,9 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
-							<false/>
+							<real>1.2999999523162842</real>
+							<real>1.2999999523162842</real>
+							<true/>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -24050,8 +23950,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>51.439998626708984</real>
-							<real>298.239990234375</real>
+							<real>56.439998626708984</real>
+							<real>313.239990234375</real>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -24073,9 +23973,9 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
-							<false/>
+							<real>1.2999999523162842</real>
+							<real>1.2999999523162842</real>
+							<true/>
 							<integer>0</integer>
 						</array>
 					</dict>

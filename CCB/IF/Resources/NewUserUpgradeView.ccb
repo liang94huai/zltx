@@ -4536,7 +4536,7 @@
 														<key>type</key>
 														<string>Byte</string>
 														<key>value</key>
-														<integer>180</integer>
+														<integer>247</integer>
 													</dict>
 													<dict>
 														<key>name</key>
@@ -4701,7 +4701,7 @@
 														<key>type</key>
 														<string>Byte</string>
 														<key>value</key>
-														<integer>180</integer>
+														<integer>247</integer>
 													</dict>
 													<dict>
 														<key>name</key>
@@ -5841,7 +5841,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>1.440000057220459</real>
+									<real>-1.559999942779541</real>
 									<real>306.76007080078125</real>
 									<integer>0</integer>
 								</array>
@@ -5879,6 +5879,8 @@
 								<false/>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -6998,8 +7000,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>baseClass</key>
@@ -11096,7 +11096,7 @@ Sample Text</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>1.5</real>
+			<real>0.1666666716337204</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

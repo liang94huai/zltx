@@ -338,6 +338,13 @@ void MinimapLocalView::addCity(int index, int type,int level)
 
 void MinimapLocalView::addAllianceCity()
 {
+    auto selfPoint=WorldController::getIndexByPoint(WorldController::getInstance()->selfPoint);
+    int selfRegionType=WorldController::getInstance()->getHomeOwnerRegionTypeByCityIndex(WorldController::getInstance()->selfPoint);
+    if (selfRegionType==m_currentMapIndex)
+    {
+        addCity(selfPoint, 0);
+    }
+
     //小城
     for(auto it_2 = WorldController::getInstance()->m_resCityInfo.begin(); it_2 != WorldController::getInstance()->m_resCityInfo.end(); it_2++){
         int RegionType=WorldController::getInstance()->getHomeOwnerRegionTypeByMapPos(it_2->second.m_point);

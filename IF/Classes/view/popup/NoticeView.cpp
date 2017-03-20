@@ -30,7 +30,7 @@ bool NoticeView::init(string notice)
     this->setContentSize(tmpCCB->getContentSize());
     m_mainNode->setPositionY(m_mainNode->getPositionY()-getExtendHeight()/2);
     m_label->setString("游戏公告");
-    
+    m_label_2->setString("我知道了");
     CCLOG("old x, y: %f, %f", m_infoList->getPositionX(), m_infoList->getPositionY());
     
 //    int oldBgHeight = m_buildBG->getContentSize().height;
@@ -87,6 +87,8 @@ bool NoticeView::onAssignCCBMemberVariable(cocos2d::CCObject * pTarget, const ch
 {
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_mainNode", CCNode*, this->m_mainNode);
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_label", CCLabelIF*, this->m_label);
+    CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_label_2", CCLabelIF*, this->m_label_2);
+    
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_infoList", CCNode*, this->m_infoList);
     return false;
 }

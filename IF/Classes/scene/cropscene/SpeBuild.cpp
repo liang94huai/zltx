@@ -1544,11 +1544,11 @@ void SpeBuild::drowEffectSpr(int zOrder, int tmpOrd)
             tmp_ptArray->addControlPoint(ccp(parentX+220, parentY+210));
         }
         for (int j=0; j<tmp_ptArray->count(); j++) {
-            auto particle1 = ParticleController::createParticle("Collection_Loop_3");
+            auto particle1 = ParticleController::createParticle("OpenBlock");
             particle1->setPosition(tmp_ptArray->getControlPointAtIndex(j));
             addParticleToBatch(particle1);
             
-            auto particle2 = ParticleController::createParticle("Collection_Loop_4");
+            auto particle2 = ParticleController::createParticle("OpenBlock");
             particle2->setPosition(tmp_ptArray->getControlPointAtIndex(j));
             addParticleToBatch(particle2);
         }
@@ -1851,20 +1851,13 @@ void SpeBuild::addShipPop(CCObject *ccObj){
     CCSprite* sp = CCLoadSprite::createSprite(iconName.c_str());
     sp->setPosition(ccp(0, 110));
     sp->setScale(scale);
-    auto m_HTPHead = CCLoadSprite::createScale9Sprite("feedback_head.png");
-    m_HTPHead->setInsetBottom(10);
-    m_HTPHead->setInsetTop(5);
-    m_HTPHead->setInsetLeft(5);
-    m_HTPHead->setInsetRight(10);
+    auto m_HTPHead = CCLoadSprite::createSprite("but_03.png");
+    
     m_HTPHead->setAnchorPoint(ccp(0.5, 0.5));
-    m_HTPHead->setContentSize(CCSize(100,100));
     m_HTPHead->setPosition(ccp(0, 110));
     m_textNode->addChild(m_HTPHead);
     m_HTPHead->setZOrder(1);
-    auto m_HTPHead1 = CCLoadSprite::createSprite("feedback_head1.png");
-    m_HTPHead1->setPosition(m_HTPHead->getPosition()+ccp(20.0, -58.0));
-    m_HTPHead1->setZOrder(2);
-    m_textNode->addChild(m_HTPHead1);
+   
     m_countTime = 30;
     
     m_textNode->addChild(sp, 2);
