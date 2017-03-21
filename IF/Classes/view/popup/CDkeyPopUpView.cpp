@@ -18,15 +18,15 @@ bool CDkeyPopUpView::init(){
         auto tmpCCB = CCBLoadFile("CDkey", this, this);
         this->setContentSize(CCDirector::sharedDirector()->getWinSize());
         
-        auto sprite9 = CCLoadSprite::createScale9Sprite("UI_chat_text.png");
+        auto sprite9 = CCLoadSprite::createScale9Sprite("cdKey_edit.png");
         sprite9->setInsetBottom(2);
         sprite9->setInsetLeft(2);
         sprite9->setInsetRight(2);
         sprite9->setInsetRight(2);
-        m_editBox = CCEditBox::create(CCSizeMake(510,48),sprite9);
+        m_editBox = CCEditBox::create(CCSizeMake(510,59),sprite9);
         m_editBox->setMaxLength(30);
         m_editBox->setFontSize(22);
-        m_editBox->setFontColor(ccBLACK);
+        m_editBox->setFontColor(ccColor3B(209,188,160));
         m_editBox->setReturnType(kKeyboardReturnTypeDone);
         m_editBox->setInputFlag(kEditBoxInputFlagInitialCapsSentence);
         m_editNode->addChild(m_editBox);

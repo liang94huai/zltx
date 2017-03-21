@@ -107,6 +107,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     }
     
     pDirector->setOpenGLView(glview);
+    Device::setKeepScreenOn(true);
     // set PVR enable
     CCTexture2D::PVRImagesHavePremultipliedAlpha(true);
     // set resolution size (width free adjust , width fixed 768)
