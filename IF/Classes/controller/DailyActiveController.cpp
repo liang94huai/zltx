@@ -522,6 +522,9 @@ bool DailyActiveRewardCmd::handleRecieve(cocos2d::CCDictionary *dict)
         }
         DailyActiveController::shared()->updateCurReward();
         DailyActiveController::shared()->updateBoxInfo(nullptr);
+        
+        //更新下主页面任务tip标签数量
+        CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(QUEST_STATE_UPDATE);
     }
     return true;
 }
