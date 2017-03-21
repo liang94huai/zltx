@@ -121,8 +121,15 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="30" >
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="30" >
 
-                    <ImageView
+                   <ImageView
                         android:id="@+id/mailButtonBarReward"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -133,25 +140,6 @@
                         android:background="#00ffffff"
                         android:scaleType="fitCenter"
                         android:src="@drawable/mail_list_edit_gift" />
-                </RelativeLayout>
-                
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="30" >
-
-                    <ImageView
-                        android:id="@+id/mailButtonBarWrite"
-                        android:layout_width="@dimen/cs__mailButtonBarIconSize"
-                        android:layout_height="@dimen/cs__mailButtonBarIconSize"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginBottom="2dp"
-                        android:layout_marginTop="2dp"
-                        android:background="#00ffffff"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/mail_list_edit_write" />
                 </RelativeLayout>
 
                 <RelativeLayout

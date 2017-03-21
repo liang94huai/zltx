@@ -86,7 +86,7 @@ void ShakeController::onAcceleration(Acceleration* acc, Event* unused_event)
     float all = x*x + y*y + z*z;
     if(all < 1.2) {
         if(m_waitcount>5&&m_shakeCnt > 5&&m_changeDirectCount>2){
-            CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(MSG_ON_SHAKE);
+            // CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(MSG_ON_SHAKE);
             m_shakeCnt = 0;
             m_waitcount = 0;
             tmpx = 0;
@@ -126,7 +126,7 @@ void ShakeController::didAccelerate(CCAcceleration* pAccelerationValue)
     float all = x*x + y*y + z*z;
     if(all < 1.2) {
         if(m_waitcount>5&&m_shakeCnt > 5&&m_changeDirectCount>2){
-            CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(MSG_ON_SHAKE);
+            // CCSafeNotificationCenter::sharedNotificationCenter()->postNotification(MSG_ON_SHAKE);
             m_shakeCnt = 0;
             m_waitcount = 0;
             tmpx = 0;
