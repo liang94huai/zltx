@@ -1428,11 +1428,11 @@ void ActivityController::openActivityView(){
         YesNoDialog::show(_lang("170054").c_str(), NULL);
         return ;
     }
-    if(ActivityController::getInstance()->activityArr->count() != 0)
-    {
+    // if(ActivityController::getInstance()->activityArr->count() != 0)
+    // {
         PopupViewController::getInstance()->addPopupInView(ActivityListView::create());
 
-    }
+    // }
     return;
     double tempTime = GlobalData::shared()->getWorldTime() - eventInfo.readyTime;
     //double readyTime = eventInfo.beginTime - GlobalData::shared()->getWorldTime();

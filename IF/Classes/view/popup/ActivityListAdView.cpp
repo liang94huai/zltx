@@ -202,7 +202,17 @@ void ActivityListAdView::onGameTick(float time)
 
 void ActivityListAdView::initPageNode(int offSetX)
 {
+   
     m_pageNode->removeAllChildren();
+    if(ActivityController::getInstance()->activityArr->count() == 0)
+    {
+        //不添加黄点
+        //提示 当前无活动
+        auto _lab = Label::create("当前无活动开放!!", "Helvetica", 30);
+        _lab->setColor(Color3B(209, 188, 160));
+        m_pageNode->addChild(_lab);
+        return;
+    }
     int width = 30;
     
     int count = (m_data->count()>0)? m_data->count():1;
