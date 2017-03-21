@@ -207,6 +207,12 @@ public:
     CCSpriteBatchNode* createCustomBatchLayer(string image);
     void removeCustomBatchLayer();
     
+    
+    bool isGoIn;
+    void cargoShipGoIn();//货船入场
+    void onCargoShiAnimationCallback(Node* animationNode);
+    void cargoShipGoOut();//货船出场
+    
     void hidePrincess(int bid);
     Point getMailPosOnScreen();
     Point getNewRwdPosOnScreen();

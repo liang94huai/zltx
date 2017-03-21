@@ -49,6 +49,7 @@ public:
     
     virtual void onEnter();
     virtual void onExit();
+    void setShow(bool isShow);
     void setGary();
     void setWhite();
     void playFadeOut();

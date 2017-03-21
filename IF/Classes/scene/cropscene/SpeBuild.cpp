@@ -159,7 +159,7 @@ bool SpeBuild::initSpeBuild(int itemId)
             isTile = false;
         }
         else if(itemId == SPE_BUILD_CARGO) {
-            ccbName = "picCargo";
+            ccbName = "picCargo1";
             isTile = false;
         }
         else if(itemId == SPE_BUILD_NEWED) {
@@ -274,7 +274,6 @@ bool SpeBuild::initSpeBuild(int itemId)
         m_textNode->addChild(m_timeEventlabel, 1, 2);
         m_timeEventlabel->setPosition(ccp(0, -80));
         m_textNode->setVisible(false);
-        
         CCDirector::sharedDirector()->getScheduler()->unscheduleSelector(schedule_selector(SpeBuild::checkLeftTime), this);
         checkLeftTime(0);
         CCDirector::sharedDirector()->getScheduler()->scheduleSelector(schedule_selector(SpeBuild::checkLeftTime), this, 1,kCCRepeatForever, 0.0f, false);
@@ -437,6 +436,15 @@ bool SpeBuild::initSpeBuild(int itemId)
     return true;
 }
 
+void SpeBuild::setShow(bool isShow)
+{
+    if (m_buildingKey == SPE_BUILD_CARGO) {
+        m_upEffectNode->setVisible(isShow);
+        m_spr->setVisible(isShow);
+        m_touchNode->setVisible(isShow);
+    }
+}
+
 void SpeBuild::checkLeftTime(float _time) {
     if (m_buildingKey == SPE_BUILD_ZIYUANMEN) {
         if (m_textNode) {
@@ -457,17 +465,24 @@ void SpeBuild::checkLeftTime(float _time) {
         }
         if (leftTime <= 0) {
             m_textNode->setVisible(false);
-            if (leftTime == 0) {
-                addSpeBuildState();
-            } else {
-                if (!m_upEffectNode->isVisible()) {
-                    addSpeBuildState();
-                }
+//            if (leftTime == 0) {
+//                addSpeBuildState();
+//            } else {
+//                if (!m_upEffectNode->isVisible()) {
+//                    addSpeBuildState();
+//                }
+//            }
+            auto layer = dynamic_cast<ImperialScene*>(SceneController::getInstance()->getCurrentLayerByLevel(LEVEL_SCENE));
+            if (layer) {
+                if(!layer->isGoIn)
+                     this->setShow(false);
+                layer->cargoShipGoIn();
             }
         } else {
+            this->setShow(false);
             m_textNode->setVisible(true);
-            m_upEffectNode->setVisible(false);
-            m_timeEventlabel->setString(CC_SECTOA(leftTime));
+//            m_upEffectNode->setVisible(false);
+           m_timeEventlabel->setString(CC_SECTOA(leftTime));
         }
         
         CCScale9Sprite* sprite9 = dynamic_cast<CCScale9Sprite*>(m_textNode->getChildByTag(1));
@@ -877,26 +892,27 @@ void SpeBuild::addSpeBuildState()
         btn->setPreferredSize(CCSize(76, 92));
         btn->setAnchorPoint(ccp(0.5, 0));
         btn->setScale(1.4);
-        btn->setPosition(-18, 0);
+        btn->setPosition(0, 0);
         btn->addTargetWithActionForControlEvents(this, cccontrol_selector(SpeBuild::onClickRecBtn), CCControlEventTouchUpInside);
         btn->setTouchPriority(4);
         m_upEffectNode->addChild(btn);
+        
         auto pic = CCLoadSprite::createSprite("icon_cargoOk.png");
-        pic->setPosition(ccp(0, 50));
+        pic->setPosition(ccp(-20, 120));
         pic->setAnchorPoint(ccp(0.5, 0.5));
         m_upEffectNode->addChild(pic,2);
         
         //effect
         auto particle = ParticleController::createParticle("star_daily");
         particle->setTag(RWD_EFFECT_TAG);
-        particle->setPosition(ccp(0, 50));
+        particle->setPosition(ccp(-20, 120));
         
         m_upEffectNode->addChild(particle,3);
         
         auto particle_2 = ParticleController::createParticle("star_daily2");
         particle_2->setOpacity(125);
         particle_2->setTag(RWD_EFFECT_TAG+1);
-        particle_2->setPosition(ccp(0, 50));
+        particle_2->setPosition(ccp(-20, 120));
         particle_2->setScale(0.5);
         
         m_upEffectNode->addChild(particle_2,1);
