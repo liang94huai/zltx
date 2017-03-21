@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -13,85 +14,65 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <frame key="frameInset" width="320" height="59"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oB4-cj-zQX" userLabel="rootView">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z6T-dk-tqS" userLabel="showMainView">
-                                <rect key="frame" x="36" y="0.0" width="284" height="59"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail_list_head_bg_chat" translatesAutoresizingMaskIntoConstraints="NO" id="RE6-Vv-MYd" userLabel="headbackImageView">
-                                        <rect key="frame" x="5" y="5" width="49" height="49"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="RE6-Vv-MYd" secondAttribute="height" multiplier="1:1" id="ebP-Mv-4KH"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyg-Tx-NY1" userLabel="titlelabel">
-                                        <rect key="frame" x="79" y="4" width="26" height="16"/>
-                                        <animations/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="标题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyg-Tx-NY1" userLabel="titlelabel">
+                                        <frame key="frameInset" minX="79" minY="4" width="26" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mail_seconLIst_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="5va-cT-QWX" userLabel="jiantouImageView">
-                                        <rect key="frame" x="272" y="7" width="7" height="11"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5va-cT-QWX" secondAttribute="height" multiplier="11:18" id="Zef-Yr-YXe"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thb-5X-KN1" userLabel="timelabel">
-                                        <rect key="frame" x="233" y="5" width="34" height="15"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mail_02" translatesAutoresizingMaskIntoConstraints="NO" id="WVi-vA-THW" userLabel="unReadImageView">
-                                        <rect key="frame" x="64" y="7" width="10" height="10"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="WVi-vA-THW" secondAttribute="height" multiplier="1:1" id="bc3-wa-dEu"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="contents内容,I am so happy to play this game" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLi-bA-Vkb" userLabel="contentsLabel">
-                                        <rect key="frame" x="64" y="22" width="184" height="29"/>
-                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail_list_divider" translatesAutoresizingMaskIntoConstraints="NO" id="tGZ-7E-3ct" userLabel="underLIneImageView">
-                                        <rect key="frame" x="64" y="58" width="220" height="1"/>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="ENe-rm-Bz7"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zbo-zW-TFo" userLabel="headImageView">
-                                        <rect key="frame" x="5" y="5" width="49" height="49"/>
-                                        <animations/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Zbo-zW-TFo" secondAttribute="height" multiplier="1:1" id="z66-q4-gdi"/>
                                         </constraints>
                                     </imageView>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jS-8L-5oo" userLabel="zhegaiButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="284" height="59"/>
-                                        <animations/>
                                         <state key="normal">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="zhegaiButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Tmc-pw-yBi"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="tGZ-7E-3ct" secondAttribute="bottom" id="2mg-xL-hZz"/>
                                     <constraint firstItem="WVi-vA-THW" firstAttribute="height" secondItem="z6T-dk-tqS" secondAttribute="height" multiplier="0.18" id="4MZ-vN-TtX"/>
@@ -125,8 +106,6 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6D-3M-nGH">
-                                <rect key="frame" x="0.0" y="12" width="35" height="35"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="s6D-3M-nGH" secondAttribute="height" multiplier="1:1" id="obB-D6-5FH"/>
                                 </constraints>
@@ -138,7 +117,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <constraints>
                             <constraint firstItem="s6D-3M-nGH" firstAttribute="centerY" secondItem="oB4-cj-zQX" secondAttribute="centerY" id="1Jz-Bm-cSM"/>
                             <constraint firstItem="z6T-dk-tqS" firstAttribute="top" secondItem="oB4-cj-zQX" secondAttribute="top" id="2Kz-qF-CER"/>
@@ -150,7 +128,6 @@
                         </constraints>
                     </view>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="oB4-cj-zQX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7kJ-3w-KMD"/>
                     <constraint firstAttribute="trailing" secondItem="oB4-cj-zQX" secondAttribute="trailing" id="RQT-hq-TsH"/>
@@ -158,7 +135,6 @@
                     <constraint firstItem="oB4-cj-zQX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eHQ-yT-aZZ"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="contentsLabel" destination="KLi-bA-Vkb" id="cVF-PM-Hhd"/>
                 <outlet property="headBackImageView" destination="RE6-Vv-MYd" id="jhw-n8-bj5"/>
@@ -178,7 +154,7 @@
     <resources>
         <image name="Mail_02" width="14" height="14"/>
         <image name="Mail_seconLIst_arrow" width="11" height="18"/>
-        <image name="mail_list_divider" width="30" height="2"/>
+        <image name="mail_list_divider" width="54" height="1"/>
         <image name="mail_list_edit_check_box_checked" width="40" height="40"/>
         <image name="mail_list_edit_check_box_unchecked" width="40" height="40"/>
         <image name="mail_list_head_bg_chat" width="100" height="100"/>

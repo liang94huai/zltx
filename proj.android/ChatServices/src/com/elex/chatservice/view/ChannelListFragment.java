@@ -328,7 +328,7 @@ public class ChannelListFragment extends ActionBarFragment
 		}
 
 		mailButtonBarLayout = (LinearLayout) view.findViewById(R.id.mailButtonBarLayout);
-		mailButtonBarWrite = (ImageView) view.findViewById(R.id.mailButtonBarWrite);
+		// mailButtonBarWrite = (ImageView) view.findViewById(R.id.mailButtonBarWrite);
 		mailButtonBarReward = (ImageView) view.findViewById(R.id.mailButtonBarReward);
 		mailButtonBarAll = view.findViewById(R.id.mailButtonBarAll);
 		checkboxLabel = (TextView) view.findViewById(R.id.checkboxLabel);
@@ -411,15 +411,15 @@ public class ChannelListFragment extends ActionBarFragment
 			}
 		});
 
-		mailButtonBarWrite.setOnClickListener(new View.OnClickListener()
-		{
-			@Override
-			public void onClick(View view)
-			{
-				exitEditMode();
-				writeNewMail();
-			}
-		});
+		// mailButtonBarWrite.setOnClickListener(new View.OnClickListener()
+		// {
+		// 	@Override
+		// 	public void onClick(View view)
+		// 	{
+		// 		exitEditMode();
+		// 		writeNewMail();
+		// 	}
+		// });
 
 		mailButtonBarReward.setOnClickListener(new View.OnClickListener()
 		{
@@ -1456,11 +1456,11 @@ public class ChannelListFragment extends ActionBarFragment
 			mailButtonBarDelete.setOnClickListener(null);
 			mailButtonBarDelete = null;
 		}
-		if (mailButtonBarWrite != null)
-		{
-			mailButtonBarWrite.setOnClickListener(null);
-			mailButtonBarWrite = null;
-		}
+		// if (mailButtonBarWrite != null)
+		// {
+		// 	mailButtonBarWrite.setOnClickListener(null);
+		// 	mailButtonBarWrite = null;
+		// }
 		if (checkboxLabel != null)
 		{
 			checkboxLabel.setOnClickListener(null);
