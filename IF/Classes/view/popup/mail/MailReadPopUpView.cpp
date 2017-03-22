@@ -1108,18 +1108,7 @@ void MailReadPopUpView::refreshContent(CCObject* p){
     if (CCCommonUtils::isIosAndroidPad()) {
         txtW = 1392;
     }
-//    if (m_info.type == MAIL_FRESHER || m_info.type == MAIL_DIGONG) {
-//        if (CCCommonUtils::isIosAndroidPad()) {
-//            m_contentContainer->setContentSize(CCSizeMake(912, m_contentContainer->getContentSize().height-30));
-//            m_contentContainer->setPosition(ccp(-216, m_contentContainer->getPositionY()+192));
-//            txtW = 912;
-//        }
-//        else {
-//            m_contentContainer->setContentSize(CCSizeMake(380, m_contentContainer->getContentSize().height-30));
-//            m_contentContainer->setPosition(ccp(-90, m_contentContainer->getPositionY()+80));
-//            txtW = 380;
-//        }
-//    }
+ 
     m_totalH = 0;
     string littleStr="";
     if(m_info->rewardId!=""&&m_info->mbLevel>0 && m_info->mbLevel >= FunBuildController::getInstance()->getMainCityLv())
@@ -1130,79 +1119,8 @@ void MailReadPopUpView::refreshContent(CCObject* p){
     if (littleStr.empty())
         littleStr = "";
     string tempstr = littleStr+m_info->contents;
-//    tempstr = "亲爱的领主们，\n我们需要您们帮助我们与Wyne The Poo的家人取得联系，去年由癌症去世的那个马来西亚玩家！如果您知道谁是她的父母，或如何达到联系他们，请您在我们Facebook粉丝页上 <a href=\"http://dwz.cn/DbPmU/\">http://dwz.cn/DbPmU</a>和我们联系。\n我们知道，送礼是春节在马来西亚的一个重要组成部分，我们希望捐赠一万美元给她的父母作为一个农历新年礼物，像她的家人表示诚挚的慰问。让我们一起来做这件事，我们所有的人，因为我们是《列王的纷争》社会。\n非常感谢！";
-//    tempstr = tempstr + "\n";
-//    tempstr = tempstr + "亲爱的领主们，\n<a href=\"https://www.facebook.com/\">facebook</a>we are all excepted that you will like it. Thanks. <a href=\"https://www.facebook.com/Clash.Of.Kings.Game/\">https://www.facebook.com/Clash.Of.Kings.Game/</a>";
-
-//    auto label = CCLabelIFTTF::create();
-//    label->setFontSize(22);
-//    label->setAlignment(kCCTextAlignmentLeft);
-//    label->setDimensions(CCSize(txtW-30, 0));
-//    label->setColor(ccc3(56, 8, 0));
-//    int w = m_contentContainer->getContentSize().width;
-//    int h = m_contentContainer->getContentSize().height;
-//    if(m_info.type == MAIL_DIGONG){
-//        std::string m_str = "";
-//        if(m_info.monsters && m_info.monsters->count()>0){
-//            for (int i=0; i<m_info.monsters->count();i++){
-//                m_str.append(_lang_1("108674", CC_ITOA(i+1)));
-//                MonsterSearchResultInfo *info = dynamic_cast<MonsterSearchResultInfo*>(m_info.monsters->objectAtIndex(i));
-//                if(info==NULL) continue;
-//                if(info->type == FIGHT){
-//                    if(info->fType == BATTLE_WIN){
-//                        m_str += _lang("108661") + _lang_2("108663", CCCommonUtils::getNameById(info->npcId).c_str(), CC_ITOA(info->exp));
-//                    }else{
-//                        m_str += _lang("108662") + _lang_2("108663", CCCommonUtils::getNameById(info->npcId).c_str(), CC_ITOA(info->exp));
-//                    }
-//                }else if(info->type == CHEST){
-//                    m_str += _lang_1("108664", CCCommonUtils::getNameById(info->itemId).c_str());
-//                }else if(info->type == LOST_SOLDIER){
-//                    CCDictElement *element;
-//                    std::string addStr = "";
-//                    auto dic = info->dead;
-//                    CCDICT_FOREACH(dic, element){
-//                        std::string armyId = element->getStrKey();
-//                        int value = info->dead->valueForKey(armyId)->intValue();
-//                        if(value>0){
-//                            addStr = addStr + CCCommonUtils::getNameById(armyId) + " * " + CC_ITOA(value) + " ";
-//                        }
-//                    }
-//                    m_str += _lang_1("108665", addStr.c_str());
-//                }else if(info->type == RESOURCE){
-//                    vector<std::string> vector1;
-//                    vector<std::string> vector;
-//                    CCCommonUtils::splitString(info->resType, "|", vector);
-//                    CCCommonUtils::splitString(info->resValue, "|", vector1);
-//                    int i = 0;
-//                    std::string addStr = "";
-//                    while(i < vector.size()){
-//                        int type = atoi(vector[i].c_str());
-//                        int value = atoi(vector1[i].c_str());
-//                        if(value>0){
-//                            std::string typeStr = CCCommonUtils::getResourceNameByType(type);
-//                            addStr = addStr + typeStr + " * " + CC_ITOA(value) + " ";
-//                        }
-//                        i++;
-//                    }
-//                    m_str += _lang_1("108664", addStr.c_str());
-//                }
-//                m_str += "\n";
-//            }
-//            
-//            label->setString(m_str.c_str());
-//        }
-//    }
-//    // this->m_scroll->removeAllChildren();
-//    
-//    float scale =label->getOriginScaleY();
-//    
-//    //    m_scroll = CCScrollView::create(CCSize(w, h));
-//    //    m_scroll->setAnchorPoint(ccp(0, 1));
-//    //    m_scroll->setTouchPriority(1);
-//    //    m_scroll->setDirection(kCCScrollViewDirectionVertical);
-//    //    m_contentContainer->addChild(m_scroll);
-    
-    int fontSize = 22;
+   
+   int fontSize = 22;
     if (CCCommonUtils::isIosAndroidPad()) {
         fontSize = 53;
     }
@@ -1211,7 +1129,8 @@ void MailReadPopUpView::refreshContent(CCObject* p){
     this->m_ListNode->removeAllChildren();
     this->m_ListNode->addChild(richLabel);
     richLabel->setAnchorPoint(ccp(0, 1));
-    if(m_info->type==MAIL_ALLIANCEINVITE || m_info->type == MAIL_INVITE_TELEPORT || m_info->type == MAIL_ALLIANCE_KICKOUT || m_info->type == MAIL_REFUSE_ALL_APPLY){
+    //contents 判空--->liu
+    if(tempstr == "" || m_info->type==MAIL_ALLIANCEINVITE || m_info->type == MAIL_INVITE_TELEPORT || m_info->type == MAIL_ALLIANCE_KICKOUT || m_info->type == MAIL_REFUSE_ALL_APPLY){
         richLabel->setString("");
         m_totalH = 0;
     }else{
@@ -1241,6 +1160,7 @@ void MailReadPopUpView::refreshContent(CCObject* p){
             posEnd= tempstr.find(findString3);
         }
         if(hasLink==false){
+            
             tempstr ="[color=ff380800]" + tempstr + "[/color]";
             richLabel->setString(tempstr.c_str());
         }else{
@@ -1255,20 +1175,7 @@ void MailReadPopUpView::refreshContent(CCObject* p){
             }
         }
         
-//        if(posStart!=-1&&posMiddle!=-1&&posEnd!=-1){
-//            if(posEnd>posMiddle&&posMiddle>posStart){
-//                HtmlLabelTFNode* htmltext = HtmlLabelTFNode::create("", 22, txtW-30);
-//                htmltext->setTextStr(tempstr);
-//                htmltext->setPositionY(-htmltext->getContentSize().height);
-//                this->m_ListNode->addChild(htmltext);
-//                m_totalH-=htmltext->getContentSize().height;
-//                label->setString("");
-//            }else{
-//                m_totalH -= label->getContentSize().height * scale;
-//            }
-//        }else{
-//            m_totalH -= label->getContentSize().height * scale;
-//        }
+ 
         // richLabel
         int contentWidth = txtW-30;
         if (CCCommonUtils::isIosAndroidPad()) {
