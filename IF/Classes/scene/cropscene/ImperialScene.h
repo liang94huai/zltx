@@ -221,6 +221,7 @@ public:
     Vec2 getWorldPosition(int pos);
     Node* getTouchLayer();
     void setPointArrowAni(int buildId);
+    void videoPlayContinueCallback();
     void videoPlayOverCallback();
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     void videoEventCallback(Ref* sender, cocos2d::experimental::ui::VideoPlayer::EventType eventType);

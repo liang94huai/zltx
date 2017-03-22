@@ -864,6 +864,14 @@ void ImperialScene::initSpeBuildInWallTexture()
         m_ziyuanmenBuild->setNamePos(m_ziyuanmenNode->getPositionX(), m_ziyuanmenNode->getPositionY(), m_signLayer, m_popLayer, nullptr, m_wallBatchs[0],hod);
     }
 }
+
+void ImperialScene::videoPlayContinueCallback()
+{
+    auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
+    if(!videoPlayer->isPlaying())
+        videoPlayer->play();
+}
+
 void ImperialScene::videoPlayOverCallback()
 {
     auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
@@ -879,8 +887,10 @@ void ImperialScene::videoEventCallback(Ref* sender, cocos2d::experimental::ui::V
         case cocos2d::experimental::ui::VideoPlayer::EventType::PLAYING:
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::PAUSED:
+            videoPlayContinueCallback();
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::STOPPED:
+            videoPlayContinueCallback();
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::COMPLETED:
             videoPlayOverCallback();
