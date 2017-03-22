@@ -124,7 +124,7 @@
             <key>cloud_ani.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{4,620},{913,427}}</string>
+                <string>{{4,733},{913,427}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -137,7 +137,7 @@
             <key>loading.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{923,620},{640,1136}}</string>
+                <string>{{923,733},{640,1136}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -280,15 +280,15 @@
             <key>logo.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{691,317},{545,297}}</string>
+                <string>{{691,317},{601,410}}</string>
                 <key>offset</key>
-                <string>{-11,-1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,29},{545,297}}</string>
+                <string>{{0,0},{601,410}}</string>
                 <key>sourceSize</key>
-                <string>{567,353}</string>
+                <string>{601,410}</string>
             </dict>
             <key>serverlist_bar_1.png</key>
             <dict>
@@ -363,9 +363,9 @@
             <key>realTextureFileName</key>
             <string>Loading_2.pvr.ccz</string>
             <key>size</key>
-            <string>{1567,1760}</string>
+            <string>{1567,1873}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:2e659e31af8d879a002312a9e7a02d1d:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:531f261435154071d5b8f1aa7c948b4f:1/1$</string>
             <key>textureFileName</key>
             <string>Loading_2.pvr.ccz</string>
         </dict>
