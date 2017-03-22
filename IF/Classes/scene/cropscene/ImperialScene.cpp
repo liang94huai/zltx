@@ -680,14 +680,13 @@ void ImperialScene::buildingCallBack(CCObject* params)
     initMc2();
     m_buildingInitState = true;
     onEnterFrame(0);
+    initBgTree();
+    initAnimation();
     initBigTile();
     onOpenNewBuild(NULL);
     //发生 22资源释放不掉的 区域 end end end end end end
     
 //    initAnimals();
-    
-    initBgTree();
-    initAnimation();
     UIComponent::getInstance()->updateBuildState(true);
     
     bool canMoveToRequest = true;
@@ -865,6 +864,14 @@ void ImperialScene::initSpeBuildInWallTexture()
         m_ziyuanmenBuild->setNamePos(m_ziyuanmenNode->getPositionX(), m_ziyuanmenNode->getPositionY(), m_signLayer, m_popLayer, nullptr, m_wallBatchs[0],hod);
     }
 }
+
+void ImperialScene::videoPlayContinueCallback()
+{
+    auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
+    if(!videoPlayer->isPlaying())
+        videoPlayer->play();
+}
+
 void ImperialScene::videoPlayOverCallback()
 {
     auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
@@ -880,8 +887,10 @@ void ImperialScene::videoEventCallback(Ref* sender, cocos2d::experimental::ui::V
         case cocos2d::experimental::ui::VideoPlayer::EventType::PLAYING:
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::PAUSED:
+            videoPlayContinueCallback();
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::STOPPED:
+            videoPlayContinueCallback();
             break;
         case cocos2d::experimental::ui::VideoPlayer::EventType::COMPLETED:
             videoPlayOverCallback();
@@ -1134,6 +1143,8 @@ void ImperialScene::onEnter()
     if (GuideController::share()->getCurrentId() == "3080100") {
         onMoveToPos(2250, 630, TYPE_POS_MID, 0.0, 0.8, true);
     }
+    
+    isGoIn=false;
 }
 
 void ImperialScene::showRain()
@@ -3280,6 +3291,7 @@ void ImperialScene::onFlyOutPut(int itemId, int output, int forceResType)
 
 void ImperialScene::onFlyCargoOutPut(CCObject* obj)
 {
+    this->cargoShipGoOut();
     return;
     if (!m_cargoBuild || !m_cargoNode) {
         return;
@@ -5316,7 +5328,10 @@ void ImperialScene::initAnimation()
            &&it->first!=8
            &&it->first!=21
            &&it->first!=22
-           &&it->first!=15)//非循环线路
+           &&it->first!=15
+           &&it->first!=23
+           &&it->first!=24
+           )//非循环线路
         {
             auto reversePointArray=pPointArray->reverse();
             for(int i=0;i<reversePointArray->count();i++)
@@ -5352,6 +5367,106 @@ void ImperialScene::initAnimation()
     
     createAnimation(21,BATCHNODE_ORDER_CITY_GATE3,speed,0,0,false);//祭祀
 }
+
+void ImperialScene::onCargoShiAnimationCallback(Node* animationNode)
+{
+    m_cargoBuild->addSpeBuildState();
+    m_cargoBuild->setShow(true);
+}
+
+void ImperialScene::cargoShipGoIn()
+{
+    if(isGoIn)
+        return;
+    if(m_cargoBuild)
+        m_cargoBuild->setShow(false);
+    auto index=23;
+    auto time=10.0f;
+    auto animationPos=m_animationAllPos[index];
+    auto topPos=animationPos->getControlPointAtIndex(0);
+    auto distance=0.0f;
+    for (int i=0; i<animationPos->count(); i++) {
+        distance+=topPos.distance(animationPos->getControlPointAtIndex(i));
+        topPos=animationPos->getControlPointAtIndex(i);
+    }
+    auto speed=distance/time;
+    
+    Vector<FiniteTimeAction*> arrayOfActions;
+    topPos=animationPos->getControlPointAtIndex(0);
+    for (int i=0; i<animationPos->count(); i++) {
+        auto distance=topPos.distance(animationPos->getControlPointAtIndex(i));
+        auto duration=distance/speed;
+        topPos=animationPos->getControlPointAtIndex(i);
+        auto moveTo = CCMoveTo::create(duration,animationPos->getControlPointAtIndex(i));
+        arrayOfActions.pushBack(moveTo);
+    }
+    
+    auto func = CCCallFuncN::create(this, callfuncN_selector(ImperialScene::onCargoShiAnimationCallback));
+    arrayOfActions.pushBack(func);
+    arrayOfActions.pushBack(CCRemoveSelf::create());
+    
+    m_animationNodes[index]->stopAllActions();
+    if(!m_animationNodes[index]->getChildByName("animationSprite"))
+    {
+        auto m_perSpr = CCSprite::createWithSpriteFrameName("picChuan_1.png");
+        m_perSpr->setTag(0);
+        m_perSpr->setScale(0.8);
+        m_perSpr->setName("animationSprite");
+        m_animationNodes[index]->setZOrder(BATCHNODE_ORDER_CITY_GATE3);
+        m_animationNodes[index]->setTag(index);
+        m_animationNodes[index]->addChild(m_perSpr);
+    }
+
+    m_animationNodes[index]->setPosition(animationPos->getControlPointAtIndex(0));
+    CCSequence* sequenceAction = CCSequence::create(arrayOfActions);
+    m_animationNodes[index]->runAction(sequenceAction);
+    isGoIn=true;
+}
+
+void ImperialScene::cargoShipGoOut()
+{
+    if(m_cargoBuild)
+        m_cargoBuild->setShow(false);
+    auto index=24;
+    auto time=10.0f;
+    auto animationPos=m_animationAllPos[index];
+    auto topPos=animationPos->getControlPointAtIndex(0);
+    auto distance=0.0f;
+    for (int i=0; i<animationPos->count(); i++) {
+        distance+=topPos.distance(animationPos->getControlPointAtIndex(i));
+        topPos=animationPos->getControlPointAtIndex(i);
+    }
+    auto speed=distance/time;
+    
+    Vector<FiniteTimeAction*> arrayOfActions;
+    topPos=animationPos->getControlPointAtIndex(0);
+    for (int i=0; i<animationPos->count(); i++) {
+        auto distance=topPos.distance(animationPos->getControlPointAtIndex(i));
+        auto duration=distance/speed;
+        topPos=animationPos->getControlPointAtIndex(i);
+        auto moveTo = CCMoveTo::create(duration,animationPos->getControlPointAtIndex(i));
+        arrayOfActions.pushBack(moveTo);
+    }
+    arrayOfActions.pushBack(CCRemoveSelf::create());
+    m_animationNodes[index]->stopAllActions();
+    if(!m_animationNodes[index]->getChildByName("animationSprite"))
+    {
+        auto m_perSpr = CCSprite::createWithSpriteFrameName("picChuan_2.png");
+        m_perSpr->setTag(0);
+        m_perSpr->setScale(0.8);
+        m_perSpr->setName("animationSprite");
+        m_animationNodes[index]->setZOrder(BATCHNODE_ORDER_CITY_GATE3);
+        m_animationNodes[index]->setTag(index);
+        m_animationNodes[index]->addChild(m_perSpr);
+    }
+    
+    m_animationNodes[index]->setPosition(animationPos->getControlPointAtIndex(0));
+    CCSequence* sequenceAction = CCSequence::create(arrayOfActions);
+    m_animationNodes[index]->runAction(sequenceAction);
+    isGoIn=false;
+}
+
+
 
 void ImperialScene::initBgTree()
 {

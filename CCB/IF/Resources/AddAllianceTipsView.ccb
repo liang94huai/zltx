@@ -132,8 +132,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>143.40000915527344</real>
-													<real>390.00003051757812</real>
+													<real>10.920003890991211</real>
+													<real>345.36001586914062</real>
 													<integer>0</integer>
 												</array>
 											</dict>
@@ -192,8 +192,6 @@
 												</array>
 											</dict>
 										</array>
-										<key>selected</key>
-										<true/>
 									</dict>
 									<dict>
 										<key>baseClass</key>
@@ -217,7 +215,7 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>298</real>
+													<real>280</real>
 													<real>0.0</real>
 													<integer>0</integer>
 												</array>
@@ -304,18 +302,6 @@
 										<integer>0</integer>
 										<key>properties</key>
 										<array>
-											<dict>
-												<key>name</key>
-												<string>position</string>
-												<key>type</key>
-												<string>Position</string>
-												<key>value</key>
-												<array>
-													<real>-17</real>
-													<real>0.0</real>
-													<integer>0</integer>
-												</array>
-											</dict>
 											<dict>
 												<key>name</key>
 												<string>anchorPoint</string>
@@ -528,7 +514,7 @@
 												<key>value</key>
 												<array>
 													<real>-54.000007629394531</real>
-													<real>73.692817687988281</real>
+													<real>60.732818603515625</real>
 													<integer>0</integer>
 												</array>
 											</dict>
@@ -652,8 +638,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>115.27779388427734</real>
-													<real>340.97225952148438</real>
+													<real>252.8800048828125</real>
+													<real>343.92001342773438</real>
 													<integer>0</integer>
 												</array>
 											</dict>
@@ -697,90 +683,7 @@
 												<key>value</key>
 												<array>
 													<string>Common/Common_504.plist</string>
-													<string>alliance_add_ya.png</string>
-												</array>
-											</dict>
-											<dict>
-												<key>name</key>
-												<string>blendFunc</string>
-												<key>type</key>
-												<string>Blendmode</string>
-												<key>value</key>
-												<array>
-													<integer>770</integer>
-													<integer>771</integer>
-												</array>
-											</dict>
-										</array>
-									</dict>
-									<dict>
-										<key>baseClass</key>
-										<string>CCSprite</string>
-										<key>children</key>
-										<array/>
-										<key>customClass</key>
-										<string></string>
-										<key>displayName</key>
-										<string>CCSprite</string>
-										<key>memberVarAssignmentName</key>
-										<string></string>
-										<key>memberVarAssignmentType</key>
-										<integer>0</integer>
-										<key>properties</key>
-										<array>
-											<dict>
-												<key>name</key>
-												<string>position</string>
-												<key>type</key>
-												<string>Position</string>
-												<key>value</key>
-												<array>
-													<real>170.83335876464844</real>
-													<real>340.97225952148438</real>
-													<integer>0</integer>
-												</array>
-											</dict>
-											<dict>
-												<key>name</key>
-												<string>anchorPoint</string>
-												<key>type</key>
-												<string>Point</string>
-												<key>value</key>
-												<array>
-													<real>0.5</real>
-													<real>0.5</real>
-												</array>
-											</dict>
-											<dict>
-												<key>name</key>
-												<string>scale</string>
-												<key>type</key>
-												<string>ScaleLock</string>
-												<key>value</key>
-												<array>
-													<real>1</real>
-													<real>1</real>
-													<false/>
-													<integer>0</integer>
-												</array>
-											</dict>
-											<dict>
-												<key>name</key>
-												<string>ignoreAnchorPointForPosition</string>
-												<key>type</key>
-												<string>Check</string>
-												<key>value</key>
-												<false/>
-											</dict>
-											<dict>
-												<key>name</key>
-												<string>displayFrame</string>
-												<key>type</key>
-												<string>SpriteFrame</string>
-												<key>value</key>
-												<array>
-													<string>Common/Common_504.plist</string>
-													<string>alliance_add_ya.png</string>
+													<string>alliance_add_tile.png</string>
 												</array>
 											</dict>
 											<dict>
@@ -886,8 +789,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>6.2944011688232422</real>
-											<real>313.57601928710938</real>
+											<real>1.9744009971618652</real>
+											<real>268.93600463867188</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -950,7 +853,7 @@
 										<key>value</key>
 										<array>
 											<integer>254</integer>
-											<integer>251</integer>
+											<integer>224</integer>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1014,8 +917,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>-4.1472015380859375</real>
-											<real>247.84002685546875</real>
+											<real>-2.7072014808654785</real>
+											<real>226.24002075195312</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1077,9 +980,9 @@
 										<string>Color3</string>
 										<key>value</key>
 										<array>
-											<integer>255</integer>
-											<integer>38</integer>
-											<integer>0</integer>
+											<integer>172</integer>
+											<integer>60</integer>
+											<integer>56</integer>
 										</array>
 									</dict>
 									<dict>
@@ -1143,7 +1046,7 @@
 										<key>value</key>
 										<array>
 											<real>-129</real>
-											<real>38</real>
+											<real>31</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1226,7 +1129,7 @@
 										<key>value</key>
 										<array>
 											<real>-109</real>
-											<real>38</real>
+											<real>31</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1288,9 +1191,9 @@
 										<string>Color3</string>
 										<key>value</key>
 										<array>
-											<integer>0</integer>
-											<integer>0</integer>
-											<integer>0</integer>
+											<integer>63</integer>
+											<integer>44</integer>
+											<integer>27</integer>
 										</array>
 									</dict>
 									<dict>
@@ -1362,7 +1265,7 @@
 										<key>value</key>
 										<array>
 											<real>-129</real>
-											<real>-12</real>
+											<real>-19</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1453,7 +1356,7 @@
 										<key>value</key>
 										<array>
 											<real>-109</real>
-											<real>-12</real>
+											<real>-19</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1577,7 +1480,7 @@
 										<key>value</key>
 										<array>
 											<real>-130</real>
-											<real>-110</real>
+											<real>-117</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1668,7 +1571,7 @@
 										<key>value</key>
 										<array>
 											<real>-110</real>
-											<real>-110</real>
+											<real>-117</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1784,7 +1687,7 @@
 										<key>value</key>
 										<array>
 											<real>-127</real>
-											<real>-19.999988555908203</real>
+											<real>-26.999988555908203</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1867,7 +1770,7 @@
 										<key>value</key>
 										<array>
 											<real>-107</real>
-											<real>-19.999988555908203</real>
+											<real>-26.999988555908203</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1929,9 +1832,9 @@
 										<string>Color3</string>
 										<key>value</key>
 										<array>
-											<integer>0</integer>
-											<integer>0</integer>
-											<integer>0</integer>
+											<integer>63</integer>
+											<integer>44</integer>
+											<integer>27</integer>
 										</array>
 									</dict>
 									<dict>
@@ -2333,7 +2236,7 @@
 										<key>value</key>
 										<array>
 											<string>Common/Common_1.plist</string>
-											<string>btn_yellow.png</string>
+											<string>btn_04.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -2356,7 +2259,7 @@
 										<key>value</key>
 										<array>
 											<string>Common/Common_1.plist</string>
-											<string>btn_yellow.png</string>
+											<string>btn_04.png</string>
 										</array>
 									</dict>
 									<dict>

@@ -233,8 +233,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.61000001430511475</real>
-									<real>0.61000001430511475</real>
+									<real>0.86000001430511475</real>
+									<real>0.86000001430511475</real>
 									<true/>
 									<integer>0</integer>
 								</array>
@@ -399,8 +399,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.86000001430511475</real>
-									<real>0.86000001430511475</real>
+									<real>1.2000000476837158</real>
+									<real>1.2000000476837158</real>
 									<true/>
 									<integer>0</integer>
 								</array>
@@ -444,8 +444,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>seqExpanded</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>animatedProperties</key>
@@ -622,8 +620,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1.2000000476837158</real>
-									<real>1.2000000476837158</real>
+									<real>1.6000000238418579</real>
+									<real>1.6000000238418579</real>
 									<true/>
 									<integer>0</integer>
 								</array>
@@ -663,7 +661,7 @@
 								<key>type</key>
 								<string>Byte</string>
 								<key>value</key>
-								<integer>255</integer>
+								<integer>0</integer>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -780,8 +778,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.40000000596046448</real>
-									<real>0.40000000596046448</real>
+									<real>0.61000001430511475</real>
+									<real>0.61000001430511475</real>
 									<true/>
 									<integer>0</integer>
 								</array>
@@ -934,8 +932,8 @@
 											<integer>4</integer>
 											<key>value</key>
 											<array>
-												<real>1</real>
-												<real>1</real>
+												<real>0.80000001192092896</real>
+												<real>0.80000001192092896</real>
 											</array>
 										</dict>
 										<dict>
@@ -952,8 +950,8 @@
 											<integer>4</integer>
 											<key>value</key>
 											<array>
-												<real>1</real>
-												<real>0.94999998807907104</real>
+												<real>0.80000001192092896</real>
+												<real>0.75</real>
 											</array>
 										</dict>
 										<dict>
@@ -970,8 +968,8 @@
 											<integer>4</integer>
 											<key>value</key>
 											<array>
-												<real>1</real>
-												<real>0.97000002861022949</real>
+												<real>0.80000001192092896</real>
+												<real>0.76999998092651367</real>
 											</array>
 										</dict>
 										<dict>
@@ -988,8 +986,8 @@
 											<integer>4</integer>
 											<key>value</key>
 											<array>
-												<real>1</real>
-												<real>1</real>
+												<real>0.80000001192092896</real>
+												<real>0.80000001192092896</real>
 											</array>
 										</dict>
 									</array>
@@ -1016,6 +1014,18 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>-71</real>
+									<real>-19</real>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>anchorPoint</string>
 								<key>type</key>
 								<string>Point</string>
@@ -1037,9 +1047,9 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1</real>
-									<real>1</real>
-									<false/>
+									<real>0.80000001192092896</real>
+									<real>0.80000001192092896</real>
+									<true/>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -1069,7 +1079,7 @@
 								<key>value</key>
 								<array>
 									<string>Imperial/Imperial_2.plist</string>
-									<string>picCargo.png</string>
+									<string>picChuan_1.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1084,6 +1094,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>seqExpanded</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1202,8 +1214,6 @@
 						<false/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -1308,9 +1318,9 @@
 			<key>name</key>
 			<string>Loop</string>
 			<key>offset</key>
-			<real>0.0</real>
+			<real>0.31366109848022461</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>5</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
