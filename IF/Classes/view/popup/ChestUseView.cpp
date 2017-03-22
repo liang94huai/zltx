@@ -116,8 +116,7 @@ bool ChestUseView::init()
                 m_tableNode->setPositionY(m_tableNode->getPositionY()+10);
                 break;
             case 4:
-                m_bgNode->getChildByTag(5)->setVisible(false);
-                m_bgNode->getChildByTag(6)->setPositionY(m_bgNode->getChildByTag(5)->getPositionY()+70);
+
                 m_tableNode->setContentSize(CCSize(500, 224));
                 m_sprBG->setContentSize(CCSize(612, 332));
 //                m_titleLabel->setPositionY(m_titleLabel->getPositionY()-20);
