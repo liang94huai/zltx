@@ -21,8 +21,8 @@ import android.util.Log;
 import com.appsflyer.AFInAppEventParameterName;
 import com.appsflyer.AFInAppEventType;
 import com.appsflyer.AppsFlyerLib;
-import com.mobileapptracker.MATEvent;
-import com.mobileapptracker.MATEventItem;
+// import com.mobileapptracker.MATEvent;
+// import com.mobileapptracker.MATEventItem;
 import com.xiaomi.migamechannel.MiGameChannel;
 
 public abstract class AbstractPublishImpl implements IPublishChannel {
@@ -64,12 +64,12 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 			MiGameChannel.Login(userId, userLevel);
 		
 		//记录注册用户uid，用于数据分析
-		MATEvent matEvent = new MATEvent(1039280379);
-		matEvent.withAttribute1(userId);
-		matEvent.withAttribute2(cokfbad);
-		if(GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
-		}
+		// MATEvent matEvent = new MATEvent(1039280379);
+		// matEvent.withAttribute1(userId);
+		// matEvent.withAttribute2(cokfbad);
+		// if(GameContext.getGameInstance().mobileAppTracker != null){
+		// 	GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
+		// }
 
 		final SharedPreferences sharedPreferences = GameContext.getActivityInstance().getSharedPreferences(LocalNotificationManager.CACHE_GAME_UID_KEY, Context.MODE_PRIVATE);
 		Editor editor = sharedPreferences.edit();
@@ -127,14 +127,14 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 		
 		double price = Double.parseDouble(cost);
 		
-		MATEventItem matEventItem = new MATEventItem(itemId);
-		MATEvent matEvent = new MATEvent(1021911653);
-		matEvent.withRevenue(price);
-		matEvent.withCurrencyCode("USD");
-		matEvent.withEventItems(Arrays.asList(matEventItem));
-		if(GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
-		}
+		// MATEventItem matEventItem = new MATEventItem(itemId);
+		// MATEvent matEvent = new MATEvent(1021911653);
+		// matEvent.withRevenue(price);
+		// matEvent.withCurrencyCode("USD");
+		// matEvent.withEventItems(Arrays.asList(matEventItem));
+		// if(GameContext.getGameInstance().mobileAppTracker != null){
+		// 	GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
+		// }
 	}
 	
 	/**
@@ -246,9 +246,9 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	    	eventId = 1088099481;
 	    if("reach_level_6".equals(event))
 	    	eventId = 1021834769;
-		if(eventId > 0 && GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(eventId);
-		}
+		// if(eventId > 0 && GameContext.getGameInstance().mobileAppTracker != null){
+		// 	GameContext.getGameInstance().mobileAppTracker.measureEvent(eventId);
+		// }
 	}
 	
 	@Override
