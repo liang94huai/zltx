@@ -64,6 +64,8 @@ public class Cocos2dxVideoView extends SurfaceView implements MediaPlayerControl
     private int mCurrentState = STATE_IDLE;
     private int mTargetState  = STATE_IDLE;
 
+    private boolean isComplete = false;
+
     // All the stuff we need for playing and showing a video
     private SurfaceHolder mSurfaceHolder = null;
     private MediaPlayer mMediaPlayer = null;
@@ -107,6 +109,9 @@ public class Cocos2dxVideoView extends SurfaceView implements MediaPlayerControl
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         if (mVideoWidth == 0 || mVideoHeight == 0) {
+            Log.i(TAG, ""+mViewWidth+ ":**" +mViewHeight);
+            mViewWidth = mVisibleWidth;
+            mViewHeight = mVisibleHeight;
             setMeasuredDimension(mViewWidth, mViewHeight);
             Log.i(TAG, ""+mViewWidth+ ":" +mViewHeight);
         }
@@ -122,6 +127,7 @@ public class Cocos2dxVideoView extends SurfaceView implements MediaPlayerControl
         mViewTop = top;
         mViewWidth = maxWidth;
         mViewHeight = maxHeight;
+
         
         fixSize(mViewLeft, mViewTop, mViewWidth, mViewHeight);
     }
@@ -551,7 +557,7 @@ public class Cocos2dxVideoView extends SurfaceView implements MediaPlayerControl
         public void surfaceChanged(SurfaceHolder holder, int format,
                                     int w, int h)
         {
-            boolean isValidState =  (mTargetState == STATE_PLAYING);
+            boolean isValidState =  (mTargetState == STATE_PLAYING) || !isComplete; 
             boolean hasValidSize = (mVideoWidth == w && mVideoHeight == h);
             if (mMediaPlayer != null && isValidState && hasValidSize) {
                 if (mSeekWhenPrepared != 0) {
@@ -570,6 +576,9 @@ public class Cocos2dxVideoView extends SurfaceView implements MediaPlayerControl
         public void surfaceDestroyed(SurfaceHolder holder)
         {
             // after we return from this we can't use the surface any more
+            if(mCurrentState == STATE_PLAYING) { 
+                isComplete = mMediaPlayer.getCurrentPosition() == mMediaPlayer.getDuration(); 
+            }
             mSurfaceHolder = null;
             
             release(true);
