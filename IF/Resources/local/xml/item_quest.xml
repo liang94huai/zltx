@@ -941,7 +941,7 @@
         <ItemSpec id="2402116" name="2000135" target="2000136" icon1="quest_College_icon1" icon2="quest_Research_icon2" type="2" type2="14" pos1="4" para2="26" order2="202540" gotype="2" go="403000" rewardshow="food"/>
         <ItemSpec id="2402117" name="2000135" target="2000136" icon1="quest_College_icon1" icon2="quest_Research_icon2" type="2" type2="14" pos1="4" para2="30" order2="202720" gotype="2" go="403000" rewardshow="food"/>
         <ItemSpec id="2900101" name="2000212" target="2000213" icon1="quest_gold_icon1" type="2" type2="32" pos1="5" para1="1" para2="1" rewardshow="food"/>
-        <ItemSpec id="2900103" name="2000275" target="2000276" icon1="quest_gold_icon1" type="2" type2="33" pos1="5" para1="1" para2="1" order2="200020" rewardshow="gold"/>
+        <ItemSpec id="2900103" name="2000275" target="2000276" icon1="quest_gold_icon1" type="2" type2="33" pos1="5" para1="1" para2="1" rewardshow="gold"/>
         <ItemSpec id="2103101" name="2000028" target="2000029" icon1="quest_Area_icon1" icon2="quest_Reclaim_icon2" type="1" type2="15" pos1="1" para2="4" gotype="1" go="43" rewardshow="gold" profile="2"/>
         <ItemSpec id="2103102" name="2000028" target="2000029" icon1="quest_Area_icon1" icon2="quest_Reclaim_icon2" type="2" type2="15" pos1="1" para2="5" gotype="1" go="39" rewardshow="food" profile="2"/>
         <ItemSpec id="2103103" name="2000028" target="2000029" icon1="quest_Area_icon1" icon2="quest_Reclaim_icon2" type="2" type2="15" pos1="1" para2="6" gotype="1" go="35" rewardshow="food" profile="1"/>
