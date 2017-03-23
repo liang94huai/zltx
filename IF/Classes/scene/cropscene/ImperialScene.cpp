@@ -869,14 +869,15 @@ void ImperialScene::videoPlayContinueCallback()
 {
     //auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
     //if(!videoPlayer->isPlaying())
-        //videoPlayer->play();
+        //videoPlayer->resume();
 }
 
 void ImperialScene::videoPlayOverCallback()
 {
-    auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
+    auto modelLayer=this->getChildByName("modelLayer");
+    auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(modelLayer->getChildByName("videoPlayer"));
+    modelLayer->setVisible(false);
     videoPlayer->stop();
-    videoPlayer->setVisible(false);
     m_touchLayer->setVisible(true);
     SoundController::sharedSound()->playBGMusic(Music_M_city_1);
 }
@@ -911,7 +912,20 @@ void ImperialScene::onPlayBattle()
     videoPlayer->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     videoPlayer->setContentSize(Size(size.width , size.height));
     videoPlayer->setName("videoPlayer");
-    this->addChild(videoPlayer);
+    videoPlayer->setGlobalZOrder(888);
+    
+    auto modelLayer = CCModelLayerColor::create();
+    modelLayer->setOpacity(255);
+    modelLayer->setColor(ccBLACK);
+    modelLayer->setContentSize(CCDirector::sharedDirector()->getWinSize());
+    modelLayer->setAnchorPoint(ccp(0.5, 0.5));
+    modelLayer->setName("modelLayer");
+    modelLayer->setGlobalZOrder(888);
+    
+    this->addChild(modelLayer);
+    
+    modelLayer->addChild(videoPlayer);
+    
     if (videoPlayer)
     {
         videoPlayer->setFileName("sounds/background/cg_newbie.mp4");
