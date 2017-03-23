@@ -25,8 +25,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.SharedPreferences;
+// import android.content.IntentFilter;
+// import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -43,9 +43,9 @@ import com.clash.of.publish.PublishImpl;
  import com.hoolai.open.fastaccess.channel.FastSdk;
  import com.hoolai.open.fastaccess.proxy.HandlerThreadRunner;
 
-import com.crashlytics.android.Crashlytics;
-import io.fabric.sdk.android.Fabric;
-import com.crashlytics.android.ndk.CrashlyticsNdk;
+// import com.crashlytics.android.Crashlytics;
+// import io.fabric.sdk.android.Fabric;
+// import com.crashlytics.android.ndk.CrashlyticsNdk;
 
 public class COK extends CommonActivity {
 	private static final String TAG = "Hoolai";
@@ -76,7 +76,7 @@ public class COK extends CommonActivity {
 
 		FastSdk.onCreate(this);
 
-		Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
+		// Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
 //		final SharedPreferences sharedPreferences = this.getSharedPreferences(LocalNotificationManager.CACHE_GAME_UID_KEY, Context.MODE_PRIVATE);
 //		String gameUid = sharedPreferences.getString("GAMEUID", "");
 //        

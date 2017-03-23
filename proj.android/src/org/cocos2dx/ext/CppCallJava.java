@@ -23,7 +23,7 @@ import org.hcg.util.GameContext;
 import org.json.JSONObject;
 import org.hcg.IF.IF;
 
-import com.appsflyer.AppsFlyerLib;
+// import com.appsflyer.AppsFlyerLib;
 
 public class CppCallJava {
 	
@@ -35,7 +35,8 @@ public class CppCallJava {
 	}
 	
 	public static String getAppsFlyerUID(){
-		return AppsFlyerLib.getAppsFlyerUID(GameContext.getGameInstance());
+		// return AppsFlyerLib.getAppsFlyerUID(GameContext.getGameInstance());
+		return "null_id";
 	}
 	
 	public static void gotoMarket(String url) {

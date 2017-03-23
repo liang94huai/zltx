@@ -80,7 +80,7 @@ import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 
-import com.appsflyer.AppsFlyerLib;
+// import com.appsflyer.AppsFlyerLib;
 import com.elex.chatservice.controller.ChatServiceController;
 import com.elex.chatservice.controller.JniController;
 import com.elex.chatservice.model.MailManager;
@@ -89,7 +89,7 @@ import com.elex.chatservice.util.IAnalyticTracker;
 import com.elex.chatservice.util.IJniCallHelper;
 import com.elex.chatservice.util.LogUtil;
 
-import com.mobileapptracker.MobileAppTracker;
+// import com.mobileapptracker.MobileAppTracker;
 import com.nanigans.android.sdk.NanigansEventManager;
 
 public class IF extends Cocos2dxActivity implements IAnalyticTracker, IJniCallHelper
@@ -194,7 +194,7 @@ public class IF extends Cocos2dxActivity implements IAnalyticTracker, IJniCallHe
 	//gp目前未发现阻塞，保险加个开关
 	public boolean googleplayEnabled = true;
 	
-	public MobileAppTracker mobileAppTracker = null;
+	// public MobileAppTracker mobileAppTracker = null;
 	
 	protected void onCreate(Bundle savedInstanceState) {
 //		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -210,12 +210,12 @@ public class IF extends Cocos2dxActivity implements IAnalyticTracker, IJniCallHe
 //		ShareSDKUtil.initShareSDK();
 		Native.nativeSetFromCountry(Locale.getDefault().getCountry());
 		
-		AppsFlyerLib.setAppsFlyerKey(SDKConfig.APP_ID_APPSFLYER);
-		AppsFlyerLib.sendTracking(getApplicationContext());
+		// AppsFlyerLib.setAppsFlyerKey(SDKConfig.APP_ID_APPSFLYER);
+		// AppsFlyerLib.sendTracking(getApplicationContext());
 		
-		mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
-                SDKConfig.APP_ID_TUNE,
-                SDKConfig.APP_KEY_TUNE);
+		// mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
+  //               SDKConfig.APP_ID_TUNE,
+  //               SDKConfig.APP_KEY_TUNE);
 
 		Jni.init(this);
 		
@@ -440,14 +440,14 @@ public class IF extends Cocos2dxActivity implements IAnalyticTracker, IJniCallHe
 		super.onResume();
       
 		appRunning = true;
-		if(mobileAppTracker != null){
-			if(!"".equals(Native.nativeGetConfig("game_uid"))){
-				mobileAppTracker.setExistingUser(true);
-			}
-			mobileAppTracker.setReferralSources(this);
-			mobileAppTracker.measureSession();
-			mobileAppTracker.setAndroidId(Secure.getString(getContentResolver(), Secure.ANDROID_ID));
-		}
+		// if(mobileAppTracker != null){
+		// 	if(!"".equals(Native.nativeGetConfig("game_uid"))){
+		// 		mobileAppTracker.setExistingUser(true);
+		// 	}
+		// 	mobileAppTracker.setReferralSources(this);
+		// 	mobileAppTracker.measureSession();
+		// 	mobileAppTracker.setAndroidId(Secure.getString(getContentResolver(), Secure.ANDROID_ID));
+		// }
 		
 		GameContext.getGamePublisher().triggerEventAppForground();
 	}

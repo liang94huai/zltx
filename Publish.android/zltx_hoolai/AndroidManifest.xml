@@ -149,11 +149,11 @@
    			 
 		<!-- Used for install referrer tracking -->
 		<service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
-		<receiver android:name="com.appsflyer.AppsFlyerLib" android:exported="true">
+		<!-- <receiver android:name="com.appsflyer.AppsFlyerLib" android:exported="true">
 			<intent-filter>
 				<action android:name="com.android.vending.INSTALL_REFERRER" />
 			</intent-filter>
-		</receiver>
+		</receiver> -->
 		<receiver android:name="com.clash.of.kings.COKInstallReceiver" android:exported="true">
 			<intent-filter>
 				<action android:name="com.android.vending.INSTALL_REFERRER" />
@@ -189,8 +189,8 @@
         <!-- bi报送需要 -->
         <meta-data android:name="game_package_product_id" android:value="247"/>
         <!-- fabric -->
-        <meta-data android:name="io.fabric.ApiKey"
-          android:value="158668f7a39d352482ecacf4e9d1badc388760a2"/>
+        <!-- <meta-data android:name="io.fabric.ApiKey" -->
+          <!-- android:value="158668f7a39d352482ecacf4e9d1badc388760a2"/> -->
 		<!-- GCM 需求 START -->
 		<meta-data
 			android:name="com.parse.push.gcm_sender_id"

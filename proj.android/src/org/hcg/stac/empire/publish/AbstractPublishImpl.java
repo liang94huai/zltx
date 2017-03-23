@@ -18,11 +18,11 @@ import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
 
-import com.appsflyer.AFInAppEventParameterName;
-import com.appsflyer.AFInAppEventType;
-import com.appsflyer.AppsFlyerLib;
-import com.mobileapptracker.MATEvent;
-import com.mobileapptracker.MATEventItem;
+// import com.appsflyer.AFInAppEventParameterName;
+// import com.appsflyer.AFInAppEventType;
+// import com.appsflyer.AppsFlyerLib;
+// import com.mobileapptracker.MATEvent;
+// import com.mobileapptracker.MATEventItem;
 import com.xiaomi.migamechannel.MiGameChannel;
 
 public abstract class AbstractPublishImpl implements IPublishChannel {
@@ -58,47 +58,47 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 
 	@Override
 	public void triggerEventLoginComplete(String userId,String userName,String userLevel,String cokfbad){
-		AppsFlyerLib.setAppUserId(userId);
+		// AppsFlyerLib.setAppUserId(userId);
 
-		if(miAnalyticsEnabled)
-			MiGameChannel.Login(userId, userLevel);
+		// if(miAnalyticsEnabled)
+		// 	MiGameChannel.Login(userId, userLevel);
 		
-		//记录注册用户uid，用于数据分析
-		MATEvent matEvent = new MATEvent(1039280379);
-		matEvent.withAttribute1(userId);
-		matEvent.withAttribute2(cokfbad);
-		if(GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
-		}
+		// //记录注册用户uid，用于数据分析
+		// // MATEvent matEvent = new MATEvent(1039280379);
+		// // matEvent.withAttribute1(userId);
+		// // matEvent.withAttribute2(cokfbad);
+		// // if(GameContext.getGameInstance().mobileAppTracker != null){
+		// // 	GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
+		// // }
 
-		final SharedPreferences sharedPreferences = GameContext.getActivityInstance().getSharedPreferences(LocalNotificationManager.CACHE_GAME_UID_KEY, Context.MODE_PRIVATE);
-		Editor editor = sharedPreferences.edit();
-		editor.putString("GAMEUID", userId);
-		editor.commit();
+		// final SharedPreferences sharedPreferences = GameContext.getActivityInstance().getSharedPreferences(LocalNotificationManager.CACHE_GAME_UID_KEY, Context.MODE_PRIVATE);
+		// Editor editor = sharedPreferences.edit();
+		// editor.putString("GAMEUID", userId);
+		// editor.commit();
 	}
 
 	@Override
 	public void triggerEventCompletedRegistration(){
 		
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.COMPLETE_REGISTRATION,null);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.COMPLETE_REGISTRATION,null);
 	}
 	
 	@Override
 	public void triggerEventCompletedTutorial(){
 
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.TUTORIAL_COMPLETION,null);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.TUTORIAL_COMPLETION,null);
 	}
 	
 	@Override
 	public void triggerEventAchievedLevel(int level){
 		
 
-		Map<String, Object> eventValue = new HashMap<String, Object>();
-		eventValue.put(AFInAppEventParameterName.LEVEL,level);
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.LEVEL_ACHIEVED,eventValue);
+		// Map<String, Object> eventValue = new HashMap<String, Object>();
+		// eventValue.put(AFInAppEventParameterName.LEVEL,level);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.LEVEL_ACHIEVED,eventValue);
 		
-		if(miAnalyticsEnabled)
-			MiGameChannel.UserLevelUpgrade(Native.nativeGetUID(), String.valueOf(level));
+		// if(miAnalyticsEnabled)
+		// 	MiGameChannel.UserLevelUpgrade(Native.nativeGetUID(), String.valueOf(level));
 	}
 	
 	@Override
@@ -113,11 +113,11 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	@Override
 	public void triggerEventPurchase(String cost,String itemId){
 		
-		Map<String, Object> eventValue = new HashMap<String, Object>();
-		eventValue.put(AFInAppEventParameterName.REVENUE,cost);
-		eventValue.put(AFInAppEventParameterName.CONTENT_ID,itemId);
-		eventValue.put(AFInAppEventParameterName.CURRENCY,"USD");
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.PURCHASE,eventValue);
+		// Map<String, Object> eventValue = new HashMap<String, Object>();
+		// eventValue.put(AFInAppEventParameterName.REVENUE,cost);
+		// eventValue.put(AFInAppEventParameterName.CONTENT_ID,itemId);
+		// eventValue.put(AFInAppEventParameterName.CURRENCY,"USD");
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.PURCHASE,eventValue);
 		
 		if(miAnalyticsEnabled){
 			String amount = String.valueOf(PayItemData.getPaidAmountInCents(PayItemData.Currency.CNY, Float.parseFloat(cost)));
@@ -127,14 +127,14 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 		
 		double price = Double.parseDouble(cost);
 		
-		MATEventItem matEventItem = new MATEventItem(itemId);
-		MATEvent matEvent = new MATEvent(1021911653);
-		matEvent.withRevenue(price);
-		matEvent.withCurrencyCode("USD");
-		matEvent.withEventItems(Arrays.asList(matEventItem));
-		if(GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
-		}
+		// MATEventItem matEventItem = new MATEventItem(itemId);
+		// MATEvent matEvent = new MATEvent(1021911653);
+		// matEvent.withRevenue(price);
+		// matEvent.withCurrencyCode("USD");
+		// matEvent.withEventItems(Arrays.asList(matEventItem));
+		// if(GameContext.getGameInstance().mobileAppTracker != null){
+		// 	GameContext.getGameInstance().mobileAppTracker.measureEvent(matEvent);
+		// }
 	}
 	
 	/**
@@ -231,7 +231,7 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	@Override
 	public void trackEvent(String event){
 		if("two_days_login".equals(event)){
-			AppsFlyerLib.trackEvent(IF.getInstance(),"cok_one_day_retention",null);
+			// AppsFlyerLib.trackEvent(IF.getInstance(),"cok_one_day_retention",null);
 		}
 		int eventId = 0;
 		if("two_days_login".equals(event))
@@ -246,9 +246,9 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	    	eventId = 1088099481;
 	    if("reach_level_6".equals(event))
 	    	eventId = 1021834769;
-		if(eventId > 0 && GameContext.getGameInstance().mobileAppTracker != null){
-			GameContext.getGameInstance().mobileAppTracker.measureEvent(eventId);
-		}
+		// if(eventId > 0 && GameContext.getGameInstance().mobileAppTracker != null){
+		// 	GameContext.getGameInstance().mobileAppTracker.measureEvent(eventId);
+		// }
 	}
 	
 	@Override
