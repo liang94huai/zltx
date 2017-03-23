@@ -867,9 +867,9 @@ void ImperialScene::initSpeBuildInWallTexture()
 
 void ImperialScene::videoPlayContinueCallback()
 {
-    auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
-    if(!videoPlayer->isPlaying())
-        videoPlayer->play();
+    //auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(this->getChildByName("videoPlayer"));
+    //if(!videoPlayer->isPlaying())
+        //videoPlayer->play();
 }
 
 void ImperialScene::videoPlayOverCallback()

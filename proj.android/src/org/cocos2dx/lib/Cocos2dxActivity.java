@@ -258,6 +258,11 @@ public abstract class Cocos2dxActivity extends Activity implements Cocos2dxHelpe
     protected void onCreate(final Bundle savedInstanceState) {
         Log.d(TAG, "LIUDI, 3.6, Hello World");
         super.onCreate(savedInstanceState);
+        if ((getIntent().getFlags() & Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT) != 0)
+        {  
+            finish();
+            return;
+        }
         //CocosPlayClient.init(this, false);
         onLoadNativeLibraries();
 

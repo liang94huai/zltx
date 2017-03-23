@@ -24,6 +24,7 @@
 #include "AppLibHelper.h"
 #include "BanTimeView.hpp"
 #include "PlayerInfoController.h"
+#include "ImperialScene.h"
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #   include <jni.h>
@@ -235,6 +236,10 @@ void GameController::doAppForegroundEvent(cocos2d::CCObject *obj)
     CCDirector::sharedDirector()->setVisitFlag(true);
     if(!GuideController::share()->isInTutorial() && !GlobalData::shared()->isBind && !GlobalData::shared()->isUploadPic){
         PopupViewController::getInstance()->removeAllPopupView();
+    }
+    if(SceneController::getInstance()->currentSceneId == SCENE_ID_MAIN){
+        
+    
     }
     if (!GlobalData::shared()->isBind
         && !GlobalData::shared()->isPayBind
