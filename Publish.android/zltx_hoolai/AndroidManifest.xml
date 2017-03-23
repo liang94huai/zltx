@@ -193,7 +193,7 @@
           android:value="158668f7a39d352482ecacf4e9d1badc388760a2"/>
       -->
 		<!-- GCM 需求 START -->
-		<meta-data
+		<!-- <meta-data
 			android:name="com.parse.push.gcm_sender_id"
 			android:value="id:312229299745" />
 		<receiver android:name="com.parse.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
@@ -209,7 +209,7 @@
 			<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 			<category android:name="com.tencent.tmgp.cokqq" />
 		  </intent-filter>
-		</receiver>
+		</receiver> -->
 		<service android:name="org.hcg.stac.empire.common.manager.GCMIntentService" />
 		<!-- GCM 需求 END -->
 		
@@ -224,7 +224,7 @@
 		 <!--  activity android:name="com.millennialmedia.android.MMAdvertiserOverlayActivity" 
 		 android:configChanges="keyboardHidden|orientation|keyboard"/-->
 		
-		<service android:name="com.parse.PushService" />
+		<!-- <service android:name="com.parse.PushService" />
 		<receiver android:name="com.parse.ParseBroadcastReceiver">
 			<intent-filter>
 				<action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -238,13 +238,13 @@
 			<action android:name="com.parse.push.intent.DELETE" />
 			<action android:name="com.parse.push.intent.OPEN" />
 			</intent-filter>
-		</receiver>
-		<receiver android:name="com.clash.of.notifies.HFParseCustomReceiver" 
+		</receiver> -->
+		<!-- <receiver android:name="com.clash.of.notifies.HFParseCustomReceiver" 
 			android:exported="false">
 		  <intent-filter>
 			<action android:name="com.ywj.zltx.gp.UPDATE_STATUS" />
 		  </intent-filter>
-		</receiver>
+		</receiver> -->
 		
 
 		<activity
