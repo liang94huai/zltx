@@ -188,9 +188,10 @@
         <meta-data android:name="SERVER_GROUP" android:value="Hoolai_global"/>
         <!-- bi报送需要 -->
         <meta-data android:name="game_package_product_id" android:value="247"/>
-        <!-- fabric -->
+        <!-- fabric 
         <meta-data android:name="io.fabric.ApiKey"
           android:value="158668f7a39d352482ecacf4e9d1badc388760a2"/>
+      -->
 		<!-- GCM 需求 START -->
 		<meta-data
 			android:name="com.parse.push.gcm_sender_id"
