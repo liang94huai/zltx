@@ -877,6 +877,7 @@ void ImperialScene::videoPlayOverCallback()
     auto modelLayer=this->getChildByName("modelLayer");
     auto videoPlayer=dynamic_cast<cocos2d::experimental::ui::VideoPlayer*>(modelLayer->getChildByName("videoPlayer"));
     modelLayer->setVisible(false);
+    videoPlayer->setVisible(false);
     videoPlayer->stop();
     m_touchLayer->setVisible(true);
     SoundController::sharedSound()->playBGMusic(Music_M_city_1);
