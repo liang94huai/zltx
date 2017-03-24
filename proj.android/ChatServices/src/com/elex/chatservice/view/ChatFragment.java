@@ -693,7 +693,7 @@ public class ChatFragment extends ActionBarFragment
 		this.messageBox = ((RelativeLayout) view.findViewById(ResUtil.getId(this.activity, "id", "relativeLayout1")));
 //		header = ((LinearLayout) view.findViewById(ResUtil.getId(this.activity, "id", "headerRelativeLayout")));
 
-		getMemberSelectButton().setVisibility(isSelectMemberBtnEnable ? View.VISIBLE : View.GONE);
+		getMemberSelectButton().setVisibility(View.GONE);
 
 		buttonCountry = (Button) view.findViewById(ResUtil.getId(this.activity, "id", "buttonCountry"));
 		buttonAlliance = (Button) view.findViewById(ResUtil.getId(this.activity, "id", "buttonAllie"));
