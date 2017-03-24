@@ -36,9 +36,10 @@
             android:imeOptions="actionSend"
             android:inputType="textMultiLine"
             android:maxLines="@integer/hs__chat_max_lines"
-        	android:textColor="@color/hs__messages_text_color"
-        android:textAppearance="?android:attr/textAppearance" 
-            android:minHeight="36dp" />
+            android:minHeight="36dp"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/hs__messages_text_color" />
 
         <LinearLayout
             android:id="@+id/hs__sendMessageLayout"
