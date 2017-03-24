@@ -352,6 +352,7 @@
                         android:layout_marginBottom="2dp"
                         android:layout_marginRight="5dp"
                         android:layout_marginTop="8dp"
+                        android:layout_marginLeft="10dp"
                         android:autoText="true"
                         android:background="@drawable/input"
                         android:imeOptions="actionSend"
@@ -361,6 +362,7 @@
                         android:minHeight="42dp"
                         android:paddingBottom="0dp"
                         android:paddingTop="0dp"
+                        android:paddingLeft="10dp"
                         android:textAppearance="?android:attr/textAppearance"
                         android:textColor="@color/hs__messages_text_color" />
                 </LinearLayout>
