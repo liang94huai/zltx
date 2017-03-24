@@ -1173,7 +1173,25 @@ void GuideController::goToMainScence(CCNode* p){
         if(bid == 0){
             SceneController::getInstance()->gotoScene(SCENE_ID_MAIN);
         }else{
+            bool isUnLock=false;
+            if(FunBuildController::getInstance()->curBuildsInfo->find(bid)!=FunBuildController::getInstance()->curBuildsInfo->end())
+            {
+                FunBuildInfo Build = FunBuildController::getInstance()->curBuildsInfo->find(bid)->second;
+                isUnLock=Build.isUnLock();
+            }
+            //if(isUnLock)
+            //{
+                //GuideController::share()->openScienceFlag = true;
+                //openSciencePanel();
+            //}
+            //else
+            //{
+                //GuideController::share()->openScienceFlag = false;
+                //SceneController::getInstance()->gotoScene(SCENE_ID_MAIN);
+            //}
+            
             openSciencePanel();
+
         }
     }
 }
@@ -1194,6 +1212,10 @@ void GuideController::openSciencePanel(){
         return;
     }
     
+    if(!bInfo.isUnLock())
+        CCCommonUtils::flyHint("", "", _lang("new100048"));
+        return;
+
     auto popUp = ScienceView::create(0, CapTecIndex);
     int index = 0;
     while(index < _capTech.size()){
