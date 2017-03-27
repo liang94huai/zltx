@@ -472,11 +472,13 @@ void SpeBuild::checkLeftTime(float _time) {
 //                    addSpeBuildState();
 //                }
 //            }
-            auto layer = dynamic_cast<ImperialScene*>(SceneController::getInstance()->getCurrentLayerByLevel(LEVEL_SCENE));
-            if (layer) {
-                if(!layer->isGoIn)
-                     this->setShow(false);
-                layer->cargoShipGoIn();
+            if (leftTime == 0 || !m_upEffectNode->isVisible()) {
+                auto layer = dynamic_cast<ImperialScene*>(SceneController::getInstance()->getCurrentLayerByLevel(LEVEL_SCENE));
+                if (layer) {
+                    if(!layer->isGoIn)
+                         this->setShow(false);
+                    layer->cargoShipGoIn();
+                }
             }
         } else {
             this->setShow(false);
