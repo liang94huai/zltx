@@ -1352,18 +1352,18 @@ std::string GuideController::checkGuideStepB(std::string guideId)
 std::string GuideController::checkOpenSpeGuide()
 {
     std::string ret = "";
-    std::string speGuide = CCUserDefault::sharedUserDefault()->getStringForKey(GUIDE_MAINCITY_LEVEL_UP,"");
-    if(speGuide != "")
-    {
-        vector<string> tmpVec;
-        CCCommonUtils::splitString(speGuide, "_", tmpVec);
-        if (tmpVec.size()==2 && tmpVec[0]==GlobalData::shared()->playerInfo.uid && tmpVec[1]=="5") {
-            int maincityLv = FunBuildController::getInstance()->getMainCityLv();
-            if (maincityLv == 6) {//引导旅行商人
-                ret = GUIDE_MERCHANTE_ST;
-            }
-        }
-    }
+//    std::string speGuide = CCUserDefault::sharedUserDefault()->getStringForKey(GUIDE_MAINCITY_LEVEL_UP,"");
+//    if(speGuide != "")
+//    {
+//        vector<string> tmpVec;
+//        CCCommonUtils::splitString(speGuide, "_", tmpVec);
+//        if (tmpVec.size()==2 && tmpVec[0]==GlobalData::shared()->playerInfo.uid && tmpVec[1]=="5") {
+//            int maincityLv = FunBuildController::getInstance()->getMainCityLv();
+//            if (maincityLv == 6) {//引导旅行商人
+//                ret = GUIDE_MERCHANTE_ST;
+//            }
+//        }
+//    }
     
     return ret;
 }

@@ -159,7 +159,7 @@ bool SpeBuild::initSpeBuild(int itemId)
             isTile = false;
         }
         else if(itemId == SPE_BUILD_CARGO) {
-            ccbName = "picCargo1";
+            ccbName = "picCargo";
             isTile = false;
         }
         else if(itemId == SPE_BUILD_NEWED) {
