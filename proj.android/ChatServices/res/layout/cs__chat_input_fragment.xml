@@ -40,8 +40,10 @@
                 android:inputType="textMultiLine"
                 android:maxLines="@integer/hs__chat_max_lines"
                 android:minHeight="36dp"
+                android:paddingLeft="10dp"
                 android:textAppearance="?android:attr/textAppearance"
                 android:textColor="@color/hs__messages_text_color" >
+
             </EditText>
 
             <LinearLayout

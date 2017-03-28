@@ -43,54 +43,50 @@
                 android:textSize="@dimen/cs__textMessage" />
 
             <!-- android:textStyle="bold" -->
+            <!-- android:layout_alignParentRight="true" -->
 
             <Button
                 android:id="@+id/cs__actionbar_optionButton"
-                android:layout_width="57dp"
-                android:layout_height="57dp"
-                android:layout_alignParentRight="true"
-               android:layout_marginBottom="-4dp"
-                android:layout_marginLeft="-3dp"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginRight="-3dp"
                 android:layout_marginTop="-4dp"
                 android:background="@drawable/icon_add_mumber2" />
 
             <Button
                 android:id="@+id/cs__actionbar_editButton"
-                 android:layout_width="57dp"
-                android:layout_height="57dp"
-                android:layout_alignParentRight="true"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_alignLeft="@+id/cs__actionbar_writeButton"
                 android:layout_marginBottom="-4dp"
-                android:layout_marginLeft="-3dp"
                 android:layout_marginTop="-4dp"
                 android:background="@drawable/mail_btn_edit" />
 
             <Button
                 android:id="@+id/cs__actionbar_returnButton"
-                 android:layout_width="57dp"
-                android:layout_height="57dp"
-                android:layout_alignParentRight="true"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
                 android:layout_marginBottom="-4dp"
-                android:layout_marginLeft="-3dp"
+                android:layout_marginRight="-3dp"
                 android:layout_marginTop="-4dp"
                 android:background="@drawable/mail_btn_fanhui" />
 
             <Button
                 android:id="@+id/cs__actionbar_writeButton"
-                 android:layout_width="57dp"
-                android:layout_height="57dp"
-                android:layout_alignParentRight="true"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
                android:layout_marginBottom="-4dp"
-                android:layout_marginLeft="-3dp"
+                android:layout_marginRight="-3dp"
                 android:layout_marginTop="-4dp"
                 android:background="@drawable/mail_btn_write_mail" />
 
             <Button
                 android:id="@+id/cs__actionbar_showFriendButton"
-                android:layout_width="57dp"
-                android:layout_height="57dp"
-                android:layout_alignParentRight="true"
-               android:layout_marginBottom="-4dp"
-                android:layout_marginLeft="-3dp"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginRight="-3dp"
                 android:layout_marginTop="-4dp"
                 android:background="@drawable/btn_show_friend_new2" />
         </RelativeLayout>
