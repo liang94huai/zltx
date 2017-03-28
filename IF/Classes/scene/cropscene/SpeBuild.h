@@ -126,6 +126,8 @@ protected:
     CCSafeObject<CCSprite> m_effectSpr;
     CCSafeObject<CCPointArray> m_ptArray;
     
+    vector<CCSprite*> m_effectSprs;
+    
     void drowEffectSpr(int zOrder, int tmpOrd);
     void drowPersonSpr(int zOrder, int tmpOrd);
     

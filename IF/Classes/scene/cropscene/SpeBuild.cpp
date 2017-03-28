@@ -442,6 +442,10 @@ void SpeBuild::setShow(bool isShow)
         m_upEffectNode->setVisible(isShow);
         m_spr->setVisible(isShow);
         m_touchNode->setVisible(isShow);
+        
+        for (int i=0; i<m_effectSprs.size(); i++) {
+            m_effectSprs[i]->setVisible(isShow);
+        }
     }
 }
 
@@ -1069,6 +1073,7 @@ void SpeBuild::onExit() {
         CCSafeNotificationCenter::sharedNotificationCenter()->removeObserver(this, MSG_NEW_TIME_RWD_END);
     }
     CCNode::onExit();
+    m_effectSprs.clear();
 }
 
 bool SpeBuild::onTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)
@@ -1639,6 +1644,11 @@ SEL_CCControlHandler SpeBuild::onResolveCCBCCControlSelector(cocos2d::CCObject *
 
 bool SpeBuild::onAssignCCBMemberVariable(cocos2d::CCObject * pTarget, const char * pMemberVariableName, cocos2d::CCNode * pNode)
 {
+    if (pTarget == this && strncmp(pMemberVariableName, "m_effectSpr",11) == 0) {
+        m_effectSprs.push_back(dynamic_cast<CCSprite *>(pNode));
+        return true;
+    }
+    
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_touchNode", CCNode*, this->m_touchNode);
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_signNode", CCNode*, this->m_signCCBNode);
     CCB_MEMBERVARIABLEASSIGNER_GLUE_WEAK(this, "m_qijiNode", CCNode*, this->m_qijiNode);
