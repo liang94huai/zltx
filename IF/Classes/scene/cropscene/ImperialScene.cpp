@@ -3306,6 +3306,7 @@ void ImperialScene::onFlyOutPut(int itemId, int output, int forceResType)
 
 void ImperialScene::onFlyCargoOutPut(CCObject* obj)
 {
+    isGoIn=false;
     this->cargoShipGoOut();
     return;
     if (!m_cargoBuild || !m_cargoNode) {
@@ -5385,8 +5386,14 @@ void ImperialScene::initAnimation()
 
 void ImperialScene::onCargoShiAnimationCallback(Node* animationNode)
 {
-    m_cargoBuild->addSpeBuildState();
-    m_cargoBuild->setShow(true);
+    auto animationSprite=animationNode->getChildByName("animationSprite");
+    auto tag=animationSprite->getTag();
+    if(tag==0)
+    {
+        m_cargoBuild->addSpeBuildState();
+        m_cargoBuild->setShow(true);
+    }
+    animationSprite->setVisible(false);
 }
 
 void ImperialScene::cargoShipGoIn()
@@ -5418,9 +5425,7 @@ void ImperialScene::cargoShipGoIn()
     
     auto func = CCCallFuncN::create(this, callfuncN_selector(ImperialScene::onCargoShiAnimationCallback));
     arrayOfActions.pushBack(func);
-    arrayOfActions.pushBack(CCRemoveSelf::create());
     
-    m_animationNodes[index]->stopAllActions();
     if(!m_animationNodes[index]->getChildByName("animationSprite"))
     {
         auto m_perSpr = CCSprite::createWithSpriteFrameName("picChuan_1.png");
@@ -5431,7 +5436,8 @@ void ImperialScene::cargoShipGoIn()
         m_animationNodes[index]->setTag(index);
         m_animationNodes[index]->addChild(m_perSpr);
     }
-
+    m_animationNodes[index]->getChildByName("animationSprite")->setVisible(true);
+    m_animationNodes[index]->stopAllActions();
     m_animationNodes[index]->setPosition(animationPos->getControlPointAtIndex(0));
     CCSequence* sequenceAction = CCSequence::create(arrayOfActions);
     m_animationNodes[index]->runAction(sequenceAction);
@@ -5440,6 +5446,7 @@ void ImperialScene::cargoShipGoIn()
 
 void ImperialScene::cargoShipGoOut()
 {
+    isGoIn=false;
     if(m_cargoBuild)
         m_cargoBuild->setShow(false);
     auto index=24;
@@ -5462,23 +5469,23 @@ void ImperialScene::cargoShipGoOut()
         auto moveTo = CCMoveTo::create(duration,animationPos->getControlPointAtIndex(i));
         arrayOfActions.pushBack(moveTo);
     }
-    arrayOfActions.pushBack(CCRemoveSelf::create());
-    m_animationNodes[index]->stopAllActions();
+    auto func = CCCallFuncN::create(this, callfuncN_selector(ImperialScene::onCargoShiAnimationCallback));
+    arrayOfActions.pushBack(func);
     if(!m_animationNodes[index]->getChildByName("animationSprite"))
     {
         auto m_perSpr = CCSprite::createWithSpriteFrameName("picChuan_2.png");
-        m_perSpr->setTag(0);
+        m_perSpr->setTag(1);
         m_perSpr->setScale(0.8);
         m_perSpr->setName("animationSprite");
         m_animationNodes[index]->setZOrder(BATCHNODE_ORDER_CITY_GATE3);
         m_animationNodes[index]->setTag(index);
         m_animationNodes[index]->addChild(m_perSpr);
     }
-    
+    m_animationNodes[index]->getChildByName("animationSprite")->setVisible(true);
+    m_animationNodes[index]->stopAllActions();
     m_animationNodes[index]->setPosition(animationPos->getControlPointAtIndex(0));
     CCSequence* sequenceAction = CCSequence::create(arrayOfActions);
     m_animationNodes[index]->runAction(sequenceAction);
-    isGoIn=false;
 }
 
 

@@ -1173,7 +1173,25 @@ void GuideController::goToMainScence(CCNode* p){
         if(bid == 0){
             SceneController::getInstance()->gotoScene(SCENE_ID_MAIN);
         }else{
+            bool isUnLock=false;
+            if(FunBuildController::getInstance()->curBuildsInfo->find(bid)!=FunBuildController::getInstance()->curBuildsInfo->end())
+            {
+                FunBuildInfo Build = FunBuildController::getInstance()->curBuildsInfo->find(bid)->second;
+                isUnLock=Build.isUnLock();
+            }
+            //if(isUnLock)
+            //{
+                //GuideController::share()->openScienceFlag = true;
+                //openSciencePanel();
+            //}
+            //else
+            //{
+                //GuideController::share()->openScienceFlag = false;
+                //SceneController::getInstance()->gotoScene(SCENE_ID_MAIN);
+            //}
+            
             openSciencePanel();
+
         }
     }
 }
@@ -1194,6 +1212,10 @@ void GuideController::openSciencePanel(){
         return;
     }
     
+    if(!bInfo.isUnLock())
+        CCCommonUtils::flyHint("", "", _lang("new100048"));
+        return;
+
     auto popUp = ScienceView::create(0, CapTecIndex);
     int index = 0;
     while(index < _capTech.size()){
@@ -1330,18 +1352,18 @@ std::string GuideController::checkGuideStepB(std::string guideId)
 std::string GuideController::checkOpenSpeGuide()
 {
     std::string ret = "";
-    std::string speGuide = CCUserDefault::sharedUserDefault()->getStringForKey(GUIDE_MAINCITY_LEVEL_UP,"");
-    if(speGuide != "")
-    {
-        vector<string> tmpVec;
-        CCCommonUtils::splitString(speGuide, "_", tmpVec);
-        if (tmpVec.size()==2 && tmpVec[0]==GlobalData::shared()->playerInfo.uid && tmpVec[1]=="5") {
-            int maincityLv = FunBuildController::getInstance()->getMainCityLv();
-            if (maincityLv == 6) {//引导旅行商人
-                ret = GUIDE_MERCHANTE_ST;
-            }
-        }
-    }
+//    std::string speGuide = CCUserDefault::sharedUserDefault()->getStringForKey(GUIDE_MAINCITY_LEVEL_UP,"");
+//    if(speGuide != "")
+//    {
+//        vector<string> tmpVec;
+//        CCCommonUtils::splitString(speGuide, "_", tmpVec);
+//        if (tmpVec.size()==2 && tmpVec[0]==GlobalData::shared()->playerInfo.uid && tmpVec[1]=="5") {
+//            int maincityLv = FunBuildController::getInstance()->getMainCityLv();
+//            if (maincityLv == 6) {//引导旅行商人
+//                ret = GUIDE_MERCHANTE_ST;
+//            }
+//        }
+//    }
     
     return ret;
 }
