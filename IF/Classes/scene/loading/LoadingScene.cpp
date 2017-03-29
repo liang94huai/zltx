@@ -542,6 +542,13 @@ void LoadingScene::_setServerListViewVisiable(bool bVisiable)
             return;
         }
     }
+    //判断列表有没有
+    if (bVisiable && m_serverList.empty())
+    {
+        //申请服务器列表
+        sendCmdGetServerList(nullptr);
+        return;
+    }
     m_serverListNode->setVisible(bVisiable);
     //runAction
     if (bVisiable)
