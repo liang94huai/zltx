@@ -137,7 +137,7 @@
 		</activity>
 		  
 		<!-- facebook 相关添加 -->
-		 <meta-data android:name="com.facebook.sdk.ApplicationName"
+		 <!-- <meta-data android:name="com.facebook.sdk.ApplicationName"
 			android:value="@string/app_name" />
    		   <activity android:name="com.facebook.FacebookActivity"
 		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
@@ -145,7 +145,7 @@
 		  android:label="@string/app_name" />
    		 <meta-data
 			android:name="com.facebook.sdk.ApplicationId"
-			android:value="@string/fb_app_id" />
+			android:value="@string/fb_app_id" /> -->
    			 
 		<!-- Used for install referrer tracking -->
 		<service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
@@ -283,22 +283,22 @@
         </activity>
         
         <!-- QQ客户端回调 -->
-        <activity 
-          android:name="cn.sharesdk.tencent.qq.ResultReceiver"
-            android:launchMode="singleTask"
-            android:noHistory="true">
-            <!--
+        <!--
               如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
               事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
               则分享结束以后不能得到正确的回调
             -->
+<!--         <activity 
+          android:name="cn.sharesdk.tencent.qq.ResultReceiver"
+            android:launchMode="singleTask"
+            android:noHistory="true">
             <intent-filter android:priority="1000" >
                 <data android:scheme="tencent100371282" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
-        </activity>
+        </activity> -->
         
         <!-- 微信分享回调 -->
       <!--   <activity
@@ -309,21 +309,21 @@
             
 
         <!-- 调用新浪原生SDK，需要注册的activity -->
-        <activity
+<!--         <activity
       android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
       android:configChanges="keyboardHidden|orientation"
       android:windowSoftInputMode="adjustResize"
       android:exported="false" >
-    </activity>
+    </activity> -->
     
         <!-- 调用新浪原生SDK，需要注册的回调activity -->
-        <activity
+<!--         <activity
             android:name="cn.sharesdk.sina.weibo.SinaActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
         <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
         <category android:name="android.intent.category.DEFAULT" />
       </intent-filter>
-        </activity>
+        </activity> -->
 	</application>
 </manifest>
