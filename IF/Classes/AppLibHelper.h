@@ -30,7 +30,6 @@ public:
     static void triggerEventPurchase(const string &cost,const string &itemId);
     
     static vector<std::string> getServiceTerms(int type);
-    static string getAppsFlyerUID();
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     static void initLibs();

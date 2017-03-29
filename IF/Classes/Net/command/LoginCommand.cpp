@@ -162,8 +162,8 @@ LoginCommand::LoginCommand(int loginType/*= 5*/,bool bIsResume /*= false*/)
     GmController::getInstance()->isGmLogin = 0;
     string packageName = CCUserDefault::sharedUserDefault()->getStringForKey("android_packageName","");
     putParam("packageName", CCString::create(packageName));
-    //AppsFlyerUID
-    putParam("afUID", CCString::create(AppLibHelper::getAppsFlyerUID()));
+    // devil AppsFlyerUID 去掉此功能
+    putParam("afUID", CCString::create(""));
 //    //fb 数据来源，做一个记录
 //    string appLink = CCUserDefault::sharedUserDefault()->getStringForKey("fbAPPLink","");
 //    CCLog("appLink=%s",appLink.c_str());

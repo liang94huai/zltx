@@ -80,7 +80,7 @@ import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 
-import com.appsflyer.AppsFlyerLib;
+// import com.appsflyer.AppsFlyerLib;
 import com.elex.chatservice.controller.ChatServiceController;
 import com.elex.chatservice.controller.JniController;
 import com.elex.chatservice.model.MailManager;
@@ -210,8 +210,8 @@ public class IF extends Cocos2dxActivity implements IAnalyticTracker, IJniCallHe
 //		ShareSDKUtil.initShareSDK();
 		Native.nativeSetFromCountry(Locale.getDefault().getCountry());
 		
-		AppsFlyerLib.setAppsFlyerKey(SDKConfig.APP_ID_APPSFLYER);
-		AppsFlyerLib.sendTracking(getApplicationContext());
+		// AppsFlyerLib.setAppsFlyerKey(SDKConfig.APP_ID_APPSFLYER);
+		// AppsFlyerLib.sendTracking(getApplicationContext());
 		
 		// mobileAppTracker = MobileAppTracker.init(getApplicationContext(),
   //               SDKConfig.APP_ID_TUNE,

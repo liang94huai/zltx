@@ -18,9 +18,9 @@ import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
 
-import com.appsflyer.AFInAppEventParameterName;
-import com.appsflyer.AFInAppEventType;
-import com.appsflyer.AppsFlyerLib;
+// import com.appsflyer.AFInAppEventParameterName;
+// import com.appsflyer.AFInAppEventType;
+// import com.appsflyer.AppsFlyerLib;
 // import com.mobileapptracker.MATEvent;
 // import com.mobileapptracker.MATEventItem;
 import com.xiaomi.migamechannel.MiGameChannel;
@@ -58,7 +58,7 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 
 	@Override
 	public void triggerEventLoginComplete(String userId,String userName,String userLevel,String cokfbad){
-		AppsFlyerLib.setAppUserId(userId);
+		// AppsFlyerLib.setAppUserId(userId);
 
 		if(miAnalyticsEnabled)
 			MiGameChannel.Login(userId, userLevel);
@@ -80,52 +80,52 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	@Override
 	public void triggerEventCompletedRegistration(){
 		
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.COMPLETE_REGISTRATION,null);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.COMPLETE_REGISTRATION,null);
 	}
 	
 	@Override
 	public void triggerEventCompletedTutorial(){
 
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.TUTORIAL_COMPLETION,null);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.TUTORIAL_COMPLETION,null);
 	}
 	
 	@Override
 	public void triggerEventAchievedLevel(int level){
 		
 
-		Map<String, Object> eventValue = new HashMap<String, Object>();
-		eventValue.put(AFInAppEventParameterName.LEVEL,level);
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.LEVEL_ACHIEVED,eventValue);
+		// Map<String, Object> eventValue = new HashMap<String, Object>();
+		// eventValue.put(AFInAppEventParameterName.LEVEL,level);
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.LEVEL_ACHIEVED,eventValue);
 		
-		if(miAnalyticsEnabled)
-			MiGameChannel.UserLevelUpgrade(Native.nativeGetUID(), String.valueOf(level));
+		// if(miAnalyticsEnabled)
+		// 	MiGameChannel.UserLevelUpgrade(Native.nativeGetUID(), String.valueOf(level));
 	}
 	
 	@Override
 	public void triggerEventPurchaseInit(String cost,String itemId){
-		if(miAnalyticsEnabled){
-			String amount = String.valueOf(PayItemData.getPaidAmountInCents(PayItemData.Currency.CNY, Float.parseFloat(cost)));
-			String level = String.valueOf(Native.nativeGetLevel());
-	        MiGameChannel.BeforeRecharge(Native.nativeGetUID(), level, amount);
-		}
+		// if(miAnalyticsEnabled){
+		// 	String amount = String.valueOf(PayItemData.getPaidAmountInCents(PayItemData.Currency.CNY, Float.parseFloat(cost)));
+		// 	String level = String.valueOf(Native.nativeGetLevel());
+	 //        MiGameChannel.BeforeRecharge(Native.nativeGetUID(), level, amount);
+		// }
 	}
 	
 	@Override
 	public void triggerEventPurchase(String cost,String itemId){
 		
-		Map<String, Object> eventValue = new HashMap<String, Object>();
-		eventValue.put(AFInAppEventParameterName.REVENUE,cost);
-		eventValue.put(AFInAppEventParameterName.CONTENT_ID,itemId);
-		eventValue.put(AFInAppEventParameterName.CURRENCY,"USD");
-		AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.PURCHASE,eventValue);
+		// Map<String, Object> eventValue = new HashMap<String, Object>();
+		// eventValue.put(AFInAppEventParameterName.REVENUE,cost);
+		// eventValue.put(AFInAppEventParameterName.CONTENT_ID,itemId);
+		// eventValue.put(AFInAppEventParameterName.CURRENCY,"USD");
+		// AppsFlyerLib.trackEvent(IF.getInstance(),AFInAppEventType.PURCHASE,eventValue);
 		
-		if(miAnalyticsEnabled){
-			String amount = String.valueOf(PayItemData.getPaidAmountInCents(PayItemData.Currency.CNY, Float.parseFloat(cost)));
-			String level = String.valueOf(Native.nativeGetLevel());
-	        MiGameChannel.AfterRecharge(Native.nativeGetUID(), level, amount);
-		}
+		// if(miAnalyticsEnabled){
+		// 	String amount = String.valueOf(PayItemData.getPaidAmountInCents(PayItemData.Currency.CNY, Float.parseFloat(cost)));
+		// 	String level = String.valueOf(Native.nativeGetLevel());
+	 //        MiGameChannel.AfterRecharge(Native.nativeGetUID(), level, amount);
+		// }
 		
-		double price = Double.parseDouble(cost);
+		// double price = Double.parseDouble(cost);
 		
 		// MATEventItem matEventItem = new MATEventItem(itemId);
 		// MATEvent matEvent = new MATEvent(1021911653);
@@ -231,7 +231,7 @@ public abstract class AbstractPublishImpl implements IPublishChannel {
 	@Override
 	public void trackEvent(String event){
 		if("two_days_login".equals(event)){
-			AppsFlyerLib.trackEvent(IF.getInstance(),"cok_one_day_retention",null);
+			// AppsFlyerLib.trackEvent(IF.getInstance(),"cok_one_day_retention",null);
 		}
 		int eventId = 0;
 		if("two_days_login".equals(event))

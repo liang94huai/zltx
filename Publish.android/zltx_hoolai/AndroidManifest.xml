@@ -149,11 +149,11 @@
    			 
 		<!-- Used for install referrer tracking -->
 		<service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
-		<receiver android:name="com.appsflyer.AppsFlyerLib" android:exported="true">
+	<!-- 	<receiver android:name="com.appsflyer.AppsFlyerLib" android:exported="true">
 			<intent-filter>
 				<action android:name="com.android.vending.INSTALL_REFERRER" />
 			</intent-filter>
-		</receiver>
+		</receiver> -->
 		<receiver android:name="com.clash.of.kings.COKInstallReceiver" android:exported="true">
 			<intent-filter>
 				<action android:name="com.android.vending.INSTALL_REFERRER" />
