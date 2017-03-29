@@ -165,8 +165,8 @@ public class CommonConst {
     public final static String SERVICE_MAIL_AOW = "service.aop@gmail.com";
     
     //tapjoy COK
-    public final static String GOLBAL_TAPJOY_APPID = "d4d1ca20-b329-4291-8b5e-91f06ebf67cb";
-    public final static String GOLBAL_TAPJOY_SECRET_KEY = "08TXAHnP1rct5pmNydsA";
+    // public final static String GOLBAL_TAPJOY_APPID = "d4d1ca20-b329-4291-8b5e-91f06ebf67cb";
+    // public final static String GOLBAL_TAPJOY_SECRET_KEY = "08TXAHnP1rct5pmNydsA";
  
     //字体
     public final static int FONT_SMALL_SIZE = 10; //=9; 增大小屏手机字体
