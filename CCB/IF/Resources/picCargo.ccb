@@ -193,9 +193,9 @@
 						<key>displayName</key>
 						<string>1</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>m_effectSpr</string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>2</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -359,9 +359,9 @@
 						<key>displayName</key>
 						<string>2</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>m_effectSpr</string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>2</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -580,9 +580,9 @@
 						<key>displayName</key>
 						<string>3</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>m_effectSpr</string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>2</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -738,9 +738,9 @@
 						<key>displayName</key>
 						<string>4</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>m_effectSpr</string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>2</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -823,6 +823,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>animatedProperties</key>
@@ -1094,8 +1096,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>seqExpanded</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>

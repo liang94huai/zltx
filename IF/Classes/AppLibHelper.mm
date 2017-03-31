@@ -22,7 +22,6 @@
 #include "ACTReporter.h"
 #import <NanigansSDK/NanigansSDK.h>
 #include "./Ext/CCDevice.h"
-#import "AppsFlyerTracker.h"
 
 //#import <TwitterKit/TwitterKit.h>
 #import "WeiboSDK.h"
@@ -54,10 +53,7 @@ void AppLibHelper::initLibs(){
     string deviceUid = cocos2d::extension::CCDevice::getDeviceUid();
     [NANTracking setUserId:[NSString stringWithUTF8String:deviceUid.c_str()]];
     [NANTracking trackAppLaunch: nil];
-    
-    //appsflyer
-    [AppsFlyerTracker sharedTracker].appsFlyerDevKey = @"2zyZ7Ubw9shuEjnRQZKiZX";
-    [AppsFlyerTracker sharedTracker].appleAppID = @"945274928";
+
     
     //需要额外delegate的初始化
     [SNSUtiliesIOS shared];
@@ -142,7 +138,7 @@ void AppLibHelper::sendAdjustTrack(const string &track){
     }
     
     if("two_days_login" == track){
-        [[AppsFlyerTracker sharedTracker] trackEvent:@"cok_one_day_retention" withValue:@""];
+
     }
     if(tuneEvent != 0){
         [Tune measureEventId:tuneEvent];
@@ -164,7 +160,6 @@ void AppLibHelper::updatePlatformScore(int score){
 }
 
 void AppLibHelper::triggerEventActivate(){
-    [[AppsFlyerTracker sharedTracker] trackAppLaunch];
     [Tune measureSession];
 }
 
@@ -185,12 +180,11 @@ void AppLibHelper::triggerEventCompletedRegistration(){
 }
 
 void AppLibHelper::triggerEventCompletedTutorial(){
-    [[AppsFlyerTracker sharedTracker] trackEvent:AFEventTutorial_completion withValue:@""];
+    
 }
 
 void AppLibHelper::triggerEventAchievedLevel(int level){
-    NSString *eventLevel = [NSString stringWithFormat:@"%d",level];
-    [[AppsFlyerTracker sharedTracker] trackEvent: AFEventLevelAchieved withValues:@{AFEventParamLevel:eventLevel}];
+
 }
 
 void AppLibHelper::triggerEventPurchaseInit(const string &cost,const string &itemId){
@@ -199,17 +193,6 @@ void AppLibHelper::triggerEventPurchaseInit(const string &cost,const string &ite
 
 //调用IF的jni接口，所有包一起统计
 void AppLibHelper::triggerEventPurchase(const string &cost,const string &itemId){
-    //这段之前没有调到，然而FB上有数据，疑似第三方平台上传的数据
-//    double price = [[NSString stringWithUTF8String:cost.c_str()] doubleValue];
-    //appsflyer
-    NSString *purchaseItem = [NSString stringWithUTF8String:itemId.c_str()];
-    NSString *purchaseDollar = [NSString stringWithUTF8String:cost.c_str()];
-    NSDictionary *afObj = @{AFEventParamContentId:purchaseItem,
-                            AFEventParamRevenue:purchaseDollar,
-                            AFEventParamCurrency:@"USD"};
-    [[AppsFlyerTracker sharedTracker] trackEvent:AFEventPurchase withValues:afObj];
+    
 }
 
-string AppLibHelper::getAppsFlyerUID(){
-    return [[[AppsFlyerTracker sharedTracker] getAppsFlyerUID] UTF8String];
-}

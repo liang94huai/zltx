@@ -143,19 +143,6 @@ void AppLibHelper::triggerEventPurchase(const string &cost,const string &itemId)
     minfo.env->DeleteLocalRef(minfo.classID);
 }
 
-string AppLibHelper::getAppsFlyerUID(){
-    JniMethodInfo minfo;
-    if (! JniHelper::getStaticMethodInfo(minfo, "org/cocos2dx/ext/CppCallJava", "getAppsFlyerUID", "()Ljava/lang/String;") ) {
-        CCLOG("JNI: Jni method getAppsFlyerUID not found!");
-        return "";
-    }
-    jstring retFromJava = (jstring)minfo.env->CallStaticObjectMethod(minfo.classID, minfo.methodID);
-    string ret=JniHelper::jstring2string(retFromJava);
-    minfo.env->DeleteLocalRef(minfo.classID);
-    minfo.env->DeleteLocalRef(retFromJava);
-    return ret;
-}
-
 #endif
 
 void AppLibHelper::triggerEventMainBuildingLevel(int level){
