@@ -397,8 +397,7 @@ void LoadingScene::onEnter(){
     this->setTouchMode(Touch::DispatchMode::ONE_BY_ONE);
     this->setTouchEnabled(true);
     
-    //公告 请求
-    onNoticeCallback(nullptr, Control::EventType::TOUCH_DOWN);
+    
     //延时 发送SDK请求
     //只有进入loadingscene 时才发送注销请求
     if (GameController::m_isLoginSDK) //登录状态 应该注销
@@ -776,6 +775,9 @@ void LoadingScene::sendCmdGetServerList(CCObject* p){
     //sdk登录成功 按钮改成注销
     GameController::m_isLoginSDK = 1;
     m_sdkLabel->setString(_lang("new100043").c_str());  //注销
+    
+    //公告 请求
+    onNoticeCallback(nullptr, Control::EventType::TOUCH_DOWN);
     //loadingLog统计
     GameController::getInstance()->setLoadingLog("LoadingScene", "sendCmdGetServerList");
     
