@@ -456,22 +456,22 @@ void UserUpgradeView::onRewardBtnClick(CCObject * pSender, Control::EventType pC
     cmd->sendAndRelease();
     
     
-    if (level==3) {//引导使用新手礼包
-        if (CCCommonUtils::isTestPlatformAndServer("Guide_skill")) {
-            GuideController::share()->setGuide("3240100",false);
-        }
-        else
-            GuideController::share()->setGuide("3100100",false);//3100100
-    }
-    else if (level==5 && !GlobalData::shared()->isXiaoMiPlatForm() && !CCCommonUtils::IsBandOfAcount() ) {//引导绑定
-        GuideController::share()->setGuide("3150100",false);
-    }
-    else {
+//    if (level==3) {//引导使用新手礼包
+//        if (CCCommonUtils::isTestPlatformAndServer("Guide_skill")) {
+//            GuideController::share()->setGuide("3240100",false);
+//        }
+//        else
+//            GuideController::share()->setGuide("3100100",false);//3100100
+//    }
+//    else if (level==5 && !GlobalData::shared()->isXiaoMiPlatForm() && !CCCommonUtils::IsBandOfAcount() ) {//引导绑定
+//        GuideController::share()->setGuide("3150100",false);
+//    }
+//    else {
         string guideId = GuideController::share()->TmpGuideId;
         if (guideId != "") {
             GuideController::share()->setGuide(guideId, false);
         }
-    }
+//    }
     
     this->closeSelf();
 //    CCDictionary* tmp = CCDictionary::create();
