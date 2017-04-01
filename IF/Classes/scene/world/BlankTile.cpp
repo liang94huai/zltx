@@ -111,30 +111,30 @@ bool BlankTile::init() {
                     setButtonCallback(1,cccontrol_selector(BlankTile::onClickInviteTeleport));
                 }
             }else{
-                setButtonCount(4);
-                setButtonName(3, _lang("108720")); // occupy
-                setButtonName(2, _lang("108719")); // teleport
-                setButtonName(4, _lang("115285")); // invite teleport
-                setButtonName(5, _lang("115302"));// territory
-                setButtonState(3, ButtonOccupy);
-                setButtonState(2, ButtonTeleport);
-                setButtonState(4, ButtonWorldInviteTeleport);
-                setButtonState(5, ButtonPlace);
-                setButtonCallback(3, cccontrol_selector(BlankTile::onClickOccupy));
-                setButtonCallback(2,cccontrol_selector(BlankTile::onClickTeleport));
-                setButtonCallback(4,cccontrol_selector(BlankTile::onClickInviteTeleport));
-                setButtonCallback(5,cccontrol_selector(BlankTile::onClickPlace));
-                
-//                setButtonCount(3);
+//                setButtonCount(4);
 //                setButtonName(3, _lang("108720")); // occupy
 //                setButtonName(2, _lang("108719")); // teleport
-//                setButtonName(1, _lang("115285")); // invite teleport
+//                setButtonName(4, _lang("115285")); // invite teleport
+//                setButtonName(5, _lang("115302"));// territory
 //                setButtonState(3, ButtonOccupy);
 //                setButtonState(2, ButtonTeleport);
-//                setButtonState(1, ButtonWorldInviteTeleport);
+//                setButtonState(4, ButtonWorldInviteTeleport);
+//                setButtonState(5, ButtonPlace);
 //                setButtonCallback(3, cccontrol_selector(BlankTile::onClickOccupy));
 //                setButtonCallback(2,cccontrol_selector(BlankTile::onClickTeleport));
-//                setButtonCallback(1,cccontrol_selector(BlankTile::onClickInviteTeleport));
+//                setButtonCallback(4,cccontrol_selector(BlankTile::onClickInviteTeleport));
+//                setButtonCallback(5,cccontrol_selector(BlankTile::onClickPlace));
+                
+                setButtonCount(3);
+                setButtonName(3, _lang("108720")); // occupy
+                setButtonName(2, _lang("108719")); // teleport
+                setButtonName(1, _lang("115285")); // invite teleport
+                setButtonState(3, ButtonOccupy);
+                setButtonState(2, ButtonTeleport);
+                setButtonState(1, ButtonWorldInviteTeleport);
+                setButtonCallback(3, cccontrol_selector(BlankTile::onClickOccupy));
+                setButtonCallback(2,cccontrol_selector(BlankTile::onClickTeleport));
+                setButtonCallback(1,cccontrol_selector(BlankTile::onClickInviteTeleport));
             }
         }else if (rank >= 3){
             setButtonCount(3);
