@@ -1213,8 +1213,10 @@ void GuideController::openSciencePanel(){
     }
     
     if(!bInfo.isUnLock())
+    {
         CCCommonUtils::flyHint("", "", _lang("new100048"));
         return;
+    }
 
     auto popUp = ScienceView::create(0, CapTecIndex);
     int index = 0;
